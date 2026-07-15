@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Chad & Chris | Tariff Savings and Compliance through Palantir AIP
 
-Official video: https://www.youtube.com/watch?v=xBTPNLd8Jv8
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=xBTPNLd8Jv8)
 ## Official description
 
 Chris Dimoff shows Chad Wahlquist how Palantir AIP can drive savings through compliance, recover incorrect tariff charges, and enable businesses to adapt to new regulation in real time.

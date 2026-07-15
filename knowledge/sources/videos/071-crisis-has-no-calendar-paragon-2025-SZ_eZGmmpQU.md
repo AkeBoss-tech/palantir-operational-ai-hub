@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Crisis Has No Calendar | Paragon 2025
 
-Official video: https://www.youtube.com/watch?v=SZ_eZGmmpQU
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=SZ_eZGmmpQU)
 ## Official description
 
 No official description was supplied.

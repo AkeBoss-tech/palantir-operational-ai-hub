@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # AIP 2026: The Self-Healing Autonomous Enterprise | Paragon 2025
 
-Official video: https://www.youtube.com/watch?v=r3jMRs_Mum8
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=r3jMRs_Mum8)
 ## Official description
 
 "Ontology allows us to break out of the local optima and monitor the enterprise at scale - where disparate data sources, unique processes and siloed teams made this previously impossible."

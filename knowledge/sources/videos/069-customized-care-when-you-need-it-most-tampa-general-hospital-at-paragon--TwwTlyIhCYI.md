@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Customized Care When You Need it Most | Tampa General Hospital at Paragon 2025
 
-Official video: https://www.youtube.com/watch?v=TwwTlyIhCYI
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=TwwTlyIhCYI)
 ## Official description
 
 “We use a Palantir algorithm to pick sepsis up earlier and get patients on a treatment pathway. It’s resulted in a 68% reduction in 48 hour mortality... in the last two years, that's resulted in 700 additional patients being able to leave the hospital.”

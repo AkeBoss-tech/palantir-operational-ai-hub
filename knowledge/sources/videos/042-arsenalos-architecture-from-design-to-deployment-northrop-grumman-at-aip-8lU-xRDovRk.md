@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # ArsenalOS: Architecture from Design to Deployment | Northrop Grumman at AIPCon 9
 
-Official video: https://www.youtube.com/watch?v=8lU-xRDovRk
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=8lU-xRDovRk)
 ## Official description
 
 Rebecca Torzone, Sector Vice President and General Manager of Airborne Multifunction Sensors at Northrop Grumman, showcases ArsenalOS — the Palantir powered operating system that connects the entire value chain: from design, to supply chain, to manufacturing, and deployment to the warfighter at mission speed.

@@ -9,7 +9,7 @@ Evidence note: captions/transcripts are unavailable for every item in this batch
 ## 1. Code in Prod: Apollo x NVIDIA for Sovereign AI | DevCon 6
 
 video_id: IDZVaKc6MGQ
-official_url: https://www.youtube.com/watch?v=IDZVaKc6MGQ
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=IDZVaKc6MGQ)
 upload_date: 2026-07-14
 official_title: Code in Prod: Apollo x NVIDIA for Sovereign AI | DevCon 6
 
@@ -26,7 +26,7 @@ official_title: Code in Prod: Apollo x NVIDIA for Sovereign AI | DevCon 6
 ## 2. Deep Dive: Design Patterns for Human-Agent Collaboration | DevCon 6
 
 video_id: O7aeOmnbCuo
-official_url: https://www.youtube.com/watch?v=O7aeOmnbCuo
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=O7aeOmnbCuo)
 upload_date: 2026-07-14
 official_title: Deep Dive: Design Patterns for Human-Agent Collaboration | DevCon 6
 
@@ -43,7 +43,7 @@ official_title: Deep Dive: Design Patterns for Human-Agent Collaboration | DevCo
 ## 3. Deep Dive: Security Forge: Wielding Agents for Defensive Cyber | DevCon 6
 
 video_id: hymyfucOgSo
-official_url: https://www.youtube.com/watch?v=hymyfucOgSo
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=hymyfucOgSo)
 upload_date: 2026-07-14
 official_title: Deep Dive: Security Forge: Wielding Agents for Defensive Cyber | DevCon 6
 
@@ -60,7 +60,7 @@ official_title: Deep Dive: Security Forge: Wielding Agents for Defensive Cyber |
 ## 4. Code in Prod: Scenario Agents x HD Hyundai Oilbank for Blending Disruptions | DevCon 6
 
 video_id: mZcpr3vX_XY
-official_url: https://www.youtube.com/watch?v=mZcpr3vX_XY
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=mZcpr3vX_XY)
 upload_date: 2026-07-14
 official_title: Code in Prod: Scenario Agents x HD Hyundai Oilbank for Blending Disruptions | DevCon 6
 
@@ -77,7 +77,7 @@ official_title: Code in Prod: Scenario Agents x HD Hyundai Oilbank for Blending 
 ## 5. Product Launch: DevX: SuperRepo & Agent Development | DevCon 6
 
 video_id: elzenOIEdtI
-official_url: https://www.youtube.com/watch?v=elzenOIEdtI
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=elzenOIEdtI)
 upload_date: 2026-07-14
 official_title: Product Launch: DevX: SuperRepo & Agent Development | DevCon 6
 
@@ -94,7 +94,7 @@ official_title: Product Launch: DevX: SuperRepo & Agent Development | DevCon 6
 ## 6. Code in Prod: AIP Evolve x Tampa General Hospital for Optimized Care | DevCon 6
 
 video_id: WLleqr4GEAw
-official_url: https://www.youtube.com/watch?v=WLleqr4GEAw
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=WLleqr4GEAw)
 upload_date: 2026-07-14
 official_title: Code in Prod: AIP Evolve x Tampa General Hospital for Optimized Care | DevCon 6
 
@@ -111,7 +111,7 @@ official_title: Code in Prod: AIP Evolve x Tampa General Hospital for Optimized 
 ## 7. Product Launch: Agent Observability & Optimization | DevCon 6
 
 video_id: GZHSCMz6Aio
-official_url: https://www.youtube.com/watch?v=GZHSCMz6Aio
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=GZHSCMz6Aio)
 upload_date: 2026-07-14
 official_title: Product Launch: Agent Observability & Optimization | DevCon 6
 
@@ -128,7 +128,7 @@ official_title: Product Launch: Agent Observability & Optimization | DevCon 6
 ## 8. Product Launch: Agent Engine | DevCon 6
 
 video_id: mDGjptFvePY
-official_url: https://www.youtube.com/watch?v=mDGjptFvePY
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=mDGjptFvePY)
 upload_date: 2026-07-14
 official_title: Product Launch: Agent Engine | DevCon 6
 
@@ -145,7 +145,7 @@ official_title: Product Launch: Agent Engine | DevCon 6
 ## 9. Product Launch: Agent Infrastructure Layer: Orchestrator | DevCon 6
 
 video_id: ZTw66mjYATo
-official_url: https://www.youtube.com/watch?v=ZTw66mjYATo
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=ZTw66mjYATo)
 upload_date: 2026-07-14
 official_title: Product Launch: Agent Infrastructure Layer: Orchestrator | DevCon 6
 
@@ -162,7 +162,7 @@ official_title: Product Launch: Agent Infrastructure Layer: Orchestrator | DevCo
 ## 10. Ankit Shankar Opening Remarks | DevCon 6
 
 video_id: 6_6OvDIET_w
-official_url: https://www.youtube.com/watch?v=6_6OvDIET_w
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=6_6OvDIET_w)
 upload_date: 2026-07-14
 official_title: Ankit Shankar Opening Remarks | DevCon 6
 

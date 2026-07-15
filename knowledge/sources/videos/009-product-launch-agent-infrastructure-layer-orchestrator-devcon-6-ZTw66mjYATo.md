@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Product Launch: Agent Infrastructure Layer: Orchestrator | DevCon 6
 
-Official video: https://www.youtube.com/watch?v=ZTw66mjYATo
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=ZTw66mjYATo)
 ## Official description
 
 "The bottleneck for an agent's usefulness today is not intelligence. It's trust."

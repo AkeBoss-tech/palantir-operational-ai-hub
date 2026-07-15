@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Palantir for Builders | Deploying into Maven Smart System ft. Gallatin AI
 
-Official video: https://www.youtube.com/watch?v=jK5k9_Gql-I
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=jK5k9_Gql-I)
 ## Official description
 
 “Palantir got us to serving our customers so much faster.”

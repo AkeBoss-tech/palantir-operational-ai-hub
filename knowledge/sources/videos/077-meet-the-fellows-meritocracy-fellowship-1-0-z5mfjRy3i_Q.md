@@ -15,10 +15,9 @@ source_basis: official-youtube-metadata
 
 # Meet the Fellows | Meritocracy Fellowship 1.0
 
-Official video: https://www.youtube.com/watch?v=z5mfjRy3i_Q
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=z5mfjRy3i_Q)
 ## Official description
 
-You don't have to wait until 2030 to do real things. The college industrial complex wants you on their timeline: four years of prerequisites, debt, and indoctrination. 
+You don't have to wait until 2030 to do real things. The college industrial complex wants you on their timeline: four years of prerequisites, debt, and indoctrination.
 
 Our Meritocracy Fellows have spent the last 14 weeks learning and building at Palantir. Hear about their remarkable experiences on the front lines of American technology.

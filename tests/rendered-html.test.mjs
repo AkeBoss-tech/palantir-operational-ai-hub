@@ -29,7 +29,16 @@ test("ships the complete frozen corpus, ecosystem watchlist, and wiki", async ()
   const wikiPages = data.match(/export const wikiPages = (\[[\s\S]*?\]);\n\nexport const terraReviews/)?.[1] ?? "";
   assert.equal((wikiPages.match(/"slug":/g) ?? []).length, 20);
   assert.match(wikiPages, /AI Ecosystem Map/);
+  assert.match(wikiPages, /```mermaid/);
+  assert.match(data, /\[V074\]\(https:\/\/www\.youtube\.com\/watch\?v=YDAxITCNcko\)/);
   assert.match(data, /architecture-review\.md/);
   assert.match(data, /evidence-audit\.md/);
   assert.match(data, /ecosystem-and-watchlist-review\.md/);
+});
+
+test("formats corpus YouTube references as descriptive Markdown links", async () => {
+  const index = await readFile(new URL("../knowledge/topics/video-index.md", import.meta.url), "utf8");
+  assert.match(index, /\[Watch on YouTube\]\(https:\/\/www\.youtube\.com\/watch\?v=IDZVaKc6MGQ\)/);
+  assert.doesNotMatch(index, /^official_url: https:\/\/www\.youtube\.com/gm);
+  assert.doesNotMatch(index, /^- \*\*Official URL[^\n]*https:\/\/www\.youtube\.com/gm);
 });

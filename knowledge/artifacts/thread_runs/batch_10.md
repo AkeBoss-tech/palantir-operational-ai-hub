@@ -9,8 +9,8 @@ Evidence note: nine items have supplied transcripts. Video 98 has metadata only.
 ## 91. Transforming Network Planning for Aviation | American Airlines at AIPCon 8
 
 video_id: DLx3ix6c0Oo
-official_url: https://www.youtube.com/watch?v=DLx3ix6c0Oo  
-upload_date: 2025-09-08  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=DLx3ix6c0Oo)
+upload_date: 2025-09-08
 official_title: Transforming Network Planning for Aviation | American Airlines at AIPCon 8
 
 **What it is about:** American Airlines executives Anne Moroni and Amit Shinde explain how the airline is replacing manual, sequential, siloed schedule planning with an integrated system balancing demand and profitability against fleet, crew-rest, pilot-hour, gate, airspace, maintenance, turnaround, and reliability constraints across roughly 6,500 daily flights.
@@ -26,8 +26,8 @@ official_title: Transforming Network Planning for Aviation | American Airlines a
 ## 92. Weeks to Hours: Accelerating Drug Discovery with AIP | Novartis at AIPCon 8
 
 video_id: dQ8KeyVmfUM
-official_url: https://www.youtube.com/watch?v=dQ8KeyVmfUM  
-upload_date: 2025-09-08  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=dQ8KeyVmfUM)
+upload_date: 2025-09-08
 official_title: Weeks to Hours: Accelerating Drug Discovery with AIP | Novartis at AIPCon 8
 
 **What it is about:** Novartis Head of Data42 Birgit Schoeberl presents a governed data-and-agent framework intended to improve drug-development success. She describes an industry baseline of roughly 12 years and $3 billion per medicine, with about one approval per 10,000 discovery-stage molecules.
@@ -43,8 +43,8 @@ official_title: Weeks to Hours: Accelerating Drug Discovery with AIP | Novartis 
 ## 93. Solving Societal Issues with Agentic Decision Making | Fujitsu at AIPCon 8
 
 video_id: A47Nuav7X-4
-official_url: https://www.youtube.com/watch?v=A47Nuav7X-4  
-upload_date: 2025-09-08  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=A47Nuav7X-4)
+upload_date: 2025-09-08
 official_title: Solving Societal Issues with Agentic Decision Making | Fujitsu at AIPCon 8
 
 **What it is about:** Fujitsu executive Yoshinami Takahashi describes using Palantir and Fujitsu Uvance for mission-critical resilience, centered on a large Japanese manufacturer's fragmented supply chain and risks including labor shortages, earthquakes, supplier failure, and geopolitical disruption.
@@ -60,8 +60,8 @@ official_title: Solving Societal Issues with Agentic Decision Making | Fujitsu a
 ## 94. Unifying the Care Journey for Every Patient | HSS at AIPCon 8
 
 video_id: mKp3TTggihU
-official_url: https://www.youtube.com/watch?v=mKp3TTggihU  
-upload_date: 2025-09-08  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=mKp3TTggihU)
+upload_date: 2025-09-08
 official_title: Unifying the Care Journey for Every Patient | HSS at AIPCon 8
 
 **What it is about:** HSS Chief Digital and Technology Officer Dr. Ashish Barad argues that healthcare digitization has left clinicians spending too much time on charts, paperwork, coordination, and insurance. HSS aims to return that time to patient care.
@@ -77,8 +77,8 @@ official_title: Unifying the Care Journey for Every Patient | HSS at AIPCon 8
 ## 95. Unleashing Digital Potential with Next-Generation Telecom | Lumen at AIPCon 8
 
 video_id: 3c4ekdck0kg
-official_url: https://www.youtube.com/watch?v=3c4ekdck0kg  
-upload_date: 2025-09-08  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=3c4ekdck0kg)
+upload_date: 2025-09-08
 official_title: Unleashing Digital Potential with Next-Generation Telecom | Lumen at AIPCon 8
 
 **What it is about:** Lumen CTPO Dave Ward explains the connectivity layer of enterprise AI: data distributed across premises, data centers, hyperscalers, and SaaS must move fast enough for AI. Lumen must modernize a century-old regulated telecom estate without interrupting 911 or critical services.
@@ -94,8 +94,8 @@ official_title: Unleashing Digital Potential with Next-Generation Telecom | Lume
 ## 96. Palantir CEO Alex Karp Opening Remarks | AIPCon 8
 
 video_id: AsTpgn1Bd2o
-official_url: https://www.youtube.com/watch?v=AsTpgn1Bd2o  
-upload_date: 2025-09-08  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=AsTpgn1Bd2o)
+upload_date: 2025-09-08
 official_title: Palantir CEO Alex Karp Opening Remarks | AIPCon 8
 
 **What it is about:** Alex Karp argues that the useful unit is not a general LLM alone but an LLM processed through an organization's specific data, operating logic, knowledge, and competitive advantage. He says AI should extend human ingenuity and worker capability rather than chiefly be sold as near-term worker replacement.
@@ -111,8 +111,8 @@ official_title: Palantir CEO Alex Karp Opening Remarks | AIPCon 8
 ## 97. Reinventing IndyCar Race Performance | Andretti at AIPCon 8
 
 video_id: mBDQK7OJ1Ls
-official_url: https://www.youtube.com/watch?v=mBDQK7OJ1Ls  
-upload_date: 2025-09-07  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=mBDQK7OJ1Ls)
+upload_date: 2025-09-07
 official_title: Reinventing IndyCar Race Performance | Andretti at AIPCon 8
 
 **What it is about:** Palantir's Jack Dobson, Andretti simulation engineer Zach Porter, and IndyCar driver Kyle Kirkwood introduce a partnership aimed at the severe time pressure between track sessions. Timing, telemetry, setup, GPS, video, weather, driver comments, and engineering data sit in separate systems despite needing to inform one rapid decision loop.
@@ -128,8 +128,8 @@ official_title: Reinventing IndyCar Race Performance | Andretti at AIPCon 8
 ## 98. Freak Show | Intro at AIPCon 8
 
 video_id: nf_UGJsukMU
-official_url: https://www.youtube.com/watch?v=nf_UGJsukMU  
-upload_date: 2025-09-05  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=nf_UGJsukMU)
+upload_date: 2025-09-05
 official_title: Freak Show | Intro at AIPCon 8
 
 **What it is about:** A 72-second AIPCon 8 promotional intro contrasting Palantir customers' claimed operational AI results with organizations still debating or theorizing about AI.
@@ -145,8 +145,8 @@ official_title: Freak Show | Intro at AIPCon 8
 ## 99. Overcoming Zero-Sum Thinking on Privacy, Civil Liberties, and Mission-Critical AI Systems
 
 video_id: x-NEdIcgboo
-official_url: https://www.youtube.com/watch?v=x-NEdIcgboo  
-upload_date: 2025-08-26  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=x-NEdIcgboo)
+upload_date: 2025-08-26
 official_title: Overcoming Zero-Sum Thinking on Privacy, Civil Liberties, and Mission-Critical AI Systems
 
 **What it is about:** Palantir Privacy & Civil Liberties Engineering director Courtney Bowman and Chief Architect Akshay Krishnaswamy trace privacy, security, and governance from early Gotham through Foundry, COVID operations, defense, and AIP. Their core claim is that mission effectiveness and rights protection need not be zero-sum when controls are platform primitives rather than bolt-ons.
@@ -162,8 +162,8 @@ official_title: Overcoming Zero-Sum Thinking on Privacy, Civil Liberties, and Mi
 ## 100. Chad & Matt | Lightweight Data Transforms with Palantir AIP
 
 video_id: MITSJDI08R4
-official_url: https://www.youtube.com/watch?v=MITSJDI08R4  
-upload_date: 2025-08-25  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=MITSJDI08R4)
+upload_date: 2025-08-25
 official_title: Chad & Matt | Lightweight Data Transforms with Palantir AIP
 
 **What it is about:** Palantir architect Chad Wahlquist and FDE Matthew Bayer explain **Lightweight Transforms**, a Foundry option for small/medium data processing that avoids distributed Spark overhead. The broader aim is a multimodal data plane where teams choose the right engine per step and make more enterprise data computable for AI.

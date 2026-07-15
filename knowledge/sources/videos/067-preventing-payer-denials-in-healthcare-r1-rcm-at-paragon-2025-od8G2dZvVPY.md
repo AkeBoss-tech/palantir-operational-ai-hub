@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Preventing Payer Denials in Healthcare | R1 RCM at Paragon 2025
 
-Official video: https://www.youtube.com/watch?v=od8G2dZvVPY
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=od8G2dZvVPY)
 ## Official description
 
 "It's not replacing humans, it empowers them. The agent handles the tedious work of gathering all this data so the specialists can focus on the high value decision.”

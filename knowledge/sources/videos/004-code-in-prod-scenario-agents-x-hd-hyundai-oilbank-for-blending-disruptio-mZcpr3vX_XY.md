@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Code in Prod: Scenario Agents x HD Hyundai Oilbank for Blending Disruptions | DevCon 6
 
-Official video: https://www.youtube.com/watch?v=mZcpr3vX_XY
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=mZcpr3vX_XY)
 ## Official description
 
 A refinery never stops. Now the ability to optimize it doesn't either.

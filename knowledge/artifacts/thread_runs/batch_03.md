@@ -6,9 +6,9 @@ These ten AIPCon 10 videos center on organizations turning governed operational 
 
 ## 21. Security Forge + Apollo: Complete Domain Assurance at Scale | Accenture at AIPCon 10
 
-video_id: NLsXIIkGJ4o  
-official_url: https://www.youtube.com/watch?v=NLsXIIkGJ4o  
-upload_date: 2026-06-05  
+video_id: NLsXIIkGJ4o
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=NLsXIIkGJ4o)
+upload_date: 2026-06-05
 official_title: Security Forge + Apollo: Complete Domain Assurance at Scale | Accenture at AIPCon 10
 
 **What it is about:** Accenture CISO Kris Burkhardt presents Security Forge and Apollo as a closed-loop, agentic cybersecurity system designed to defend large software estates at machine speed. The described loop hunts for vulnerabilities across codebases, sends findings to human engineers for adjudication, automates remediation, and deploys patches across a fleet.
@@ -23,9 +23,9 @@ official_title: Security Forge + Apollo: Complete Domain Assurance at Scale | Ac
 
 ## 22. Delivering AI to Every Farmer in America | USDA at AIPCon 10
 
-video_id: vnhcPBf9UoY  
-official_url: https://www.youtube.com/watch?v=vnhcPBf9UoY  
-upload_date: 2026-06-05  
+video_id: vnhcPBf9UoY
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=vnhcPBf9UoY)
+upload_date: 2026-06-05
 official_title: Delivering AI to Every Farmer in America | USDA at AIPCon 10
 
 **What it is about:** USDA CIO Sam Berry describes consolidating hundreds of fragmented legacy systems into a governed Ontology through the “One Farmer, One File” initiative. The Landmark platform is presented as supporting AI-assisted acreage reporting and assistance delivery through the Farmer Bridge Assistance Program.
@@ -40,9 +40,9 @@ official_title: Delivering AI to Every Farmer in America | USDA at AIPCon 10
 
 ## 23. Orchestrating Fleet-Wide Operational Excellence | Hertz at AIPCon 10
 
-video_id: kqpzUGtZvNI  
-official_url: https://www.youtube.com/watch?v=kqpzUGtZvNI  
-upload_date: 2026-06-05  
+video_id: kqpzUGtZvNI
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=kqpzUGtZvNI)
+upload_date: 2026-06-05
 official_title: Orchestrating Fleet-Wide Operational Excellence | Hertz at AIPCon 10
 
 **What it is about:** Hertz presents Daytona, a Palantir AIP-powered control tower for real-time operations across a fleet of approximately half a million vehicles. Collaborating agents are described as traversing an Ontology at individual-VIN granularity to handle safety-event triage, maintenance planning, vehicle transportation, and customer assignment.
@@ -57,9 +57,9 @@ official_title: Orchestrating Fleet-Wide Operational Excellence | Hertz at AIPCo
 
 ## 24. Pioneering AI for Private Equity Fundraising | Kirkland & Ellis at AIPCon 10
 
-video_id: sCjcd8t1hio  
-official_url: https://www.youtube.com/watch?v=sCjcd8t1hio  
-upload_date: 2026-06-05  
+video_id: sCjcd8t1hio
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=sCjcd8t1hio)
+upload_date: 2026-06-05
 official_title: Pioneering AI for Private Equity Fundraising | Kirkland & Ellis at AIPCon 10
 
 **What it is about:** Kirkland & Ellis introduces the Fund Formation Engine, described as a new Palantir-based operating model for private-equity fundraising legal work. It centralizes decades of institutional knowledge from more than 1,000 lawyers and places that knowledge into the fundraising lifecycle.
@@ -74,9 +74,9 @@ official_title: Pioneering AI for Private Equity Fundraising | Kirkland & Ellis 
 
 ## 25. Deploying 160 Years of Tradecraft to Every Project | McCarthy Building Companies at AIPCon 10
 
-video_id: P9gQP88eQ-k  
-official_url: https://www.youtube.com/watch?v=P9gQP88eQ-k  
-upload_date: 2026-06-05  
+video_id: P9gQP88eQ-k
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=P9gQP88eQ-k)
+upload_date: 2026-06-05
 official_title: Deploying 160 Years of Tradecraft to Every Project | McCarthy Building Companies at AIPCon 10
 
 **What it is about:** McCarthy Building Companies presents Pulse, a construction operations-intelligence mission control built with Palantir AIP on the McCarthy Ontology. It is positioned as encoding more than 160 years of construction experience for use in active projects.
@@ -91,9 +91,9 @@ official_title: Deploying 160 Years of Tradecraft to Every Project | McCarthy Bu
 
 ## 26. Asymmetric Advantage | Intro at AIPCon 10
 
-video_id: IeHOZO03suA  
-official_url: https://www.youtube.com/watch?v=IeHOZO03suA  
-upload_date: 2026-06-05  
+video_id: IeHOZO03suA
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=IeHOZO03suA)
+upload_date: 2026-06-05
 official_title: Asymmetric Advantage | Intro at AIPCon 10
 
 **What it is about:** This is a 66-second AIPCon 10 introduction titled “Asymmetric Advantage.” The available metadata does not establish its specific argument, examples, or narration.
@@ -108,9 +108,9 @@ official_title: Asymmetric Advantage | Intro at AIPCon 10
 
 ## 27. Securing Software Distribution in the Age of AI | Apollo In the Field at AIPCon 10
 
-video_id: -ZeL8QZ9Ib4  
-official_url: https://www.youtube.com/watch?v=-ZeL8QZ9Ib4  
-upload_date: 2026-06-05  
+video_id: -ZeL8QZ9Ib4
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=-ZeL8QZ9Ib4)
+upload_date: 2026-06-05
 official_title: Securing Software Distribution in the Age of AI | Apollo In the Field at AIPCon 10
 
 **What it is about:** Palantir explains Apollo as the deployment infrastructure behind Foundry and AIP installations. The security case is that rising AI-assisted code production and vulnerability discovery make reliable rollback, remediation, and redeployment across varied computing environments essential.
@@ -125,9 +125,9 @@ official_title: Securing Software Distribution in the Age of AI | Apollo In the 
 
 ## 28. From Paper Schedules to AI Workforce Orchestration | Mixology In the Field at AIPCon 10
 
-video_id: kXAerjv8s2s  
-official_url: https://www.youtube.com/watch?v=kXAerjv8s2s  
-upload_date: 2026-06-05  
+video_id: kXAerjv8s2s
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=kXAerjv8s2s)
+upload_date: 2026-06-05
 official_title: From Paper Schedules to AI Workforce Orchestration | Mixology In the Field at AIPCon 10
 
 **What it is about:** Mixology's CEO recounts a shift from addressing workforce scheduling to encoding 16 years of business knowledge in Palantir's Ontology. The effort expanded into dozens of applications and agents after the CEO undertook analyst training in response to what the description calls a “burn-the-boats” moment.
@@ -142,9 +142,9 @@ official_title: From Paper Schedules to AI Workforce Orchestration | Mixology In
 
 ## 29. Building the Operating System for Modern Air Mobility | Surf Air In the Field at AIPCon 10
 
-video_id: xvgZym7YpJ8  
-official_url: https://www.youtube.com/watch?v=xvgZym7YpJ8  
-upload_date: 2026-06-05  
+video_id: xvgZym7YpJ8
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=xvgZym7YpJ8)
+upload_date: 2026-06-05
 official_title: Building the Operating System for Modern Air Mobility | Surf Air In the Field at AIPCon 10
 
 **What it is about:** Surf Air presents Surf OS, a connected operating system for air mobility built on Palantir Foundry and AIP. The described capabilities include fuel optimization, a real-time control tower for operations, maintenance, and flight leadership, and an AIP-powered pricing engine spanning thousands of flights.
@@ -159,9 +159,9 @@ official_title: Building the Operating System for Modern Air Mobility | Surf Air
 
 ## 30. Decreasing Token Usage by Nearly 60% | McCarthy Building Companies In the Field at AIPCon 10
 
-video_id: FtjgS0jYjnU  
-official_url: https://www.youtube.com/watch?v=FtjgS0jYjnU  
-upload_date: 2026-06-05  
+video_id: FtjgS0jYjnU
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=FtjgS0jYjnU)
+upload_date: 2026-06-05
 official_title: Decreasing Token Usage by Nearly 60% | McCarthy Building Companies In the Field at AIPCon 10
 
 **What it is about:** McCarthy Building Companies describes using Palantir's Ontology as a connective layer across the construction project lifecycle and more than 200 applications. The organization says it is reducing token usage by nearly 60% through Evolve while increasing cohesion across its application estate.

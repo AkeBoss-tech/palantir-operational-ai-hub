@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Building America's Nuclear Future | Centrus Energy at AIPCon 9
 
-Official video: https://www.youtube.com/watch?v=hjIzKUeXmAk
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=hjIzKUeXmAk)
 ## Official description
 
 Patrick Brown shares how Centrus Energy is enabling the nuclear renaissance through Palantir— orchestrating agents across quality, procurement, and manufacturing to scale domestic uranium production with the real-time visibility and predictive action America's energy future demands.

@@ -15,10 +15,9 @@ source_basis: official-youtube-metadata
 
 # AIP for Just-in-Time Production | Lear at AIPCon 8
 
-Official video: https://www.youtube.com/watch?v=-DPdyQR1bG4
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=-DPdyQR1bG4)
 ## Official description
 
-"Foundry allows us to focus on what matters: keeping our plants running smoothly and delivering the highest quality product along the way." 
+"Foundry allows us to focus on what matters: keeping our plants running smoothly and delivering the highest quality product along the way."
 
 At AIPCon 8, Jennifer Johnson, Lear's Vice President of Global Advanced Manufacturing, reveals how they manage the complexity of just-in-time seat assembly for the world's automakers. See how Lear's long-term investment in Palantir Foundry enables dynamic decision-making across dynamic production scheduling and operations in their Michigan facility where AIP is embedded directly on the production floor.

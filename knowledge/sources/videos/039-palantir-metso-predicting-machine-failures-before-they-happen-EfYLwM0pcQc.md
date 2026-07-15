@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Palantir & Metso | Predicting Machine Failures Before They Happen
 
-Official video: https://www.youtube.com/watch?v=EfYLwM0pcQc
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=EfYLwM0pcQc)
 ## Official description
 
 Through a partnership with Palantir, Metso has transformed how it supports customer uptime. See how they moved from reacting to equipment failures to predicting them in advance, keeping operations running and the right parts always within reach.

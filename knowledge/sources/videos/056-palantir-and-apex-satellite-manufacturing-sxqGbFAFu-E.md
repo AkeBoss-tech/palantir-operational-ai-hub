@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Palantir and Apex | Satellite Manufacturing
 
-Official video: https://www.youtube.com/watch?v=sxqGbFAFu-E
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=sxqGbFAFu-E)
 ## Official description
 
 Apex, in partnership with Palantir, is revolutionizing satellite manufacturing by cutting launch timelines from years to days and powering the West's edge in the modern space race.

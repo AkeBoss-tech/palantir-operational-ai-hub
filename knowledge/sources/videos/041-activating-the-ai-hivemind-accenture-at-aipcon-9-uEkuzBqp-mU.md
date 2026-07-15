@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Activating the AI Hivemind | Accenture at AIPCon 9
 
-Official video: https://www.youtube.com/watch?v=uEkuzBqp-mU
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=uEkuzBqp-mU)
 ## Official description
 
 Advanced AI Delivery Lead Tracy Venable reveals how Accenture and Palantir are working together to transform enterprise consulting—operationalizing decades of expertise through AI agents that compress ERP migrations from months to weeks, deliver business value from day one, and enable every engagement to build on institutional knowledge accumulated across thousands of deployments.

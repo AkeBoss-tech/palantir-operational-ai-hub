@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Alex Karp Opening Remarks | Paragon 2025
 
-Official video: https://www.youtube.com/watch?v=HWiEk_7Pulc
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=HWiEk_7Pulc)
 ## Official description
 
 Watch as Palantir CEO Alex Karp opens Paragon 2025 with remarks on the original patriotism that fuels Palantir philosophy today.

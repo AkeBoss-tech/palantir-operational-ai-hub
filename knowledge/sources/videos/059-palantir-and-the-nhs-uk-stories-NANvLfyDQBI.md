@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Palantir and the NHS | UK Stories
 
-Official video: https://www.youtube.com/watch?v=NANvLfyDQBI
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=NANvLfyDQBI)
 ## Official description
 
 The NHS Federated Data Platform, powered by Palantir, is driving up the number of NHS operations while bearing down on waiting lists.

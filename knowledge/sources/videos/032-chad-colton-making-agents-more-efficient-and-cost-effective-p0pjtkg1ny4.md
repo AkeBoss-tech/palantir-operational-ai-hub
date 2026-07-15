@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Chad & Colton | Making Agents More Efficient and Cost Effective
 
-Official video: https://www.youtube.com/watch?v=p0pjtkg1ny4
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=p0pjtkg1ny4)
 ## Official description
 
 AIP Evolve — our new product for making agents more efficient and cost effective.

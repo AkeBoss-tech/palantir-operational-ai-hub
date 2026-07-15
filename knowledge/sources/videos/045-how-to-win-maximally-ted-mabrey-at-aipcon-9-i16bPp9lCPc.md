@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # How to Win Maximally | Ted Mabrey at AIPCon 9
 
-Official video: https://www.youtube.com/watch?v=i16bPp9lCPc
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=i16bPp9lCPc)
 ## Official description
 
 Ted Mabrey, Global Head of Commercial at Palantir, highlights the dramatic step change he is witnessing in our engagement with partners to scale and operationalize our products, explaining what has changed, why it matters, and how we are evolving our engagement model to win maximally.

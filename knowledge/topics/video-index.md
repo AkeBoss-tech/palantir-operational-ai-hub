@@ -30,7 +30,7 @@ Evidence note: captions/transcripts are unavailable for every item in this batch
 ## 1. Code in Prod: Apollo x NVIDIA for Sovereign AI | DevCon 6
 
 video_id: IDZVaKc6MGQ
-official_url: https://www.youtube.com/watch?v=IDZVaKc6MGQ
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=IDZVaKc6MGQ)
 upload_date: 2026-07-14
 official_title: Code in Prod: Apollo x NVIDIA for Sovereign AI | DevCon 6
 
@@ -47,7 +47,7 @@ official_title: Code in Prod: Apollo x NVIDIA for Sovereign AI | DevCon 6
 ## 2. Deep Dive: Design Patterns for Human-Agent Collaboration | DevCon 6
 
 video_id: O7aeOmnbCuo
-official_url: https://www.youtube.com/watch?v=O7aeOmnbCuo
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=O7aeOmnbCuo)
 upload_date: 2026-07-14
 official_title: Deep Dive: Design Patterns for Human-Agent Collaboration | DevCon 6
 
@@ -64,7 +64,7 @@ official_title: Deep Dive: Design Patterns for Human-Agent Collaboration | DevCo
 ## 3. Deep Dive: Security Forge: Wielding Agents for Defensive Cyber | DevCon 6
 
 video_id: hymyfucOgSo
-official_url: https://www.youtube.com/watch?v=hymyfucOgSo
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=hymyfucOgSo)
 upload_date: 2026-07-14
 official_title: Deep Dive: Security Forge: Wielding Agents for Defensive Cyber | DevCon 6
 
@@ -81,7 +81,7 @@ official_title: Deep Dive: Security Forge: Wielding Agents for Defensive Cyber |
 ## 4. Code in Prod: Scenario Agents x HD Hyundai Oilbank for Blending Disruptions | DevCon 6
 
 video_id: mZcpr3vX_XY
-official_url: https://www.youtube.com/watch?v=mZcpr3vX_XY
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=mZcpr3vX_XY)
 upload_date: 2026-07-14
 official_title: Code in Prod: Scenario Agents x HD Hyundai Oilbank for Blending Disruptions | DevCon 6
 
@@ -98,7 +98,7 @@ official_title: Code in Prod: Scenario Agents x HD Hyundai Oilbank for Blending 
 ## 5. Product Launch: DevX: SuperRepo & Agent Development | DevCon 6
 
 video_id: elzenOIEdtI
-official_url: https://www.youtube.com/watch?v=elzenOIEdtI
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=elzenOIEdtI)
 upload_date: 2026-07-14
 official_title: Product Launch: DevX: SuperRepo & Agent Development | DevCon 6
 
@@ -115,7 +115,7 @@ official_title: Product Launch: DevX: SuperRepo & Agent Development | DevCon 6
 ## 6. Code in Prod: AIP Evolve x Tampa General Hospital for Optimized Care | DevCon 6
 
 video_id: WLleqr4GEAw
-official_url: https://www.youtube.com/watch?v=WLleqr4GEAw
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=WLleqr4GEAw)
 upload_date: 2026-07-14
 official_title: Code in Prod: AIP Evolve x Tampa General Hospital for Optimized Care | DevCon 6
 
@@ -132,7 +132,7 @@ official_title: Code in Prod: AIP Evolve x Tampa General Hospital for Optimized 
 ## 7. Product Launch: Agent Observability & Optimization | DevCon 6
 
 video_id: GZHSCMz6Aio
-official_url: https://www.youtube.com/watch?v=GZHSCMz6Aio
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=GZHSCMz6Aio)
 upload_date: 2026-07-14
 official_title: Product Launch: Agent Observability & Optimization | DevCon 6
 
@@ -149,7 +149,7 @@ official_title: Product Launch: Agent Observability & Optimization | DevCon 6
 ## 8. Product Launch: Agent Engine | DevCon 6
 
 video_id: mDGjptFvePY
-official_url: https://www.youtube.com/watch?v=mDGjptFvePY
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=mDGjptFvePY)
 upload_date: 2026-07-14
 official_title: Product Launch: Agent Engine | DevCon 6
 
@@ -166,7 +166,7 @@ official_title: Product Launch: Agent Engine | DevCon 6
 ## 9. Product Launch: Agent Infrastructure Layer: Orchestrator | DevCon 6
 
 video_id: ZTw66mjYATo
-official_url: https://www.youtube.com/watch?v=ZTw66mjYATo
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=ZTw66mjYATo)
 upload_date: 2026-07-14
 official_title: Product Launch: Agent Infrastructure Layer: Orchestrator | DevCon 6
 
@@ -183,7 +183,7 @@ official_title: Product Launch: Agent Infrastructure Layer: Orchestrator | DevCo
 ## 10. Ankit Shankar Opening Remarks | DevCon 6
 
 video_id: 6_6OvDIET_w
-official_url: https://www.youtube.com/watch?v=6_6OvDIET_w
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=6_6OvDIET_w)
 upload_date: 2026-07-14
 official_title: Ankit Shankar Opening Remarks | DevCon 6
 
@@ -209,7 +209,7 @@ This batch centers on putting AI into operational systems rather than treating i
 
 video_id: sohHJ-RL7xc
 
-- Official URL: https://www.youtube.com/watch?v=sohHJ-RL7xc
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=sohHJ-RL7xc)
 - Upload date: 2026-07-14
 - Official title: Agents That Do Real Work | Hype Reel | DevCon 6
 - What it is about: A DevCon 6 overview of Palantir's production-agent infrastructure. It contrasts the ease of creating a basic agent with the harder enterprise requirements of trustworthiness, durability, long-running execution, optimization, contextual awareness, and autonomy.
@@ -223,7 +223,7 @@ video_id: sohHJ-RL7xc
 
 video_id: LTwTfwDj2As
 
-- Official URL: https://www.youtube.com/watch?v=LTwTfwDj2As
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=LTwTfwDj2As)
 - Upload date: 2026-07-09
 - Official title: On Repeat | 01
 - What it is about: A 35-second promotional video framed by the sole descriptive statement, “Forged in the field. Proven in production.” The available source does not identify a specific customer, workflow, or technical subject.
@@ -237,7 +237,7 @@ video_id: LTwTfwDj2As
 
 video_id: bJsHKMUqCvg
 
-- Official URL: https://www.youtube.com/watch?v=bJsHKMUqCvg
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=bJsHKMUqCvg)
 - Upload date: 2026-07-07
 - Official title: Ontology MCP | Ontology-Powered Tools for Internal Planning
 - What it is about: An interview in which Chad Wahlquist and Palantir Technical Program Manager Mike Barone explain how Palantir uses Ontology MCP for its own internal planning. Retrospectives, objectives and key results, and resourcing are connected in one Ontology backend that agents can access securely.
@@ -251,7 +251,7 @@ video_id: bJsHKMUqCvg
 
 video_id: D5t6384lqoE
 
-- Official URL: https://www.youtube.com/watch?v=D5t6384lqoE
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=D5t6384lqoE)
 - Upload date: 2026-06-25
 - Official title: Transforming Rail with AI FDE | Palantir and Trinity Industries
 - What it is about: Trinity Industries CEO and President Jean Savage works with Palantir Software Engineer Ankit Shankar to demonstrate building an intelligent repair-invoice auditing workflow for a railcar leasing business with 140,000 railcars, $8 billion in assets, and thousands of invoices to audit each month.
@@ -265,7 +265,7 @@ video_id: D5t6384lqoE
 
 video_id: mzBDupsPPcs
 
-- Official URL: https://www.youtube.com/watch?v=mzBDupsPPcs
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=mzBDupsPPcs)
 - Upload date: 2026-06-23
 - Official title: Ontology Governance | Building a Robust Ontology
 - What it is about: An interview between Chad Wahlquist and Palantir Forward Deployed Engineer Jonas Lang about four core design principles for a well-governed ontology and the modeling anti-patterns that undermine otherwise well-intentioned implementations.
@@ -279,7 +279,7 @@ video_id: mzBDupsPPcs
 
 video_id: ZsW_4Ugj6t0
 
-- Official URL: https://www.youtube.com/watch?v=ZsW_4Ugj6t0
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=ZsW_4Ugj6t0)
 - Upload date: 2026-06-22
 - Official title: ShipOS Supplier Spotlight | How a Navy Submarine Supplier Uses ShipOS to Improve Their Operations
 - What it is about: A supplier spotlight on Keel, identified as a critical participant in the U.S. submarine industrial base, showing how it uses ShipOS to change its operations.
@@ -293,7 +293,7 @@ video_id: ZsW_4Ugj6t0
 
 video_id: losp2jc-hWo
 
-- Official URL: https://www.youtube.com/watch?v=losp2jc-hWo
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=losp2jc-hWo)
 - Upload date: 2026-06-15
 - Official title: Chad & George | Defending the Enterprise with Security Forge
 - What it is about: A demonstration of Security Forge, Palantir's cybersecurity offering for source-code vulnerability detection, using autonomous analysis to turn a large set of scanner-style flags into a smaller set of findings intended to be actionable.
@@ -307,7 +307,7 @@ video_id: losp2jc-hWo
 
 video_id: bOywHUD1jZo
 
-- Official URL: https://www.youtube.com/watch?v=bOywHUD1jZo
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=bOywHUD1jZo)
 - Upload date: 2026-06-08
 - Official title: Palantir's Ted Mabrey on AI, Healthcare, and the Future of Innovation | ARK Big Ideas Summit
 - What it is about: An ARK Big Ideas Summit discussion featuring Tampa General Hospital CEO John Couris and Palantir Head of Global Commercial Ted Mabrey on transforming a complex U.S. health system and positioning the Tampa Bay region as a model for broader innovation. Cathie Wood and Brian Cornell also participate.
@@ -321,7 +321,7 @@ video_id: bOywHUD1jZo
 
 video_id: Ok6j_IbuTxo
 
-- Official URL: https://www.youtube.com/watch?v=Ok6j_IbuTxo
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=Ok6j_IbuTxo)
 - Upload date: 2026-06-05
 - Official title: Empowering Frontline Support with AIP | Parts Town at AIPCon 10
 - What it is about: An AIPCon 10 presentation on Parts Town's use of Palantir AIP across customer support and field service in specialty distribution. The core idea is to make decades of institutional knowledge available to support personnel and then reuse the same Ontology for service operations in the field.
@@ -335,7 +335,7 @@ video_id: Ok6j_IbuTxo
 
 video_id: oSsEaz36DLU
 
-- Official URL: https://www.youtube.com/watch?v=oSsEaz36DLU
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=oSsEaz36DLU)
 - Upload date: 2026-06-05
 - Official title: Agentic Supply Chain for Data Center Delivery | Nscale at AIPCon 10
 - What it is about: An AIPCon 10 presentation on Nscale using Palantir AIP to operate the supply chain behind large-scale AI infrastructure. It addresses tens of millions of components across multiple data-center construction projects, rapid changes in hardware, and long-lead procurement.
@@ -355,9 +355,9 @@ These ten AIPCon 10 videos center on organizations turning governed operational 
 
 ## 21. Security Forge + Apollo: Complete Domain Assurance at Scale | Accenture at AIPCon 10
 
-video_id: NLsXIIkGJ4o  
-official_url: https://www.youtube.com/watch?v=NLsXIIkGJ4o  
-upload_date: 2026-06-05  
+video_id: NLsXIIkGJ4o
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=NLsXIIkGJ4o)
+upload_date: 2026-06-05
 official_title: Security Forge + Apollo: Complete Domain Assurance at Scale | Accenture at AIPCon 10
 
 **What it is about:** Accenture CISO Kris Burkhardt presents Security Forge and Apollo as a closed-loop, agentic cybersecurity system designed to defend large software estates at machine speed. The described loop hunts for vulnerabilities across codebases, sends findings to human engineers for adjudication, automates remediation, and deploys patches across a fleet.
@@ -372,9 +372,9 @@ official_title: Security Forge + Apollo: Complete Domain Assurance at Scale | Ac
 
 ## 22. Delivering AI to Every Farmer in America | USDA at AIPCon 10
 
-video_id: vnhcPBf9UoY  
-official_url: https://www.youtube.com/watch?v=vnhcPBf9UoY  
-upload_date: 2026-06-05  
+video_id: vnhcPBf9UoY
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=vnhcPBf9UoY)
+upload_date: 2026-06-05
 official_title: Delivering AI to Every Farmer in America | USDA at AIPCon 10
 
 **What it is about:** USDA CIO Sam Berry describes consolidating hundreds of fragmented legacy systems into a governed Ontology through the “One Farmer, One File” initiative. The Landmark platform is presented as supporting AI-assisted acreage reporting and assistance delivery through the Farmer Bridge Assistance Program.
@@ -389,9 +389,9 @@ official_title: Delivering AI to Every Farmer in America | USDA at AIPCon 10
 
 ## 23. Orchestrating Fleet-Wide Operational Excellence | Hertz at AIPCon 10
 
-video_id: kqpzUGtZvNI  
-official_url: https://www.youtube.com/watch?v=kqpzUGtZvNI  
-upload_date: 2026-06-05  
+video_id: kqpzUGtZvNI
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=kqpzUGtZvNI)
+upload_date: 2026-06-05
 official_title: Orchestrating Fleet-Wide Operational Excellence | Hertz at AIPCon 10
 
 **What it is about:** Hertz presents Daytona, a Palantir AIP-powered control tower for real-time operations across a fleet of approximately half a million vehicles. Collaborating agents are described as traversing an Ontology at individual-VIN granularity to handle safety-event triage, maintenance planning, vehicle transportation, and customer assignment.
@@ -406,9 +406,9 @@ official_title: Orchestrating Fleet-Wide Operational Excellence | Hertz at AIPCo
 
 ## 24. Pioneering AI for Private Equity Fundraising | Kirkland & Ellis at AIPCon 10
 
-video_id: sCjcd8t1hio  
-official_url: https://www.youtube.com/watch?v=sCjcd8t1hio  
-upload_date: 2026-06-05  
+video_id: sCjcd8t1hio
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=sCjcd8t1hio)
+upload_date: 2026-06-05
 official_title: Pioneering AI for Private Equity Fundraising | Kirkland & Ellis at AIPCon 10
 
 **What it is about:** Kirkland & Ellis introduces the Fund Formation Engine, described as a new Palantir-based operating model for private-equity fundraising legal work. It centralizes decades of institutional knowledge from more than 1,000 lawyers and places that knowledge into the fundraising lifecycle.
@@ -423,9 +423,9 @@ official_title: Pioneering AI for Private Equity Fundraising | Kirkland & Ellis 
 
 ## 25. Deploying 160 Years of Tradecraft to Every Project | McCarthy Building Companies at AIPCon 10
 
-video_id: P9gQP88eQ-k  
-official_url: https://www.youtube.com/watch?v=P9gQP88eQ-k  
-upload_date: 2026-06-05  
+video_id: P9gQP88eQ-k
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=P9gQP88eQ-k)
+upload_date: 2026-06-05
 official_title: Deploying 160 Years of Tradecraft to Every Project | McCarthy Building Companies at AIPCon 10
 
 **What it is about:** McCarthy Building Companies presents Pulse, a construction operations-intelligence mission control built with Palantir AIP on the McCarthy Ontology. It is positioned as encoding more than 160 years of construction experience for use in active projects.
@@ -440,9 +440,9 @@ official_title: Deploying 160 Years of Tradecraft to Every Project | McCarthy Bu
 
 ## 26. Asymmetric Advantage | Intro at AIPCon 10
 
-video_id: IeHOZO03suA  
-official_url: https://www.youtube.com/watch?v=IeHOZO03suA  
-upload_date: 2026-06-05  
+video_id: IeHOZO03suA
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=IeHOZO03suA)
+upload_date: 2026-06-05
 official_title: Asymmetric Advantage | Intro at AIPCon 10
 
 **What it is about:** This is a 66-second AIPCon 10 introduction titled “Asymmetric Advantage.” The available metadata does not establish its specific argument, examples, or narration.
@@ -457,9 +457,9 @@ official_title: Asymmetric Advantage | Intro at AIPCon 10
 
 ## 27. Securing Software Distribution in the Age of AI | Apollo In the Field at AIPCon 10
 
-video_id: -ZeL8QZ9Ib4  
-official_url: https://www.youtube.com/watch?v=-ZeL8QZ9Ib4  
-upload_date: 2026-06-05  
+video_id: -ZeL8QZ9Ib4
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=-ZeL8QZ9Ib4)
+upload_date: 2026-06-05
 official_title: Securing Software Distribution in the Age of AI | Apollo In the Field at AIPCon 10
 
 **What it is about:** Palantir explains Apollo as the deployment infrastructure behind Foundry and AIP installations. The security case is that rising AI-assisted code production and vulnerability discovery make reliable rollback, remediation, and redeployment across varied computing environments essential.
@@ -474,9 +474,9 @@ official_title: Securing Software Distribution in the Age of AI | Apollo In the 
 
 ## 28. From Paper Schedules to AI Workforce Orchestration | Mixology In the Field at AIPCon 10
 
-video_id: kXAerjv8s2s  
-official_url: https://www.youtube.com/watch?v=kXAerjv8s2s  
-upload_date: 2026-06-05  
+video_id: kXAerjv8s2s
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=kXAerjv8s2s)
+upload_date: 2026-06-05
 official_title: From Paper Schedules to AI Workforce Orchestration | Mixology In the Field at AIPCon 10
 
 **What it is about:** Mixology's CEO recounts a shift from addressing workforce scheduling to encoding 16 years of business knowledge in Palantir's Ontology. The effort expanded into dozens of applications and agents after the CEO undertook analyst training in response to what the description calls a “burn-the-boats” moment.
@@ -491,9 +491,9 @@ official_title: From Paper Schedules to AI Workforce Orchestration | Mixology In
 
 ## 29. Building the Operating System for Modern Air Mobility | Surf Air In the Field at AIPCon 10
 
-video_id: xvgZym7YpJ8  
-official_url: https://www.youtube.com/watch?v=xvgZym7YpJ8  
-upload_date: 2026-06-05  
+video_id: xvgZym7YpJ8
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=xvgZym7YpJ8)
+upload_date: 2026-06-05
 official_title: Building the Operating System for Modern Air Mobility | Surf Air In the Field at AIPCon 10
 
 **What it is about:** Surf Air presents Surf OS, a connected operating system for air mobility built on Palantir Foundry and AIP. The described capabilities include fuel optimization, a real-time control tower for operations, maintenance, and flight leadership, and an AIP-powered pricing engine spanning thousands of flights.
@@ -508,9 +508,9 @@ official_title: Building the Operating System for Modern Air Mobility | Surf Air
 
 ## 30. Decreasing Token Usage by Nearly 60% | McCarthy Building Companies In the Field at AIPCon 10
 
-video_id: FtjgS0jYjnU  
-official_url: https://www.youtube.com/watch?v=FtjgS0jYjnU  
-upload_date: 2026-06-05  
+video_id: FtjgS0jYjnU
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=FtjgS0jYjnU)
+upload_date: 2026-06-05
 official_title: Decreasing Token Usage by Nearly 60% | McCarthy Building Companies In the Field at AIPCon 10
 
 **What it is about:** McCarthy Building Companies describes using Palantir's Ontology as a connective layer across the construction project lifecycle and more than 200 applications. The organization says it is reducing token usage by nearly 60% through Evolve while increasing cohesion across its application estate.
@@ -535,9 +535,9 @@ Evidence note: captions/transcripts are unavailable for every item in this batch
 
 ## 31. CEO Alex Karp Opening Remarks | AIPCon 10
 
-video_id: E1g1qALKNpM  
-official_url: https://www.youtube.com/watch?v=E1g1qALKNpM  
-upload_date: 2026-06-05  
+video_id: E1g1qALKNpM
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=E1g1qALKNpM)
+upload_date: 2026-06-05
 official_title: CEO Alex Karp Opening Remarks | AIPCon 10
 
 **What it is about:** Palantir CEO Alex Karp discusses the philosophical differences between Palantir and large-language-model companies. The official framing argues that LLMs alone are insufficient for solving business problems and need the Ontology to become operationally useful.
@@ -552,9 +552,9 @@ official_title: CEO Alex Karp Opening Remarks | AIPCon 10
 
 ## 32. Chad & Colton | Making Agents More Efficient and Cost Effective
 
-video_id: p0pjtkg1ny4  
-official_url: https://www.youtube.com/watch?v=p0pjtkg1ny4  
-upload_date: 2026-05-29  
+video_id: p0pjtkg1ny4
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=p0pjtkg1ny4)
+upload_date: 2026-05-29
 official_title: Chad & Colton | Making Agents More Efficient and Cost Effective
 
 **What it is about:** Chad and Colton present AIP Evolve, a new Palantir product intended to make agents more efficient and cost-effective. The demonstration focuses on systematically changing an agent's models and prompts, validating the resulting output, and finding structured Ontology data that can replace unnecessary model calls.
@@ -569,9 +569,9 @@ official_title: Chad & Colton | Making Agents More Efficient and Cost Effective
 
 ## 33. Palantir, Ondas & World View | Multi-Domain Intelligence in the Stratosphere
 
-video_id: XgZZRV77D8k  
-official_url: https://www.youtube.com/watch?v=XgZZRV77D8k  
-upload_date: 2026-05-26  
+video_id: XgZZRV77D8k
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=XgZZRV77D8k)
+upload_date: 2026-05-26
 official_title: Palantir, Ondas & World View | Multi-Domain Intelligence in the Stratosphere
 
 **What it is about:** Ondas CEO Eric Brock, World View CEO Ryan Hartman, and Palantir Forward Deployed Engineer Matt Shepherd discuss connecting stratospheric balloons, drones, ground robotics, and agentic AI into a multi-domain intelligence system for defense and commercial users.
@@ -586,9 +586,9 @@ official_title: Palantir, Ondas & World View | Multi-Domain Intelligence in the 
 
 ## 34. Highlights | AIPCon 9
 
-video_id: I7siZgE533E  
-official_url: https://www.youtube.com/watch?v=I7siZgE533E  
-upload_date: 2026-05-07  
+video_id: I7siZgE533E
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=I7siZgE533E)
+upload_date: 2026-05-07
 official_title: Highlights | AIPCon 9
 
 **What it is about:** A short highlights video for AIPCon 9. Its only descriptive text is the line, “Any sufficiently advanced technology is indistinguishable from magic,” so the specific speakers, demonstrations, customers, and systems shown are not identified by the available evidence.
@@ -603,9 +603,9 @@ official_title: Highlights | AIPCon 9
 
 ## 35. Recruiting Hackathon | The Palantir Coffee Cup
 
-video_id: HSBgANg-pkQ  
-official_url: https://www.youtube.com/watch?v=HSBgANg-pkQ  
-upload_date: 2026-05-07  
+video_id: HSBgANg-pkQ
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=HSBgANg-pkQ)
+upload_date: 2026-05-07
 official_title: Recruiting Hackathon | The Palantir Coffee Cup
 
 **What it is about:** Palantir Forward Deployed Engineers introduce the Coffee Cup, an AIP-powered recruiting hackathon in which candidates compete to operate the best coffee shop. The event is presented as a way to identify and hire people whose approach matches the FDE focus on achieving outcomes.
@@ -620,9 +620,9 @@ official_title: Recruiting Hackathon | The Palantir Coffee Cup
 
 ## 36. Palantir Technologies | Q1 2026 Earnings Webcast
 
-video_id: 1Aghjshi3U8  
-official_url: https://www.youtube.com/watch?v=1Aghjshi3U8  
-upload_date: 2026-05-05  
+video_id: 1Aghjshi3U8
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=1Aghjshi3U8)
+upload_date: 2026-05-05
 official_title: Palantir Technologies | Q1 2026 Earnings Webcast
 
 **What it is about:** Palantir's webcast concerning its first-quarter 2026 earnings. The supplied description contains legal and investor-relations disclaimers but does not summarize the financial results, management commentary, product developments, or customer activity discussed.
@@ -637,9 +637,9 @@ official_title: Palantir Technologies | Q1 2026 Earnings Webcast
 
 ## 37. Palantir & Fedrigoni | When Scattered Data Finally Talks to Each Other
 
-video_id: DY3XZZBR7Lc  
-official_url: https://www.youtube.com/watch?v=DY3XZZBR7Lc  
-upload_date: 2026-04-23  
+video_id: DY3XZZBR7Lc
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=DY3XZZBR7Lc)
+upload_date: 2026-04-23
 official_title: Palantir & Fedrigoni | When Scattered Data Finally Talks to Each Other
 
 **What it is about:** Fedrigoni uses Palantir to connect fragmented data from multiple systems into a unified intelligence layer. The highlighted business problem is demand forecasting and cross-team coordination in serving major brands without delay.
@@ -654,9 +654,9 @@ official_title: Palantir & Fedrigoni | When Scattered Data Finally Talks to Each
 
 ## 38. Palantir for Builders | Deploying into Maven Smart System ft. Gallatin AI
 
-video_id: jK5k9_Gql-I  
-official_url: https://www.youtube.com/watch?v=jK5k9_Gql-I  
-upload_date: 2026-04-16  
+video_id: jK5k9_Gql-I
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=jK5k9_Gql-I)
+upload_date: 2026-04-16
 official_title: Palantir for Builders | Deploying into Maven Smart System ft. Gallatin AI
 
 **What it is about:** Daniel Buchmueller shows Chad Wahlquist how Gallatin AI's Navigator application, built on Palantir Foundry and deployed through Maven Smart System, is intended to transform tactical resupply at the edge.
@@ -671,9 +671,9 @@ official_title: Palantir for Builders | Deploying into Maven Smart System ft. Ga
 
 ## 39. Palantir & Metso | Predicting Machine Failures Before They Happen
 
-video_id: EfYLwM0pcQc  
-official_url: https://www.youtube.com/watch?v=EfYLwM0pcQc  
-upload_date: 2026-03-26  
+video_id: EfYLwM0pcQc
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=EfYLwM0pcQc)
+upload_date: 2026-03-26
 official_title: Palantir & Metso | Predicting Machine Failures Before They Happen
 
 **What it is about:** Metso and Palantir present a shift in equipment support from reacting after machinery fails to predicting failures in advance. The objective is to protect customer uptime and ensure that needed replacement parts are available.
@@ -688,9 +688,9 @@ official_title: Palantir & Metso | Predicting Machine Failures Before They Happe
 
 ## 40. How American Industry Wins the AI Era | AIPCon 9 Discussion
 
-video_id: dWJa0Bkbxus  
-official_url: https://www.youtube.com/watch?v=dWJa0Bkbxus  
-upload_date: 2026-03-24  
+video_id: dWJa0Bkbxus
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=dWJa0Bkbxus)
+upload_date: 2026-03-24
 official_title: How American Industry Wins the AI Era | AIPCon 9 Discussion
 
 **What it is about:** Palantir CTO Shyam Sankar and Head of Defense Mike Gallagher join Department of War Chief Digital and AI Officer Cameron Stanley, Centrus Energy CEO Amir Vexler, and World View President and CEO Ryan Hartman for a discussion about how American workers, technology, and industrial strength can shape the AI era. The described themes include decision dominance and the attitude and aptitude of the American workforce.
@@ -716,7 +716,7 @@ Evidence note: captions/transcripts are unavailable for every item in this batch
 ## 1. Activating the AI Hivemind | Accenture at AIPCon 9
 
 video_id: uEkuzBqp-mU
-official_url: https://www.youtube.com/watch?v=uEkuzBqp-mU
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=uEkuzBqp-mU)
 upload_date: 2026-03-19
 official_title: Activating the AI Hivemind | Accenture at AIPCon 9
 
@@ -733,7 +733,7 @@ official_title: Activating the AI Hivemind | Accenture at AIPCon 9
 ## 2. ArsenalOS: Architecture from Design to Deployment | Northrop Grumman at AIPCon 9
 
 video_id: 8lU-xRDovRk
-official_url: https://www.youtube.com/watch?v=8lU-xRDovRk
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=8lU-xRDovRk)
 upload_date: 2026-03-16
 official_title: ArsenalOS: Architecture from Design to Deployment | Northrop Grumman at AIPCon 9
 
@@ -750,7 +750,7 @@ official_title: ArsenalOS: Architecture from Design to Deployment | Northrop Gru
 ## 3. Scaling Stratospheric Intelligence with AI | World View at AIPCon 9
 
 video_id: WkU-Bl0xFus
-official_url: https://www.youtube.com/watch?v=WkU-Bl0xFus
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=WkU-Bl0xFus)
 upload_date: 2026-03-14
 official_title: Scaling Stratospheric Intelligence with AI | World View at AIPCon 9
 
@@ -767,7 +767,7 @@ official_title: Scaling Stratospheric Intelligence with AI | World View at AIPCo
 ## 4. Accelerating American Shipbuilding with ShipOS | U.S. Navy at AIPCon 9
 
 video_id: 3UMNo9py7lc
-official_url: https://www.youtube.com/watch?v=3UMNo9py7lc
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=3UMNo9py7lc)
 upload_date: 2026-03-13
 official_title: Accelerating American Shipbuilding with ShipOS | U.S. Navy at AIPCon 9
 
@@ -784,7 +784,7 @@ official_title: Accelerating American Shipbuilding with ShipOS | U.S. Navy at AI
 ## 5. How to Win Maximally | Ted Mabrey at AIPCon 9
 
 video_id: i16bPp9lCPc
-official_url: https://www.youtube.com/watch?v=i16bPp9lCPc
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=i16bPp9lCPc)
 upload_date: 2026-03-13
 official_title: How to Win Maximally | Ted Mabrey at AIPCon 9
 
@@ -801,7 +801,7 @@ official_title: How to Win Maximally | Ted Mabrey at AIPCon 9
 ## 6. Multi-Domain AI: The Future of Command and Control | CDAO at AIPCon 9
 
 video_id: yrtDgoqWmgM
-official_url: https://www.youtube.com/watch?v=yrtDgoqWmgM
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=yrtDgoqWmgM)
 upload_date: 2026-03-13
 official_title: Multi-Domain AI: The Future of Command and Control | CDAO at AIPCon 9
 
@@ -818,7 +818,7 @@ official_title: Multi-Domain AI: The Future of Command and Control | CDAO at AIP
 ## 7. Building America's Nuclear Future | Centrus Energy at AIPCon 9
 
 video_id: hjIzKUeXmAk
-official_url: https://www.youtube.com/watch?v=hjIzKUeXmAk
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=hjIzKUeXmAk)
 upload_date: 2026-03-13
 official_title: Building America's Nuclear Future | Centrus Energy at AIPCon 9
 
@@ -835,7 +835,7 @@ official_title: Building America's Nuclear Future | Centrus Energy at AIPCon 9
 ## 8. Replatforming Healthcare Accreditation | Joint Commission at AIPCon 9
 
 video_id: oJJ3W6pWfPE
-official_url: https://www.youtube.com/watch?v=oJJ3W6pWfPE
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=oJJ3W6pWfPE)
 upload_date: 2026-03-13
 official_title: Replatforming Healthcare Accreditation | Joint Commission at AIPCon 9
 
@@ -852,7 +852,7 @@ official_title: Replatforming Healthcare Accreditation | Joint Commission at AIP
 ## 9. Software Meets Hardware: Empowering the Warfighter | GE Aerospace at AIPCon 9
 
 video_id: ipdtAHQj0l0
-official_url: https://www.youtube.com/watch?v=ipdtAHQj0l0
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=ipdtAHQj0l0)
 upload_date: 2026-03-13
 official_title: Software Meets Hardware: Empowering the Warfighter | GE Aerospace at AIPCon 9
 
@@ -869,7 +869,7 @@ official_title: Software Meets Hardware: Empowering the Warfighter | GE Aerospac
 ## 10. Backstage Pass | AIPCon 9
 
 video_id: l3oRSfUEMTE
-official_url: https://www.youtube.com/watch?v=l3oRSfUEMTE
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=l3oRSfUEMTE)
 upload_date: 2026-03-13
 official_title: Backstage Pass | AIPCon 9
 
@@ -893,7 +893,7 @@ These ten videos cluster around moving AI into consequential operations rather t
 
 video_id: bxvf5H1G2f0
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=bxvf5H1G2f0 — 2026-03-13 — “Rewriting the Migration Path | SAP at AIPCon 9”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=bxvf5H1G2f0) — 2026-03-13 — “Rewriting the Migration Path | SAP at AIPCon 9”
 - **What it is about:** An SAP representative, Sebastian, describes using Palantir AI agents to change how organizations migrate SAP estates to the cloud. The official description says the approach compresses work that took months into weeks, lowers costs, and aims to produce business value from the start.
 - **What they are building/working on:** Purpose-built agents that perform migration assessment, transformation, mapping, and validation in parallel rather than as a long sequential program.
 - **Named products/organizations:** SAP; Palantir; Palantir AI agents; AIPCon 9.
@@ -904,7 +904,7 @@ video_id: bxvf5H1G2f0
 
 video_id: ppTpMoP6_nc
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=ppTpMoP6_nc — 2026-03-13 — “End-to-End Intelligence: Transforming Mortgage with AI | Moder at AIPCon 9”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=ppTpMoP6_nc) — 2026-03-13 — “End-to-End Intelligence: Transforming Mortgage with AI | Moder at AIPCon 9”
 - **What it is about:** Moder’s Michael Middleman presents a strategic partnership with Palantir and a first customer pilot with Freedom Mortgage, framed as bringing end-to-end intelligence and AI automation to mortgage operations.
 - **What they are building/working on:** A mortgage-operations automation capability intended to connect processes across the lifecycle, improve transparency, and serve as a foundation for wider industry transformation. The available metadata does not identify the specific workflows, models, controls, or pilot results.
 - **Named products/organizations:** Moder; Palantir; Freedom Mortgage; AIPCon 9.
@@ -915,7 +915,7 @@ video_id: ppTpMoP6_nc
 
 video_id: sDtltYnbJT8
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=sDtltYnbJT8 — 2026-03-13 — “Palantir CEO Alex Karp Opening Remarks | AIPCon 9”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=sDtltYnbJT8) — 2026-03-13 — “Palantir CEO Alex Karp Opening Remarks | AIPCon 9”
 - **What it is about:** Alex Karp’s opening remarks address Palantir’s values, its role on the global stage, and the relationship between its battlefield work and commercial deployments.
 - **What they are building/working on:** At the level supported by the metadata, this is a strategic framing rather than a discrete product demo: Palantir positions its defence and commercial work as connected parts of the same institutional mission.
 - **Named products/organizations:** Palantir; Alex Karp; AIPCon 9. No specific product is named in the official description.
@@ -926,7 +926,7 @@ video_id: sDtltYnbJT8
 
 video_id: VB_6oi0g_f8
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=VB_6oi0g_f8 — 2026-03-13 — “Magical on the Front Lines | Intro at AIPCon 9”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=VB_6oi0g_f8) — 2026-03-13 — “Magical on the Front Lines | Intro at AIPCon 9”
 - **What it is about:** The only supplied evidence identifies this as a short AIPCon 9 introduction themed around something being “magical on the front lines.” There is not enough metadata to state which frontline setting, customer, or capability it depicts.
 - **What they are building/working on:** Not established by the available source. The title suggests an event-opening montage or framing segment about frontline impact, but that is inference rather than a source-backed product description.
 - **Named products/organizations:** AIPCon 9; Palantir is the publishing channel. No product or customer is named in the title.
@@ -937,7 +937,7 @@ video_id: VB_6oi0g_f8
 
 video_id: e90qUUh8_us
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=e90qUUh8_us — 2026-03-11 — “Chad & Craig | Data Migrations with AI FDE”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=e90qUUh8_us) — 2026-03-11 — “Chad & Craig | Data Migrations with AI FDE”
 - **What it is about:** Craig Roberts shows Chad Wahlquist how Palantir AIP is used to accelerate data migrations and help organizations move from legacy systems to new operating outcomes. The official description claims a reduction from five months to five days.
 - **What they are building/working on:** An AI FDE-assisted migration workflow on Palantir AIP that goes beyond copying data and is intended to enable replacement operations and outcomes on the target system.
 - **Named products/organizations:** Palantir; Palantir AIP; AI FDE; Chad Wahlquist; Craig Roberts.
@@ -948,7 +948,7 @@ video_id: e90qUUh8_us
 
 video_id: sxqGbFAFu-E
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=sxqGbFAFu-E — 2026-03-02 — “Palantir and Apex | Satellite Manufacturing”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=sxqGbFAFu-E) — 2026-03-02 — “Palantir and Apex | Satellite Manufacturing”
 - **What it is about:** A partnership story about Apex and Palantir applying software to satellite manufacturing, framed as shortening launch timelines and strengthening Western competitiveness in space.
 - **What they are building/working on:** An operational capability around satellite production and launch readiness. The official description claims timelines are being cut “from years to days,” but it does not specify whether that refers to manufacturing, order-to-launch, scheduling, or another portion of the lifecycle.
 - **Named products/organizations:** Apex; Palantir. No specific Palantir or Apex product is named in the supplied metadata.
@@ -959,7 +959,7 @@ video_id: sxqGbFAFu-E
 
 video_id: yLD5I16XkOo
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=yLD5I16XkOo — 2026-02-10 — “Chad & Konrad | Embedded Ontology”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=yLD5I16XkOo) — 2026-02-10 — “Chad & Konrad | Embedded Ontology”
 - **What it is about:** Konrad Eilers shows Chad Wahlquist an “Embedded Ontology” intended to connect AI to operations at the edge, including harsh or disconnected environments where continuous cloud connectivity cannot be assumed.
 - **What they are building/working on:** A deployable operational model—described as the Embedded Ontology—that brings relevant data, objects, logic, and AI-enabled workflows closer to edge users and systems. The precise technical packaging and synchronization behavior are not described in the metadata.
 - **Named products/organizations:** Palantir; Embedded Ontology; Chad Wahlquist; Konrad Eilers.
@@ -970,7 +970,7 @@ video_id: yLD5I16XkOo
 
 video_id: kA-RPdosEm0
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=kA-RPdosEm0 — 2026-02-09 — “Palantir and Hadean | UK Stories”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=kA-RPdosEm0) — 2026-02-09 — “Palantir and Hadean | UK Stories”
 - **What it is about:** The video explains how Hadean uses Palantir as a deployment and data foundation for defence simulation, training, mission planning, and command-and-control software in classified UK Ministry of Defence environments. It emphasizes the obstacles faced by defence startups: procurement timelines, security standards, classified and heterogeneous data, and integration with operational infrastructure.
 - **What they are building/working on:** Hadean provides out-of-the-box simulation and orchestration tools that generate live and virtual combat scenarios for rehearsal, training, and planning. Its **Domini AI** product is described as a next-generation command-and-control system combining AI and simulation, unifying diverse data for situational awareness and forward simulation of courses of action. Palantir Foundry underpins Hadean products so they can share military concepts with live systems, integrate intelligence, logistics, sensor, and historical data across classifications, connect to the MOD data fabric, and deploy faster. The partners also plan to expand Hadean’s existing MOD relationships and product use.
 - **Named products/organizations:** Hadean (caption spellings vary); Domini AI; Palantir; Palantir Foundry; UK Ministry of Defence (MOD); British armed forces; Western militaries.
@@ -981,7 +981,7 @@ video_id: kA-RPdosEm0
 
 video_id: NANvLfyDQBI
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=NANvLfyDQBI — 2026-01-30 — “Palantir and the NHS | UK Stories”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=NANvLfyDQBI) — 2026-01-30 — “Palantir and the NHS | UK Stories”
 - **What it is about:** NHS England and Palantir personnel describe the NHS Federated Data Platform (FDP), which connects fragmented asset, workforce, and patient systems into operational workflows while letting each NHS organization control its own instance and data. The immediate focus is care logistics: scheduling theatres, managing inpatient flow and discharge, transferring patients between trusts with available capacity, and tracking cancer waiting lists.
 - **What they are building/working on:** Segregated, locally owned FDP instances share a consistent **Canonical Data Model (CDM)**. Data can remain at the sovereign organization and be queried when needed; Palantir Foundry supplies purpose-based access controls so use is restricted to an already permitted purpose. NHS and Palantir teams co-design workflow products with clinicians. The transcript says the first Theatre Scheduling product went from concept to testing in about three weeks; other named capabilities include an Inpatient product and Cancer Waiting List tool.
 - **Named products/organizations:** NHS; NHS England; NHS Federated Data Platform (FDP); Palantir; Palantir Foundry; Canonical Data Model (CDM); Theatre Scheduling product; Inpatient product; Cancer Waiting List tool; NHS trusts; Ming Tang; Ayub Bhayat; Rebecca Llewellyn; Jasmine Brown; Ethan Dodd; Sam Rhodes.
@@ -992,7 +992,7 @@ video_id: NANvLfyDQBI
 
 video_id: 8qXIoUxisxk
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=8qXIoUxisxk — 2026-01-29 — “The Future of AI and Work”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=8qXIoUxisxk) — 2026-01-29 — “The Future of AI and Work”
 - **What it is about:** Palantir Chief Architect Akshay Krishnaswamy and Senior Counselor Jordan Hirsch argue that enterprise AI should augment human operators and capture frontline expertise rather than treat workers as expendable. Their central claim is that most domain intelligence remains in people and working processes, not in generic models, and that AI can expand human capacity when embedded in those processes.
 - **What they are building/working on:** The design described connects AI agents to the same decision plane as workers: relevant data, permitted actions, reasoning logic, and feedback from outcomes. Palantir calls this shared operational model the **Ontology**. Deployment begins with bounded assistance—such as triaging inbound supply-chain issues—then turns up automation incrementally as the system learns from human choices. This addresses two stated bottlenecks: bringing the right context to an operator and increasing the number of cases the operator can handle. The broader **Working Intelligence** project showcases customer deployments built around this philosophy.
 - **Named products/organizations:** Palantir; Palantir AIP; Palantir Foundry; Ontology; Working Intelligence; PG&E; Public Safety Power Shutoff (PSPS) events; Akshay Krishnaswamy; Jordan Hirsch. The discussion also references clinical operations, network planning, wildfire response, military operations, nurse scheduling, shipbuilding, logistics, and electric-grid control.
@@ -1010,7 +1010,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 61. Palantir x Databricks | Partnership Overview
 
 - `video_id: wOyByRnOgIc`
-- **Official URL:** https://www.youtube.com/watch?v=wOyByRnOgIc
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=wOyByRnOgIc)
 - **Upload date:** 2026-01-09
 - **Official title:** Palantir x Databricks | Partnership Overview
 - **What it is about:** Chad Wahlquist and Benjamin Abood explain an integration between the Palantir and Databricks stacks intended to connect data management and analytics with operational AI. The official framing is an end-to-end path from the Databricks Data Intelligence Platform and Unity Catalog into Palantir Foundry and AIP.
@@ -1022,7 +1022,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 62. Holiday Greetings from Palantir CEO Alex Karp
 
 - `video_id: UPO5oV7xL5A`
-- **Official URL:** https://www.youtube.com/watch?v=UPO5oV7xL5A
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=UPO5oV7xL5A)
 - **Upload date:** 2025-12-18
 - **Official title:** Holiday Greetings from Palantir CEO Alex Karp
 - **What it is about:** A short seasonal message from Palantir CEO Alex Karp. No official description or transcript is available in the inventory, so the specific topics, claims, and wording cannot be responsibly summarized.
@@ -1034,7 +1034,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 63. Army Navy Game 2025
 
 - `video_id: u31W8bR_SWo`
-- **Official URL:** https://www.youtube.com/watch?v=u31W8bR_SWo
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=u31W8bR_SWo)
 - **Upload date:** 2025-12-17
 - **Official title:** Army Navy Game 2025
 - **What it is about:** A 34-second corporate sponsorship message thanking Baltimore and announcing that Palantir extended its support of “America's Game” for four additional years.
@@ -1046,7 +1046,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 64. AIP 2026: The Self-Healing Autonomous Enterprise | Paragon 2025
 
 - `video_id: r3jMRs_Mum8`
-- **Official URL:** https://www.youtube.com/watch?v=r3jMRs_Mum8
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=r3jMRs_Mum8)
 - **Upload date:** 2025-12-15
 - **Official title:** AIP 2026: The Self-Healing Autonomous Enterprise | Paragon 2025
 - **What it is about:** Palantir Head of AI Go-To-Market Jack Dobson presents Palantir's AIP direction for 2026: human–AI teaming, enterprise autonomy, and operational process optimization. The description positions Ontology as the mechanism for monitoring an enterprise across disparate data sources, siloed teams, and distinct processes.
@@ -1058,7 +1058,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 65. Alex Karp Opening Remarks | Paragon 2025
 
 - `video_id: HWiEk_7Pulc`
-- **Official URL:** https://www.youtube.com/watch?v=HWiEk_7Pulc
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=HWiEk_7Pulc)
 - **Upload date:** 2025-12-05
 - **Official title:** Alex Karp Opening Remarks | Paragon 2025
 - **What it is about:** Alex Karp opens Paragon 2025 with remarks on the “original patriotism” that the official description says continues to shape Palantir's philosophy.
@@ -1070,7 +1070,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 66. Actionable Intelligence from Every Tenant Interaction | Healthpeak at Paragon 2025
 
 - `video_id: xgQXfzUgTO4`
-- **Official URL:** https://www.youtube.com/watch?v=xgQXfzUgTO4
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=xgQXfzUgTO4)
 - **Upload date:** 2025-12-05
 - **Official title:** Actionable Intelligence from Every Tenant Interaction | Healthpeak at Paragon 2025
 - **What it is about:** Healthpeak Chief Investment Officer Adam G. Mabry describes turning routine tenant interactions into operational intelligence for a healthcare real-estate portfolio. The goal is to let property managers spend less time on office administration and more time with tenants.
@@ -1082,7 +1082,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 67. Preventing Payer Denials in Healthcare | R1 RCM at Paragon 2025
 
 - `video_id: od8G2dZvVPY`
-- **Official URL:** https://www.youtube.com/watch?v=od8G2dZvVPY
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=od8G2dZvVPY)
 - **Upload date:** 2025-12-05
 - **Official title:** Preventing Payer Denials in Healthcare | R1 RCM at Paragon 2025
 - **What it is about:** R1 RCM executives Steve Albert and Jon Katzur demonstrate an AI-assisted medical revenue-cycle workflow aimed at progressing from handling payer denials after they occur to preventing avoidable denials before claim submission.
@@ -1094,7 +1094,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 68. Why Every Other Software Must Justify Its Existence | Thomas Cavanagh at Paragon 2025
 
 - `video_id: vH-pTvqeiMo`
-- **Official URL:** https://www.youtube.com/watch?v=vH-pTvqeiMo
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=vH-pTvqeiMo)
 - **Upload date:** 2025-12-05
 - **Official title:** Why Every Other Software Must Justify Its Existence | Thomas Cavanagh at Paragon 2025
 - **What it is about:** Thomas Cavanagh's AI lead, Joe Patrois, presents Foundry as the construction company's operating system and says 97% of employees use it daily. The talk argues that bespoke, connected Foundry workflows can replace fragmented scheduling and field-reporting software.
@@ -1106,7 +1106,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 69. Customized Care When You Need it Most | Tampa General Hospital at Paragon 2025
 
 - `video_id: TwwTlyIhCYI`
-- **Official URL:** https://www.youtube.com/watch?v=TwwTlyIhCYI
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=TwwTlyIhCYI)
 - **Upload date:** 2025-12-05
 - **Official title:** Customized Care When You Need it Most | Tampa General Hospital at Paragon 2025
 - **What it is about:** Tampa General Hospital's Senior Vice President and Chief Transformation Officer, Dr. Peter Chang, demonstrates Modern Hospital OS, a Foundry-built system intended to customize care and coordinate patient journeys.
@@ -1118,7 +1118,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 70. Paragon 2025
 
 - `video_id: UjkRz9HkldU`
-- **Official URL:** https://www.youtube.com/watch?v=UjkRz9HkldU
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=UjkRz9HkldU)
 - **Upload date:** 2025-12-05
 - **Official title:** Paragon 2025
 - **What it is about:** The full Paragon 2025 program combines Alex Karp's opening account of Palantir's mission and product philosophy with detailed customer demonstrations from Healthpeak, Tampa General Hospital, Johnson Controls, R1, and Cavanagh Construction, followed by Sasha Spivak's remarks on trust. The common thesis is that Ontology, Foundry, AIP, and forward-deployed engineering turn organization-specific data into systems that monitor operations, coordinate work, and support human–AI teams.
@@ -1137,7 +1137,7 @@ These ten videos span four related themes: Palantir's positioning around softwar
 
 video_id: SZ_eZGmmpQU
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=SZ_eZGmmpQU — 2025-12-05 — “Crisis Has No Calendar | Paragon 2025”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=SZ_eZGmmpQU) — 2025-12-05 — “Crisis Has No Calendar | Paragon 2025”
 - **What it is about:** A short montage links wildfires, tariffs and supply-chain inflation, military strikes, flooding, attacks on Ukrainian energy infrastructure, Chinese military display, and a US government shutdown. It closes with a strategic claim that the world is software-defined and that US leadership in software matters.
 - **What they are building/working on:** This is positioning rather than a product walkthrough. The montage briefly names Maven amid claims of demand in and outside the United States and Apollo amid the sequence of geopolitical and operational crises, implying that Palantir presents its deployed software as infrastructure for persistent, unpredictable conditions. The transcript does not show how either product is used.
 - **Named products/organizations:** Maven; Apollo; Palantir; Paragon 2025; United States; Los Angeles; Russia; China; Ukraine (referenced indirectly as “that country” in the caption context); Donald Trump.
@@ -1148,7 +1148,7 @@ video_id: SZ_eZGmmpQU
 
 video_id: _YpTwi_TtHQ
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=_YpTwi_TtHQ — 2025-12-02 — “Unfair Advantage | Highlights from AIPCon 8”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=_YpTwi_TtHQ) — 2025-12-02 — “Unfair Advantage | Highlights from AIPCon 8”
 - **What it is about:** The available source identifies this as an AIPCon 8 highlights reel organized around the phrase “Unfair Advantage.” No official description or captions identify the speakers, customers, examples, or claims included.
 - **What they are building/working on:** Not established by the available evidence. The title suggests a recap that positions showcased Palantir-enabled work as a competitive advantage, but it does not support attributing any particular product or project to the video.
 - **Named products/organizations:** AIPCon 8; Palantir as the publishing channel. No specific product, customer, or speaker is named in the available metadata.
@@ -1159,7 +1159,7 @@ video_id: _YpTwi_TtHQ
 
 video_id: zkptGdmnuiY
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=zkptGdmnuiY — 2025-11-21 — “Senior Counselor Jordan Hirsch and Meritocracy Fellow Aryan Mehra Discuss the Meritocracy Fellowship”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=zkptGdmnuiY) — 2025-11-21 — “Senior Counselor Jordan Hirsch and Meritocracy Fellow Aryan Mehra Discuss the Meritocracy Fellowship”
 - **What it is about:** Jordan Hirsch and Aryan Mehra appear on Fox News to discuss higher education and Palantir's Meritocracy Fellowship. The official description foregrounds Palantir's view that meritocracy is important to American success.
 - **What they are building/working on:** A fellowship positioned as an alternative route into consequential technology work. The available metadata links to the application page but does not specify curriculum, selection criteria, duration, projects, compensation, or Mehra's experience.
 - **Named products/organizations:** Palantir; Meritocracy Fellowship; Fox News; Jordan Hirsch; Aryan Mehra.
@@ -1170,7 +1170,7 @@ video_id: zkptGdmnuiY
 
 video_id: YDAxITCNcko
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=YDAxITCNcko — 2025-11-17 — “Palantir Ontology Overview”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=YDAxITCNcko) — 2025-11-17 — “Palantir Ontology Overview”
 - **What it is about:** Forward Deployed Architect Chad Wahlquist explains the Ontology at the center of Palantir AIP and Foundry. He defines it as the business's “nouns and verbs”: a semantic operational model of entities and relationships that joins current data, decision logic, and actions into a digital representation of how the business actually operates.
 - **What they are building/working on:** A decision-centric system that connects enterprise data through more than 300 stated out-of-the-box connectors or MMDP virtualization; incorporates rules, spreadsheets, ML models, forecasts, and third-party optimizers; and writes actions back to systems such as SAP, plant-floor equipment, and financial applications. Workflows, analytics, automations, AIP Logic, and generative-AI models sit on this layer. The Ontology gives an LLM business context, permits calls to deterministic models, and orchestrates actions. Product and Ontology SDKs expose the model to mobile apps, custom React apps, integrations, and agentic workflows.
 - **Named products/organizations:** Palantir; Palantir Ontology; Palantir AIP; Palantir Foundry; AIP Logic; Ontology SDK; product SDK; MMDP (caption spelling); SAP; Snowflake; Databricks; BigQuery; Excel; Chad Wahlquist.
@@ -1181,7 +1181,7 @@ video_id: YDAxITCNcko
 
 video_id: 8JbKTwDqkKI
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=8JbKTwDqkKI — 2025-11-12 — “Palantir CEO Alex Karp receives the Herman Kahn Award | Hudson Institute”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=8JbKTwDqkKI) — 2025-11-12 — “Palantir CEO Alex Karp receives the Herman Kahn Award | Hudson Institute”
 - **What it is about:** An award event in which Palantir CEO Alex Karp receives the Hudson Institute's Herman Kahn Award, introduced by Palantir CTO Shyam Sankar.
 - **What they are building/working on:** No discrete product or project is identified in the supplied metadata. This is an institutional recognition and leadership speech rather than a documented technical demonstration.
 - **Named products/organizations:** Palantir; Hudson Institute; Herman Kahn Award; Alex Karp; Shyam Sankar. No Palantir product is named.
@@ -1192,7 +1192,7 @@ video_id: 8JbKTwDqkKI
 
 video_id: mfmD1QqnaKg
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=mfmD1QqnaKg — 2025-11-12 — “Palantir Warp Speed Deep Dive”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=mfmD1QqnaKg) — 2025-11-12 — “Palantir Warp Speed Deep Dive”
 - **What it is about:** Meredith Bertasi walks Chad Wahlquist through Palantir Warp Speed as an operating system for industrial production. The official chapter list follows work across quality engineering, design engineering, supply planning, manufacturing engineering, and production technicians.
 - **What they are building/working on:** A cross-functional manufacturing platform that connects engineering, bill-of-materials management, material requirements/resource planning, product lifecycle management, manufacturing execution, supply-chain operations, and program management. Palantir claims the product increases velocity and adaptability across these functions; the metadata does not reveal the data model, screens, integrations, or quantitative results shown in the deep dive.
 - **Named products/organizations:** Palantir; Palantir Warp Speed; Meredith Bertasi; Chad Wahlquist. Functional systems named include BOM management, MRP, PLM, and MES, but no external customer or partner is identified.
@@ -1203,7 +1203,7 @@ video_id: mfmD1QqnaKg
 
 video_id: z5mfjRy3i_Q
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=z5mfjRy3i_Q — 2025-11-10 — “Meet the Fellows | Meritocracy Fellowship 1.0”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=z5mfjRy3i_Q) — 2025-11-10 — “Meet the Fellows | Meritocracy Fellowship 1.0”
 - **What it is about:** A short participant-focused piece about the first Meritocracy Fellowship cohort. Palantir says the fellows spent 14 weeks learning and building inside the company and presents the program as an alternative to waiting through a conventional four-year college timeline.
 - **What they are building/working on:** A work-based education and recruiting program that places early-career participants near Palantir's technology work. The official description says fellows built things “on the front lines of American technology” but does not name projects, products, mentors, or deliverables.
 - **Named products/organizations:** Palantir; Meritocracy Fellowship 1.0; Meritocracy Fellows. No individual fellow or technical product is named in the supplied metadata.
@@ -1214,7 +1214,7 @@ video_id: z5mfjRy3i_Q
 
 video_id: DHSYo9s7eRo
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=DHSYo9s7eRo — 2025-10-28 — “Chad & Xander | Lightweight Transforms in Pipeline Builder”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=DHSYo9s7eRo) — 2025-10-28 — “Chad & Xander | Lightweight Transforms in Pipeline Builder”
 - **What it is about:** Palantir developer Xander Bailey shows Chad Wahlquist an upcoming Pipeline Builder capability called lightweight transforms, framed as a one-click way to speed up data pipelines.
 - **What they are building/working on:** Lightweight transforms that select or enable a compute engine suited to a transform's workload, with the stated aim of making data transformations substantially faster and cheaper. The description says the feature “will soon” power this behavior, indicating preview or pre-release status at publication.
 - **Named products/organizations:** Palantir; Pipeline Builder; lightweight transforms; Xander Bailey; Chad Wahlquist.
@@ -1225,7 +1225,7 @@ video_id: DHSYo9s7eRo
 
 video_id: kr2rtz9L5t8
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=kr2rtz9L5t8 — 2025-10-20 — “Palantir for Ishikawa Prefecture | Transforming Disaster Response”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=kr2rtz9L5t8) — 2025-10-20 — “Palantir for Ishikawa Prefecture | Transforming Disaster Response”
 - **What it is about:** A disaster-response case study following the January 2024 Noto Peninsula earthquake. Palantir says more than 62,000 evacuees were dispersed across prefectures, making it difficult for responders to locate people and coordinate support.
 - **What they are building/working on:** Palantir engineers built “Victim 360,” which the official description says unified 15 fragmented data sources representing 120,000 regional citizens so evacuees could be found and supported. The same system was reportedly redeployed within 24 hours when flooding struck months later.
 - **Named products/organizations:** Palantir; Ishikawa Prefecture; Victim 360; Noto Peninsula. No underlying Palantir platform product or government partner is named in the supplied description.
@@ -1236,7 +1236,7 @@ video_id: kr2rtz9L5t8
 
 video_id: MZ93pgQBYWY
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=MZ93pgQBYWY — 2025-10-14 — “South Korea Pop-up”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=MZ93pgQBYWY) — 2025-10-14 — “South Korea Pop-up”
 - **What it is about:** A brief event montage showing Alex Karp greeting attendees or fans in South Korea, speaking with a person who says they are in the Korean military, handing out merchandise, and expressing appreciation for the reception and for Korean culture.
 - **What they are building/working on:** No product, technical project, customer deployment, or partnership is described. The clip functions as community, brand, or event-presence content rather than evidence of engineering work.
 - **Named products/organizations:** South Korea; Korean military; Alex Karp (identification inferred from the recognizable speaker and surrounding channel context, not named in the captions); Palantir as the publishing channel. No product is named.
@@ -1254,7 +1254,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 81. Chad & Nicolas | Lightweight Transforms at Merck KGaA, Darmstadt, Germany
 
 - `video_id: PGNWo-UuXLs`
-- **Official URL:** https://www.youtube.com/watch?v=PGNWo-UuXLs
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=PGNWo-UuXLs)
 - **Upload date:** 2025-10-09
 - **Official title:** Chad & Nicolas | Lightweight Transforms at Merck KGaA, Darmstadt, Germany
 - **What it is about:** Nicolas Renkamp, who leads core data platforms at Merck KGaA, explains how Foundry's rearchitected Lightweight Transforms let teams replace Spark for suitable workloads with newer single-node engines. He attributes the improvement to an S3-compatible interface, fast local NVMe storage, streaming execution, vectorized operations, and avoiding distributed-compute overhead for workloads that do not need it. Merck reports roughly 100,000 builds per day and says it is seeing about 10x performance improvement across the workloads it has targeted, with examples including a six-to-seven-hour job reduced to roughly 10–26 minutes and a complex daily PySpark job reduced from one-to-three hours to about 30–40 minutes.
@@ -1266,7 +1266,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 82. Chad & Bennett | Observability with Palantir AIP
 
 - `video_id: 9IgYLjxxesw`
-- **Official URL:** https://www.youtube.com/watch?v=9IgYLjxxesw
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=9IgYLjxxesw)
 - **Upload date:** 2025-09-26
 - **Official title:** Chad & Bennett | Observability with Palantir AIP
 - **What it is about:** Palantir developer Bennett Norman demonstrates observability for complex AIP systems in which automations and agents invoke actions, functions, Ontology operations, and language models. Builders can search executables, inspect run histories, drill into individual invocations, view distributed traces and logs, see request arguments/results/errors, follow model calls and token use, and diagnose failures such as permission errors. Examples include inventory relocation, support-ticket prioritization, and a car-maintenance recommendation workflow spanning multiple functions and actions.
@@ -1278,7 +1278,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 83. Nicholas Zamiska of Palantir Discusses The Technological Republic in Prague (Sept. 2025)
 
 - `video_id: NvwnOE6h598`
-- **Official URL:** https://www.youtube.com/watch?v=NvwnOE6h598
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=NvwnOE6h598)
 - **Upload date:** 2025-09-23
 - **Official title:** Nicholas Zamiska of Palantir Discusses The Technological Republic in Prague (Sept. 2025)
 - **What it is about:** Nicholas Zamiska discusses *The Technological Republic* with Adam Ruzicka at Institute H21's International Symposium in Prague. Based on the official metadata, the session concerns the book's argument about technology, national purpose, and the relationship between Silicon Valley and democratic states. The metadata does not provide enough detail to attribute particular arguments, examples, or conclusions to this specific conversation.
@@ -1290,7 +1290,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 84. Palantir’s Nicholas Zamiska Discusses The Technological Republic
 
 - `video_id: L72uW5HAWB4`
-- **Official URL:** https://www.youtube.com/watch?v=L72uW5HAWB4
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=L72uW5HAWB4)
 - **Upload date:** 2025-09-18
 - **Official title:** Palantir’s Nicholas Zamiska Discusses The Technological Republic
 - **What it is about:** In a conversation with Allianz chief economist Ludovic Subran at DLD Future Hub, Nicholas Zamiska presents the book's core argument: Silicon Valley should direct more talent and capital toward consequential national and public problems rather than mainly consumer applications. He cites defense, intelligence, counterterrorism, medical research, industrial production, education, and public health; argues that defense technology has contributed to geopolitical stability; and calls for shorter government iteration cycles. He also argues that societies should assess technological risk relative to the public outcome being pursued and tolerate some human imperfection in leaders who are building valuable institutions.
@@ -1302,7 +1302,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 85. Chad & Chris | Tariff Savings and Compliance through Palantir AIP
 
 - `video_id: xBTPNLd8Jv8`
-- **Official URL:** https://www.youtube.com/watch?v=xBTPNLd8Jv8
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=xBTPNLd8Jv8)
 - **Upload date:** 2025-09-17
 - **Official title:** Chad & Chris | Tariff Savings and Compliance through Palantir AIP
 - **What it is about:** Christopher Dimoff demonstrates a notional medical-manufacturer workflow that joins engineering bills of materials and drawings, ERP transactions/forecasts, supplier data, broker records, countries of origin, and HTS classifications in the Ontology. AIP prioritizes parts with likely tariff exposure, assesses whether assemblies actually contain steel or aluminum, flags expired USMCA certificates, and presents supporting evidence to a trade-compliance specialist. A worked example narrows a tariff calculation from an entire $36.60 component to $2 of steel/aluminum content, producing a stated annual reduction of about $88,000.
@@ -1314,7 +1314,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 86. From 9/11 to AI: Mike Gallagher on How American Workers Will Win the 21st Century
 
 - `video_id: gakCerVqzSY`
-- **Official URL:** https://www.youtube.com/watch?v=gakCerVqzSY
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=gakCerVqzSY)
 - **Upload date:** 2025-09-12
 - **Official title:** From 9/11 to AI: Mike Gallagher on How American Workers Will Win the 21st Century
 - **What it is about:** On Palantir's Working Intelligence podcast, Jordan Hirsch interviews Mike Gallagher about how 9/11 led him into the Marine Corps, lessons from counterinsurgency in Iraq, the rise of China while the United States focused on the Middle East, and the need to rebuild the U.S. industrial and defense base. Gallagher's central AI claim is augmentation rather than replacement: AI should act as an “Iron Man suit” that removes administrative drudgery, gives workers situational awareness, and makes skilled industrial work more productive, meaningful, and attractive.
@@ -1326,7 +1326,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 87. Supporting Flood Recovery in Texas | Texas Department of Public Safety at AIPCon 8
 
 - `video_id: sk2peD8SB3s`
-- **Official URL:** https://www.youtube.com/watch?v=sk2peD8SB3s
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=sk2peD8SB3s)
 - **Upload date:** 2025-09-08
 - **Official title:** Supporting Flood Recovery in Texas | Texas Department of Public Safety at AIPCon 8
 - **What it is about:** Texas DPS Captain John Miller describes the July 4 Kerr County flood and the challenge of coordinating victim searches across roughly 127 river miles, multiple jurisdictions, thousands of responders, and fragmented/inaccurate early reports. Existing tracking systems were useful but not federated and could not combine outside feeds. Palantir engineers deployed a Foundry instance in under 48 hours to create a shared intelligence and operating picture for leadership, field units, investigators, and partner agencies.
@@ -1338,7 +1338,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 88. AIP for Just-in-Time Production | Lear at AIPCon 8
 
 - `video_id: -DPdyQR1bG4`
-- **Official URL:** https://www.youtube.com/watch?v=-DPdyQR1bG4
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=-DPdyQR1bG4)
 - **Upload date:** 2025-09-08
 - **Official title:** AIP for Just-in-Time Production | Lear at AIPCon 8
 - **What it is about:** Lear VP Jennifer Johnson explains how the automotive supplier expanded from an initial Foundry manufacturing-support use case into MES integration, monitoring, supply chain, and dynamic decision-making for just-in-time seat assembly. A Lear plant may have only four hours from a fixed automaker order to seat delivery, with around 350 unique component part numbers and lines shipping about 60 jobs an hour. The demonstrated JIT control tower combines real-time customer demand, inbound material, production throughput, finished-goods capacity, and delivery status.
@@ -1350,7 +1350,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 89. Protecting America’s Security with AIP for Nuclear Construction | The Nuclear Company at AIPCon 8
 
 - `video_id: hTjGU14bxP0`
-- **Official URL:** https://www.youtube.com/watch?v=hTjGU14bxP0
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=hTjGU14bxP0)
 - **Upload date:** 2025-09-08
 - **Official title:** Protecting America’s Security with AIP for Nuclear Construction | The Nuclear Company at AIPCon 8
 - **What it is about:** The Nuclear Company co-founder and CEO Jonathan Webb argues that the main U.S. nuclear bottleneck is project delivery, not reactor design. He contrasts growing Chinese capacity with the United States' slow, paper-heavy construction model and links new nuclear generation to AI, advanced manufacturing, and electrification demand. He cites the last two U.S. reactors as costing $36 billion versus a $14 billion budget and involving roughly 10,000 site workers.
@@ -1362,7 +1362,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 90. Driving Operational Value | bp at AIPCon 8
 
 - `video_id: 1Wrhaur3ws0`
-- **Official URL:** https://www.youtube.com/watch?v=1Wrhaur3ws0
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=1Wrhaur3ws0)
 - **Upload date:** 2025-09-08
 - **Official title:** Driving Operational Value | bp at AIPCon 8
 - **What it is about:** bp technology leaders Emeka Emembolu and Sunjay Pandey describe a decade-long Palantir partnership and bp's effort to become a fully integrated, forecastable energy company. Its Foundry Ontology connects wells, offshore platforms, engineering knowledge, refineries, retail, and trading. The Thunder Horse example covers a Gulf production/drilling platform with more than 60,000 equipment items, 40,000 real-time sensors, 4,000 synthetic sensors, and 1.4 million digital-twin simulations in the prior year.
@@ -1384,8 +1384,8 @@ Evidence note: nine items have supplied transcripts. Video 98 has metadata only.
 ## 91. Transforming Network Planning for Aviation | American Airlines at AIPCon 8
 
 video_id: DLx3ix6c0Oo
-official_url: https://www.youtube.com/watch?v=DLx3ix6c0Oo  
-upload_date: 2025-09-08  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=DLx3ix6c0Oo)
+upload_date: 2025-09-08
 official_title: Transforming Network Planning for Aviation | American Airlines at AIPCon 8
 
 **What it is about:** American Airlines executives Anne Moroni and Amit Shinde explain how the airline is replacing manual, sequential, siloed schedule planning with an integrated system balancing demand and profitability against fleet, crew-rest, pilot-hour, gate, airspace, maintenance, turnaround, and reliability constraints across roughly 6,500 daily flights.
@@ -1401,8 +1401,8 @@ official_title: Transforming Network Planning for Aviation | American Airlines a
 ## 92. Weeks to Hours: Accelerating Drug Discovery with AIP | Novartis at AIPCon 8
 
 video_id: dQ8KeyVmfUM
-official_url: https://www.youtube.com/watch?v=dQ8KeyVmfUM  
-upload_date: 2025-09-08  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=dQ8KeyVmfUM)
+upload_date: 2025-09-08
 official_title: Weeks to Hours: Accelerating Drug Discovery with AIP | Novartis at AIPCon 8
 
 **What it is about:** Novartis Head of Data42 Birgit Schoeberl presents a governed data-and-agent framework intended to improve drug-development success. She describes an industry baseline of roughly 12 years and $3 billion per medicine, with about one approval per 10,000 discovery-stage molecules.
@@ -1418,8 +1418,8 @@ official_title: Weeks to Hours: Accelerating Drug Discovery with AIP | Novartis 
 ## 93. Solving Societal Issues with Agentic Decision Making | Fujitsu at AIPCon 8
 
 video_id: A47Nuav7X-4
-official_url: https://www.youtube.com/watch?v=A47Nuav7X-4  
-upload_date: 2025-09-08  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=A47Nuav7X-4)
+upload_date: 2025-09-08
 official_title: Solving Societal Issues with Agentic Decision Making | Fujitsu at AIPCon 8
 
 **What it is about:** Fujitsu executive Yoshinami Takahashi describes using Palantir and Fujitsu Uvance for mission-critical resilience, centered on a large Japanese manufacturer's fragmented supply chain and risks including labor shortages, earthquakes, supplier failure, and geopolitical disruption.
@@ -1435,8 +1435,8 @@ official_title: Solving Societal Issues with Agentic Decision Making | Fujitsu a
 ## 94. Unifying the Care Journey for Every Patient | HSS at AIPCon 8
 
 video_id: mKp3TTggihU
-official_url: https://www.youtube.com/watch?v=mKp3TTggihU  
-upload_date: 2025-09-08  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=mKp3TTggihU)
+upload_date: 2025-09-08
 official_title: Unifying the Care Journey for Every Patient | HSS at AIPCon 8
 
 **What it is about:** HSS Chief Digital and Technology Officer Dr. Ashish Barad argues that healthcare digitization has left clinicians spending too much time on charts, paperwork, coordination, and insurance. HSS aims to return that time to patient care.
@@ -1452,8 +1452,8 @@ official_title: Unifying the Care Journey for Every Patient | HSS at AIPCon 8
 ## 95. Unleashing Digital Potential with Next-Generation Telecom | Lumen at AIPCon 8
 
 video_id: 3c4ekdck0kg
-official_url: https://www.youtube.com/watch?v=3c4ekdck0kg  
-upload_date: 2025-09-08  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=3c4ekdck0kg)
+upload_date: 2025-09-08
 official_title: Unleashing Digital Potential with Next-Generation Telecom | Lumen at AIPCon 8
 
 **What it is about:** Lumen CTPO Dave Ward explains the connectivity layer of enterprise AI: data distributed across premises, data centers, hyperscalers, and SaaS must move fast enough for AI. Lumen must modernize a century-old regulated telecom estate without interrupting 911 or critical services.
@@ -1469,8 +1469,8 @@ official_title: Unleashing Digital Potential with Next-Generation Telecom | Lume
 ## 96. Palantir CEO Alex Karp Opening Remarks | AIPCon 8
 
 video_id: AsTpgn1Bd2o
-official_url: https://www.youtube.com/watch?v=AsTpgn1Bd2o  
-upload_date: 2025-09-08  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=AsTpgn1Bd2o)
+upload_date: 2025-09-08
 official_title: Palantir CEO Alex Karp Opening Remarks | AIPCon 8
 
 **What it is about:** Alex Karp argues that the useful unit is not a general LLM alone but an LLM processed through an organization's specific data, operating logic, knowledge, and competitive advantage. He says AI should extend human ingenuity and worker capability rather than chiefly be sold as near-term worker replacement.
@@ -1486,8 +1486,8 @@ official_title: Palantir CEO Alex Karp Opening Remarks | AIPCon 8
 ## 97. Reinventing IndyCar Race Performance | Andretti at AIPCon 8
 
 video_id: mBDQK7OJ1Ls
-official_url: https://www.youtube.com/watch?v=mBDQK7OJ1Ls  
-upload_date: 2025-09-07  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=mBDQK7OJ1Ls)
+upload_date: 2025-09-07
 official_title: Reinventing IndyCar Race Performance | Andretti at AIPCon 8
 
 **What it is about:** Palantir's Jack Dobson, Andretti simulation engineer Zach Porter, and IndyCar driver Kyle Kirkwood introduce a partnership aimed at the severe time pressure between track sessions. Timing, telemetry, setup, GPS, video, weather, driver comments, and engineering data sit in separate systems despite needing to inform one rapid decision loop.
@@ -1503,8 +1503,8 @@ official_title: Reinventing IndyCar Race Performance | Andretti at AIPCon 8
 ## 98. Freak Show | Intro at AIPCon 8
 
 video_id: nf_UGJsukMU
-official_url: https://www.youtube.com/watch?v=nf_UGJsukMU  
-upload_date: 2025-09-05  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=nf_UGJsukMU)
+upload_date: 2025-09-05
 official_title: Freak Show | Intro at AIPCon 8
 
 **What it is about:** A 72-second AIPCon 8 promotional intro contrasting Palantir customers' claimed operational AI results with organizations still debating or theorizing about AI.
@@ -1520,8 +1520,8 @@ official_title: Freak Show | Intro at AIPCon 8
 ## 99. Overcoming Zero-Sum Thinking on Privacy, Civil Liberties, and Mission-Critical AI Systems
 
 video_id: x-NEdIcgboo
-official_url: https://www.youtube.com/watch?v=x-NEdIcgboo  
-upload_date: 2025-08-26  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=x-NEdIcgboo)
+upload_date: 2025-08-26
 official_title: Overcoming Zero-Sum Thinking on Privacy, Civil Liberties, and Mission-Critical AI Systems
 
 **What it is about:** Palantir Privacy & Civil Liberties Engineering director Courtney Bowman and Chief Architect Akshay Krishnaswamy trace privacy, security, and governance from early Gotham through Foundry, COVID operations, defense, and AIP. Their core claim is that mission effectiveness and rights protection need not be zero-sum when controls are platform primitives rather than bolt-ons.
@@ -1537,8 +1537,8 @@ official_title: Overcoming Zero-Sum Thinking on Privacy, Civil Liberties, and Mi
 ## 100. Chad & Matt | Lightweight Data Transforms with Palantir AIP
 
 video_id: MITSJDI08R4
-official_url: https://www.youtube.com/watch?v=MITSJDI08R4  
-upload_date: 2025-08-25  
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=MITSJDI08R4)
+upload_date: 2025-08-25
 official_title: Chad & Matt | Lightweight Data Transforms with Palantir AIP
 
 **What it is about:** Palantir architect Chad Wahlquist and FDE Matthew Bayer explain **Lightweight Transforms**, a Foundry option for small/medium data processing that avoids distributed Spark overhead. The broader aim is a multimodal data plane where teams choose the right engine per step and make more enterprise data computable for AI.

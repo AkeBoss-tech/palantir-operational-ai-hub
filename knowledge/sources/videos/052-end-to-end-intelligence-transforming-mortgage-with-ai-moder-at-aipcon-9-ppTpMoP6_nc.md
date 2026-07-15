@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # End-to-End Intelligence: Transforming Mortgage with AI | Moder at AIPCon 9
 
-Official video: https://www.youtube.com/watch?v=ppTpMoP6_nc
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=ppTpMoP6_nc)
 ## Official description
 
 Michael Middleman shares Moder’s strategic partnership with Palantir, and pilot first customer Freedom Mortgage, to bring end-to-end intelligence to mortgage operations and pioneer AI automation that delivers transparency, empowers on the dream of homeownership, and enables industry-wide transformation.

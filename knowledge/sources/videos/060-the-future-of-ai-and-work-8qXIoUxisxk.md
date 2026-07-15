@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # The Future of AI and Work
 
-Official video: https://www.youtube.com/watch?v=8qXIoUxisxk
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=8qXIoUxisxk)
 ## Official description
 
 Palantir Chief Architect Akshay Krishnaswamy joins Senior Counselor Jordan Hirsch to discuss the future of work and artificial intelligence. Building on the Working Intelligence project showcasing AI deployments that enhance workers (https://workingintelligence.ai), Akshay explains how properly built AI systems can liberate human creativity and capture the vast untapped intelligence in the people on the frontline -- making those with the deepest expertise not expendable, but ever more valuable.

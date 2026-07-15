@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Unfair Advantage | Highlights from AIPCon 8
 
-Official video: https://www.youtube.com/watch?v=_YpTwi_TtHQ
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=_YpTwi_TtHQ)
 ## Official description
 
 No official description was supplied.

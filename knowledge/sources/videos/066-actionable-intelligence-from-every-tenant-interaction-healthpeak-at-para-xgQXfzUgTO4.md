@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Actionable Intelligence from Every Tenant Interaction | Healthpeak at Paragon 2025
 
-Official video: https://www.youtube.com/watch?v=xgQXfzUgTO4
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=xgQXfzUgTO4)
 ## Official description
 
 "It's a platform that will learn from every interaction... and ultimately gets back to our goal of delivering the best tenant experience for our partners."

@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # From 9/11 to AI: Mike Gallagher on How American Workers Will Win the 21st Century
 
-Official video: https://www.youtube.com/watch?v=gakCerVqzSY
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=gakCerVqzSY)
 ## Official description
 
 On the eve of the 24th anniversary of September 11th, Jordan Hirsch sat down with Mike Gallagher—former Marine Corps intelligence officer, seven-year Congressman, and current Palantirian—for a conversation about American resilience and innovation.

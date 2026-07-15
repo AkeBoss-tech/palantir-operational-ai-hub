@@ -15,12 +15,11 @@ source_basis: official-youtube-metadata
 
 # ShipOS Supplier Spotlight | How a Navy Submarine Supplier Uses ShipOS to Improve Their Operations
 
-Official video: https://www.youtube.com/watch?v=ZsW_4Ugj6t0
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=ZsW_4Ugj6t0)
 ## Official description
 
 Keel, a critical submarine industrial base supplier, demonstrates how ShipOS is transforming their operations.
 
-ShipOS is the Navy's program to deploy Palantir Foundry across the submarine industrial base to accelerate production and improve operational efficiency, and get more ships in the water, faster. 
+ShipOS is the Navy's program to deploy Palantir Foundry across the submarine industrial base to accelerate production and improve operational efficiency, and get more ships in the water, faster.
 
 The time to modernize the submarine industrial base and rebuild American seapower is now.

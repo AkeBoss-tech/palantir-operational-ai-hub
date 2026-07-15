@@ -1,6 +1,8 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { allSources, terraReviews, videos, wikiPages } from "./content-data";
 
 type View = "overview" | "wiki" | "videos" | "systems" | "organizations" | "sources" | "terra" | "method";
@@ -263,17 +265,34 @@ function TerraView() {
   </main>;
 }
 
+function MermaidDiagram({ chart }: { chart: string }) {
+  const [svg, setSvg] = useState("");
+  const [error, setError] = useState("");
+  useEffect(() => {
+    let active = true;
+    import("mermaid").then(async ({ default: mermaid }) => {
+      mermaid.initialize({ startOnLoad: false, securityLevel: "strict", theme: "neutral" });
+      const id = `mermaid-${Math.random().toString(36).slice(2)}`;
+      const result = await mermaid.render(id, chart);
+      if (active) setSvg(result.svg);
+    }).catch(() => active && setError("Diagram could not be rendered."));
+    return () => { active = false; };
+  }, [chart]);
+  if (error) return <span className="mermaid-error">{error}</span>;
+  if (!svg) return <span className="mermaid-loading">Rendering diagram…</span>;
+  return <span className="mermaid-diagram" dangerouslySetInnerHTML={{ __html: svg }} />;
+}
+
 function MarkdownLite({ content }: { content: string }) {
-  const lines = content.split("\n");
-  return <div className="markdown">{lines.map((line, index) => {
-    if (line.startsWith("### ")) return <h3 key={index}>{line.slice(4)}</h3>;
-    if (line.startsWith("## ")) return <h2 key={index}>{line.slice(3)}</h2>;
-    if (line.startsWith("# ")) return <h1 key={index}>{line.slice(2)}</h1>;
-    if (line.startsWith("- ")) return <p className="bullet" key={index}>• {cleanInline(line.slice(2))}</p>;
-    if (/^\d+\.\s/.test(line)) return <p className="bullet" key={index}>{cleanInline(line)}</p>;
-    if (!line.trim() || line.startsWith("---") || line.startsWith("|")) return null;
-    return <p key={index}>{cleanInline(line)}</p>;
-  })}</div>;
+  return <div className="markdown"><ReactMarkdown
+    remarkPlugins={[remarkGfm]}
+    components={{
+      a: ({ children, ...props }) => <a {...props} target="_blank" rel="noreferrer">{children}</a>,
+      code: ({ children, className, ...props }) => className === "language-mermaid"
+        ? <MermaidDiagram chart={String(children).trim()} />
+        : <code className={className} {...props}>{children}</code>,
+    }}
+  >{content}</ReactMarkdown></div>;
 }
 
 function MethodView() {

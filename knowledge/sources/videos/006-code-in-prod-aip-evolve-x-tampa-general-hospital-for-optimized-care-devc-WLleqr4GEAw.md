@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Code in Prod: AIP Evolve x Tampa General Hospital for Optimized Care | DevCon 6
 
-Official video: https://www.youtube.com/watch?v=WLleqr4GEAw
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=WLleqr4GEAw)
 ## Official description
 
 Hospitals run on margins under 2%. AI has to earn its keep.

@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Palantir CEO Alex Karp receives the Herman Kahn Award | Hudson Institute
 
-Official video: https://www.youtube.com/watch?v=8JbKTwDqkKI
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=8JbKTwDqkKI)
 ## Official description
 
 Palantir CEO Alex Karp receives the Hudson Institute’s Herman Kahn Award with an introduction by Palantir CTO Shyam Sankar.

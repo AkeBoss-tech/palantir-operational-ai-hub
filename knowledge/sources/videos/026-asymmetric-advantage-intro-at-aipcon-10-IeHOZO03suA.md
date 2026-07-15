@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Asymmetric Advantage | Intro at AIPCon 10
 
-Official video: https://www.youtube.com/watch?v=IeHOZO03suA
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=IeHOZO03suA)
 ## Official description
 
 No official description was supplied.

@@ -9,7 +9,7 @@ Evidence note: captions/transcripts are unavailable for every item in this batch
 ## 1. Activating the AI Hivemind | Accenture at AIPCon 9
 
 video_id: uEkuzBqp-mU
-official_url: https://www.youtube.com/watch?v=uEkuzBqp-mU
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=uEkuzBqp-mU)
 upload_date: 2026-03-19
 official_title: Activating the AI Hivemind | Accenture at AIPCon 9
 
@@ -26,7 +26,7 @@ official_title: Activating the AI Hivemind | Accenture at AIPCon 9
 ## 2. ArsenalOS: Architecture from Design to Deployment | Northrop Grumman at AIPCon 9
 
 video_id: 8lU-xRDovRk
-official_url: https://www.youtube.com/watch?v=8lU-xRDovRk
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=8lU-xRDovRk)
 upload_date: 2026-03-16
 official_title: ArsenalOS: Architecture from Design to Deployment | Northrop Grumman at AIPCon 9
 
@@ -43,7 +43,7 @@ official_title: ArsenalOS: Architecture from Design to Deployment | Northrop Gru
 ## 3. Scaling Stratospheric Intelligence with AI | World View at AIPCon 9
 
 video_id: WkU-Bl0xFus
-official_url: https://www.youtube.com/watch?v=WkU-Bl0xFus
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=WkU-Bl0xFus)
 upload_date: 2026-03-14
 official_title: Scaling Stratospheric Intelligence with AI | World View at AIPCon 9
 
@@ -60,7 +60,7 @@ official_title: Scaling Stratospheric Intelligence with AI | World View at AIPCo
 ## 4. Accelerating American Shipbuilding with ShipOS | U.S. Navy at AIPCon 9
 
 video_id: 3UMNo9py7lc
-official_url: https://www.youtube.com/watch?v=3UMNo9py7lc
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=3UMNo9py7lc)
 upload_date: 2026-03-13
 official_title: Accelerating American Shipbuilding with ShipOS | U.S. Navy at AIPCon 9
 
@@ -77,7 +77,7 @@ official_title: Accelerating American Shipbuilding with ShipOS | U.S. Navy at AI
 ## 5. How to Win Maximally | Ted Mabrey at AIPCon 9
 
 video_id: i16bPp9lCPc
-official_url: https://www.youtube.com/watch?v=i16bPp9lCPc
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=i16bPp9lCPc)
 upload_date: 2026-03-13
 official_title: How to Win Maximally | Ted Mabrey at AIPCon 9
 
@@ -94,7 +94,7 @@ official_title: How to Win Maximally | Ted Mabrey at AIPCon 9
 ## 6. Multi-Domain AI: The Future of Command and Control | CDAO at AIPCon 9
 
 video_id: yrtDgoqWmgM
-official_url: https://www.youtube.com/watch?v=yrtDgoqWmgM
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=yrtDgoqWmgM)
 upload_date: 2026-03-13
 official_title: Multi-Domain AI: The Future of Command and Control | CDAO at AIPCon 9
 
@@ -111,7 +111,7 @@ official_title: Multi-Domain AI: The Future of Command and Control | CDAO at AIP
 ## 7. Building America's Nuclear Future | Centrus Energy at AIPCon 9
 
 video_id: hjIzKUeXmAk
-official_url: https://www.youtube.com/watch?v=hjIzKUeXmAk
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=hjIzKUeXmAk)
 upload_date: 2026-03-13
 official_title: Building America's Nuclear Future | Centrus Energy at AIPCon 9
 
@@ -128,7 +128,7 @@ official_title: Building America's Nuclear Future | Centrus Energy at AIPCon 9
 ## 8. Replatforming Healthcare Accreditation | Joint Commission at AIPCon 9
 
 video_id: oJJ3W6pWfPE
-official_url: https://www.youtube.com/watch?v=oJJ3W6pWfPE
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=oJJ3W6pWfPE)
 upload_date: 2026-03-13
 official_title: Replatforming Healthcare Accreditation | Joint Commission at AIPCon 9
 
@@ -145,7 +145,7 @@ official_title: Replatforming Healthcare Accreditation | Joint Commission at AIP
 ## 9. Software Meets Hardware: Empowering the Warfighter | GE Aerospace at AIPCon 9
 
 video_id: ipdtAHQj0l0
-official_url: https://www.youtube.com/watch?v=ipdtAHQj0l0
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=ipdtAHQj0l0)
 upload_date: 2026-03-13
 official_title: Software Meets Hardware: Empowering the Warfighter | GE Aerospace at AIPCon 9
 
@@ -162,7 +162,7 @@ official_title: Software Meets Hardware: Empowering the Warfighter | GE Aerospac
 ## 10. Backstage Pass | AIPCon 9
 
 video_id: l3oRSfUEMTE
-official_url: https://www.youtube.com/watch?v=l3oRSfUEMTE
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=l3oRSfUEMTE)
 upload_date: 2026-03-13
 official_title: Backstage Pass | AIPCon 9
 

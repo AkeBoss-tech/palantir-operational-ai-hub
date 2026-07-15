@@ -15,10 +15,9 @@ source_basis: official-youtube-metadata
 
 # Agents That Do Real Work | Hype Reel | DevCon 6
 
-Official video: https://www.youtube.com/watch?v=sohHJ-RL7xc
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=sohHJ-RL7xc)
 ## Official description
 
-Anyone can build an agent. But to build a trustworthy agent at enterprise scale that is durable, long-running, optimized, contextually aware, and autonomous, the right infrastructure is required. 
+Anyone can build an agent. But to build a trustworthy agent at enterprise scale that is durable, long-running, optimized, contextually aware, and autonomous, the right infrastructure is required.
 
 At DevCon 6 we introduced the Agent Stack, the culmination of learnings gathered over years of agentic implementations. Orchestrator, Agent Engine, Agent SDK, Agent Builder, Agent Manager, AIP Evolve, SuperRepo, and so much more. All built on the Ontology, to power agents that actually work in production.

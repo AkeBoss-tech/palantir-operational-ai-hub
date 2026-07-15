@@ -7,7 +7,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 81. Chad & Nicolas | Lightweight Transforms at Merck KGaA, Darmstadt, Germany
 
 - `video_id: PGNWo-UuXLs`
-- **Official URL:** https://www.youtube.com/watch?v=PGNWo-UuXLs
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=PGNWo-UuXLs)
 - **Upload date:** 2025-10-09
 - **Official title:** Chad & Nicolas | Lightweight Transforms at Merck KGaA, Darmstadt, Germany
 - **What it is about:** Nicolas Renkamp, who leads core data platforms at Merck KGaA, explains how Foundry's rearchitected Lightweight Transforms let teams replace Spark for suitable workloads with newer single-node engines. He attributes the improvement to an S3-compatible interface, fast local NVMe storage, streaming execution, vectorized operations, and avoiding distributed-compute overhead for workloads that do not need it. Merck reports roughly 100,000 builds per day and says it is seeing about 10x performance improvement across the workloads it has targeted, with examples including a six-to-seven-hour job reduced to roughly 10–26 minutes and a complex daily PySpark job reduced from one-to-three hours to about 30–40 minutes.
@@ -19,7 +19,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 82. Chad & Bennett | Observability with Palantir AIP
 
 - `video_id: 9IgYLjxxesw`
-- **Official URL:** https://www.youtube.com/watch?v=9IgYLjxxesw
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=9IgYLjxxesw)
 - **Upload date:** 2025-09-26
 - **Official title:** Chad & Bennett | Observability with Palantir AIP
 - **What it is about:** Palantir developer Bennett Norman demonstrates observability for complex AIP systems in which automations and agents invoke actions, functions, Ontology operations, and language models. Builders can search executables, inspect run histories, drill into individual invocations, view distributed traces and logs, see request arguments/results/errors, follow model calls and token use, and diagnose failures such as permission errors. Examples include inventory relocation, support-ticket prioritization, and a car-maintenance recommendation workflow spanning multiple functions and actions.
@@ -31,7 +31,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 83. Nicholas Zamiska of Palantir Discusses The Technological Republic in Prague (Sept. 2025)
 
 - `video_id: NvwnOE6h598`
-- **Official URL:** https://www.youtube.com/watch?v=NvwnOE6h598
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=NvwnOE6h598)
 - **Upload date:** 2025-09-23
 - **Official title:** Nicholas Zamiska of Palantir Discusses The Technological Republic in Prague (Sept. 2025)
 - **What it is about:** Nicholas Zamiska discusses *The Technological Republic* with Adam Ruzicka at Institute H21's International Symposium in Prague. Based on the official metadata, the session concerns the book's argument about technology, national purpose, and the relationship between Silicon Valley and democratic states. The metadata does not provide enough detail to attribute particular arguments, examples, or conclusions to this specific conversation.
@@ -43,7 +43,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 84. Palantir’s Nicholas Zamiska Discusses The Technological Republic
 
 - `video_id: L72uW5HAWB4`
-- **Official URL:** https://www.youtube.com/watch?v=L72uW5HAWB4
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=L72uW5HAWB4)
 - **Upload date:** 2025-09-18
 - **Official title:** Palantir’s Nicholas Zamiska Discusses The Technological Republic
 - **What it is about:** In a conversation with Allianz chief economist Ludovic Subran at DLD Future Hub, Nicholas Zamiska presents the book's core argument: Silicon Valley should direct more talent and capital toward consequential national and public problems rather than mainly consumer applications. He cites defense, intelligence, counterterrorism, medical research, industrial production, education, and public health; argues that defense technology has contributed to geopolitical stability; and calls for shorter government iteration cycles. He also argues that societies should assess technological risk relative to the public outcome being pursued and tolerate some human imperfection in leaders who are building valuable institutions.
@@ -55,7 +55,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 85. Chad & Chris | Tariff Savings and Compliance through Palantir AIP
 
 - `video_id: xBTPNLd8Jv8`
-- **Official URL:** https://www.youtube.com/watch?v=xBTPNLd8Jv8
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=xBTPNLd8Jv8)
 - **Upload date:** 2025-09-17
 - **Official title:** Chad & Chris | Tariff Savings and Compliance through Palantir AIP
 - **What it is about:** Christopher Dimoff demonstrates a notional medical-manufacturer workflow that joins engineering bills of materials and drawings, ERP transactions/forecasts, supplier data, broker records, countries of origin, and HTS classifications in the Ontology. AIP prioritizes parts with likely tariff exposure, assesses whether assemblies actually contain steel or aluminum, flags expired USMCA certificates, and presents supporting evidence to a trade-compliance specialist. A worked example narrows a tariff calculation from an entire $36.60 component to $2 of steel/aluminum content, producing a stated annual reduction of about $88,000.
@@ -67,7 +67,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 86. From 9/11 to AI: Mike Gallagher on How American Workers Will Win the 21st Century
 
 - `video_id: gakCerVqzSY`
-- **Official URL:** https://www.youtube.com/watch?v=gakCerVqzSY
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=gakCerVqzSY)
 - **Upload date:** 2025-09-12
 - **Official title:** From 9/11 to AI: Mike Gallagher on How American Workers Will Win the 21st Century
 - **What it is about:** On Palantir's Working Intelligence podcast, Jordan Hirsch interviews Mike Gallagher about how 9/11 led him into the Marine Corps, lessons from counterinsurgency in Iraq, the rise of China while the United States focused on the Middle East, and the need to rebuild the U.S. industrial and defense base. Gallagher's central AI claim is augmentation rather than replacement: AI should act as an “Iron Man suit” that removes administrative drudgery, gives workers situational awareness, and makes skilled industrial work more productive, meaningful, and attractive.
@@ -79,7 +79,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 87. Supporting Flood Recovery in Texas | Texas Department of Public Safety at AIPCon 8
 
 - `video_id: sk2peD8SB3s`
-- **Official URL:** https://www.youtube.com/watch?v=sk2peD8SB3s
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=sk2peD8SB3s)
 - **Upload date:** 2025-09-08
 - **Official title:** Supporting Flood Recovery in Texas | Texas Department of Public Safety at AIPCon 8
 - **What it is about:** Texas DPS Captain John Miller describes the July 4 Kerr County flood and the challenge of coordinating victim searches across roughly 127 river miles, multiple jurisdictions, thousands of responders, and fragmented/inaccurate early reports. Existing tracking systems were useful but not federated and could not combine outside feeds. Palantir engineers deployed a Foundry instance in under 48 hours to create a shared intelligence and operating picture for leadership, field units, investigators, and partner agencies.
@@ -91,7 +91,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 88. AIP for Just-in-Time Production | Lear at AIPCon 8
 
 - `video_id: -DPdyQR1bG4`
-- **Official URL:** https://www.youtube.com/watch?v=-DPdyQR1bG4
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=-DPdyQR1bG4)
 - **Upload date:** 2025-09-08
 - **Official title:** AIP for Just-in-Time Production | Lear at AIPCon 8
 - **What it is about:** Lear VP Jennifer Johnson explains how the automotive supplier expanded from an initial Foundry manufacturing-support use case into MES integration, monitoring, supply chain, and dynamic decision-making for just-in-time seat assembly. A Lear plant may have only four hours from a fixed automaker order to seat delivery, with around 350 unique component part numbers and lines shipping about 60 jobs an hour. The demonstrated JIT control tower combines real-time customer demand, inbound material, production throughput, finished-goods capacity, and delivery status.
@@ -103,7 +103,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 89. Protecting America’s Security with AIP for Nuclear Construction | The Nuclear Company at AIPCon 8
 
 - `video_id: hTjGU14bxP0`
-- **Official URL:** https://www.youtube.com/watch?v=hTjGU14bxP0
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=hTjGU14bxP0)
 - **Upload date:** 2025-09-08
 - **Official title:** Protecting America’s Security with AIP for Nuclear Construction | The Nuclear Company at AIPCon 8
 - **What it is about:** The Nuclear Company co-founder and CEO Jonathan Webb argues that the main U.S. nuclear bottleneck is project delivery, not reactor design. He contrasts growing Chinese capacity with the United States' slow, paper-heavy construction model and links new nuclear generation to AI, advanced manufacturing, and electrification demand. He cites the last two U.S. reactors as costing $36 billion versus a $14 billion budget and involving roughly 10,000 site workers.
@@ -115,7 +115,7 @@ This batch shows Palantir working on two layers at once. At the platform layer, 
 ## 90. Driving Operational Value | bp at AIPCon 8
 
 - `video_id: 1Wrhaur3ws0`
-- **Official URL:** https://www.youtube.com/watch?v=1Wrhaur3ws0
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=1Wrhaur3ws0)
 - **Upload date:** 2025-09-08
 - **Official title:** Driving Operational Value | bp at AIPCon 8
 - **What it is about:** bp technology leaders Emeka Emembolu and Sunjay Pandey describe a decade-long Palantir partnership and bp's effort to become a fully integrated, forecastable energy company. Its Foundry Ontology connects wells, offshore platforms, engineering knowledge, refineries, retail, and trading. The Thunder Horse example covers a Gulf production/drilling platform with more than 60,000 equipment items, 40,000 real-time sensors, 4,000 synthetic sensors, and 1.4 million digital-twin simulations in the prior year.

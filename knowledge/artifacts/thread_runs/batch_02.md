@@ -8,7 +8,7 @@ This batch centers on putting AI into operational systems rather than treating i
 
 video_id: sohHJ-RL7xc
 
-- Official URL: https://www.youtube.com/watch?v=sohHJ-RL7xc
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=sohHJ-RL7xc)
 - Upload date: 2026-07-14
 - Official title: Agents That Do Real Work | Hype Reel | DevCon 6
 - What it is about: A DevCon 6 overview of Palantir's production-agent infrastructure. It contrasts the ease of creating a basic agent with the harder enterprise requirements of trustworthiness, durability, long-running execution, optimization, contextual awareness, and autonomy.
@@ -22,7 +22,7 @@ video_id: sohHJ-RL7xc
 
 video_id: LTwTfwDj2As
 
-- Official URL: https://www.youtube.com/watch?v=LTwTfwDj2As
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=LTwTfwDj2As)
 - Upload date: 2026-07-09
 - Official title: On Repeat | 01
 - What it is about: A 35-second promotional video framed by the sole descriptive statement, “Forged in the field. Proven in production.” The available source does not identify a specific customer, workflow, or technical subject.
@@ -36,7 +36,7 @@ video_id: LTwTfwDj2As
 
 video_id: bJsHKMUqCvg
 
-- Official URL: https://www.youtube.com/watch?v=bJsHKMUqCvg
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=bJsHKMUqCvg)
 - Upload date: 2026-07-07
 - Official title: Ontology MCP | Ontology-Powered Tools for Internal Planning
 - What it is about: An interview in which Chad Wahlquist and Palantir Technical Program Manager Mike Barone explain how Palantir uses Ontology MCP for its own internal planning. Retrospectives, objectives and key results, and resourcing are connected in one Ontology backend that agents can access securely.
@@ -50,7 +50,7 @@ video_id: bJsHKMUqCvg
 
 video_id: D5t6384lqoE
 
-- Official URL: https://www.youtube.com/watch?v=D5t6384lqoE
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=D5t6384lqoE)
 - Upload date: 2026-06-25
 - Official title: Transforming Rail with AI FDE | Palantir and Trinity Industries
 - What it is about: Trinity Industries CEO and President Jean Savage works with Palantir Software Engineer Ankit Shankar to demonstrate building an intelligent repair-invoice auditing workflow for a railcar leasing business with 140,000 railcars, $8 billion in assets, and thousands of invoices to audit each month.
@@ -64,7 +64,7 @@ video_id: D5t6384lqoE
 
 video_id: mzBDupsPPcs
 
-- Official URL: https://www.youtube.com/watch?v=mzBDupsPPcs
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=mzBDupsPPcs)
 - Upload date: 2026-06-23
 - Official title: Ontology Governance | Building a Robust Ontology
 - What it is about: An interview between Chad Wahlquist and Palantir Forward Deployed Engineer Jonas Lang about four core design principles for a well-governed ontology and the modeling anti-patterns that undermine otherwise well-intentioned implementations.
@@ -78,7 +78,7 @@ video_id: mzBDupsPPcs
 
 video_id: ZsW_4Ugj6t0
 
-- Official URL: https://www.youtube.com/watch?v=ZsW_4Ugj6t0
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=ZsW_4Ugj6t0)
 - Upload date: 2026-06-22
 - Official title: ShipOS Supplier Spotlight | How a Navy Submarine Supplier Uses ShipOS to Improve Their Operations
 - What it is about: A supplier spotlight on Keel, identified as a critical participant in the U.S. submarine industrial base, showing how it uses ShipOS to change its operations.
@@ -92,7 +92,7 @@ video_id: ZsW_4Ugj6t0
 
 video_id: losp2jc-hWo
 
-- Official URL: https://www.youtube.com/watch?v=losp2jc-hWo
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=losp2jc-hWo)
 - Upload date: 2026-06-15
 - Official title: Chad & George | Defending the Enterprise with Security Forge
 - What it is about: A demonstration of Security Forge, Palantir's cybersecurity offering for source-code vulnerability detection, using autonomous analysis to turn a large set of scanner-style flags into a smaller set of findings intended to be actionable.
@@ -106,7 +106,7 @@ video_id: losp2jc-hWo
 
 video_id: bOywHUD1jZo
 
-- Official URL: https://www.youtube.com/watch?v=bOywHUD1jZo
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=bOywHUD1jZo)
 - Upload date: 2026-06-08
 - Official title: Palantir's Ted Mabrey on AI, Healthcare, and the Future of Innovation | ARK Big Ideas Summit
 - What it is about: An ARK Big Ideas Summit discussion featuring Tampa General Hospital CEO John Couris and Palantir Head of Global Commercial Ted Mabrey on transforming a complex U.S. health system and positioning the Tampa Bay region as a model for broader innovation. Cathie Wood and Brian Cornell also participate.
@@ -120,7 +120,7 @@ video_id: bOywHUD1jZo
 
 video_id: Ok6j_IbuTxo
 
-- Official URL: https://www.youtube.com/watch?v=Ok6j_IbuTxo
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=Ok6j_IbuTxo)
 - Upload date: 2026-06-05
 - Official title: Empowering Frontline Support with AIP | Parts Town at AIPCon 10
 - What it is about: An AIPCon 10 presentation on Parts Town's use of Palantir AIP across customer support and field service in specialty distribution. The core idea is to make decades of institutional knowledge available to support personnel and then reuse the same Ontology for service operations in the field.
@@ -134,7 +134,7 @@ video_id: Ok6j_IbuTxo
 
 video_id: oSsEaz36DLU
 
-- Official URL: https://www.youtube.com/watch?v=oSsEaz36DLU
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=oSsEaz36DLU)
 - Upload date: 2026-06-05
 - Official title: Agentic Supply Chain for Data Center Delivery | Nscale at AIPCon 10
 - What it is about: An AIPCon 10 presentation on Nscale using Palantir AIP to operate the supply chain behind large-scale AI infrastructure. It addresses tens of millions of components across multiple data-center construction projects, rapid changes in hardware, and long-lead procurement.

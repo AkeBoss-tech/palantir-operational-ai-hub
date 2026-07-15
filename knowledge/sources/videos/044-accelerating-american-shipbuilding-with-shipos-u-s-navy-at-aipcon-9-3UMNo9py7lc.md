@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Accelerating American Shipbuilding with ShipOS | U.S. Navy at AIPCon 9
 
-Official video: https://www.youtube.com/watch?v=3UMNo9py7lc
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=3UMNo9py7lc)
 ## Official description
 
 Vice Admiral Seiko Okano demonstrates how ShipOS is transforming America's maritime industrial base—using AI to orchestrate complex supply chains, optimize shipyard operations, and accelerate production from submarines to surface vessels, ensuring the U.S. Navy can build the fleet faster while empowering American workers and suppliers.

@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Chad & Craig | Data Migrations with AI FDE
 
-Official video: https://www.youtube.com/watch?v=e90qUUh8_us
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=e90qUUh8_us)
 ## Official description
 
 Accelerating data migrations from 5 months to 5 days with AI FDE.

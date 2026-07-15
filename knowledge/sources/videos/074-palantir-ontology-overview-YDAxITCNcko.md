@@ -15,10 +15,9 @@ source_basis: official-youtube-metadata
 
 # Palantir Ontology Overview
 
-Official video: https://www.youtube.com/watch?v=YDAxITCNcko
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=YDAxITCNcko)
 ## Official description
 
-Forward Deployed Architect Chad Wahlquist gives a brief overview of the Ontology system at the heart of Palantir AIP and Foundry. 
+Forward Deployed Architect Chad Wahlquist gives a brief overview of the Ontology system at the heart of Palantir AIP and Foundry.
 
 Learn more: https://www.palantir.com/docs/

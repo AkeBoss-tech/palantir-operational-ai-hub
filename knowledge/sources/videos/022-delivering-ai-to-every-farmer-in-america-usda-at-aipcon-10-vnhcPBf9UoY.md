@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Delivering AI to Every Farmer in America | USDA at AIPCon 10
 
-Official video: https://www.youtube.com/watch?v=vnhcPBf9UoY
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=vnhcPBf9UoY)
 ## Official description
 
 At AIPCon 10, USDA Chief Information Officer Sam Berry reveals how Palantir turned hundreds of fragmented legacy systems into a single, governed Ontology — USDA’s "One Farmer, One File" initiative. See how the Landmark platform is transforming American farming, from AI-assisted acreage reporting to the fastest deployment of capital to farmers in USDA history through the Farmer Bridge Assistance Program.

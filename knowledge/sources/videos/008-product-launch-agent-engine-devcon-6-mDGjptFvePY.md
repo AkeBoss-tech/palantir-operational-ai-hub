@@ -15,15 +15,14 @@ source_basis: official-youtube-metadata
 
 # Product Launch: Agent Engine | DevCon 6
 
-Official video: https://www.youtube.com/watch?v=mDGjptFvePY
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=mDGjptFvePY)
 ## Official description
 
-"By stitching these three primitives together, you get an agent loop that's actually a distributed state machine under the hood." 
+"By stitching these three primitives together, you get an agent loop that's actually a distributed state machine under the hood."
 
-At DevCon 6, Palantir Group Lead Natasha Armbrust launches Agent Engine and Agent SDK, giving developers the core primitives to build agents that form a distributed state machine and are multiplayer by design. 
-- Context items for defining agent sessions through strongly typed data 
-- Events for expressively acting on changes in state 
-- Effects for connecting agents to the outside world 
+At DevCon 6, Palantir Group Lead Natasha Armbrust launches Agent Engine and Agent SDK, giving developers the core primitives to build agents that form a distributed state machine and are multiplayer by design.
+- Context items for defining agent sessions through strongly typed data
+- Events for expressively acting on changes in state
+- Effects for connecting agents to the outside world
 
 Watch a patient discharge agent pause for nurse approval, reassess itself the moment a new lab result comes in, and render its reasoning clearly to every human in the loop, all in a few lines of code.

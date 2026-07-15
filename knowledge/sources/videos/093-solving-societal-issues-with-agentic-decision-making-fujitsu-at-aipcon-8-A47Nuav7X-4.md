@@ -15,10 +15,9 @@ source_basis: official-youtube-metadata
 
 # Solving Societal Issues with Agentic Decision Making | Fujitsu at AIPCon 8
 
-Official video: https://www.youtube.com/watch?v=A47Nuav7X-4
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=A47Nuav7X-4)
 ## Official description
 
-At AIPCon 8, Yoshinami Takahashi, Fujitsu's Corporate Executive Officer, Corporate Vice President, and COO in Charge of Solution Services, demonstrates Fujitsu Uvance, a platform built with Palantir AIP. 
+At AIPCon 8, Yoshinami Takahashi, Fujitsu's Corporate Executive Officer, Corporate Vice President, and COO in Charge of Solution Services, demonstrates Fujitsu Uvance, a platform built with Palantir AIP.
 
 Watch live demonstrations of how AI agents are embedding AI into operations for resilience and continuity in critical industries such as finance, energy, healthcare, manufacturing and national security.

@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Army Navy Game 2025
 
-Official video: https://www.youtube.com/watch?v=u31W8bR_SWo
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=u31W8bR_SWo)
 ## Official description
 
 Thank you, Baltimore.

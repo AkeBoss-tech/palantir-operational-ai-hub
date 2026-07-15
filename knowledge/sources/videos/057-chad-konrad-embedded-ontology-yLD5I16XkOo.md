@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Chad & Konrad | Embedded Ontology
 
-Official video: https://www.youtube.com/watch?v=yLD5I16XkOo
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=yLD5I16XkOo)
 ## Official description
 
 The Embedded Ontology connects AI with operations at the edge.

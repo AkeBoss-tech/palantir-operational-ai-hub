@@ -8,9 +8,9 @@ Evidence note: captions/transcripts are unavailable for every item in this batch
 
 ## 31. CEO Alex Karp Opening Remarks | AIPCon 10
 
-video_id: E1g1qALKNpM  
-official_url: https://www.youtube.com/watch?v=E1g1qALKNpM  
-upload_date: 2026-06-05  
+video_id: E1g1qALKNpM
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=E1g1qALKNpM)
+upload_date: 2026-06-05
 official_title: CEO Alex Karp Opening Remarks | AIPCon 10
 
 **What it is about:** Palantir CEO Alex Karp discusses the philosophical differences between Palantir and large-language-model companies. The official framing argues that LLMs alone are insufficient for solving business problems and need the Ontology to become operationally useful.
@@ -25,9 +25,9 @@ official_title: CEO Alex Karp Opening Remarks | AIPCon 10
 
 ## 32. Chad & Colton | Making Agents More Efficient and Cost Effective
 
-video_id: p0pjtkg1ny4  
-official_url: https://www.youtube.com/watch?v=p0pjtkg1ny4  
-upload_date: 2026-05-29  
+video_id: p0pjtkg1ny4
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=p0pjtkg1ny4)
+upload_date: 2026-05-29
 official_title: Chad & Colton | Making Agents More Efficient and Cost Effective
 
 **What it is about:** Chad and Colton present AIP Evolve, a new Palantir product intended to make agents more efficient and cost-effective. The demonstration focuses on systematically changing an agent's models and prompts, validating the resulting output, and finding structured Ontology data that can replace unnecessary model calls.
@@ -42,9 +42,9 @@ official_title: Chad & Colton | Making Agents More Efficient and Cost Effective
 
 ## 33. Palantir, Ondas & World View | Multi-Domain Intelligence in the Stratosphere
 
-video_id: XgZZRV77D8k  
-official_url: https://www.youtube.com/watch?v=XgZZRV77D8k  
-upload_date: 2026-05-26  
+video_id: XgZZRV77D8k
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=XgZZRV77D8k)
+upload_date: 2026-05-26
 official_title: Palantir, Ondas & World View | Multi-Domain Intelligence in the Stratosphere
 
 **What it is about:** Ondas CEO Eric Brock, World View CEO Ryan Hartman, and Palantir Forward Deployed Engineer Matt Shepherd discuss connecting stratospheric balloons, drones, ground robotics, and agentic AI into a multi-domain intelligence system for defense and commercial users.
@@ -59,9 +59,9 @@ official_title: Palantir, Ondas & World View | Multi-Domain Intelligence in the 
 
 ## 34. Highlights | AIPCon 9
 
-video_id: I7siZgE533E  
-official_url: https://www.youtube.com/watch?v=I7siZgE533E  
-upload_date: 2026-05-07  
+video_id: I7siZgE533E
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=I7siZgE533E)
+upload_date: 2026-05-07
 official_title: Highlights | AIPCon 9
 
 **What it is about:** A short highlights video for AIPCon 9. Its only descriptive text is the line, “Any sufficiently advanced technology is indistinguishable from magic,” so the specific speakers, demonstrations, customers, and systems shown are not identified by the available evidence.
@@ -76,9 +76,9 @@ official_title: Highlights | AIPCon 9
 
 ## 35. Recruiting Hackathon | The Palantir Coffee Cup
 
-video_id: HSBgANg-pkQ  
-official_url: https://www.youtube.com/watch?v=HSBgANg-pkQ  
-upload_date: 2026-05-07  
+video_id: HSBgANg-pkQ
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=HSBgANg-pkQ)
+upload_date: 2026-05-07
 official_title: Recruiting Hackathon | The Palantir Coffee Cup
 
 **What it is about:** Palantir Forward Deployed Engineers introduce the Coffee Cup, an AIP-powered recruiting hackathon in which candidates compete to operate the best coffee shop. The event is presented as a way to identify and hire people whose approach matches the FDE focus on achieving outcomes.
@@ -93,9 +93,9 @@ official_title: Recruiting Hackathon | The Palantir Coffee Cup
 
 ## 36. Palantir Technologies | Q1 2026 Earnings Webcast
 
-video_id: 1Aghjshi3U8  
-official_url: https://www.youtube.com/watch?v=1Aghjshi3U8  
-upload_date: 2026-05-05  
+video_id: 1Aghjshi3U8
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=1Aghjshi3U8)
+upload_date: 2026-05-05
 official_title: Palantir Technologies | Q1 2026 Earnings Webcast
 
 **What it is about:** Palantir's webcast concerning its first-quarter 2026 earnings. The supplied description contains legal and investor-relations disclaimers but does not summarize the financial results, management commentary, product developments, or customer activity discussed.
@@ -110,9 +110,9 @@ official_title: Palantir Technologies | Q1 2026 Earnings Webcast
 
 ## 37. Palantir & Fedrigoni | When Scattered Data Finally Talks to Each Other
 
-video_id: DY3XZZBR7Lc  
-official_url: https://www.youtube.com/watch?v=DY3XZZBR7Lc  
-upload_date: 2026-04-23  
+video_id: DY3XZZBR7Lc
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=DY3XZZBR7Lc)
+upload_date: 2026-04-23
 official_title: Palantir & Fedrigoni | When Scattered Data Finally Talks to Each Other
 
 **What it is about:** Fedrigoni uses Palantir to connect fragmented data from multiple systems into a unified intelligence layer. The highlighted business problem is demand forecasting and cross-team coordination in serving major brands without delay.
@@ -127,9 +127,9 @@ official_title: Palantir & Fedrigoni | When Scattered Data Finally Talks to Each
 
 ## 38. Palantir for Builders | Deploying into Maven Smart System ft. Gallatin AI
 
-video_id: jK5k9_Gql-I  
-official_url: https://www.youtube.com/watch?v=jK5k9_Gql-I  
-upload_date: 2026-04-16  
+video_id: jK5k9_Gql-I
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=jK5k9_Gql-I)
+upload_date: 2026-04-16
 official_title: Palantir for Builders | Deploying into Maven Smart System ft. Gallatin AI
 
 **What it is about:** Daniel Buchmueller shows Chad Wahlquist how Gallatin AI's Navigator application, built on Palantir Foundry and deployed through Maven Smart System, is intended to transform tactical resupply at the edge.
@@ -144,9 +144,9 @@ official_title: Palantir for Builders | Deploying into Maven Smart System ft. Ga
 
 ## 39. Palantir & Metso | Predicting Machine Failures Before They Happen
 
-video_id: EfYLwM0pcQc  
-official_url: https://www.youtube.com/watch?v=EfYLwM0pcQc  
-upload_date: 2026-03-26  
+video_id: EfYLwM0pcQc
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=EfYLwM0pcQc)
+upload_date: 2026-03-26
 official_title: Palantir & Metso | Predicting Machine Failures Before They Happen
 
 **What it is about:** Metso and Palantir present a shift in equipment support from reacting after machinery fails to predicting failures in advance. The objective is to protect customer uptime and ensure that needed replacement parts are available.
@@ -161,9 +161,9 @@ official_title: Palantir & Metso | Predicting Machine Failures Before They Happe
 
 ## 40. How American Industry Wins the AI Era | AIPCon 9 Discussion
 
-video_id: dWJa0Bkbxus  
-official_url: https://www.youtube.com/watch?v=dWJa0Bkbxus  
-upload_date: 2026-03-24  
+video_id: dWJa0Bkbxus
+official_url: [Watch on YouTube](https://www.youtube.com/watch?v=dWJa0Bkbxus)
+upload_date: 2026-03-24
 official_title: How American Industry Wins the AI Era | AIPCon 9 Discussion
 
 **What it is about:** Palantir CTO Shyam Sankar and Head of Defense Mike Gallagher join Department of War Chief Digital and AI Officer Cameron Stanley, Centrus Energy CEO Amir Vexler, and World View President and CEO Ryan Hartman for a discussion about how American workers, technology, and industrial strength can shape the AI era. The described themes include decision dominance and the attitude and aptitude of the American workforce.

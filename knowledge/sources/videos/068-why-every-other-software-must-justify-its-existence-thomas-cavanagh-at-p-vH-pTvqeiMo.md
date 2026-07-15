@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Why Every Other Software Must Justify Its Existence | Thomas Cavanagh at Paragon 2025
 
-Official video: https://www.youtube.com/watch?v=vH-pTvqeiMo
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=vH-pTvqeiMo)
 ## Official description
 
 "We've gone all in so much so that every other software must justify its existence. And so far they haven't been able to. 97% of our employees use Foundry every day. Foundry is our operating system.”

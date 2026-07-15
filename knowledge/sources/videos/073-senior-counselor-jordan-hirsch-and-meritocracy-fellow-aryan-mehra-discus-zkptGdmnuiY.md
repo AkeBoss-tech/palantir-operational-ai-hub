@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Senior Counselor Jordan Hirsch and Meritocracy Fellow Aryan Mehra Discuss the Meritocracy Fellowship
 
-Official video: https://www.youtube.com/watch?v=zkptGdmnuiY
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=zkptGdmnuiY)
 ## Official description
 
 "We think meritocracy is the key to American success."

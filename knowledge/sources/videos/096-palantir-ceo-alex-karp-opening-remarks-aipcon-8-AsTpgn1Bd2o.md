@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Palantir CEO Alex Karp Opening Remarks | AIPCon 8
 
-Official video: https://www.youtube.com/watch?v=AsTpgn1Bd2o
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=AsTpgn1Bd2o)
 ## Official description
 
 “We are fully aligned with making sure your world looks closer to our world - which is that you're able to radically increase growth, radically decrease margins, and increase the happiness of the people in your business at all levels of business, including workers. And that is actually the real promise of the AI revolution.“

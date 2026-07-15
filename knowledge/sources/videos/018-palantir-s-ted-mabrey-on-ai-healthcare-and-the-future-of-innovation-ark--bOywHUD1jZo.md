@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Palantir's Ted Mabrey on AI, Healthcare, and the Future of Innovation | ARK Big Ideas Summit
 
-Official video: https://www.youtube.com/watch?v=bOywHUD1jZo
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=bOywHUD1jZo)
 ## Official description
 
 Watch as John Couris, President & CEO of Tampa General Hospital, and Ted Mabrey, Head of Global Commercial at Palantir, speak about what it takes to transform one of America's most complex health systems - and why the Tampa Bay region is becoming a model for the rest of the country. Joined by Cathie Wood, Founder & CEO of ARK Invest, and Brian Cornell, Executive Chair of Target.

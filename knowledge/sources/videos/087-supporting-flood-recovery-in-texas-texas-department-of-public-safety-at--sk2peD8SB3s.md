@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Supporting Flood Recovery in Texas | Texas Department of Public Safety at AIPCon 8
 
-Official video: https://www.youtube.com/watch?v=sk2peD8SB3s
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=sk2peD8SB3s)
 ## Official description
 
 At AIPCon 8, Captain John Miller from the Texas Department of Public Safety demonstrates how Palantir Foundry helped create a common operating picture for disaster response.

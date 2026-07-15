@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Ontology MCP | Ontology-Powered Tools for Internal Planning
 
-Official video: https://www.youtube.com/watch?v=bJsHKMUqCvg
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=bJsHKMUqCvg)
 ## Official description
 
 In this interview, Chad Wahlquist sits down with Mike Barone, Technical Program Manager at Palantir, to walk through how Palantir uses the Ontology MCP to run internal planning — connecting retrospectives, OKRs, and resourcing into a unified Ontology backend that agents can securely access.

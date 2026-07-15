@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Magical on the Front Lines | Intro at AIPCon 9
 
-Official video: https://www.youtube.com/watch?v=VB_6oi0g_f8
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=VB_6oi0g_f8)
 ## Official description
 
 No official description was supplied.

@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Deep Dive: Security Forge: Wielding Agents for Defensive Cyber | DevCon 6
 
-Official video: https://www.youtube.com/watch?v=hymyfucOgSo
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=hymyfucOgSo)
 ## Official description
 
 Adversaries used to need weeks to find and weaponize a vulnerability. Now they need hours.

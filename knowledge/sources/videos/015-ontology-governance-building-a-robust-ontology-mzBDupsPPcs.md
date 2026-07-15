@@ -15,11 +15,10 @@ source_basis: official-youtube-metadata
 
 # Ontology Governance | Building a Robust Ontology
 
-Official video: https://www.youtube.com/watch?v=mzBDupsPPcs
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=mzBDupsPPcs)
 ## Official description
 
-In this interview, Chad Wahlquist sits down with Jonas Lang, a Forward Deployed Engineer at Palantir, to walk through the four core design principles for building a well-governed ontology, and the anti-patterns that can derail even the best-intentioned modeling efforts. 
+In this interview, Chad Wahlquist sits down with Jonas Lang, a Forward Deployed Engineer at Palantir, to walk through the four core design principles for building a well-governed ontology, and the anti-patterns that can derail even the best-intentioned modeling efforts.
 
 Learn more:
 https://www.youtube.com/watch?v=YDAxITCNcko

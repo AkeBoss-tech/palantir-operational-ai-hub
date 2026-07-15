@@ -15,10 +15,9 @@ source_basis: official-youtube-metadata
 
 # Transforming Network Planning for Aviation | American Airlines at AIPCon 8
 
-Official video: https://www.youtube.com/watch?v=DLx3ix6c0Oo
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=DLx3ix6c0Oo)
 ## Official description
 
-American Airlines unlocked tens of millions of dollars in value within a year by reimagining their network planning ecosystem. 
+American Airlines unlocked tens of millions of dollars in value within a year by reimagining their network planning ecosystem.
 
 At AIPCon 8, Anne Moroni, Vice President of Operations, Strategic Planning and Performance, and Amit Shinde, Director, Operations Schedule and Block Planning, reveal how they transformed 100 years of aviation expertise into a dynamic, integrated system on Palantir Foundry, balancing profitability and reliability across 6,500 daily flights while managing constraints from fleet to pilot hours to maintenance.

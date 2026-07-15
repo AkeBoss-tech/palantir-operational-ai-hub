@@ -15,10 +15,9 @@ source_basis: official-youtube-metadata
 
 # Unifying the Care Journey for Every Patient | HSS at AIPCon 8
 
-Official video: https://www.youtube.com/watch?v=mKp3TTggihU
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=mKp3TTggihU)
 ## Official description
 
-At AIPCon 8, Dr. Ashish Barad, Chief Digital and Technology Officer at Hospital for Special Surgery, demonstrates how AI agents are transforming healthcare operations and patient care. 
+At AIPCon 8, Dr. Ashish Barad, Chief Digital and Technology Officer at Hospital for Special Surgery, demonstrates how AI agents are transforming healthcare operations and patient care.
 
 Learn how AIP automated insurance appeals processes — reducing 45 minutes of manual work to just 5 minutes — and watch Dr. Barad introduce HSS’ patient card that creates a single, living summary following patients throughout their care journey. HSS is giving time back to clinicians while improving patient outcomes.

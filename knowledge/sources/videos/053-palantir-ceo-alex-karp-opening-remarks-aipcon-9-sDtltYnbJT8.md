@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Palantir CEO Alex Karp Opening Remarks | AIPCon 9
 
-Official video: https://www.youtube.com/watch?v=sDtltYnbJT8
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=sDtltYnbJT8)
 ## Official description
 
 Palantir CEO Alex Karp takes the stage at AIPCon 9 to share the values of Palantir, our role on the global stage, and the connection between our work on the battlefield and the commercial arena.

@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Chad & Xander | Lightweight Transforms in Pipeline Builder
 
-Official video: https://www.youtube.com/watch?v=DHSYo9s7eRo
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=DHSYo9s7eRo)
 ## Official description
 
 Speed up data pipelines with one click in Pipeline Builder.

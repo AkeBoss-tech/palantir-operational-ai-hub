@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # On Repeat | 01
 
-Official video: https://www.youtube.com/watch?v=LTwTfwDj2As
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=LTwTfwDj2As)
 ## Official description
 
 Forged in the field. Proven in production.

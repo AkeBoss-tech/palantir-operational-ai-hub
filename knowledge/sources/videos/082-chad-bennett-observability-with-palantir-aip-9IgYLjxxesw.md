@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Chad & Bennett | Observability with Palantir AIP
 
-Official video: https://www.youtube.com/watch?v=9IgYLjxxesw
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=9IgYLjxxesw)
 ## Official description
 
 Palantir Dev Bennett Norman shows Chad Wahlquist how AIP Observability enables introspection into every step of agentic execution, and how the Ontology leverages telemetry for closed-loop improvements.

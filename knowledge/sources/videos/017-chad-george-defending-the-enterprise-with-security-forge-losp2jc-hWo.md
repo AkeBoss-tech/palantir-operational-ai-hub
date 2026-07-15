@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Chad & George | Defending the Enterprise with Security Forge
 
-Official video: https://www.youtube.com/watch?v=losp2jc-hWo
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=losp2jc-hWo)
 ## Official description
 
 Defend the enterprise.

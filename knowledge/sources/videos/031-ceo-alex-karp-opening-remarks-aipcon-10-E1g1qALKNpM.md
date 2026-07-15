@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # CEO Alex Karp Opening Remarks | AIPCon 10
 
-Official video: https://www.youtube.com/watch?v=E1g1qALKNpM
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=E1g1qALKNpM)
 ## Official description
 
 At AIPCon 10, Palantir CEO Alex Karp breaks down the philosophical differences between Palantir and large language model companies, and why businesses need the Ontology to turn LLMs into real problem-solving tools.

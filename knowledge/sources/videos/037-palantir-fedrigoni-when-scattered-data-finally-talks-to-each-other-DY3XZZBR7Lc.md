@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Palantir & Fedrigoni | When Scattered Data Finally Talks to Each Other
 
-Official video: https://www.youtube.com/watch?v=DY3XZZBR7Lc
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=DY3XZZBR7Lc)
 ## Official description
 
 With Palantir, Fedrigoni connected scattered data across multiple systems into unified intelligence. See how they transformed demand forecasting to twenty minutes of precision, ensuring teams work together to serve the world's most prestigious brands without delay.

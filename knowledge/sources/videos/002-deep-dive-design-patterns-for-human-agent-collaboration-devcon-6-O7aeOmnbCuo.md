@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Deep Dive: Design Patterns for Human-Agent Collaboration | DevCon 6
 
-Official video: https://www.youtube.com/watch?v=O7aeOmnbCuo
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=O7aeOmnbCuo)
 ## Official description
 
 Every AI product seems to look the same. Yours doesn't have to.

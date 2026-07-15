@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Palantir and Hadean | UK Stories
 
-Official video: https://www.youtube.com/watch?v=kA-RPdosEm0
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=kA-RPdosEm0)
 ## Official description
 
 Deploying into classified environments is hard. Organisations must endure long procurement cycles, stringent security requirements, and building software infrastructure that meets defence standards.

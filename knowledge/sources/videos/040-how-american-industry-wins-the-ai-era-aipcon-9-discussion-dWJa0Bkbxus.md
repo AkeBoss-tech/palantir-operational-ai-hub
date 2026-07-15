@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # How American Industry Wins the AI Era | AIPCon 9 Discussion
 
-Official video: https://www.youtube.com/watch?v=dWJa0Bkbxus
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=dWJa0Bkbxus)
 ## Official description
 
 How can American industry dominate in the AI era?

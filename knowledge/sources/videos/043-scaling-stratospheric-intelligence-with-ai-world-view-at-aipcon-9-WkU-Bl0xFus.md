@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Scaling Stratospheric Intelligence with AI | World View at AIPCon 9
 
-Official video: https://www.youtube.com/watch?v=WkU-Bl0xFus
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=WkU-Bl0xFus)
 ## Official description
 
 World View CEO Ryan Hartman reveals how AI and Palantir's technology are enabling operators to manage fleets of stratospheric balloons instead of single missions—scaling operations through autonomous mission planning and multi-domain intelligence coordination.

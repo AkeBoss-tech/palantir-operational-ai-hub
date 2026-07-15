@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Palantir, Ondas & World View | Multi-Domain Intelligence in the Stratosphere
 
-Official video: https://www.youtube.com/watch?v=XgZZRV77D8k
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=XgZZRV77D8k)
 ## Official description
 
 Ondas CEO Eric Brock, World View CEO Ryan Hartman and Palantir Forward Deployed Engineer Matt Shepherd break down how stratospheric balloons, drones, ground robotics and agentic AI are being connected to deliver speed to decision for warfighters and commercial customers alike.

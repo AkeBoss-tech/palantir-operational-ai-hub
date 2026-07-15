@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Highlights | AIPCon 9
 
-Official video: https://www.youtube.com/watch?v=I7siZgE533E
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=I7siZgE533E)
 ## Official description
 
 Any sufficiently advanced technology is indistinguishable from magic.

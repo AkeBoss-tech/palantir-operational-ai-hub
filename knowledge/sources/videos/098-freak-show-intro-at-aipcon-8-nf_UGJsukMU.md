@@ -15,12 +15,11 @@ source_basis: official-youtube-metadata
 
 # Freak Show | Intro at AIPCon 8
 
-Official video: https://www.youtube.com/watch?v=nf_UGJsukMU
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=nf_UGJsukMU)
 ## Official description
 
 While others debate and theorize about AI, Palantir's partners are already transforming their businesses through The Ontology and Forward-Deployed Engineers.
 
-Your business's Ontology and FDEs turn LLMs from commodities into weapons of competitive domination. 
+Your business's Ontology and FDEs turn LLMs from commodities into weapons of competitive domination.
 
 This is the real promise of the AI revolution: radical growth, expanded margins, and businesses that become so differentiated that competitors can only complain from the sidelines.

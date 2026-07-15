@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Recruiting Hackathon | The Palantir Coffee Cup
 
-Official video: https://www.youtube.com/watch?v=HSBgANg-pkQ
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=HSBgANg-pkQ)
 ## Official description
 
 “The attitude that makes FDEs unique is: the only thing that matters is the outcome.”

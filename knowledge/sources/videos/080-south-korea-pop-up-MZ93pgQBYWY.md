@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # South Korea Pop-up
 
-Official video: https://www.youtube.com/watch?v=MZ93pgQBYWY
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=MZ93pgQBYWY)
 ## Official description
 
 No official description was supplied.

@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Palantir Warp Speed Deep Dive
 
-Official video: https://www.youtube.com/watch?v=mfmD1QqnaKg
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=mfmD1QqnaKg)
 ## Official description
 
 Meredith Bertasi shows Chad Wahlquist how Palantir Warp Speed powers velocity and adaptability across engineering, bill of materials management, material resource planning, product lifecycle management, manufacturing execution, supply chain operations, program management, and more.

@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Palantir for Ishikawa Prefecture | Transforming Disaster Response
 
-Official video: https://www.youtube.com/watch?v=kr2rtz9L5t8
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=kr2rtz9L5t8)
 ## Official description
 
 "Palantir engineers worked persistently and sincerely... for the benefit of the disaster victims"

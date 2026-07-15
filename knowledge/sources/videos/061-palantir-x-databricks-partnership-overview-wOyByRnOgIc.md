@@ -15,10 +15,9 @@ source_basis: official-youtube-metadata
 
 # Palantir x Databricks | Partnership Overview
 
-Official video: https://www.youtube.com/watch?v=wOyByRnOgIc
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=wOyByRnOgIc)
 ## Official description
 
-Palantir & Databricks: powering end-to-end data, analytics, and operational AI. 
+Palantir & Databricks: powering end-to-end data, analytics, and operational AI.
 
 Chad Wahlquist and Benjamin Abood discuss how the Data Intelligence Platform, Unity Catalog, Foundry, and AIP all seamlessly integrate to deliver next-generation outcomes.

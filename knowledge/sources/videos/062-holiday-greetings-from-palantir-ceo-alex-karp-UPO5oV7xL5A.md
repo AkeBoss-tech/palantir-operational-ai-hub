@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Holiday Greetings from Palantir CEO Alex Karp
 
-Official video: https://www.youtube.com/watch?v=UPO5oV7xL5A
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=UPO5oV7xL5A)
 ## Official description
 
 No official description was supplied.

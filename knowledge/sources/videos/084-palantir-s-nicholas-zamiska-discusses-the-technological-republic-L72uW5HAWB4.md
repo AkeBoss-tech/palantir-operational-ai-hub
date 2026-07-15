@@ -15,10 +15,9 @@ source_basis: official-youtube-metadata
 
 # Palantir’s Nicholas Zamiska Discusses The Technological Republic
 
-Official video: https://www.youtube.com/watch?v=L72uW5HAWB4
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=L72uW5HAWB4)
 ## Official description
 
-Watch Nicholas Zamiska and Chief Economist of Allianz Ludovic Subran discuss The Technological Republic at the DLD Future Hub conference in September, 2025. 
+Watch Nicholas Zamiska and Chief Economist of Allianz Ludovic Subran discuss The Technological Republic at the DLD Future Hub conference in September, 2025.
 
 The book is available here: https://www.techrepublicbook.com.

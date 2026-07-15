@@ -7,7 +7,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 61. Palantir x Databricks | Partnership Overview
 
 - `video_id: wOyByRnOgIc`
-- **Official URL:** https://www.youtube.com/watch?v=wOyByRnOgIc
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=wOyByRnOgIc)
 - **Upload date:** 2026-01-09
 - **Official title:** Palantir x Databricks | Partnership Overview
 - **What it is about:** Chad Wahlquist and Benjamin Abood explain an integration between the Palantir and Databricks stacks intended to connect data management and analytics with operational AI. The official framing is an end-to-end path from the Databricks Data Intelligence Platform and Unity Catalog into Palantir Foundry and AIP.
@@ -19,7 +19,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 62. Holiday Greetings from Palantir CEO Alex Karp
 
 - `video_id: UPO5oV7xL5A`
-- **Official URL:** https://www.youtube.com/watch?v=UPO5oV7xL5A
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=UPO5oV7xL5A)
 - **Upload date:** 2025-12-18
 - **Official title:** Holiday Greetings from Palantir CEO Alex Karp
 - **What it is about:** A short seasonal message from Palantir CEO Alex Karp. No official description or transcript is available in the inventory, so the specific topics, claims, and wording cannot be responsibly summarized.
@@ -31,7 +31,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 63. Army Navy Game 2025
 
 - `video_id: u31W8bR_SWo`
-- **Official URL:** https://www.youtube.com/watch?v=u31W8bR_SWo
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=u31W8bR_SWo)
 - **Upload date:** 2025-12-17
 - **Official title:** Army Navy Game 2025
 - **What it is about:** A 34-second corporate sponsorship message thanking Baltimore and announcing that Palantir extended its support of “America's Game” for four additional years.
@@ -43,7 +43,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 64. AIP 2026: The Self-Healing Autonomous Enterprise | Paragon 2025
 
 - `video_id: r3jMRs_Mum8`
-- **Official URL:** https://www.youtube.com/watch?v=r3jMRs_Mum8
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=r3jMRs_Mum8)
 - **Upload date:** 2025-12-15
 - **Official title:** AIP 2026: The Self-Healing Autonomous Enterprise | Paragon 2025
 - **What it is about:** Palantir Head of AI Go-To-Market Jack Dobson presents Palantir's AIP direction for 2026: human–AI teaming, enterprise autonomy, and operational process optimization. The description positions Ontology as the mechanism for monitoring an enterprise across disparate data sources, siloed teams, and distinct processes.
@@ -55,7 +55,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 65. Alex Karp Opening Remarks | Paragon 2025
 
 - `video_id: HWiEk_7Pulc`
-- **Official URL:** https://www.youtube.com/watch?v=HWiEk_7Pulc
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=HWiEk_7Pulc)
 - **Upload date:** 2025-12-05
 - **Official title:** Alex Karp Opening Remarks | Paragon 2025
 - **What it is about:** Alex Karp opens Paragon 2025 with remarks on the “original patriotism” that the official description says continues to shape Palantir's philosophy.
@@ -67,7 +67,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 66. Actionable Intelligence from Every Tenant Interaction | Healthpeak at Paragon 2025
 
 - `video_id: xgQXfzUgTO4`
-- **Official URL:** https://www.youtube.com/watch?v=xgQXfzUgTO4
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=xgQXfzUgTO4)
 - **Upload date:** 2025-12-05
 - **Official title:** Actionable Intelligence from Every Tenant Interaction | Healthpeak at Paragon 2025
 - **What it is about:** Healthpeak Chief Investment Officer Adam G. Mabry describes turning routine tenant interactions into operational intelligence for a healthcare real-estate portfolio. The goal is to let property managers spend less time on office administration and more time with tenants.
@@ -79,7 +79,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 67. Preventing Payer Denials in Healthcare | R1 RCM at Paragon 2025
 
 - `video_id: od8G2dZvVPY`
-- **Official URL:** https://www.youtube.com/watch?v=od8G2dZvVPY
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=od8G2dZvVPY)
 - **Upload date:** 2025-12-05
 - **Official title:** Preventing Payer Denials in Healthcare | R1 RCM at Paragon 2025
 - **What it is about:** R1 RCM executives Steve Albert and Jon Katzur demonstrate an AI-assisted medical revenue-cycle workflow aimed at progressing from handling payer denials after they occur to preventing avoidable denials before claim submission.
@@ -91,7 +91,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 68. Why Every Other Software Must Justify Its Existence | Thomas Cavanagh at Paragon 2025
 
 - `video_id: vH-pTvqeiMo`
-- **Official URL:** https://www.youtube.com/watch?v=vH-pTvqeiMo
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=vH-pTvqeiMo)
 - **Upload date:** 2025-12-05
 - **Official title:** Why Every Other Software Must Justify Its Existence | Thomas Cavanagh at Paragon 2025
 - **What it is about:** Thomas Cavanagh's AI lead, Joe Patrois, presents Foundry as the construction company's operating system and says 97% of employees use it daily. The talk argues that bespoke, connected Foundry workflows can replace fragmented scheduling and field-reporting software.
@@ -103,7 +103,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 69. Customized Care When You Need it Most | Tampa General Hospital at Paragon 2025
 
 - `video_id: TwwTlyIhCYI`
-- **Official URL:** https://www.youtube.com/watch?v=TwwTlyIhCYI
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=TwwTlyIhCYI)
 - **Upload date:** 2025-12-05
 - **Official title:** Customized Care When You Need it Most | Tampa General Hospital at Paragon 2025
 - **What it is about:** Tampa General Hospital's Senior Vice President and Chief Transformation Officer, Dr. Peter Chang, demonstrates Modern Hospital OS, a Foundry-built system intended to customize care and coordinate patient journeys.
@@ -115,7 +115,7 @@ This batch centers on Palantir's claim that AI creates value when it is attached
 ## 70. Paragon 2025
 
 - `video_id: UjkRz9HkldU`
-- **Official URL:** https://www.youtube.com/watch?v=UjkRz9HkldU
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=UjkRz9HkldU)
 - **Upload date:** 2025-12-05
 - **Official title:** Paragon 2025
 - **What it is about:** The full Paragon 2025 program combines Alex Karp's opening account of Palantir's mission and product philosophy with detailed customer demonstrations from Healthpeak, Tampa General Hospital, Johnson Controls, R1, and Cavanagh Construction, followed by Sasha Spivak's remarks on trust. The common thesis is that Ontology, Foundry, AIP, and forward-deployed engineering turn organization-specific data into systems that monitor operations, coordinate work, and support human–AI teams.

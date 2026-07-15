@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Agentic Supply Chain for Data Center Delivery | Nscale at AIPCon 10
 
-Official video: https://www.youtube.com/watch?v=oSsEaz36DLU
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=oSsEaz36DLU)
 ## Official description
 
 At AIPCon 10, Nscale shared how they use AI to build for AI, with Palantir’s AIP powering the supply chain behind the world's next generation of AI infrastructure. From managing tens of millions of components across multiple construction projects to navigating rapid hardware transitions and long-lead procurement, see how Nscale uses agentic workflows backed by Ontology to deliver gigawatts of GPU compute on time at an increasing rate.

@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Backstage Pass | AIPCon 9
 
-Official video: https://www.youtube.com/watch?v=l3oRSfUEMTE
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=l3oRSfUEMTE)
 ## Official description
 
 Chad Wahlquist, Forward Deployed Architect at Palantir, goes behind the scenes at AIPCon 9, where he tours various immersive experiences showcasing Ship OS and Maven Smart System, as well as our work with Teton Ridge, Armada, TeleTracking, Carilion Clinic, and Tampa General Hospital.

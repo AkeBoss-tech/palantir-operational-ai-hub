@@ -15,10 +15,9 @@ source_basis: official-youtube-metadata
 
 # Software Meets Hardware: Empowering the Warfighter | GE Aerospace at AIPCon 9
 
-Official video: https://www.youtube.com/watch?v=ipdtAHQj0l0
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=ipdtAHQj0l0)
 ## Official description
 
-Jess Salzbrun, CIO of GE Aerospace's Defense & Systems division, speaks to how the world's largest engine manufacturer is combining software and hardware to solve Air Force readiness challenges and ensure the engines powering tomorrow's warfighters stay mission-ready. 
+Jess Salzbrun, CIO of GE Aerospace's Defense & Systems division, speaks to how the world's largest engine manufacturer is combining software and hardware to solve Air Force readiness challenges and ensure the engines powering tomorrow's warfighters stay mission-ready.
 
 The appearance of U.S. Department of Defense (DoW) visual information does not imply or constitute DoW endorsement.

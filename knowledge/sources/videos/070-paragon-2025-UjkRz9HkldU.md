@@ -15,9 +15,8 @@ source_basis: official-youtube-metadata
 
 # Paragon 2025
 
-Official video: https://www.youtube.com/watch?v=UjkRz9HkldU
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=UjkRz9HkldU)
 ## Official description
 
-Archetype for domination. 
+Archetype for domination.
 The standard has been set.

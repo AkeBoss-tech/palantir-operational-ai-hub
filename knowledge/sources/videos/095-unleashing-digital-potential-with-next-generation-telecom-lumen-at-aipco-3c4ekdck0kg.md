@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Unleashing Digital Potential with Next-Generation Telecom | Lumen at AIPCon 8
 
-Official video: https://www.youtube.com/watch?v=3c4ekdck0kg
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=3c4ekdck0kg)
 ## Official description
 
 At AIPCon 8, Dave Ward, Chief Technology and Product Officer at Lumen, demonstrates how Lumen is transforming telecommunications infrastructure to support an AI-ready world. Lumen is building on Palantir AIP to manage its operations, finance, and technology functions and transform into a next-generation technology infrastructure company that connects a physical fiber network with a digital network built for tomorrow.

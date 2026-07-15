@@ -15,10 +15,9 @@ source_basis: official-youtube-metadata
 
 # Code in Prod: Apollo x NVIDIA for Sovereign AI | DevCon 6
 
-Official video: https://www.youtube.com/watch?v=IDZVaKc6MGQ
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=IDZVaKc6MGQ)
 ## Official description
 
-"There is no contradiction between sovereignty and capability. You just need the right architecture." 
+"There is no contradiction between sovereignty and capability. You just need the right architecture."
 
 At DevCon 6, Public Sector Field Engineering Leader Tim Klawa from NVIDIA and Palantir Forward Deployed Engineer Vasil Vasilev from Palantir break down how Apollo empowers customers to ship everything — from helm charts to marketplace products — to both AIP environments and on-prem Kubernetes clusters.

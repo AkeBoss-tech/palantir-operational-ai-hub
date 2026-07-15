@@ -6,7 +6,7 @@ These ten videos cluster around moving AI into consequential operations rather t
 
 video_id: bxvf5H1G2f0
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=bxvf5H1G2f0 — 2026-03-13 — “Rewriting the Migration Path | SAP at AIPCon 9”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=bxvf5H1G2f0) — 2026-03-13 — “Rewriting the Migration Path | SAP at AIPCon 9”
 - **What it is about:** An SAP representative, Sebastian, describes using Palantir AI agents to change how organizations migrate SAP estates to the cloud. The official description says the approach compresses work that took months into weeks, lowers costs, and aims to produce business value from the start.
 - **What they are building/working on:** Purpose-built agents that perform migration assessment, transformation, mapping, and validation in parallel rather than as a long sequential program.
 - **Named products/organizations:** SAP; Palantir; Palantir AI agents; AIPCon 9.
@@ -17,7 +17,7 @@ video_id: bxvf5H1G2f0
 
 video_id: ppTpMoP6_nc
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=ppTpMoP6_nc — 2026-03-13 — “End-to-End Intelligence: Transforming Mortgage with AI | Moder at AIPCon 9”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=ppTpMoP6_nc) — 2026-03-13 — “End-to-End Intelligence: Transforming Mortgage with AI | Moder at AIPCon 9”
 - **What it is about:** Moder’s Michael Middleman presents a strategic partnership with Palantir and a first customer pilot with Freedom Mortgage, framed as bringing end-to-end intelligence and AI automation to mortgage operations.
 - **What they are building/working on:** A mortgage-operations automation capability intended to connect processes across the lifecycle, improve transparency, and serve as a foundation for wider industry transformation. The available metadata does not identify the specific workflows, models, controls, or pilot results.
 - **Named products/organizations:** Moder; Palantir; Freedom Mortgage; AIPCon 9.
@@ -28,7 +28,7 @@ video_id: ppTpMoP6_nc
 
 video_id: sDtltYnbJT8
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=sDtltYnbJT8 — 2026-03-13 — “Palantir CEO Alex Karp Opening Remarks | AIPCon 9”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=sDtltYnbJT8) — 2026-03-13 — “Palantir CEO Alex Karp Opening Remarks | AIPCon 9”
 - **What it is about:** Alex Karp’s opening remarks address Palantir’s values, its role on the global stage, and the relationship between its battlefield work and commercial deployments.
 - **What they are building/working on:** At the level supported by the metadata, this is a strategic framing rather than a discrete product demo: Palantir positions its defence and commercial work as connected parts of the same institutional mission.
 - **Named products/organizations:** Palantir; Alex Karp; AIPCon 9. No specific product is named in the official description.
@@ -39,7 +39,7 @@ video_id: sDtltYnbJT8
 
 video_id: VB_6oi0g_f8
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=VB_6oi0g_f8 — 2026-03-13 — “Magical on the Front Lines | Intro at AIPCon 9”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=VB_6oi0g_f8) — 2026-03-13 — “Magical on the Front Lines | Intro at AIPCon 9”
 - **What it is about:** The only supplied evidence identifies this as a short AIPCon 9 introduction themed around something being “magical on the front lines.” There is not enough metadata to state which frontline setting, customer, or capability it depicts.
 - **What they are building/working on:** Not established by the available source. The title suggests an event-opening montage or framing segment about frontline impact, but that is inference rather than a source-backed product description.
 - **Named products/organizations:** AIPCon 9; Palantir is the publishing channel. No product or customer is named in the title.
@@ -50,7 +50,7 @@ video_id: VB_6oi0g_f8
 
 video_id: e90qUUh8_us
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=e90qUUh8_us — 2026-03-11 — “Chad & Craig | Data Migrations with AI FDE”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=e90qUUh8_us) — 2026-03-11 — “Chad & Craig | Data Migrations with AI FDE”
 - **What it is about:** Craig Roberts shows Chad Wahlquist how Palantir AIP is used to accelerate data migrations and help organizations move from legacy systems to new operating outcomes. The official description claims a reduction from five months to five days.
 - **What they are building/working on:** An AI FDE-assisted migration workflow on Palantir AIP that goes beyond copying data and is intended to enable replacement operations and outcomes on the target system.
 - **Named products/organizations:** Palantir; Palantir AIP; AI FDE; Chad Wahlquist; Craig Roberts.
@@ -61,7 +61,7 @@ video_id: e90qUUh8_us
 
 video_id: sxqGbFAFu-E
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=sxqGbFAFu-E — 2026-03-02 — “Palantir and Apex | Satellite Manufacturing”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=sxqGbFAFu-E) — 2026-03-02 — “Palantir and Apex | Satellite Manufacturing”
 - **What it is about:** A partnership story about Apex and Palantir applying software to satellite manufacturing, framed as shortening launch timelines and strengthening Western competitiveness in space.
 - **What they are building/working on:** An operational capability around satellite production and launch readiness. The official description claims timelines are being cut “from years to days,” but it does not specify whether that refers to manufacturing, order-to-launch, scheduling, or another portion of the lifecycle.
 - **Named products/organizations:** Apex; Palantir. No specific Palantir or Apex product is named in the supplied metadata.
@@ -72,7 +72,7 @@ video_id: sxqGbFAFu-E
 
 video_id: yLD5I16XkOo
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=yLD5I16XkOo — 2026-02-10 — “Chad & Konrad | Embedded Ontology”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=yLD5I16XkOo) — 2026-02-10 — “Chad & Konrad | Embedded Ontology”
 - **What it is about:** Konrad Eilers shows Chad Wahlquist an “Embedded Ontology” intended to connect AI to operations at the edge, including harsh or disconnected environments where continuous cloud connectivity cannot be assumed.
 - **What they are building/working on:** A deployable operational model—described as the Embedded Ontology—that brings relevant data, objects, logic, and AI-enabled workflows closer to edge users and systems. The precise technical packaging and synchronization behavior are not described in the metadata.
 - **Named products/organizations:** Palantir; Embedded Ontology; Chad Wahlquist; Konrad Eilers.
@@ -83,7 +83,7 @@ video_id: yLD5I16XkOo
 
 video_id: kA-RPdosEm0
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=kA-RPdosEm0 — 2026-02-09 — “Palantir and Hadean | UK Stories”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=kA-RPdosEm0) — 2026-02-09 — “Palantir and Hadean | UK Stories”
 - **What it is about:** The video explains how Hadean uses Palantir as a deployment and data foundation for defence simulation, training, mission planning, and command-and-control software in classified UK Ministry of Defence environments. It emphasizes the obstacles faced by defence startups: procurement timelines, security standards, classified and heterogeneous data, and integration with operational infrastructure.
 - **What they are building/working on:** Hadean provides out-of-the-box simulation and orchestration tools that generate live and virtual combat scenarios for rehearsal, training, and planning. Its **Domini AI** product is described as a next-generation command-and-control system combining AI and simulation, unifying diverse data for situational awareness and forward simulation of courses of action. Palantir Foundry underpins Hadean products so they can share military concepts with live systems, integrate intelligence, logistics, sensor, and historical data across classifications, connect to the MOD data fabric, and deploy faster. The partners also plan to expand Hadean’s existing MOD relationships and product use.
 - **Named products/organizations:** Hadean (caption spellings vary); Domini AI; Palantir; Palantir Foundry; UK Ministry of Defence (MOD); British armed forces; Western militaries.
@@ -94,7 +94,7 @@ video_id: kA-RPdosEm0
 
 video_id: NANvLfyDQBI
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=NANvLfyDQBI — 2026-01-30 — “Palantir and the NHS | UK Stories”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=NANvLfyDQBI) — 2026-01-30 — “Palantir and the NHS | UK Stories”
 - **What it is about:** NHS England and Palantir personnel describe the NHS Federated Data Platform (FDP), which connects fragmented asset, workforce, and patient systems into operational workflows while letting each NHS organization control its own instance and data. The immediate focus is care logistics: scheduling theatres, managing inpatient flow and discharge, transferring patients between trusts with available capacity, and tracking cancer waiting lists.
 - **What they are building/working on:** Segregated, locally owned FDP instances share a consistent **Canonical Data Model (CDM)**. Data can remain at the sovereign organization and be queried when needed; Palantir Foundry supplies purpose-based access controls so use is restricted to an already permitted purpose. NHS and Palantir teams co-design workflow products with clinicians. The transcript says the first Theatre Scheduling product went from concept to testing in about three weeks; other named capabilities include an Inpatient product and Cancer Waiting List tool.
 - **Named products/organizations:** NHS; NHS England; NHS Federated Data Platform (FDP); Palantir; Palantir Foundry; Canonical Data Model (CDM); Theatre Scheduling product; Inpatient product; Cancer Waiting List tool; NHS trusts; Ming Tang; Ayub Bhayat; Rebecca Llewellyn; Jasmine Brown; Ethan Dodd; Sam Rhodes.
@@ -105,7 +105,7 @@ video_id: NANvLfyDQBI
 
 video_id: 8qXIoUxisxk
 
-- **Official URL/date/title:** https://www.youtube.com/watch?v=8qXIoUxisxk — 2026-01-29 — “The Future of AI and Work”
+- **Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=8qXIoUxisxk) — 2026-01-29 — “The Future of AI and Work”
 - **What it is about:** Palantir Chief Architect Akshay Krishnaswamy and Senior Counselor Jordan Hirsch argue that enterprise AI should augment human operators and capture frontline expertise rather than treat workers as expendable. Their central claim is that most domain intelligence remains in people and working processes, not in generic models, and that AI can expand human capacity when embedded in those processes.
 - **What they are building/working on:** The design described connects AI agents to the same decision plane as workers: relevant data, permitted actions, reasoning logic, and feedback from outcomes. Palantir calls this shared operational model the **Ontology**. Deployment begins with bounded assistance—such as triaging inbound supply-chain issues—then turns up automation incrementally as the system learns from human choices. This addresses two stated bottlenecks: bringing the right context to an operator and increasing the number of cases the operator can handle. The broader **Working Intelligence** project showcases customer deployments built around this philosophy.
 - **Named products/organizations:** Palantir; Palantir AIP; Palantir Foundry; Ontology; Working Intelligence; PG&E; Public Safety Power Shutoff (PSPS) events; Akshay Krishnaswamy; Jordan Hirsch. The discussion also references clinical operations, network planning, wildfire response, military operations, nurse scheduling, shipbuilding, logistics, and electric-grid control.

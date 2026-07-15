@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Chad & Matt | Lightweight Data Transforms with Palantir AIP
 
-Official video: https://www.youtube.com/watch?v=MITSJDI08R4
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=MITSJDI08R4)
 ## Official description
 
 Activate AI with any compute engine, through Palantir AIP.

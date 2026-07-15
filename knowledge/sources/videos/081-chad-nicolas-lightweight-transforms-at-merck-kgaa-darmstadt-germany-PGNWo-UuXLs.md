@@ -15,8 +15,7 @@ source_basis: official-youtube-metadata
 
 # Chad & Nicolas | Lightweight Transforms at Merck KGaA, Darmstadt, Germany
 
-Official video: https://www.youtube.com/watch?v=PGNWo-UuXLs
-
+**Official video:** [Watch on YouTube](https://www.youtube.com/watch?v=PGNWo-UuXLs)
 ## Official description
 
 Nicolas Renkamp shows Chad Wahlquist how lightweight transforms are powering radically cheaper, faster data transforms and enabling Merck KGaA, Darmstadt, Germany to move beyond monolithic compute frameworks.
