@@ -6,7 +6,7 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://akeboss-tech.github.io/palantir-operational-ai-hub/"),
+  metadataBase: new URL("https://akashdubey.me/palantir-operational-ai-hub/"),
   title: "Operational AI Field Index",
   description: "An evidence-labeled research interface for 100 Palantir videos, the operational AI stack, organizations, and a 32-source intelligence watchlist.",
   openGraph: { title: "Operational AI Field Index", description: "100 videos. 32 sources. Independent Terra reviews.", type: "website", images: [{ url: "og.png", width: 1200, height: 630 }] },
