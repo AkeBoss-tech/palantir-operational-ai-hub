@@ -10,7 +10,7 @@ and three independent GPT-5.6 Terra reviews.
 - Architecture map of the Ontology, Agent Engine, Orchestrator, observability, and delivery layers
 - Organization and industry maps
 - Tiered external-source watchlist
-- Searchable, cross-linked wiki spanning agents, models, context, infrastructure, robotics, evaluation, and governance
+- Searchable Lykke/DeepWiki-style wiki with diagrams, worked examples, decision tables, pitfalls, study aids, and cross-links
 - Terra architecture, evidence-audit, and ecosystem reviews
 - Self-contained KRAIL snapshot under `knowledge/`, including source notes, transcripts,
   thread reports, wiki source pages, workflows, and verification records

@@ -20,7 +20,7 @@ building, deploying, and emphasizing across its YouTube channel.
 - `topics/video-index.md` — compact guide to all 100 videos
 - `topics/operational-ai-watchlist.md` — curated external channels, blogs, research, and news sources
 - `topics/ai-ecosystem-2026.md` — expanded ecosystem synthesis across models, agents, context, infrastructure, evaluation, robotics, and governance
-- `wiki/` — cross-linked field wiki suitable for both the research site and GitHub Wiki
+- `wiki/` — Lykke/DeepWiki-style field wiki with diagrams, worked examples, decision tables, pitfalls, study aids, and cross-links
 - `sources/ai_ecosystem_watchlist.csv` — 45 additional labs, research feeds, standards bodies, platforms, and independent sources
 - `artifacts/final-report.md` — research conclusions and evidence limits
 - `research_plan/workflows/youtube_channel_refresh.yaml` — repeatable refresh design

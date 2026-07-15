@@ -29,7 +29,8 @@ test("ships the complete frozen corpus, ecosystem watchlist, and wiki", async ()
   const wikiPages = data.match(/export const wikiPages = (\[[\s\S]*?\]);\n\nexport const terraReviews/)?.[1] ?? "";
   assert.equal((wikiPages.match(/"slug":/g) ?? []).length, 20);
   assert.match(wikiPages, /AI Ecosystem Map/);
-  assert.match(wikiPages, /```mermaid/);
+  assert.ok((wikiPages.match(/```mermaid/g) ?? []).length >= 13);
+  assert.ok((wikiPages.match(/## Quick review/g) ?? []).length >= 13);
   assert.match(data, /\[V074\]\(https:\/\/www\.youtube\.com\/watch\?v=YDAxITCNcko\)/);
   assert.match(data, /architecture-review\.md/);
   assert.match(data, /evidence-audit\.md/);
