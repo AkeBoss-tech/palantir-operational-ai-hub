@@ -1,8 +1,8 @@
 # Operational AI Field Index
 
 A public research interface for the 100 newest Palantir YouTube videos captured on
-2026-07-14, a curated 32-source operational AI watchlist, and three independent
-GPT-5.6 Terra reviews.
+2026-07-14, a curated 77-source AI ecosystem watchlist, a 20-page field wiki,
+and three independent GPT-5.6 Terra reviews.
 
 ## What is included
 
@@ -10,9 +10,10 @@ GPT-5.6 Terra reviews.
 - Architecture map of the Ontology, Agent Engine, Orchestrator, observability, and delivery layers
 - Organization and industry maps
 - Tiered external-source watchlist
+- Searchable, cross-linked wiki spanning agents, models, context, infrastructure, robotics, evaluation, and governance
 - Terra architecture, evidence-audit, and ecosystem reviews
 - Self-contained KRAIL snapshot under `knowledge/`, including source notes, transcripts,
-  thread reports, workflows, and verification records
+  thread reports, wiki source pages, workflows, and verification records
 
 ## Development
 

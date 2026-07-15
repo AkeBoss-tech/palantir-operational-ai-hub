@@ -1,0 +1,46 @@
+source_id,name,category,format,priority,url,focus,bias_note,last_verified
+google-deepmind,Google DeepMind Blog,frontier-lab,blog,A,https://deepmind.google/blog/,frontier models science robotics and safety,first-party lab,2026-07-15
+anthropic-news,Anthropic News,frontier-lab,blog,A,https://www.anthropic.com/news,models agents safety and policy,first-party lab,2026-07-15
+meta-ai,Meta AI Blog,open-models,blog,B,https://ai.meta.com/blog/,Llama open models research and infrastructure,first-party lab,2026-07-15
+mistral-news,Mistral AI News,frontier-lab,blog,B,https://mistral.ai/news,European models agents and deployment,first-party lab,2026-07-15
+cohere-research,Cohere Research,frontier-lab,research,B,https://cohere.com/research,enterprise models retrieval and multilingual AI,first-party lab,2026-07-15
+huggingface-papers,Hugging Face Daily Papers,research-feed,daily,A,https://huggingface.co/papers,daily papers linked to models datasets and demos,community ranking effects,2026-07-15
+arxiv-cs-ai,arXiv Artificial Intelligence,research-feed,daily,A,https://arxiv.org/list/cs.AI/recent,primary preprints across artificial intelligence,not peer reviewed,2026-07-15
+stanford-ai-index,Stanford AI Index,ecosystem-measurement,annual,A,https://hai.stanford.edu/ai-index,capabilities investment adoption policy and societal impact,academic synthesis,2026-07-15
+epoch-ai,Epoch AI,ecosystem-measurement,research,A,https://epoch.ai/,compute trends model capabilities and forecasting,research organization assumptions,2026-07-15
+metr,METR,evaluation-safety,research,A,https://metr.org/,agent task horizons evaluations and frontier risk,risk-focused nonprofit,2026-07-15
+nist-airc,NIST AI Resource Center,governance-standards,guidance,A,https://airc.nist.gov/,AI RMF testing evaluation verification and validation,US voluntary framework,2026-07-15
+aaif,Agentic AI Foundation,agent-standards,foundation,A,https://aaif.io/,MCP AGENTS.md goose and interoperable agent infrastructure,member-driven foundation,2026-07-15
+eu-ai-act,European Commission AI Act Service Desk,regulation,guidance,A,https://ai-act-service-desk.ec.europa.eu/,official EU AI Act obligations timeline and compliance,EU regulatory source,2026-07-15
+oecd-ai,OECD AI Observatory,policy-data,research,B,https://oecd.ai/,international AI policy indicators and incident monitoring,intergovernmental lens,2026-07-15
+un-ai-panel,UN Independent International Scientific Panel on AI,global-governance,research,B,https://www.un.org/independent-international-scientific-panel-ai,global capability risk and governance assessments,intergovernmental process,2026-07-15
+mlcommons,MLCommons,benchmarks,standards,A,https://mlcommons.org/,training inference safety and application benchmarks,industry consortium,2026-07-15
+hf-blog,Hugging Face Blog,open-ecosystem,blog,B,https://huggingface.co/blog,open models datasets libraries and deployment,platform first-party,2026-07-15
+pytorch-blog,PyTorch Blog,ml-framework,blog,B,https://pytorch.org/blog/,training inference compilers and open ML infrastructure,project first-party,2026-07-15
+vllm,vLLM Project,inference,project,A,https://vllm.ai/,open high-throughput model serving and inference,project first-party,2026-07-15
+sglang,SGLang Project,inference,project,B,https://github.com/sgl-project/sglang,open serving framework for models and agents,project first-party,2026-07-15
+cloudflare-ai,Cloudflare AI Blog,edge-inference,blog,B,https://blog.cloudflare.com/tag/ai/,edge inference agents networking and security,first-party vendor,2026-07-15
+amd-ai,AMD Developer AI,compute,developer,B,https://www.amd.com/en/developer/resources/ai.html,accelerators ROCm inference and training,first-party hardware vendor,2026-07-15
+cerebras-blog,Cerebras Blog,compute,blog,B,https://www.cerebras.ai/blog,wafer-scale compute training and inference,first-party hardware vendor,2026-07-15
+groq-blog,Groq Blog,inference,blog,B,https://groq.com/blog,inference hardware latency and deployment,first-party hardware vendor,2026-07-15
+together-blog,Together AI Blog,inference-platform,blog,B,https://www.together.ai/blog,open-model training fine-tuning and inference,first-party vendor,2026-07-15
+fireworks-blog,Fireworks AI Blog,inference-platform,blog,B,https://fireworks.ai/blog,production inference compound systems and models,first-party vendor,2026-07-15
+braintrust-blog,Braintrust Blog,evaluation,blog,A,https://www.braintrust.dev/blog,LLM and agent evaluation observability and experiments,first-party vendor,2026-07-15
+langfuse-blog,Langfuse Blog,observability,blog,B,https://langfuse.com/blog,open-source traces prompt management and evaluations,first-party vendor,2026-07-15
+pydantic-ai,Pydantic AI,agent-framework,documentation,B,https://ai.pydantic.dev/,typed Python agents tools and durable execution,project first-party,2026-07-15
+crewai,CrewAI Blog,agent-framework,blog,B,https://www.crewai.com/blog,multi-agent orchestration enterprise workflows and deployment,first-party vendor,2026-07-15
+allen-ai,Allen Institute for AI,research-lab,research,B,https://allenai.org/news,open models datasets science and NLP,nonprofit lab,2026-07-15
+bair,BAIR Blog,research-lab,blog,B,https://bair.berkeley.edu/blog/,academic machine learning robotics and agents,academic lab,2026-07-15
+mit-csail,MIT CSAIL AI News,research-lab,news,B,https://www.csail.mit.edu/research/artificial-intelligence,academic AI robotics systems and theory,academic selection,2026-07-15
+msr-ai,Microsoft Research AI,research-lab,research,B,https://www.microsoft.com/en-us/research/research-area/artificial-intelligence/,models agents systems and responsible AI,corporate research,2026-07-15
+google-research,Google Research Blog,research-lab,blog,B,https://research.google/blog/,machine learning systems science and applications,corporate research,2026-07-15
+aws-science,AWS Machine Learning Science,research-lab,research,C,https://www.amazon.science/research-areas/machine-learning,cloud-scale ML systems and applications,corporate research,2026-07-15
+palantir-aip-docs,Palantir AIP Documentation,operational-ai,documentation,A,https://www.palantir.com/docs/foundry/aip/overview/,AIP agents ontology tools and deployment,first-party product documentation,2026-07-15
+deepmind-robotics,Gemini Robotics,embodied-ai,product,A,https://deepmind.google/models/gemini-robotics/,vision-language-action models and embodied reasoning,first-party lab,2026-07-15
+physical-intelligence,Physical Intelligence,embodied-ai,research,B,https://www.physicalintelligence.company/blog,general-purpose robot foundation models,first-party startup,2026-07-15
+figure-news,Figure AI News,embodied-ai,news,C,https://www.figure.ai/news,humanoid robotics models and deployments,first-party startup,2026-07-15
+rand-ai,RAND Artificial Intelligence,policy-research,research,B,https://www.rand.org/topics/artificial-intelligence.html,national security governance workforce and public policy,think tank,2026-07-15
+brookings-ai,Brookings AI and Emerging Technology,policy-research,analysis,C,https://www.brookings.edu/topics/artificial-intelligence/,economic governance competition and social impacts,think tank,2026-07-15
+the-batch,The Batch,independent-news,newsletter,B,https://www.deeplearning.ai/the-batch/,weekly technical and industry AI developments,editorial selection,2026-07-15
+mit-tech-ai,MIT Technology Review AI,independent-news,news,B,https://www.technologyreview.com/topic/artificial-intelligence/,AI capabilities deployment policy and societal effects,journalism and paywall,2026-07-15
+tech-policy-press,Tech Policy Press,policy-news,news,C,https://www.techpolicy.press/,platform governance regulation and AI accountability,policy journalism,2026-07-15

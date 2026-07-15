@@ -19,11 +19,14 @@ building, deploying, and emphasizing across its YouTube channel.
 - `topics/palantir-ai-video-landscape.md` — cross-video synthesis
 - `topics/video-index.md` — compact guide to all 100 videos
 - `topics/operational-ai-watchlist.md` — curated external channels, blogs, research, and news sources
+- `topics/ai-ecosystem-2026.md` — expanded ecosystem synthesis across models, agents, context, infrastructure, evaluation, robotics, and governance
+- `wiki/` — cross-linked field wiki suitable for both the research site and GitHub Wiki
+- `sources/ai_ecosystem_watchlist.csv` — 45 additional labs, research feeds, standards bodies, platforms, and independent sources
 - `artifacts/final-report.md` — research conclusions and evidence limits
 - `research_plan/workflows/youtube_channel_refresh.yaml` — repeatable refresh design
 - `research_plan/workflows/operational_ai_watchlist_refresh.yaml` — external-source monitoring design
 - `artifacts/terra_reviews/` — GPT-5.6 Terra architecture, evidence, and ecosystem reviews
-- `site/` — public GitHub Pages research interface and self-contained knowledge snapshot
+- `site/` — public GitHub Pages research interface with 20-page wiki and self-contained knowledge snapshot
 
 ## Refresh
 

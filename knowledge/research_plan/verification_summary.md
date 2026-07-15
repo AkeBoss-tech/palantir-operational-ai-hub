@@ -28,6 +28,15 @@ Terra reprocessing and website verification on 2026-07-15:
 - Evidence audit samples every batch and adds a 100-video evidence ledger plus stricter
   labels for effectiveness, safety, security, clinical, and causal-outcome claims.
 - Ecosystem review accounts for all 100 videos across eight mutually exhaustive primary themes.
-- The GitHub Pages build contains all 100 videos, 32 sources, three Terra reviews, and a
+- The GitHub Pages build contains all 100 videos, 77 sources, three Terra reviews, and a
   self-contained snapshot of KRAIL notes, transcripts, reports, workflows, and verification data.
 - Both the Sites build and the static GitHub Pages build pass compilation and type checking.
+
+Ecosystem wiki expansion verified on 2026-07-15:
+
+- Added 45 ecosystem sources spanning frontier and open models, research feeds, standards,
+  evaluation, inference, robotics, regulation, academic labs, and independent analysis.
+- Combined monitoring inventory now contains 77 sources.
+- Added a 20-page cross-linked wiki plus a current ecosystem synthesis.
+- The site synchronizer includes the wiki and expanded source inventory in its frozen snapshot.
+- Static export, Sites build, TypeScript checking, and rendered-content tests all pass.

@@ -1989,6 +1989,1574 @@ export const watchlist = [
   }
 ];
 
+export const ecosystemWatchlist = [
+  {
+    "source_id": "google-deepmind",
+    "name": "Google DeepMind Blog",
+    "category": "frontier-lab",
+    "format": "blog",
+    "priority": "A",
+    "url": "https://deepmind.google/blog/",
+    "focus": "frontier models science robotics and safety",
+    "bias_note": "first-party lab",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "anthropic-news",
+    "name": "Anthropic News",
+    "category": "frontier-lab",
+    "format": "blog",
+    "priority": "A",
+    "url": "https://www.anthropic.com/news",
+    "focus": "models agents safety and policy",
+    "bias_note": "first-party lab",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "meta-ai",
+    "name": "Meta AI Blog",
+    "category": "open-models",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://ai.meta.com/blog/",
+    "focus": "Llama open models research and infrastructure",
+    "bias_note": "first-party lab",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "mistral-news",
+    "name": "Mistral AI News",
+    "category": "frontier-lab",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://mistral.ai/news",
+    "focus": "European models agents and deployment",
+    "bias_note": "first-party lab",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "cohere-research",
+    "name": "Cohere Research",
+    "category": "frontier-lab",
+    "format": "research",
+    "priority": "B",
+    "url": "https://cohere.com/research",
+    "focus": "enterprise models retrieval and multilingual AI",
+    "bias_note": "first-party lab",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "huggingface-papers",
+    "name": "Hugging Face Daily Papers",
+    "category": "research-feed",
+    "format": "daily",
+    "priority": "A",
+    "url": "https://huggingface.co/papers",
+    "focus": "daily papers linked to models datasets and demos",
+    "bias_note": "community ranking effects",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "arxiv-cs-ai",
+    "name": "arXiv Artificial Intelligence",
+    "category": "research-feed",
+    "format": "daily",
+    "priority": "A",
+    "url": "https://arxiv.org/list/cs.AI/recent",
+    "focus": "primary preprints across artificial intelligence",
+    "bias_note": "not peer reviewed",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "stanford-ai-index",
+    "name": "Stanford AI Index",
+    "category": "ecosystem-measurement",
+    "format": "annual",
+    "priority": "A",
+    "url": "https://hai.stanford.edu/ai-index",
+    "focus": "capabilities investment adoption policy and societal impact",
+    "bias_note": "academic synthesis",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "epoch-ai",
+    "name": "Epoch AI",
+    "category": "ecosystem-measurement",
+    "format": "research",
+    "priority": "A",
+    "url": "https://epoch.ai/",
+    "focus": "compute trends model capabilities and forecasting",
+    "bias_note": "research organization assumptions",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "metr",
+    "name": "METR",
+    "category": "evaluation-safety",
+    "format": "research",
+    "priority": "A",
+    "url": "https://metr.org/",
+    "focus": "agent task horizons evaluations and frontier risk",
+    "bias_note": "risk-focused nonprofit",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "nist-airc",
+    "name": "NIST AI Resource Center",
+    "category": "governance-standards",
+    "format": "guidance",
+    "priority": "A",
+    "url": "https://airc.nist.gov/",
+    "focus": "AI RMF testing evaluation verification and validation",
+    "bias_note": "US voluntary framework",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "aaif",
+    "name": "Agentic AI Foundation",
+    "category": "agent-standards",
+    "format": "foundation",
+    "priority": "A",
+    "url": "https://aaif.io/",
+    "focus": "MCP AGENTS.md goose and interoperable agent infrastructure",
+    "bias_note": "member-driven foundation",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "eu-ai-act",
+    "name": "European Commission AI Act Service Desk",
+    "category": "regulation",
+    "format": "guidance",
+    "priority": "A",
+    "url": "https://ai-act-service-desk.ec.europa.eu/",
+    "focus": "official EU AI Act obligations timeline and compliance",
+    "bias_note": "EU regulatory source",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "oecd-ai",
+    "name": "OECD AI Observatory",
+    "category": "policy-data",
+    "format": "research",
+    "priority": "B",
+    "url": "https://oecd.ai/",
+    "focus": "international AI policy indicators and incident monitoring",
+    "bias_note": "intergovernmental lens",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "un-ai-panel",
+    "name": "UN Independent International Scientific Panel on AI",
+    "category": "global-governance",
+    "format": "research",
+    "priority": "B",
+    "url": "https://www.un.org/independent-international-scientific-panel-ai",
+    "focus": "global capability risk and governance assessments",
+    "bias_note": "intergovernmental process",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "mlcommons",
+    "name": "MLCommons",
+    "category": "benchmarks",
+    "format": "standards",
+    "priority": "A",
+    "url": "https://mlcommons.org/",
+    "focus": "training inference safety and application benchmarks",
+    "bias_note": "industry consortium",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "hf-blog",
+    "name": "Hugging Face Blog",
+    "category": "open-ecosystem",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://huggingface.co/blog",
+    "focus": "open models datasets libraries and deployment",
+    "bias_note": "platform first-party",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "pytorch-blog",
+    "name": "PyTorch Blog",
+    "category": "ml-framework",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://pytorch.org/blog/",
+    "focus": "training inference compilers and open ML infrastructure",
+    "bias_note": "project first-party",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "vllm",
+    "name": "vLLM Project",
+    "category": "inference",
+    "format": "project",
+    "priority": "A",
+    "url": "https://vllm.ai/",
+    "focus": "open high-throughput model serving and inference",
+    "bias_note": "project first-party",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "sglang",
+    "name": "SGLang Project",
+    "category": "inference",
+    "format": "project",
+    "priority": "B",
+    "url": "https://github.com/sgl-project/sglang",
+    "focus": "open serving framework for models and agents",
+    "bias_note": "project first-party",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "cloudflare-ai",
+    "name": "Cloudflare AI Blog",
+    "category": "edge-inference",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://blog.cloudflare.com/tag/ai/",
+    "focus": "edge inference agents networking and security",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "amd-ai",
+    "name": "AMD Developer AI",
+    "category": "compute",
+    "format": "developer",
+    "priority": "B",
+    "url": "https://www.amd.com/en/developer/resources/ai.html",
+    "focus": "accelerators ROCm inference and training",
+    "bias_note": "first-party hardware vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "cerebras-blog",
+    "name": "Cerebras Blog",
+    "category": "compute",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://www.cerebras.ai/blog",
+    "focus": "wafer-scale compute training and inference",
+    "bias_note": "first-party hardware vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "groq-blog",
+    "name": "Groq Blog",
+    "category": "inference",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://groq.com/blog",
+    "focus": "inference hardware latency and deployment",
+    "bias_note": "first-party hardware vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "together-blog",
+    "name": "Together AI Blog",
+    "category": "inference-platform",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://www.together.ai/blog",
+    "focus": "open-model training fine-tuning and inference",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "fireworks-blog",
+    "name": "Fireworks AI Blog",
+    "category": "inference-platform",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://fireworks.ai/blog",
+    "focus": "production inference compound systems and models",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "braintrust-blog",
+    "name": "Braintrust Blog",
+    "category": "evaluation",
+    "format": "blog",
+    "priority": "A",
+    "url": "https://www.braintrust.dev/blog",
+    "focus": "LLM and agent evaluation observability and experiments",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "langfuse-blog",
+    "name": "Langfuse Blog",
+    "category": "observability",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://langfuse.com/blog",
+    "focus": "open-source traces prompt management and evaluations",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "pydantic-ai",
+    "name": "Pydantic AI",
+    "category": "agent-framework",
+    "format": "documentation",
+    "priority": "B",
+    "url": "https://ai.pydantic.dev/",
+    "focus": "typed Python agents tools and durable execution",
+    "bias_note": "project first-party",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "crewai",
+    "name": "CrewAI Blog",
+    "category": "agent-framework",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://www.crewai.com/blog",
+    "focus": "multi-agent orchestration enterprise workflows and deployment",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "allen-ai",
+    "name": "Allen Institute for AI",
+    "category": "research-lab",
+    "format": "research",
+    "priority": "B",
+    "url": "https://allenai.org/news",
+    "focus": "open models datasets science and NLP",
+    "bias_note": "nonprofit lab",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "bair",
+    "name": "BAIR Blog",
+    "category": "research-lab",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://bair.berkeley.edu/blog/",
+    "focus": "academic machine learning robotics and agents",
+    "bias_note": "academic lab",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "mit-csail",
+    "name": "MIT CSAIL AI News",
+    "category": "research-lab",
+    "format": "news",
+    "priority": "B",
+    "url": "https://www.csail.mit.edu/research/artificial-intelligence",
+    "focus": "academic AI robotics systems and theory",
+    "bias_note": "academic selection",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "msr-ai",
+    "name": "Microsoft Research AI",
+    "category": "research-lab",
+    "format": "research",
+    "priority": "B",
+    "url": "https://www.microsoft.com/en-us/research/research-area/artificial-intelligence/",
+    "focus": "models agents systems and responsible AI",
+    "bias_note": "corporate research",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "google-research",
+    "name": "Google Research Blog",
+    "category": "research-lab",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://research.google/blog/",
+    "focus": "machine learning systems science and applications",
+    "bias_note": "corporate research",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "aws-science",
+    "name": "AWS Machine Learning Science",
+    "category": "research-lab",
+    "format": "research",
+    "priority": "C",
+    "url": "https://www.amazon.science/research-areas/machine-learning",
+    "focus": "cloud-scale ML systems and applications",
+    "bias_note": "corporate research",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "palantir-aip-docs",
+    "name": "Palantir AIP Documentation",
+    "category": "operational-ai",
+    "format": "documentation",
+    "priority": "A",
+    "url": "https://www.palantir.com/docs/foundry/aip/overview/",
+    "focus": "AIP agents ontology tools and deployment",
+    "bias_note": "first-party product documentation",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "deepmind-robotics",
+    "name": "Gemini Robotics",
+    "category": "embodied-ai",
+    "format": "product",
+    "priority": "A",
+    "url": "https://deepmind.google/models/gemini-robotics/",
+    "focus": "vision-language-action models and embodied reasoning",
+    "bias_note": "first-party lab",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "physical-intelligence",
+    "name": "Physical Intelligence",
+    "category": "embodied-ai",
+    "format": "research",
+    "priority": "B",
+    "url": "https://www.physicalintelligence.company/blog",
+    "focus": "general-purpose robot foundation models",
+    "bias_note": "first-party startup",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "figure-news",
+    "name": "Figure AI News",
+    "category": "embodied-ai",
+    "format": "news",
+    "priority": "C",
+    "url": "https://www.figure.ai/news",
+    "focus": "humanoid robotics models and deployments",
+    "bias_note": "first-party startup",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "rand-ai",
+    "name": "RAND Artificial Intelligence",
+    "category": "policy-research",
+    "format": "research",
+    "priority": "B",
+    "url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "focus": "national security governance workforce and public policy",
+    "bias_note": "think tank",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "brookings-ai",
+    "name": "Brookings AI and Emerging Technology",
+    "category": "policy-research",
+    "format": "analysis",
+    "priority": "C",
+    "url": "https://www.brookings.edu/topics/artificial-intelligence/",
+    "focus": "economic governance competition and social impacts",
+    "bias_note": "think tank",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "the-batch",
+    "name": "The Batch",
+    "category": "independent-news",
+    "format": "newsletter",
+    "priority": "B",
+    "url": "https://www.deeplearning.ai/the-batch/",
+    "focus": "weekly technical and industry AI developments",
+    "bias_note": "editorial selection",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "mit-tech-ai",
+    "name": "MIT Technology Review AI",
+    "category": "independent-news",
+    "format": "news",
+    "priority": "B",
+    "url": "https://www.technologyreview.com/topic/artificial-intelligence/",
+    "focus": "AI capabilities deployment policy and societal effects",
+    "bias_note": "journalism and paywall",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "tech-policy-press",
+    "name": "Tech Policy Press",
+    "category": "policy-news",
+    "format": "news",
+    "priority": "C",
+    "url": "https://www.techpolicy.press/",
+    "focus": "platform governance regulation and AI accountability",
+    "bias_note": "policy journalism",
+    "last_verified": "2026-07-15"
+  }
+];
+
+export const allSources = [
+  {
+    "source_id": "ms-foundry",
+    "name": "Microsoft Foundry Blog",
+    "category": "agent-platform",
+    "format": "blog",
+    "priority": "A",
+    "url": "https://devblogs.microsoft.com/foundry/",
+    "feed_url": "https://devblogs.microsoft.com/foundry/feed/",
+    "focus": "enterprise agents grounding governance observability",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "google-cloud-ai",
+    "name": "Google Cloud AI and ML Blog",
+    "category": "agent-platform",
+    "format": "blog",
+    "priority": "A",
+    "url": "https://cloud.google.com/blog/topics/ai-machine-learning",
+    "feed_url": "https://cloudblog.withgoogle.com/products/ai-machine-learning/rss/",
+    "focus": "agent runtimes identity governance enterprise deployments",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "aws-ml",
+    "name": "AWS Machine Learning Blog",
+    "category": "agent-platform",
+    "format": "blog",
+    "priority": "A",
+    "url": "https://aws.amazon.com/blogs/machine-learning/",
+    "feed_url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+    "focus": "AgentOps security evaluation observability architectures",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "langchain-blog",
+    "name": "LangChain Blog",
+    "category": "agent-framework",
+    "format": "blog",
+    "priority": "A",
+    "url": "https://www.langchain.com/blog",
+    "feed_url": "https://www.langchain.com/blog/rss.xml",
+    "focus": "orchestration LangGraph deployment evaluations",
+    "bias_note": "first-party framework vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "langchain-youtube",
+    "name": "LangChain YouTube",
+    "category": "agent-framework",
+    "format": "youtube",
+    "priority": "A",
+    "url": "https://www.youtube.com/@LangChain/videos",
+    "feed_url": "",
+    "focus": "agent demos architecture and community talks",
+    "bias_note": "first-party framework vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "temporal-blog",
+    "name": "Temporal Blog",
+    "category": "durable-execution",
+    "format": "blog",
+    "priority": "A",
+    "url": "https://temporal.io/blog",
+    "feed_url": "https://temporal.io/blog/feed.xml",
+    "focus": "durable execution long-running workflows human approval",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "temporal-youtube",
+    "name": "Temporal YouTube",
+    "category": "durable-execution",
+    "format": "youtube",
+    "priority": "A",
+    "url": "https://www.youtube.com/@Temporalio/videos",
+    "feed_url": "",
+    "focus": "durable workflow talks and implementation demos",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "arize-blog",
+    "name": "Arize AI Blog",
+    "category": "observability",
+    "format": "blog",
+    "priority": "A",
+    "url": "https://arize.com/blog/",
+    "feed_url": "https://arize.com/blog/feed/",
+    "focus": "agent traces evaluations observability failure analysis",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "arize-youtube",
+    "name": "Arize AI YouTube",
+    "category": "observability",
+    "format": "youtube",
+    "priority": "A",
+    "url": "https://www.youtube.com/@ArizeAI/videos",
+    "feed_url": "",
+    "focus": "agent debugging evaluation and production case studies",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "nvidia-blog",
+    "name": "NVIDIA Technical Blog",
+    "category": "industrial-ai",
+    "format": "blog",
+    "priority": "A",
+    "url": "https://developer.nvidia.com/blog/",
+    "feed_url": "https://developer.nvidia.com/blog/feed/",
+    "focus": "industrial AI robotics simulation edge and infrastructure",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "nvidia-youtube",
+    "name": "NVIDIA Developer YouTube",
+    "category": "industrial-ai",
+    "format": "youtube",
+    "priority": "A",
+    "url": "https://www.youtube.com/@NVIDIADeveloper/videos",
+    "feed_url": "",
+    "focus": "technical sessions industrial AI robotics and agents",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "databricks-blog",
+    "name": "Databricks Blog",
+    "category": "data-ai-platform",
+    "format": "blog",
+    "priority": "A",
+    "url": "https://www.databricks.com/blog",
+    "feed_url": "https://www.databricks.com/feed",
+    "focus": "enterprise data governance agents and deployments",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "databricks-youtube",
+    "name": "Databricks YouTube",
+    "category": "data-ai-platform",
+    "format": "youtube",
+    "priority": "A",
+    "url": "https://www.youtube.com/@Databricks/videos",
+    "feed_url": "",
+    "focus": "product architecture and customer talks",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "anthropic-engineering",
+    "name": "Anthropic Engineering",
+    "category": "model-lab",
+    "format": "blog",
+    "priority": "A",
+    "url": "https://www.anthropic.com/engineering",
+    "feed_url": "",
+    "focus": "agent design context tool use safety and deployment",
+    "bias_note": "first-party model lab",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "latent-space",
+    "name": "Latent Space",
+    "category": "independent-engineering",
+    "format": "newsletter",
+    "priority": "A",
+    "url": "https://www.latent.space/",
+    "feed_url": "https://www.latent.space/feed",
+    "focus": "AI engineering interviews and production architecture",
+    "bias_note": "community and interview selection",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "cset",
+    "name": "CSET",
+    "category": "policy-research",
+    "format": "research",
+    "priority": "A",
+    "url": "https://cset.georgetown.edu/",
+    "feed_url": "",
+    "focus": "AI compute security industrial base and policy",
+    "bias_note": "think tank",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "csis-wadhwani",
+    "name": "CSIS Wadhwani AI Center",
+    "category": "policy-research",
+    "format": "research",
+    "priority": "A",
+    "url": "https://www.csis.org/programs/wadhwani-ai-center",
+    "feed_url": "",
+    "focus": "AI autonomy national security geopolitics governance",
+    "bias_note": "think tank",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "openai-news",
+    "name": "OpenAI News",
+    "category": "model-lab",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://openai.com/news/",
+    "feed_url": "https://openai.com/news/rss.xml",
+    "focus": "agent APIs models tools evaluations",
+    "bias_note": "first-party model lab",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "llamaindex",
+    "name": "LlamaIndex Blog",
+    "category": "agent-framework",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://www.llamaindex.ai/blog",
+    "feed_url": "",
+    "focus": "enterprise context retrieval workflows",
+    "bias_note": "first-party framework vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "ms-developer-youtube",
+    "name": "Microsoft Developer YouTube",
+    "category": "agent-platform",
+    "format": "youtube",
+    "priority": "B",
+    "url": "https://www.youtube.com/@MicrosoftDeveloper/videos",
+    "feed_url": "",
+    "focus": "developer demos and architecture sessions",
+    "bias_note": "broad first-party channel",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "google-cloud-youtube",
+    "name": "Google Cloud Tech YouTube",
+    "category": "agent-platform",
+    "format": "youtube",
+    "priority": "B",
+    "url": "https://www.youtube.com/@googlecloudtech/videos",
+    "feed_url": "",
+    "focus": "agent runtime and enterprise demos",
+    "bias_note": "broad first-party channel",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "aws-developers-youtube",
+    "name": "AWS Developers YouTube",
+    "category": "agent-platform",
+    "format": "youtube",
+    "priority": "B",
+    "url": "https://www.youtube.com/@awsdevelopers/videos",
+    "feed_url": "",
+    "focus": "Bedrock AgentCore and deployment tutorials",
+    "bias_note": "broad first-party channel",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "import-ai",
+    "name": "Import AI",
+    "category": "independent-analysis",
+    "format": "newsletter",
+    "priority": "B",
+    "url": "https://jack-clark.net/",
+    "feed_url": "https://jack-clark.net/feed/",
+    "focus": "research capability policy and industrial implications",
+    "bias_note": "author synthesis",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "interconnects",
+    "name": "Interconnects",
+    "category": "independent-analysis",
+    "format": "newsletter",
+    "priority": "B",
+    "url": "https://www.interconnects.ai/",
+    "feed_url": "https://www.interconnects.ai/feed",
+    "focus": "model development RL and open ecosystems",
+    "bias_note": "author synthesis",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "semianalysis",
+    "name": "SemiAnalysis",
+    "category": "infrastructure-analysis",
+    "format": "analysis",
+    "priority": "B",
+    "url": "https://semianalysis.com/",
+    "feed_url": "https://semianalysis.com/feed/",
+    "focus": "compute chips data centers and infrastructure economics",
+    "bias_note": "analysis and paywall",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "defense-one-ai",
+    "name": "Defense One AI and Autonomy",
+    "category": "defence-news",
+    "format": "news",
+    "priority": "B",
+    "url": "https://www.defenseone.com/topic/ai-autonomy/",
+    "feed_url": "",
+    "focus": "government AI autonomy programs and procurement",
+    "bias_note": "journalism",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "industrial-base-alpha",
+    "name": "Industrial Base Alpha",
+    "category": "defence-analysis",
+    "format": "newsletter",
+    "priority": "B",
+    "url": "https://industrialbasealpha.com/substack",
+    "feed_url": "",
+    "focus": "defence technology autonomy manufacturing and investment",
+    "bias_note": "market lens",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "shield-ai",
+    "name": "Shield AI Newsroom and YouTube",
+    "category": "defence-vendor",
+    "format": "mixed",
+    "priority": "C",
+    "url": "https://shield.ai/news/",
+    "feed_url": "",
+    "focus": "Hivemind autonomous aircraft and contested autonomy",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "anduril",
+    "name": "Anduril News",
+    "category": "defence-vendor",
+    "format": "news",
+    "priority": "C",
+    "url": "https://www.anduril.com/news/",
+    "feed_url": "",
+    "focus": "Lattice autonomous systems and defence manufacturing",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "applied-intuition-defense",
+    "name": "Applied Intuition Defense Newsroom",
+    "category": "defence-vendor",
+    "format": "news",
+    "priority": "C",
+    "url": "https://www.appliedintuitiondefense.com/newsroom",
+    "feed_url": "",
+    "focus": "vehicle autonomy simulation and physical AI",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "diu",
+    "name": "Defense Innovation Unit",
+    "category": "government",
+    "format": "news",
+    "priority": "C",
+    "url": "https://www.diu.mil/latest",
+    "feed_url": "",
+    "focus": "commercial technology solicitations awards and deployments",
+    "bias_note": "government selection bias",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "darpa",
+    "name": "DARPA News",
+    "category": "government",
+    "format": "research",
+    "priority": "C",
+    "url": "https://www.darpa.mil/news",
+    "feed_url": "",
+    "focus": "early AI autonomy cyber and human-machine research",
+    "bias_note": "program announcements",
+    "last_verified": "2026-07-14"
+  },
+  {
+    "source_id": "google-deepmind",
+    "name": "Google DeepMind Blog",
+    "category": "frontier-lab",
+    "format": "blog",
+    "priority": "A",
+    "url": "https://deepmind.google/blog/",
+    "focus": "frontier models science robotics and safety",
+    "bias_note": "first-party lab",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "anthropic-news",
+    "name": "Anthropic News",
+    "category": "frontier-lab",
+    "format": "blog",
+    "priority": "A",
+    "url": "https://www.anthropic.com/news",
+    "focus": "models agents safety and policy",
+    "bias_note": "first-party lab",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "meta-ai",
+    "name": "Meta AI Blog",
+    "category": "open-models",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://ai.meta.com/blog/",
+    "focus": "Llama open models research and infrastructure",
+    "bias_note": "first-party lab",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "mistral-news",
+    "name": "Mistral AI News",
+    "category": "frontier-lab",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://mistral.ai/news",
+    "focus": "European models agents and deployment",
+    "bias_note": "first-party lab",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "cohere-research",
+    "name": "Cohere Research",
+    "category": "frontier-lab",
+    "format": "research",
+    "priority": "B",
+    "url": "https://cohere.com/research",
+    "focus": "enterprise models retrieval and multilingual AI",
+    "bias_note": "first-party lab",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "huggingface-papers",
+    "name": "Hugging Face Daily Papers",
+    "category": "research-feed",
+    "format": "daily",
+    "priority": "A",
+    "url": "https://huggingface.co/papers",
+    "focus": "daily papers linked to models datasets and demos",
+    "bias_note": "community ranking effects",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "arxiv-cs-ai",
+    "name": "arXiv Artificial Intelligence",
+    "category": "research-feed",
+    "format": "daily",
+    "priority": "A",
+    "url": "https://arxiv.org/list/cs.AI/recent",
+    "focus": "primary preprints across artificial intelligence",
+    "bias_note": "not peer reviewed",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "stanford-ai-index",
+    "name": "Stanford AI Index",
+    "category": "ecosystem-measurement",
+    "format": "annual",
+    "priority": "A",
+    "url": "https://hai.stanford.edu/ai-index",
+    "focus": "capabilities investment adoption policy and societal impact",
+    "bias_note": "academic synthesis",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "epoch-ai",
+    "name": "Epoch AI",
+    "category": "ecosystem-measurement",
+    "format": "research",
+    "priority": "A",
+    "url": "https://epoch.ai/",
+    "focus": "compute trends model capabilities and forecasting",
+    "bias_note": "research organization assumptions",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "metr",
+    "name": "METR",
+    "category": "evaluation-safety",
+    "format": "research",
+    "priority": "A",
+    "url": "https://metr.org/",
+    "focus": "agent task horizons evaluations and frontier risk",
+    "bias_note": "risk-focused nonprofit",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "nist-airc",
+    "name": "NIST AI Resource Center",
+    "category": "governance-standards",
+    "format": "guidance",
+    "priority": "A",
+    "url": "https://airc.nist.gov/",
+    "focus": "AI RMF testing evaluation verification and validation",
+    "bias_note": "US voluntary framework",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "aaif",
+    "name": "Agentic AI Foundation",
+    "category": "agent-standards",
+    "format": "foundation",
+    "priority": "A",
+    "url": "https://aaif.io/",
+    "focus": "MCP AGENTS.md goose and interoperable agent infrastructure",
+    "bias_note": "member-driven foundation",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "eu-ai-act",
+    "name": "European Commission AI Act Service Desk",
+    "category": "regulation",
+    "format": "guidance",
+    "priority": "A",
+    "url": "https://ai-act-service-desk.ec.europa.eu/",
+    "focus": "official EU AI Act obligations timeline and compliance",
+    "bias_note": "EU regulatory source",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "oecd-ai",
+    "name": "OECD AI Observatory",
+    "category": "policy-data",
+    "format": "research",
+    "priority": "B",
+    "url": "https://oecd.ai/",
+    "focus": "international AI policy indicators and incident monitoring",
+    "bias_note": "intergovernmental lens",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "un-ai-panel",
+    "name": "UN Independent International Scientific Panel on AI",
+    "category": "global-governance",
+    "format": "research",
+    "priority": "B",
+    "url": "https://www.un.org/independent-international-scientific-panel-ai",
+    "focus": "global capability risk and governance assessments",
+    "bias_note": "intergovernmental process",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "mlcommons",
+    "name": "MLCommons",
+    "category": "benchmarks",
+    "format": "standards",
+    "priority": "A",
+    "url": "https://mlcommons.org/",
+    "focus": "training inference safety and application benchmarks",
+    "bias_note": "industry consortium",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "hf-blog",
+    "name": "Hugging Face Blog",
+    "category": "open-ecosystem",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://huggingface.co/blog",
+    "focus": "open models datasets libraries and deployment",
+    "bias_note": "platform first-party",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "pytorch-blog",
+    "name": "PyTorch Blog",
+    "category": "ml-framework",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://pytorch.org/blog/",
+    "focus": "training inference compilers and open ML infrastructure",
+    "bias_note": "project first-party",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "vllm",
+    "name": "vLLM Project",
+    "category": "inference",
+    "format": "project",
+    "priority": "A",
+    "url": "https://vllm.ai/",
+    "focus": "open high-throughput model serving and inference",
+    "bias_note": "project first-party",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "sglang",
+    "name": "SGLang Project",
+    "category": "inference",
+    "format": "project",
+    "priority": "B",
+    "url": "https://github.com/sgl-project/sglang",
+    "focus": "open serving framework for models and agents",
+    "bias_note": "project first-party",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "cloudflare-ai",
+    "name": "Cloudflare AI Blog",
+    "category": "edge-inference",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://blog.cloudflare.com/tag/ai/",
+    "focus": "edge inference agents networking and security",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "amd-ai",
+    "name": "AMD Developer AI",
+    "category": "compute",
+    "format": "developer",
+    "priority": "B",
+    "url": "https://www.amd.com/en/developer/resources/ai.html",
+    "focus": "accelerators ROCm inference and training",
+    "bias_note": "first-party hardware vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "cerebras-blog",
+    "name": "Cerebras Blog",
+    "category": "compute",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://www.cerebras.ai/blog",
+    "focus": "wafer-scale compute training and inference",
+    "bias_note": "first-party hardware vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "groq-blog",
+    "name": "Groq Blog",
+    "category": "inference",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://groq.com/blog",
+    "focus": "inference hardware latency and deployment",
+    "bias_note": "first-party hardware vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "together-blog",
+    "name": "Together AI Blog",
+    "category": "inference-platform",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://www.together.ai/blog",
+    "focus": "open-model training fine-tuning and inference",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "fireworks-blog",
+    "name": "Fireworks AI Blog",
+    "category": "inference-platform",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://fireworks.ai/blog",
+    "focus": "production inference compound systems and models",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "braintrust-blog",
+    "name": "Braintrust Blog",
+    "category": "evaluation",
+    "format": "blog",
+    "priority": "A",
+    "url": "https://www.braintrust.dev/blog",
+    "focus": "LLM and agent evaluation observability and experiments",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "langfuse-blog",
+    "name": "Langfuse Blog",
+    "category": "observability",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://langfuse.com/blog",
+    "focus": "open-source traces prompt management and evaluations",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "pydantic-ai",
+    "name": "Pydantic AI",
+    "category": "agent-framework",
+    "format": "documentation",
+    "priority": "B",
+    "url": "https://ai.pydantic.dev/",
+    "focus": "typed Python agents tools and durable execution",
+    "bias_note": "project first-party",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "crewai",
+    "name": "CrewAI Blog",
+    "category": "agent-framework",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://www.crewai.com/blog",
+    "focus": "multi-agent orchestration enterprise workflows and deployment",
+    "bias_note": "first-party vendor",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "allen-ai",
+    "name": "Allen Institute for AI",
+    "category": "research-lab",
+    "format": "research",
+    "priority": "B",
+    "url": "https://allenai.org/news",
+    "focus": "open models datasets science and NLP",
+    "bias_note": "nonprofit lab",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "bair",
+    "name": "BAIR Blog",
+    "category": "research-lab",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://bair.berkeley.edu/blog/",
+    "focus": "academic machine learning robotics and agents",
+    "bias_note": "academic lab",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "mit-csail",
+    "name": "MIT CSAIL AI News",
+    "category": "research-lab",
+    "format": "news",
+    "priority": "B",
+    "url": "https://www.csail.mit.edu/research/artificial-intelligence",
+    "focus": "academic AI robotics systems and theory",
+    "bias_note": "academic selection",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "msr-ai",
+    "name": "Microsoft Research AI",
+    "category": "research-lab",
+    "format": "research",
+    "priority": "B",
+    "url": "https://www.microsoft.com/en-us/research/research-area/artificial-intelligence/",
+    "focus": "models agents systems and responsible AI",
+    "bias_note": "corporate research",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "google-research",
+    "name": "Google Research Blog",
+    "category": "research-lab",
+    "format": "blog",
+    "priority": "B",
+    "url": "https://research.google/blog/",
+    "focus": "machine learning systems science and applications",
+    "bias_note": "corporate research",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "aws-science",
+    "name": "AWS Machine Learning Science",
+    "category": "research-lab",
+    "format": "research",
+    "priority": "C",
+    "url": "https://www.amazon.science/research-areas/machine-learning",
+    "focus": "cloud-scale ML systems and applications",
+    "bias_note": "corporate research",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "palantir-aip-docs",
+    "name": "Palantir AIP Documentation",
+    "category": "operational-ai",
+    "format": "documentation",
+    "priority": "A",
+    "url": "https://www.palantir.com/docs/foundry/aip/overview/",
+    "focus": "AIP agents ontology tools and deployment",
+    "bias_note": "first-party product documentation",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "deepmind-robotics",
+    "name": "Gemini Robotics",
+    "category": "embodied-ai",
+    "format": "product",
+    "priority": "A",
+    "url": "https://deepmind.google/models/gemini-robotics/",
+    "focus": "vision-language-action models and embodied reasoning",
+    "bias_note": "first-party lab",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "physical-intelligence",
+    "name": "Physical Intelligence",
+    "category": "embodied-ai",
+    "format": "research",
+    "priority": "B",
+    "url": "https://www.physicalintelligence.company/blog",
+    "focus": "general-purpose robot foundation models",
+    "bias_note": "first-party startup",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "figure-news",
+    "name": "Figure AI News",
+    "category": "embodied-ai",
+    "format": "news",
+    "priority": "C",
+    "url": "https://www.figure.ai/news",
+    "focus": "humanoid robotics models and deployments",
+    "bias_note": "first-party startup",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "rand-ai",
+    "name": "RAND Artificial Intelligence",
+    "category": "policy-research",
+    "format": "research",
+    "priority": "B",
+    "url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "focus": "national security governance workforce and public policy",
+    "bias_note": "think tank",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "brookings-ai",
+    "name": "Brookings AI and Emerging Technology",
+    "category": "policy-research",
+    "format": "analysis",
+    "priority": "C",
+    "url": "https://www.brookings.edu/topics/artificial-intelligence/",
+    "focus": "economic governance competition and social impacts",
+    "bias_note": "think tank",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "the-batch",
+    "name": "The Batch",
+    "category": "independent-news",
+    "format": "newsletter",
+    "priority": "B",
+    "url": "https://www.deeplearning.ai/the-batch/",
+    "focus": "weekly technical and industry AI developments",
+    "bias_note": "editorial selection",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "mit-tech-ai",
+    "name": "MIT Technology Review AI",
+    "category": "independent-news",
+    "format": "news",
+    "priority": "B",
+    "url": "https://www.technologyreview.com/topic/artificial-intelligence/",
+    "focus": "AI capabilities deployment policy and societal effects",
+    "bias_note": "journalism and paywall",
+    "last_verified": "2026-07-15"
+  },
+  {
+    "source_id": "tech-policy-press",
+    "name": "Tech Policy Press",
+    "category": "policy-news",
+    "format": "news",
+    "priority": "C",
+    "url": "https://www.techpolicy.press/",
+    "focus": "platform governance regulation and AI accountability",
+    "bias_note": "policy journalism",
+    "last_verified": "2026-07-15"
+  }
+];
+
+export const wikiPages = [
+  {
+    "slug": "AI-Coding-Agents",
+    "title": "AI Coding Agents",
+    "summary": "Coding agents plan and execute software work across repositories, shells, tests, documentation, issue trackers, and deployment systems. Their scope has expanded from completion to long-running delegated engineering.",
+    "links": [],
+    "content": "# AI Coding Agents\n\nCoding agents plan and execute software work across repositories, shells, tests, documentation, issue trackers, and deployment systems. Their scope has expanded from completion to long-running delegated engineering.\n\n## Operational concerns\n\n- Repository instructions and environment discovery\n- Sandboxed execution and secret boundaries\n- Test-driven verification\n- Reviewable diffs and source control\n- Parallel task coordination\n- Dependency and supply-chain safety\n- Measurement of correctness rather than code volume\n\nAGENTS.md provides a shared convention for project instructions. Coding-agent practices are also becoming a template for general knowledge-work agents: bounded tools, durable tasks, explicit artifacts, and verification before handoff.\n"
+  },
+  {
+    "slug": "AI-Ecosystem-Map",
+    "title": "AI Ecosystem Map",
+    "summary": "The AI ecosystem is best understood as a stack rather than a leaderboard.",
+    "links": [
+      "Operational AI",
+      "AI Infrastructure",
+      "Enterprise Agent Runtime",
+      "AI Safety and Governance"
+    ],
+    "content": "# AI Ecosystem Map\n\nThe AI ecosystem is best understood as a stack rather than a leaderboard.\n\n1. **Compute:** accelerators, memory, networking, energy, cloud, edge, and sovereign infrastructure.\n2. **Models:** frontier, open-weight, small, specialized, multimodal, and embodied models.\n3. **Serving:** inference engines, routing, caching, batching, quantization, and cost controls.\n4. **Data and context:** warehouses, lakehouses, retrieval, semantic layers, knowledge graphs, and ontologies.\n5. **Agent runtime:** tool use, state, memory, retries, scheduling, approvals, and identity.\n6. **Interoperability:** MCP, AGENTS.md, APIs, connectors, and agent-to-agent protocols.\n7. **Evaluation:** traces, task suites, graders, red teams, outcome metrics, and production monitoring.\n8. **Applications:** coding, research, operations, healthcare, defense, industry, science, and robotics.\n9. **Governance:** permissions, security, audit, standards, regulation, and organizational accountability.\n\nThe primary competitive question is no longer only “which model is strongest?” It is “which system can turn capability into reliable, governed action at acceptable cost?”\n\nRelated: [[Operational AI]], [[AI Infrastructure]], [[Enterprise Agent Runtime]], [[AI Safety and Governance]].\n"
+  },
+  {
+    "slug": "AI-Infrastructure",
+    "title": "AI Infrastructure",
+    "summary": "AI infrastructure includes accelerators, memory, networking, storage, energy, training systems, inference engines, clouds, edge runtimes, and deployment control planes.",
+    "links": [
+      "Frontier and Open Models",
+      "Operational AI",
+      "Organizations and Platforms"
+    ],
+    "content": "# AI Infrastructure\n\nAI infrastructure includes accelerators, memory, networking, storage, energy, training systems, inference engines, clouds, edge runtimes, and deployment control planes.\n\n## Why inference matters\n\nProduction economics depend on tokens per second, time to first token, concurrency, memory efficiency, routing, caching, batching, and utilization. Open serving projects such as vLLM and SGLang coexist with managed inference platforms and hardware-specific runtimes.\n\nSovereign and regulated deployments add requirements for locality, supply-chain control, audit, and consistent release across cloud, on-premises, and edge environments.\n\nRelated: [[Frontier and Open Models]], [[Operational AI]], [[Organizations and Platforms]].\n"
+  },
+  {
+    "slug": "AI-Safety-and-Governance",
+    "title": "AI Safety and Governance",
+    "summary": "AI governance assigns responsibility and controls risk across design, acquisition, testing, deployment, operation, and retirement.",
+    "links": [],
+    "content": "# AI Safety and Governance\n\nAI governance assigns responsibility and controls risk across design, acquisition, testing, deployment, operation, and retirement.\n\n## Control areas\n\n- Intended use, prohibited use, and risk classification\n- Data governance, privacy, provenance, and security\n- Capability and safety evaluation\n- Human oversight and appeal\n- Incident reporting and audit trails\n- Vendor, model, and supply-chain risk\n- Continuous monitoring and change management\n\nNIST's AI RMF uses the functions govern, map, measure, and manage. The EU AI Act applies progressively and its implementation details continue to change, so compliance dates and interpretations should be checked against current official sources.\n\nSources: [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework), [EU AI Act timeline](https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act).\n"
+  },
+  {
+    "slug": "Agent-Interoperability",
+    "title": "Agent Interoperability",
+    "summary": "Interoperability standards reduce bespoke wiring between models, tools, repositories, and data systems.",
+    "links": [],
+    "content": "# Agent Interoperability\n\nInteroperability standards reduce bespoke wiring between models, tools, repositories, and data systems.\n\n## Important components\n\n- **MCP:** a protocol for connecting AI applications to tools, data, and services.\n- **AGENTS.md:** repository-local guidance for coding agents.\n- **APIs and connectors:** conventional integration remains essential for authorization and transactional guarantees.\n- **Agent protocols:** emerging approaches support delegation or communication across agent systems.\n\nAnthropic donated MCP to the Linux Foundation's Agentic AI Foundation alongside OpenAI's AGENTS.md and Block's goose. Standardization improves portability but does not eliminate security design: every connection still needs authentication, authorization, input validation, and audit.\n\nSources: [AAIF announcement](https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation), [Anthropic announcement](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation).\n"
+  },
+  {
+    "slug": "Agentic-AI",
+    "title": "Agentic AI",
+    "summary": "An AI agent is a model-centered system that can pursue a goal through multiple steps, select or call tools, observe results, maintain context, and adapt its plan. Autonomy is a spectrum: an agent may only draft, may act after approval, or may execute bounded actions independently.",
+    "links": [
+      "Enterprise Agent Runtime",
+      "Agent Interoperability",
+      "Evaluation and Observability",
+      "AI Coding Agents"
+    ],
+    "content": "# Agentic AI\n\nAn AI agent is a model-centered system that can pursue a goal through multiple steps, select or call tools, observe results, maintain context, and adapt its plan. Autonomy is a spectrum: an agent may only draft, may act after approval, or may execute bounded actions independently.\n\n## Production pattern\n\nGoal → plan → tool call → observation → state update → evaluation → approval or next action.\n\nUseful agents combine probabilistic reasoning with deterministic software. They need explicit tool contracts, constrained permissions, termination rules, durable state, and recovery paths. Multi-agent designs can parallelize or specialize work, but also increase coordination cost and failure surfaces.\n\nRelated: [[Enterprise Agent Runtime]], [[Agent Interoperability]], [[Evaluation and Observability]], [[AI Coding Agents]].\n"
+  },
+  {
+    "slug": "Context-and-Ontologies",
+    "title": "Context and Ontologies",
+    "summary": "Context determines what an agent knows about the task, organization, user, and current state. An ontology adds explicit business meaning: typed objects, relationships, rules, actions, ownership, and permissions.",
+    "links": [
+      "Enterprise Data and Knowledge",
+      "Operational AI",
+      "AI Safety and Governance"
+    ],
+    "content": "# Context and Ontologies\n\nContext determines what an agent knows about the task, organization, user, and current state. An ontology adds explicit business meaning: typed objects, relationships, rules, actions, ownership, and permissions.\n\n## Why it matters\n\n- Retrieval supplies relevant information; an ontology can also define valid operational structure and permitted action.\n- Shared semantics reduce ambiguity across agents, applications, and people.\n- Permission-aware context can prevent an agent from seeing or changing data beyond its authority.\n- Versioned operational models support audit, simulation, and controlled promotion.\n\nOntologies are not automatically correct. They require governance, stewardship, lineage, and continuous reconciliation with source systems.\n\nRelated: [[Enterprise Data and Knowledge]], [[Operational AI]], [[AI Safety and Governance]].\n"
+  },
+  {
+    "slug": "Embodied-and-Industrial-AI",
+    "title": "Embodied and Industrial AI",
+    "summary": "Embodied AI connects perception, reasoning, planning, and control to physical systems. Examples include robots, vehicles, factories, field operations, logistics, and infrastructure maintenance.",
+    "links": [],
+    "content": "# Embodied and Industrial AI\n\nEmbodied AI connects perception, reasoning, planning, and control to physical systems. Examples include robots, vehicles, factories, field operations, logistics, and infrastructure maintenance.\n\nGoogle DeepMind describes Gemini Robotics as combining embodied reasoning with vision-language-action models. Industrial AI also relies on simulation, digital twins, sensor data, deterministic control, and safety envelopes.\n\n## Higher-stakes requirements\n\n- Success and failure detection\n- Simulation and staged deployment\n- Real-time and edge constraints\n- Human override and safe-stop behavior\n- Hardware-aware testing\n- Clear accountability for physical outcomes\n\nSource: [Google DeepMind Gemini Robotics](https://deepmind.google/models/gemini-robotics/).\n"
+  },
+  {
+    "slug": "Enterprise-Agent-Runtime",
+    "title": "Enterprise Agent Runtime",
+    "summary": "A production agent runtime supplies the non-model capabilities needed for reliable delegated work.",
+    "links": [
+      "Agentic AI",
+      "Evaluation and Observability",
+      "Agent Interoperability"
+    ],
+    "content": "# Enterprise Agent Runtime\n\nA production agent runtime supplies the non-model capabilities needed for reliable delegated work.\n\n## Core capabilities\n\n- Durable state and resumable execution\n- Scheduling, retries, timeouts, and idempotency\n- Tool isolation and credential boundaries\n- Human approval and escalation\n- Memory and context management\n- Tracing, cost accounting, and policy enforcement\n- Versioning and controlled deployment\n\nOpenAI's 2026 enterprise and Amazon Bedrock announcements emphasize shared context, permissions, state, reliability, and governance. Temporal, cloud platforms, data platforms, and agent frameworks approach the same problem from different layers.\n\nRelated: [[Agentic AI]], [[Evaluation and Observability]], [[Agent Interoperability]].\n"
+  },
+  {
+    "slug": "Enterprise-Data-and-Knowledge",
+    "title": "Enterprise Data and Knowledge",
+    "summary": "Enterprise agents need more than document search. They may reason across structured tables, unstructured content, event streams, policies, definitions, lineage, and live application state.",
+    "links": [
+      "Context and Ontologies",
+      "Operational AI",
+      "Organizations and Platforms"
+    ],
+    "content": "# Enterprise Data and Knowledge\n\nEnterprise agents need more than document search. They may reason across structured tables, unstructured content, event streams, policies, definitions, lineage, and live application state.\n\n## Main approaches\n\n- Warehouses and lakehouses for governed analytical data\n- Retrieval systems for unstructured evidence\n- Semantic layers for business definitions and metrics\n- Knowledge graphs for entities and relationships\n- Ontologies for operational objects, actions, and permissions\n- Data contracts and lineage for trust and change management\n\nSnowflake, Databricks, Microsoft, Google Cloud, AWS, and Palantir increasingly frame the data layer as the context and control plane for agents.\n\nRelated: [[Context and Ontologies]], [[Operational AI]], [[Organizations and Platforms]].\n"
+  },
+  {
+    "slug": "Evaluation-and-Observability",
+    "title": "Evaluation and Observability",
+    "summary": "Evaluation asks whether an AI system performs the intended task. Observability explains what happened during a particular run.",
+    "links": [],
+    "content": "# Evaluation and Observability\n\nEvaluation asks whether an AI system performs the intended task. Observability explains what happened during a particular run.\n\n## Evaluation layers\n\n- Model capability and safety benchmarks\n- Tool-use and agent task suites\n- Domain-specific offline test cases\n- Human review and pairwise preference\n- Production quality, latency, cost, and business outcomes\n- Incident, drift, and regression monitoring\n\nMETR studies the duration of tasks agents can complete at defined reliability. NIST's AI RMF organizes risk work around govern, map, measure, and manage. Production teams also need traces, replayable runs, graders, failure taxonomies, and release gates.\n\nSources: [METR](https://metr.org/), [NIST AIRC](https://airc.nist.gov/), [MLCommons](https://mlcommons.org/).\n"
+  },
+  {
+    "slug": "Evidence-and-Method",
+    "title": "Evidence and Method",
+    "summary": "The 100 videos were frozen by ID, partitioned exactly once, summarized with evidence notes, recombined, coverage-checked, and reviewed through three independent Terra passes. External ecosystem sources are categorized by provenance and bias. Volatile claims—especially regulation, product availability, leadership, pricing, and benchmarks—must be rechecked before use.",
+    "links": [],
+    "content": "# Evidence and Method\n\n## Evidence labels\n\n- **Transcript-backed:** supported by available spoken content.\n- **Official metadata:** supported by the publisher's title or description.\n- **Attributed outcome claim:** a result reported by a vendor or customer participant.\n- **Independent corroboration:** supported by a separate benchmark, filing, paper, government record, or credible third party.\n- **Inference:** an analytical conclusion derived from the evidence rather than explicitly stated.\n\n## Workflow\n\nThe 100 videos were frozen by ID, partitioned exactly once, summarized with evidence notes, recombined, coverage-checked, and reviewed through three independent Terra passes. External ecosystem sources are categorized by provenance and bias. Volatile claims—especially regulation, product availability, leadership, pricing, and benchmarks—must be rechecked before use.\n"
+  },
+  {
+    "slug": "Frontier-and-Open-Models",
+    "title": "Frontier and Open Models",
+    "summary": "The model layer includes closed frontier APIs, open-weight models, small specialized models, multimodal systems, and domain-tuned components.",
+    "links": [
+      "AI Infrastructure",
+      "Evaluation and Observability",
+      "Operational AI"
+    ],
+    "content": "# Frontier and Open Models\n\nThe model layer includes closed frontier APIs, open-weight models, small specialized models, multimodal systems, and domain-tuned components.\n\n## Selection dimensions\n\n- Task quality and reliability\n- Latency and throughput\n- Total inference and integration cost\n- Context length and tool use\n- Fine-tuning and deployment flexibility\n- Data residency, licensing, and sovereignty\n- Safety controls and evaluation evidence\n\nStrong operational systems increasingly use portfolios: a frontier model for difficult reasoning, smaller models for routine tasks, deterministic code for stable logic, and specialized perception or control models for physical work.\n\nRelated: [[AI Infrastructure]], [[Evaluation and Observability]], [[Operational AI]].\n"
+  },
+  {
+    "slug": "Glossary",
+    "title": "Glossary",
+    "summary": "",
+    "links": [],
+    "content": "# Glossary\n\n- **Agent:** a system that pursues a goal through multiple model and tool steps.\n- **Agent runtime:** infrastructure for state, tools, scheduling, recovery, permissions, and monitoring.\n- **Bounded autonomy:** authority constrained by tools, policies, scope, approvals, and stop conditions.\n- **Context:** information supplied or retrieved for a model or agent run.\n- **Digital twin:** a digital representation used to understand, simulate, or control a physical system.\n- **Evaluation:** a method for measuring system quality, capability, safety, or outcome performance.\n- **Inference:** both model execution and, in research, a conclusion derived from evidence.\n- **Knowledge graph:** entities and relationships represented as a graph.\n- **MCP:** Model Context Protocol, a standard for connecting AI applications to tools and data.\n- **Ontology:** a governed model of domain objects, relationships, rules, actions, and meaning.\n- **RAG:** retrieval-augmented generation; retrieving evidence to support model responses.\n- **Semantic layer:** consistent business definitions and metrics over underlying data.\n- **VLA:** vision-language-action model used to connect perception and instructions to physical action.\n"
+  },
+  {
+    "slug": "Home",
+    "title": "Operational AI Field Wiki",
+    "summary": "This wiki connects the 100-video Palantir corpus to the wider AI ecosystem. It is an evidence-labeled map of the systems, organizations, standards, infrastructure, governance, and deployment patterns surrounding production AI.",
+    "links": [
+      "AI Ecosystem Map",
+      "Operational AI",
+      "Agentic AI",
+      "Context and Ontologies",
+      "Evaluation and Observability",
+      "Research and Monitoring Sources",
+      "Palantir Video Corpus",
+      "Evidence and Method"
+    ],
+    "content": "# Operational AI Field Wiki\n\nThis wiki connects the 100-video Palantir corpus to the wider AI ecosystem. It is an evidence-labeled map of the systems, organizations, standards, infrastructure, governance, and deployment patterns surrounding production AI.\n\n## Start here\n\n- [[AI Ecosystem Map]] — the whole stack at a glance\n- [[Operational AI]] — what changes when AI participates in real operations\n- [[Agentic AI]] — agents, tools, state, and delegated work\n- [[Context and Ontologies]] — the shared reality behind reliable action\n- [[Evaluation and Observability]] — how systems are measured and improved\n- [[Research and Monitoring Sources]] — the expanded intelligence watchlist\n- [[Palantir Video Corpus]] — what the 100 videos cover\n- [[Evidence and Method]] — what is observed, claimed, inferred, or independently corroborated\n\n## Evidence convention\n\nProduct announcements establish what an organization says it is building. They do not independently establish safety, effectiveness, causality, or customer outcomes. This wiki retains those distinctions.\n"
+  },
+  {
+    "slug": "Operational-AI",
+    "title": "Operational AI",
+    "summary": "Operational AI connects model outputs to decisions and actions inside a live organization or physical system. Its unit of value is not generated prose but a completed, reviewable change: a revised schedule, dispatched resource, validated plan, resolved case, updated record, or controlled machine action.",
+    "links": [
+      "Context and Ontologies",
+      "Enterprise Agent Runtime",
+      "Sectors and Use Cases"
+    ],
+    "content": "# Operational AI\n\nOperational AI connects model outputs to decisions and actions inside a live organization or physical system. Its unit of value is not generated prose but a completed, reviewable change: a revised schedule, dispatched resource, validated plan, resolved case, updated record, or controlled machine action.\n\n## Recurring requirements\n\n- A current representation of operational objects, relationships, rules, and permissions.\n- Tools that can read and write governed systems.\n- Durable workflows that survive timeouts, failures, and human delays.\n- Sandboxes, approvals, attribution, and rollback for consequential actions.\n- Task-specific evaluation tied to cost, quality, speed, safety, or mission outcomes.\n\nThe Palantir corpus presents the Ontology, Agent Engine, Orchestrator, Observability, and Apollo as one version of this stack. Comparable ecosystem efforts emphasize governed enterprise context, stateful runtimes, and agent control planes.\n\nRelated: [[Context and Ontologies]], [[Enterprise Agent Runtime]], [[Sectors and Use Cases]].\n"
+  },
+  {
+    "slug": "Organizations-and-Platforms",
+    "title": "Organizations and Platforms",
+    "summary": "OpenAI, Anthropic, Google DeepMind, Meta AI, Mistral, Cohere, xAI, Allen Institute for AI, Microsoft Research, Google Research, and academic labs.",
+    "links": [
+      "Research and Monitoring Sources"
+    ],
+    "content": "# Organizations and Platforms\n\n## Model and research labs\n\nOpenAI, Anthropic, Google DeepMind, Meta AI, Mistral, Cohere, xAI, Allen Institute for AI, Microsoft Research, Google Research, and academic labs.\n\n## Enterprise and data platforms\n\nPalantir, Microsoft, Google Cloud, AWS, Databricks, Snowflake, Salesforce, ServiceNow, SAP, Oracle, and IBM.\n\n## Agent frameworks and operations\n\nLangChain/LangGraph, LlamaIndex, CrewAI, Pydantic AI, Temporal, Arize, Braintrust, Langfuse, and open protocol communities.\n\n## Compute and inference\n\nNVIDIA, AMD, hyperscalers, Cerebras, Groq, Together AI, Fireworks AI, vLLM, and SGLang.\n\n## Governance and measurement\n\nNIST, European Commission, OECD, UN scientific bodies, Stanford HAI, METR, Epoch AI, MLCommons, CSET, CSIS, RAND, and independent analysts.\n\nSee [[Research and Monitoring Sources]] for the tracked source inventory.\n"
+  },
+  {
+    "slug": "Palantir-Video-Corpus",
+    "title": "Palantir Video Corpus",
+    "summary": "The frozen corpus contains the 100 newest videos from Palantir's YouTube channel as of July 14, 2026.",
+    "links": [],
+    "content": "# Palantir Video Corpus\n\nThe frozen corpus contains the 100 newest videos from Palantir's YouTube channel as of July 14, 2026.\n\n- 100 unique video IDs with no gaps or duplicates\n- 25 transcript-backed reviews\n- 75 official-metadata-backed reviews\n- Ten non-overlapping batch reports\n- Three independent GPT-5.6 Terra second-pass reviews\n\nThe corpus is strong evidence for what Palantir and participating customers chose to present. It is not, by itself, independent proof of effectiveness or causality. Customer outcomes remain attributed unless corroborated.\n\nThe searchable catalog and detailed entries are available on the main research site.\n"
+  },
+  {
+    "slug": "Research-and-Monitoring-Sources",
+    "title": "Research and Monitoring Sources",
+    "summary": "The monitoring system now spans more than seventy sources across:",
+    "links": [],
+    "content": "# Research and Monitoring Sources\n\nThe monitoring system now spans more than seventy sources across:\n\n- Frontier and open model labs\n- Agent platforms, frameworks, and standards\n- Data, context, and enterprise platforms\n- Compute, inference, robotics, and industrial AI\n- Evaluation, safety, and observability\n- Government, regulation, policy, and independent analysis\n- Daily papers, academic labs, and ecosystem measurement\n\n## Recommended cadence\n\n- **Daily:** Hugging Face Daily Papers, arXiv, major lab announcements, regulatory alerts.\n- **Weekly:** engineering blogs, agent frameworks, evaluation vendors, infrastructure analysis, policy research.\n- **Monthly:** synthesis by stack layer, adoption evidence, benchmark changes, regulation, and important deployments.\n- **Quarterly:** revise the ecosystem map and promote only corroborated claims into the trusted layer.\n\nMachine-readable inventories live in `sources/operational_ai_watchlist.csv` and `sources/ai_ecosystem_watchlist.csv`.\n"
+  },
+  {
+    "slug": "Sectors-and-Use-Cases",
+    "title": "Sectors and Use Cases",
+    "summary": "The video corpus and expanded research cover:",
+    "links": [],
+    "content": "# Sectors and Use Cases\n\nThe video corpus and expanded research cover:\n\n- **Healthcare:** utilization review, care operations, claims, accreditation, and patient workflows.\n- **Industrial:** production planning, maintenance, quality, construction, refinery operations, and supply chains.\n- **Defense and public safety:** command and control, sensing, shipbuilding, cyber defense, crisis response, and autonomy.\n- **Mobility:** fleet operations, rail, airlines, racing, and advanced air mobility.\n- **Energy and infrastructure:** nuclear fuel, oil and gas, telecom, satellites, and data centers.\n- **Science and life sciences:** drug discovery, experimental planning, and research agents.\n- **Knowledge work:** coding, data analysis, research, finance, legal operations, customer service, and internal support.\n\nThe common pattern is domain context plus bounded action—not a generic chatbot applied unchanged to every sector.\n"
+  }
+];
+
 export const terraReviews = [
   {
     "name": "architecture-review.md",

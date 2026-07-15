@@ -21,10 +21,14 @@ test("server-renders the operational AI research hub", async () => {
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/);
 });
 
-test("ships the complete frozen corpus and watchlist", async () => {
+test("ships the complete frozen corpus, ecosystem watchlist, and wiki", async () => {
   const data = await readFile(new URL("../app/content-data.ts", import.meta.url), "utf8");
   assert.equal((data.match(/"index":/g) ?? []).length, 100);
-  assert.equal((data.match(/"source_id":/g) ?? []).length, 32);
+  const allSources = data.match(/export const allSources = (\[[\s\S]*?\]);\n\nexport const wikiPages/)?.[1] ?? "";
+  assert.equal((allSources.match(/"source_id":/g) ?? []).length, 77);
+  const wikiPages = data.match(/export const wikiPages = (\[[\s\S]*?\]);\n\nexport const terraReviews/)?.[1] ?? "";
+  assert.equal((wikiPages.match(/"slug":/g) ?? []).length, 20);
+  assert.match(wikiPages, /AI Ecosystem Map/);
   assert.match(data, /architecture-review\.md/);
   assert.match(data, /evidence-audit\.md/);
   assert.match(data, /ecosystem-and-watchlist-review\.md/);

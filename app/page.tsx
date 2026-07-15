@@ -1,13 +1,14 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { terraReviews, videos, watchlist } from "./content-data";
+import { allSources, terraReviews, videos, wikiPages } from "./content-data";
 
-type View = "overview" | "videos" | "systems" | "organizations" | "sources" | "terra" | "method";
+type View = "overview" | "wiki" | "videos" | "systems" | "organizations" | "sources" | "terra" | "method";
 type Video = (typeof videos)[number];
 
 const views: { id: View; label: string }[] = [
   { id: "overview", label: "Overview" },
+  { id: "wiki", label: "Field wiki" },
   { id: "videos", label: "100 videos" },
   { id: "systems", label: "Systems map" },
   { id: "organizations", label: "Organizations" },
@@ -88,7 +89,7 @@ function Overview({ setView, selectVideo }: { setView: (view: View) => void; sel
       <section className="hero">
         <div className="eyebrow">PALANTIR + THE OPERATIONAL AI ECOSYSTEM</div>
         <h1>The system around<br />the model <em>is the product.</em></h1>
-        <p className="hero-copy">A research interface for 100 Palantir videos, 32 external sources, and independent Terra-agent reviews of the architecture, evidence, and ecosystem.</p>
+        <p className="hero-copy">A research interface for 100 Palantir videos, {allSources.length} external sources, a cross-linked AI field wiki, and independent Terra reviews.</p>
         <div className="hero-actions">
           <button className="primary" onClick={() => setView("videos")}>Explore all videos <span>→</span></button>
           <button className="secondary" onClick={() => setView("systems")}>View systems map</button>
@@ -98,7 +99,7 @@ function Overview({ setView, selectVideo }: { setView: (view: View) => void; sel
       <section className="metrics-grid" aria-label="Corpus summary">
         <Metric value="100" label="Videos reviewed" note="Exactly-once coverage" />
         <Metric value="25" label="Caption-backed" note="75 description-backed" />
-        <Metric value="32" label="Sources tracked" note="13 verified feeds" />
+        <Metric value={String(allSources.length)} label="Sources tracked" note="Labs to policy" />
         <Metric value={String(terraReviews.length || 3)} label="Terra reviews" note={terraReviews.length ? "Independent second pass" : "Processing now"} />
       </section>
 
@@ -224,10 +225,35 @@ function OrganizationsView() {
 
 function SourcesView() {
   const [tier, setTier] = useState("A");
-  const entries = watchlist.filter((source) => source.priority === tier);
+  const entries = allSources.filter((source) => source.priority === tier);
   return <main><section className="page-intro"><span>CONTINUOUS INTELLIGENCE</span><h1>Operational AI watchlist</h1><p>Builder sources, independent analysts, and defence/autonomy research—ranked by relevance and evidence value.</p></section>
     <div className="tier-tabs">{["A", "B", "C"].map((value) => <button className={tier === value ? "active" : ""} key={value} onClick={() => setTier(value)}><b>Tier {value}</b><span>{value === "A" ? "Continuous" : value === "B" ? "Weekly" : "Direct signals"}</span></button>)}</div>
     <div className="source-grid">{entries.map((source) => <a key={source.source_id} href={source.url} target="_blank" rel="noreferrer"><div><span>{source.category.replaceAll("-", " ")}</span><i>{source.format}</i></div><h2>{source.name}</h2><p>{source.focus.replaceAll(" and ", ", ")}</p><small>{source.bias_note}</small><b>Visit source ↗</b></a>)}</div>
+  </main>;
+}
+
+function WikiView() {
+  const [query, setQuery] = useState("");
+  const [openSlug, setOpenSlug] = useState("Home");
+  const filtered = useMemo(() => wikiPages.filter((page) => `${page.title} ${page.summary} ${page.content}`.toLowerCase().includes(query.toLowerCase())), [query]);
+  const active = wikiPages.find((page) => page.slug === openSlug) ?? filtered[0] ?? wikiPages[0];
+  return <main className="wiki-page">
+    <section className="page-intro"><span>CONNECTED KNOWLEDGE</span><h1>Operational AI field wiki</h1><p>{wikiPages.length} cross-linked guides connect the video corpus to agents, models, infrastructure, data, evaluation, robotics, standards, and governance.</p></section>
+    <div className="wiki-shell">
+      <aside className="wiki-index">
+        <label className="search"><span>⌕</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search the field wiki…" /></label>
+        <small>{filtered.length} pages</small>
+        <nav>{filtered.map((page) => <button key={page.slug} className={active?.slug === page.slug ? "active" : ""} onClick={() => setOpenSlug(page.slug)}>{page.title}</button>)}</nav>
+      </aside>
+      {active ? <article className="wiki-article">
+        <div className="wiki-breadcrumb">FIELD WIKI / {active.slug.replaceAll("-", " ")}</div>
+        <MarkdownLite content={active.content} />
+        {active.links.length > 0 && <div className="wiki-related"><span>RELATED PAGES</span><div>{active.links.map((title) => {
+          const target = wikiPages.find((page) => page.title === title);
+          return <button key={title} onClick={() => target && setOpenSlug(target.slug)}>{title} →</button>;
+        })}</div></div>}
+      </article> : <div className="empty-state"><h2>No wiki page found</h2><p>Try a broader search.</p></div>}
+    </div>
   </main>;
 }
 
@@ -257,7 +283,7 @@ function MethodView() {
       <article><b>02</b><h2>Partition exactly once</h2><p>Ten initial threads reviewed ten non-overlapping videos each. Coverage checks found no gaps or duplicates.</p></article>
       <article><b>03</b><h2>Label evidence</h2><p>Captions, official descriptions, promotional claims, and inference remain explicitly separated.</p></article>
       <article><b>04</b><h2>Run independent passes</h2><p>Terra agents audit architecture, evidence quality, and ecosystem conclusions across the complete corpus.</p></article>
-      <article><b>05</b><h2>Track external signals</h2><p>A 32-source watchlist balances vendor engineering, independent analysis, policy research, and defence reporting.</p></article>
+      <article><b>05</b><h2>Track external signals</h2><p>A {allSources.length}-source watchlist balances labs, engineering, infrastructure, research, policy, regulation, and independent analysis.</p></article>
       <article><b>06</b><h2>Promote cautiously</h2><p>Outcome claims require customer, government, benchmark, paper, or independent corroboration before trusted promotion.</p></article>
     </div>
     <section className="method-note"><span>LIMITATION</span><h2>This is a channel analysis—not a neutral market map.</h2><p>Palantir selected and framed the underlying videos. The site explains what the publisher and its partners say they are building; it does not independently validate every result.</p></section>
@@ -270,13 +296,14 @@ export default function Home() {
   const navigate = (next: View) => { setView(next); window.scrollTo({ top: 0, behavior: "smooth" }); };
   return <div className="site-shell"><Header view={view} setView={navigate} />
     {view === "overview" && <Overview setView={navigate} selectVideo={setSelectedVideo} />}
+    {view === "wiki" && <WikiView />}
     {view === "videos" && <VideosView selectVideo={setSelectedVideo} />}
     {view === "systems" && <SystemsView />}
     {view === "organizations" && <OrganizationsView />}
     {view === "sources" && <SourcesView />}
     {view === "terra" && <TerraView />}
     {view === "method" && <MethodView />}
-    <footer><div><span className="brand-mark">OAI</span><b>Operational AI Field Index</b></div><p>100 videos · 32 sources · evidence-labeled research</p><a href="https://github.com/AkeBoss-tech/palantir-operational-ai-hub" target="_blank" rel="noreferrer">Browse raw repository ↗</a></footer>
+    <footer><div><span className="brand-mark">OAI</span><b>Operational AI Field Index</b></div><p>100 videos · {allSources.length} sources · {wikiPages.length} wiki pages</p><a href="https://github.com/AkeBoss-tech/palantir-operational-ai-hub/wiki" target="_blank" rel="noreferrer">Browse GitHub wiki ↗</a></footer>
     {selectedVideo && <VideoDetail video={selectedVideo} close={() => setSelectedVideo(null)} />}
   </div>;
 }
