@@ -239,20 +239,35 @@ function WikiView() {
   const [openSlug, setOpenSlug] = useState("Home");
   const filtered = useMemo(() => wikiPages.filter((page) => `${page.title} ${page.summary} ${page.content}`.toLowerCase().includes(query.toLowerCase())), [query]);
   const active = wikiPages.find((page) => page.slug === openSlug) ?? filtered[0] ?? wikiPages[0];
+  useEffect(() => {
+    const syncFromHash = () => {
+      const slug = decodeURIComponent(window.location.hash.match(/^#wiki\/(.+)$/)?.[1] ?? "");
+      if (wikiPages.some((page) => page.slug === slug)) setOpenSlug(slug);
+    };
+    syncFromHash();
+    window.addEventListener("hashchange", syncFromHash);
+    return () => window.removeEventListener("hashchange", syncFromHash);
+  }, []);
+  const openWikiPage = (slug: string) => {
+    if (!wikiPages.some((page) => page.slug === slug)) return;
+    setOpenSlug(slug);
+    window.history.replaceState(null, "", `#wiki/${encodeURIComponent(slug)}`);
+    document.querySelector(".wiki-shell")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
   return <main className="wiki-page">
     <section className="page-intro"><span>CONNECTED KNOWLEDGE</span><h1>Operational AI field wiki</h1><p>{wikiPages.length} cross-linked guides connect the video corpus to agents, models, infrastructure, data, evaluation, robotics, standards, and governance.</p></section>
     <div className="wiki-shell">
       <aside className="wiki-index">
         <label className="search"><span>⌕</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search the field wiki…" /></label>
         <small>{filtered.length} pages</small>
-        <nav>{filtered.map((page) => <button key={page.slug} className={active?.slug === page.slug ? "active" : ""} onClick={() => setOpenSlug(page.slug)}>{page.title}</button>)}</nav>
+        <nav>{filtered.map((page) => <button key={page.slug} className={active?.slug === page.slug ? "active" : ""} onClick={() => openWikiPage(page.slug)}>{page.title}</button>)}</nav>
       </aside>
       {active ? <article className="wiki-article">
         <div className="wiki-breadcrumb">FIELD WIKI / {active.slug.replaceAll("-", " ")}</div>
-        <MarkdownLite content={active.content} />
+        <MarkdownLite content={active.content} onWikiNavigate={openWikiPage} />
         {active.links.length > 0 && <div className="wiki-related"><span>RELATED PAGES</span><div>{active.links.map((title) => {
-          const target = wikiPages.find((page) => page.title === title);
-          return <button key={title} onClick={() => target && setOpenSlug(target.slug)}>{title} →</button>;
+          const target = wikiPages.find((page) => page.title === title || page.slug === title);
+          return target ? <button key={title} onClick={() => openWikiPage(target.slug)}>{title} →</button> : null;
         })}</div></div>}
       </article> : <div className="empty-state"><h2>No wiki page found</h2><p>Try a broader search.</p></div>}
     </div>
@@ -283,16 +298,25 @@ function MermaidDiagram({ chart }: { chart: string }) {
   return <span className="mermaid-diagram" dangerouslySetInnerHTML={{ __html: svg }} />;
 }
 
-function MarkdownLite({ content }: { content: string }) {
+function MarkdownLite({ content, onWikiNavigate }: { content: string; onWikiNavigate?: (slug: string) => void }) {
+  const linkedContent = content.replace(/\[\[([^\]]+)\]\]/g, (original, title: string) => {
+    const target = wikiPages.find((page) => page.title === title || page.slug === title);
+    return target ? `[${title}](#wiki/${encodeURIComponent(target.slug)})` : original;
+  });
   return <div className="markdown"><ReactMarkdown
     remarkPlugins={[remarkGfm]}
     components={{
-      a: ({ children, ...props }) => <a {...props} target="_blank" rel="noreferrer">{children}</a>,
+      a: ({ children, href, ...props }) => {
+        const wikiSlug = href?.startsWith("#wiki/") ? decodeURIComponent(href.slice(6)) : "";
+        return wikiSlug && onWikiNavigate
+          ? <a {...props} href={href} className="wiki-inline-link" onClick={(event) => { event.preventDefault(); onWikiNavigate(wikiSlug); }}>{children}</a>
+          : <a {...props} href={href} target="_blank" rel="noreferrer">{children}</a>;
+      },
       code: ({ children, className, ...props }) => className === "language-mermaid"
         ? <MermaidDiagram chart={String(children).trim()} />
         : <code className={className} {...props}>{children}</code>,
     }}
-  >{content}</ReactMarkdown></div>;
+  >{linkedContent}</ReactMarkdown></div>;
 }
 
 function MethodView() {
@@ -312,6 +336,9 @@ function MethodView() {
 export default function Home() {
   const [view, setView] = useState<View>("overview");
   const [selectedVideo, setSelectedVideo] = useState<Video | null>(null);
+  useEffect(() => {
+    if (window.location.hash.startsWith("#wiki/")) setView("wiki");
+  }, []);
   const navigate = (next: View) => { setView(next); window.scrollTo({ top: 0, behavior: "smooth" }); };
   return <div className="site-shell"><Header view={view} setView={navigate} />
     {view === "overview" && <Overview setView={navigate} selectVideo={setSelectedVideo} />}

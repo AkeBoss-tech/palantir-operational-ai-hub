@@ -116,6 +116,8 @@ main { max-width:1500px; margin:0 auto; }
 .wiki-article .markdown h1 { font-size:clamp(42px,6vw,82px); line-height:.95; letter-spacing:-.06em; margin:0 0 38px; }
 .wiki-article .markdown h2 { font-size:29px; letter-spacing:-.035em; border-top:1px solid var(--ink); padding-top:24px; }
 .wiki-article .markdown p { font-size:16px; line-height:1.72; }
+.wiki-inline-link { color:var(--blue); font-weight:700; text-decoration-thickness:1px; text-underline-offset:3px; }
+.wiki-inline-link:hover { color:var(--coral); }
 .wiki-related { margin-top:55px; padding-top:25px; border-top:1px solid var(--ink); }
 .wiki-related>span { font-family:var(--font-geist-mono),monospace; font-size:9px; color:var(--coral); letter-spacing:.09em; }
 .wiki-related>div { display:flex; gap:8px; flex-wrap:wrap; margin-top:15px; }

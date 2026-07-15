@@ -114,11 +114,15 @@ const ecosystemWatchlist = fs.existsSync(ecosystemWatchlistPath)
 const allSources = [...watchlist, ...ecosystemWatchlist];
 const wikiRoot = path.join(kbRoot, "wiki");
 const wikiPages = fs.existsSync(wikiRoot)
-  ? fs.readdirSync(wikiRoot).filter((name) => name.endsWith(".md") && !name.startsWith("_")).sort().map((name) => {
+  ? fs.readdirSync(wikiRoot).filter((name) => name.endsWith(".md") && !name.startsWith("_")).sort((a, b) => {
+      if (a === "Home.md") return -1;
+      if (b === "Home.md") return 1;
+      return a.localeCompare(b);
+    }).map((name) => {
       const content = fs.readFileSync(path.join(wikiRoot, name), "utf8");
       const title = content.match(/^#\s+(.+)$/m)?.[1] ?? name.replace(/\.md$/, "").replaceAll("-", " ");
       const summary = content.split("\n").map((line) => line.trim()).find((line) => line && !line.startsWith("#") && !line.startsWith("-")) ?? "";
-      const links = [...content.matchAll(/\[\[([^\]]+)\]\]/g)].map((match) => match[1]);
+      const links = [...new Set([...content.matchAll(/\[\[([^\]]+)\]\]/g)].map((match) => match[1]))];
       return { slug: name.replace(/\.md$/, ""), title, summary, links, content };
     })
   : [];

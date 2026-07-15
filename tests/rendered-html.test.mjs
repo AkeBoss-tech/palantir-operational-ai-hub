@@ -43,3 +43,13 @@ test("formats corpus YouTube references as descriptive Markdown links", async ()
   assert.doesNotMatch(index, /^official_url: https:\/\/www\.youtube\.com/gm);
   assert.doesNotMatch(index, /^- \*\*Official URL[^\n]*https:\/\/www\.youtube\.com/gm);
 });
+
+test("turns wiki references into navigable, shareable article links", async () => {
+  const page = await readFile(new URL("../app/page.tsx", import.meta.url), "utf8");
+  const data = await readFile(new URL("../app/content-data.ts", import.meta.url), "utf8");
+  assert.match(page, /#wiki\/\$\{encodeURIComponent\(slug\)\}/);
+  assert.match(page, /className="wiki-inline-link"/);
+  assert.match(page, /onWikiNavigate=\{openWikiPage\}/);
+  assert.match(data, /## Choose a learning path/);
+  assert.match(data, /## Worked example: from disruption to decision/);
+});
