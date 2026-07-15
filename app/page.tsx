@@ -303,7 +303,7 @@ export default function Home() {
     {view === "sources" && <SourcesView />}
     {view === "terra" && <TerraView />}
     {view === "method" && <MethodView />}
-    <footer><div><span className="brand-mark">OAI</span><b>Operational AI Field Index</b></div><p>100 videos · {allSources.length} sources · {wikiPages.length} wiki pages</p><a href="https://github.com/AkeBoss-tech/palantir-operational-ai-hub/wiki" target="_blank" rel="noreferrer">Browse GitHub wiki ↗</a></footer>
+    <footer><div><span className="brand-mark">OAI</span><b>Operational AI Field Index</b></div><p>100 videos · {allSources.length} sources · {wikiPages.length} wiki pages</p><a href="https://github.com/AkeBoss-tech/palantir-operational-ai-hub/tree/main/knowledge/wiki" target="_blank" rel="noreferrer">Browse wiki source ↗</a></footer>
     {selectedVideo && <VideoDetail video={selectedVideo} close={() => setSelectedVideo(null)} />}
   </div>;
 }
