@@ -1,0 +1,23 @@
+id: youtube_channel_refresh
+description: Detect new Palantir uploads, collect source metadata, dispatch bounded research batches, verify coverage, and refresh KRAIL retrieval.
+schedule: 0 10 * * *
+steps:
+- id: collect_inventory
+  kind: command
+  run: scripts/refresh_youtube_channel.sh
+- id: coordinate_review
+  kind: agent
+  role: thread_coordinator
+  runner: codex_cli
+  prompt: Review the frozen latest-100 inventory, rerun any batch whose assigned IDs or source evidence changed, and compile evidence-backed per-video and cross-video synthesis.
+- id: verify_coverage
+  kind: command
+  run: scripts/verify_video_corpus.py
+- id: refresh_retrieval
+  kind: command
+  run: krail --local graph build && krail --local vector build
+- id: audit
+  kind: agent
+  role: doctor
+  runner: codex_cli
+  prompt: Audit source provenance, coverage, evidence limitations, workflow state, and retrieval health.

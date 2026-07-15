@@ -1,0 +1,320 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.040 --> 00:00:21.120
+Please welcome vice president global advanced&nbsp;
+manufacturing at Lear, Jennifer Johnson. [Music]
+
+00:00:21.120 --> 00:00:27.200
+All right, good morning. My name is Jennifer&nbsp;
+Johnson and I am here to share a glimpse into&nbsp;&nbsp;
+
+00:00:27.200 --> 00:00:33.440
+the journey of Palanteer Foundry at Lear&nbsp;
+Corporation. Lear is a global leader in&nbsp;&nbsp;
+
+00:00:33.440 --> 00:00:41.840
+automotive seating and e systems. Our team of&nbsp;
+more than 173,000 employees across 37 countries&nbsp;&nbsp;
+
+00:00:41.840 --> 00:00:48.480
+designs, manufactures, and delivers advanced&nbsp;
+technologies to the world's leading automakers.&nbsp;&nbsp;
+
+00:00:48.480 --> 00:00:54.560
+With over 100 years of heritage, Lear is&nbsp;
+the largest US-based automotive supplier,&nbsp;&nbsp;
+
+00:00:54.560 --> 00:01:00.640
+proudly headquartered in Michigan. Guided by our&nbsp;
+commitment to innovation, operational excellence,&nbsp;&nbsp;
+
+00:01:00.640 --> 00:01:05.440
+and sustainability, Lear's global team&nbsp;
+is shaping the future of mobility with&nbsp;&nbsp;
+
+00:01:05.440 --> 00:01:11.920
+solutions that enhance comfort, safety, and&nbsp;
+efficiency. The automotive industry dynamics&nbsp;&nbsp;
+
+00:01:11.920 --> 00:01:18.000
+and resulting operational complexities are&nbsp;
+endless. To assist our team in navigating&nbsp;&nbsp;
+
+00:01:18.000 --> 00:01:23.520
+through the realities of today's marketplace,&nbsp;
+we are working to support our employees and our&nbsp;&nbsp;
+
+00:01:23.520 --> 00:01:30.720
+customers through our Palanteer Foundry&nbsp;
+platform. And we haven't looked back.
+
+00:01:30.720 --> 00:01:36.800
+Never underestimate the ability of a small group&nbsp;
+of dedicated people to change the world. Isn't&nbsp;&nbsp;
+
+00:01:36.800 --> 00:01:43.120
+that how the saying goes? And a couple of years&nbsp;
+ago at Lear, it was exactly that. a small group&nbsp;&nbsp;
+
+00:01:43.120 --> 00:01:50.480
+of dedicated people who built our first use case&nbsp;
+with Palunteer. It's easy for me to stand here&nbsp;&nbsp;
+
+00:01:50.480 --> 00:01:55.920
+and summarize the road that we've traveled since&nbsp;
+that initial use case. And depending on where you&nbsp;&nbsp;
+
+00:01:55.920 --> 00:02:02.880
+are in your journey with Foundry, you already know&nbsp;
+it's no joke. It's not an out-of-the-box solution.&nbsp;&nbsp;
+
+00:02:02.880 --> 00:02:08.720
+It's not a flip the switch project. Value through&nbsp;
+Foundry is extracted through a deep relationship&nbsp;&nbsp;
+
+00:02:08.720 --> 00:02:16.880
+with the Palunteer team and a long-term investment&nbsp;
+of time and resources from within an organization.&nbsp;&nbsp;
+
+00:02:17.520 --> 00:02:23.680
+So back to that initial use case, it built the&nbsp;
+foundation of manufacturing production support&nbsp;&nbsp;
+
+00:02:23.680 --> 00:02:32.960
+at Lear. And from that initial use case, we built&nbsp;
+more involving our manufacturing execution system&nbsp;&nbsp;
+
+00:02:32.960 --> 00:02:40.560
+integration and further monitoring applications.&nbsp;
+Next, we built into our supply chain and that&nbsp;&nbsp;
+
+00:02:40.560 --> 00:02:47.200
+positions us to our current ambition, dynamic&nbsp;
+decision-making in support of just in time seat&nbsp;&nbsp;
+
+00:02:47.200 --> 00:02:52.640
+assembly. So, let's turn our attention to JIT&nbsp;
+operations to understand more about what I'm&nbsp;&nbsp;
+
+00:02:52.640 --> 00:03:00.960
+referring to for automakers to offer a broad range&nbsp;
+of options for customers like you and me. Their&nbsp;&nbsp;
+
+00:03:00.960 --> 00:03:06.320
+models are designed to accommodate thousands&nbsp;
+of end item vehicle versions. So, as a tier&nbsp;&nbsp;
+
+00:03:06.320 --> 00:03:12.480
+one supplier, Lear's processes must be optimized&nbsp;
+to meet very tight requirements. So, I'm talking&nbsp;&nbsp;
+
+00:03:12.480 --> 00:03:18.800
+about product complexity delivered just in time&nbsp;
+with the highest quality and of course the lowest&nbsp;&nbsp;
+
+00:03:18.800 --> 00:03:26.480
+cost. Lear only has a 4-hour broadcast window from&nbsp;
+the time a fixed customer order is placed to the&nbsp;&nbsp;
+
+00:03:26.480 --> 00:03:32.480
+time a seat must be present at the seat install&nbsp;
+point within an automaker's assembly plant.&nbsp;&nbsp;
+
+00:03:33.280 --> 00:03:39.840
+There are on average 350 unique part numbers that&nbsp;
+are picked and staged that are components within&nbsp;&nbsp;
+
+00:03:39.840 --> 00:03:46.800
+a seat. After assembly, seed is all seats are&nbsp;
+inspected and tested for fit and function. They&nbsp;&nbsp;
+
+00:03:46.800 --> 00:03:52.000
+are then readied for a sequenced delivery&nbsp;
+to our customer assembly plant. The point&nbsp;&nbsp;
+
+00:03:52.000 --> 00:03:57.520
+I'm trying to make here is that a just in time&nbsp;
+seat operation is a very intense environment.&nbsp;&nbsp;
+
+00:03:57.520 --> 00:04:05.200
+We're shipping seeds at 60 jobs an hour, 24 hours&nbsp;
+a day, 5 days a week. Considering Lear's global&nbsp;&nbsp;
+
+00:04:05.200 --> 00:04:13.440
+scale of over 175 just in time plants, thousands&nbsp;
+of decisions are made daily to po to both secure&nbsp;&nbsp;
+
+00:04:13.440 --> 00:04:21.360
+ontime delivery and also optimize our processes.&nbsp;
+So, sounds like a great opportunity for an AIP&nbsp;&nbsp;
+
+00:04:21.360 --> 00:04:26.720
+powered Foundry application, don't you think?&nbsp;
+Well, we thought so. So, let's take a closer look&nbsp;&nbsp;
+
+00:04:26.720 --> 00:04:34.160
+and join the team in Flint, Michigan to see what's&nbsp;
+going on today. Welcome to the JIT control tower,&nbsp;&nbsp;
+
+00:04:34.160 --> 00:04:39.600
+where operations teams start their day. The&nbsp;
+control tower is a real time bird's eye view&nbsp;&nbsp;
+
+00:04:39.600 --> 00:04:46.240
+of Lear's operation. On the left, we see the&nbsp;
+production line status. It's a continuous influx&nbsp;&nbsp;
+
+00:04:46.240 --> 00:04:52.720
+of orders and deliveries. And on the map we see&nbsp;
+a highle routing of incoming material from tier&nbsp;&nbsp;
+
+00:04:52.720 --> 00:04:58.880
+2 suppliers located across North America. These&nbsp;
+are components and subsystems and route from&nbsp;&nbsp;
+
+00:04:58.880 --> 00:05:05.840
+other leer sites or other thirdparty suppliers.&nbsp;
+So how do we do it? How do we orchestrate the&nbsp;&nbsp;
+
+00:05:05.840 --> 00:05:11.760
+convergence of a continuous flow of customer&nbsp;
+customer demand with the right material and the&nbsp;&nbsp;
+
+00:05:11.760 --> 00:05:22.640
+right resources on hand exactly at the right time.&nbsp;
+We do this through dynamic production scheduling.
+
+00:05:22.640 --> 00:05:27.520
+To optimize production scheduling, we combine&nbsp;
+the expertise of our operations team and our&nbsp;&nbsp;
+
+00:05:27.520 --> 00:05:35.280
+engineering team with Foundar's AIP horsepower. In&nbsp;
+this view, we're experiencing the conbound board.&nbsp;&nbsp;
+
+00:05:35.280 --> 00:05:40.240
+This is a pipeline of activities and actions that&nbsp;
+together execute to a schedule that our teams&nbsp;&nbsp;
+
+00:05:40.240 --> 00:05:46.320
+monitor. During a shift, dynamic line scheduling&nbsp;
+is informed through the integration of multiple&nbsp;&nbsp;
+
+00:05:46.320 --> 00:05:52.400
+applications. If you remember those use cases I&nbsp;
+mentioned earlier, these applications reconcile&nbsp;&nbsp;
+
+00:05:52.400 --> 00:05:57.840
+things like inbound material availability,&nbsp;
+real time production throughput, and finished&nbsp;&nbsp;
+
+00:05:57.840 --> 00:06:05.440
+good inventory capacity. At the most left is our&nbsp;
+exceptions board and our planners spend their time&nbsp;&nbsp;
+
+00:06:05.440 --> 00:06:12.720
+there interfacing, triaging and closing concerns&nbsp;
+in material availability or production alerts,&nbsp;&nbsp;
+
+00:06:12.720 --> 00:06:20.160
+anything that may impact our most time-sensitive&nbsp;
+deliveries. And our teams are trained to react&nbsp;&nbsp;
+
+00:06:20.160 --> 00:06:26.480
+to exceptions. At times, our customer demand&nbsp;
+is within that 4hour window that they set.&nbsp;&nbsp;
+
+00:06:26.480 --> 00:06:31.040
+This means customers are asking us to break&nbsp;
+that schedule that we planned and expedite&nbsp;&nbsp;
+
+00:06:31.040 --> 00:06:39.040
+what we all call a hot job. AIP alerts us now&nbsp;
+of a hot job and our ops team engages to assess&nbsp;&nbsp;
+
+00:06:39.040 --> 00:06:45.280
+the best alternatives within the schedule&nbsp;
+to deliver. Planners run the AI agent, our&nbsp;&nbsp;
+
+00:06:45.280 --> 00:06:51.200
+scheduling agent and its power to assess our bill&nbsp;
+of materials and standard labor content involved.&nbsp;&nbsp;
+
+00:06:51.760 --> 00:06:57.680
+The scheduling agent offers options to allocate&nbsp;
+the job during the shift. The resulting impact&nbsp;&nbsp;
+
+00:06:57.680 --> 00:07:04.720
+to the schedule and inventories on hand is&nbsp;
+considered. So I point out a hot job as an&nbsp;&nbsp;
+
+00:07:04.720 --> 00:07:12.560
+example. It's a perfect example of how AIP and&nbsp;
+the Lear turn team up on the production floor.&nbsp;&nbsp;
+
+00:07:12.560 --> 00:07:17.840
+Foundry delivers the decision layer while&nbsp;
+the plant operations team brings practical&nbsp;&nbsp;
+
+00:07:17.840 --> 00:07:23.120
+product and supply chain and manufacturing&nbsp;
+know-how. Engineering assesses complexity&nbsp;&nbsp;
+
+00:07:23.120 --> 00:07:30.800
+through simulation while foundry ingests inputs,&nbsp;
+finds the best slot, and makes a proposal. Last,&nbsp;&nbsp;
+
+00:07:30.800 --> 00:07:36.000
+operations reviews the plan, considers the next&nbsp;
+best alternative, and approves or escalates if&nbsp;&nbsp;
+
+00:07:36.000 --> 00:07:44.240
+needed. When ready, the job is placed and written&nbsp;
+back to Lear's MEES system. As we build the JIT&nbsp;&nbsp;
+
+00:07:44.240 --> 00:07:49.280
+control tower and new AI agents, we have our&nbsp;
+global manufacturing team in mind. We just&nbsp;&nbsp;
+
+00:07:49.280 --> 00:07:55.440
+reviewed one line and one plant. Multiply that by&nbsp;
+hundreds of plants and as many operations teams&nbsp;&nbsp;
+
+00:07:55.440 --> 00:08:01.760
+making those thousands and thousands of decisions&nbsp;
+daily. I find the most rewarding part of deploying&nbsp;&nbsp;
+
+00:08:01.760 --> 00:08:07.600
+Foundry applications are the aha moments. And&nbsp;
+we all have them. It's the moment a production&nbsp;&nbsp;
+
+00:08:07.600 --> 00:08:13.120
+planner realizes he no longer must spend hours&nbsp;
+each day pouring over Excel spreadsheets and on&nbsp;&nbsp;
+
+00:08:13.120 --> 00:08:20.480
+conference calls reconciling and onhand inventory&nbsp;
+with his uh Mexican counterparts. And it's the&nbsp;&nbsp;
+
+00:08:20.480 --> 00:08:25.680
+moment the plant manager realizes she now has&nbsp;
+a digital assistant supporting her ability to&nbsp;&nbsp;
+
+00:08:25.680 --> 00:08:33.200
+execute more effectively in her 24-hour a day,&nbsp;
+5day a week operating rhythm. In conclusion,&nbsp;&nbsp;
+
+00:08:33.200 --> 00:08:38.320
+Foundry allows us to focus on what matters,&nbsp;
+keeping our plants running smoothly and delivering&nbsp;&nbsp;
+
+00:08:38.320 --> 00:08:43.840
+the highest quality product to our customer. And&nbsp;
+many thanks to the Palunteer team for supporting&nbsp;&nbsp;
+
+00:08:43.840 --> 00:08:52.170
+us along the way as we solve for our greatest&nbsp;
+opportunities. Thank you so much. [Music]
+

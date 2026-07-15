@@ -1,0 +1,520 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.856 --> 00:00:15.600
+[Music] Please welcome Chief Technology and&nbsp;
+Product Officer at Lumen, Dave Ward. [Music] Hey&nbsp;&nbsp;
+
+00:00:15.600 --> 00:00:21.440
+everyone, I am the last speaker before launch&nbsp;
+and my name is Dave Ward and as you just heard&nbsp;&nbsp;
+
+00:00:21.440 --> 00:00:27.680
+I'm the chief technology and product officer&nbsp;
+at Lumen. Um what that means after we've seen&nbsp;&nbsp;
+
+00:00:27.680 --> 00:00:33.040
+peaked through the keyhole of so many industries&nbsp;
+is that I'm going to show you uh what's going on&nbsp;&nbsp;
+
+00:00:33.040 --> 00:00:39.760
+in the world of telecommunications uh lumin as a&nbsp;
+service provider and I admit I'm a bit flinger I&nbsp;&nbsp;
+
+00:00:39.760 --> 00:00:47.200
+uh I think about passing packets and photons&nbsp;
+there has to be somebody that does that. So so&nbsp;&nbsp;
+
+00:00:47.200 --> 00:00:54.240
+that's me. So, Lumen, we call ourselves and refer&nbsp;
+to ourselves as the trusted network for AI. And&nbsp;&nbsp;
+
+00:00:54.240 --> 00:00:58.560
+what's really fascinating for me thinking about&nbsp;
+the connectivity portion of what we heard this&nbsp;&nbsp;
+
+00:00:58.560 --> 00:01:04.160
+morning for an AI strategy, you obviously need&nbsp;
+to choose an AR partner. We're at a palenture&nbsp;&nbsp;
+
+00:01:04.160 --> 00:01:11.040
+conference. We have something in common. Um, mo&nbsp;
+almost all the use cases were getting access to&nbsp;&nbsp;
+
+00:01:11.040 --> 00:01:18.320
+lock data and understanding the relationships&nbsp;
+of that data. So for an AI strategy, you need&nbsp;&nbsp;
+
+00:01:18.320 --> 00:01:23.360
+uh to choose an AI partner, you need to have a&nbsp;
+cloud strategy, but frequently what's not talked&nbsp;&nbsp;
+
+00:01:23.360 --> 00:01:31.760
+about at all is that connectivity and moving that&nbsp;
+data to feed the platform, to feed the LLMs. And&nbsp;&nbsp;
+
+00:01:31.760 --> 00:01:37.760
+on average, what we're seeing from our enterprise&nbsp;
+customers is on the order of 36 different data&nbsp;&nbsp;
+
+00:01:37.760 --> 00:01:43.760
+sources. Our company's no different. Your&nbsp;
+company's probably uh very similar. The data&nbsp;&nbsp;
+
+00:01:43.760 --> 00:01:48.960
+is locked on prem. The data is in data centers.&nbsp;
+The data is in hyperscalers. The data is in SAS&nbsp;&nbsp;
+
+00:01:48.960 --> 00:01:57.360
+platforms. To get to unlock that data, you have&nbsp;
+to be able to connect it all together. And so the&nbsp;&nbsp;
+
+00:01:57.360 --> 00:02:03.680
+transformation going on in the service provider&nbsp;
+world is around of course this AI revolution.&nbsp;&nbsp;
+
+00:02:04.480 --> 00:02:10.240
+Many things that um perhaps you've been reading in&nbsp;
+the in the industry are around the growth of data&nbsp;&nbsp;
+
+00:02:10.240 --> 00:02:16.480
+centers and the gigawatt data centers that are&nbsp;
+being built as was said earlier today for an AI&nbsp;&nbsp;
+
+00:02:16.480 --> 00:02:21.600
+for AI infrastructure you have to have the power&nbsp;
+infrastructure you have to have the water the real&nbsp;&nbsp;
+
+00:02:21.600 --> 00:02:27.840
+estate and also you have to have the connectivity&nbsp;
+infrastructure so to put it into perspective there&nbsp;&nbsp;
+
+00:02:27.840 --> 00:02:35.680
+we have about 240 million square feet of data&nbsp;
+centers in the US today By the end of 2028,&nbsp;&nbsp;
+
+00:02:35.680 --> 00:02:42.480
+we're going to have about a billion square feet&nbsp;
+of data center space. And so just the fundamental&nbsp;&nbsp;
+
+00:02:42.480 --> 00:02:48.400
+amount of money going into AI and going to these&nbsp;
+data centers leads me to to describe one of our&nbsp;&nbsp;
+
+00:02:48.400 --> 00:02:56.080
+one of our first businesses, which is backbone&nbsp;
+business. Uh Lumen um has the largest amount of&nbsp;&nbsp;
+
+00:02:56.080 --> 00:03:03.280
+conduit, the largest amount of fiber in the lower&nbsp;
+48. And we recently announced $8.5 uh billion&nbsp;&nbsp;
+
+00:03:03.280 --> 00:03:09.360
+dollars of new contracts with hyperscalers and&nbsp;
+data centers to interconnect the new AI regions.&nbsp;&nbsp;
+
+00:03:09.360 --> 00:03:18.160
+And so we're focusing a lot of our business on&nbsp;
+building that backbone for for for AI. Also,&nbsp;&nbsp;
+
+00:03:18.160 --> 00:03:25.680
+we are an enterprise services company. And so as&nbsp;
+I've heard so many of the talks today, it's and&nbsp;&nbsp;
+
+00:03:25.680 --> 00:03:31.520
+and what I'm going to show in my presentation in&nbsp;
+the examples, the fundamental question is how can&nbsp;&nbsp;
+
+00:03:31.520 --> 00:03:37.680
+enterprises join the AI economy? How can they get&nbsp;
+access to that data? How can they rebuild the comm&nbsp;&nbsp;
+
+00:03:37.680 --> 00:03:44.240
+the telecommunication services that are necessary&nbsp;
+to transform their own companies to to be relevant&nbsp;&nbsp;
+
+00:03:44.240 --> 00:03:54.080
+and to take advantage of the AI economy? So we&nbsp;
+build metro fiber, inner city fiber, connection&nbsp;&nbsp;
+
+00:03:54.080 --> 00:04:00.240
+to data centers, connection to the hyperscalers.&nbsp;
+We're the uh largest by means of traffic internet&nbsp;&nbsp;
+
+00:04:00.240 --> 00:04:07.280
+service provider in America and the world in fact&nbsp;
+and so bigger and better internet. But there's&nbsp;&nbsp;
+
+00:04:07.280 --> 00:04:12.960
+a couple things just talking about history and&nbsp;
+the transformation. Took about 30 years to get&nbsp;&nbsp;
+
+00:04:12.960 --> 00:04:18.160
+from some of the early concepts of the internet&nbsp;
+to widely deployed about 25 years ago. It took&nbsp;&nbsp;
+
+00:04:18.160 --> 00:04:24.560
+about 15 years to get to cloud 1.0. And that's&nbsp;
+the cloud economy that we know today. But what I&nbsp;&nbsp;
+
+00:04:24.560 --> 00:04:31.520
+just mentioned is that with basically four times&nbsp;
+the amount of AI data centers being built in the&nbsp;&nbsp;
+
+00:04:31.520 --> 00:04:36.640
+next three years, it's a fundamentally different&nbsp;
+transformation speed that has to happen for all&nbsp;&nbsp;
+
+00:04:36.640 --> 00:04:45.680
+of us in this room and certainly for me in our&nbsp;
+company. So cloud scale and what I mean by scale&nbsp;&nbsp;
+
+00:04:45.680 --> 00:04:54.240
+to to really simplify this it takes over a 100&nbsp;
+gig link about a day to move a pabyte. Okay,&nbsp;&nbsp;
+
+00:04:54.240 --> 00:05:00.400
+puts it in perspective. So therefore a lot&nbsp;
+feeding the data for LLMs is frequently talked&nbsp;&nbsp;
+
+00:05:00.400 --> 00:05:07.360
+about in exabytes. That's a thousand pabytes.&nbsp;
+Unacceptable to use that level of speed. So,&nbsp;&nbsp;
+
+00:05:07.360 --> 00:05:15.280
+we're building a new network as I just mentioned&nbsp;
+and really bringing in new on-ramps to the cloud,&nbsp;&nbsp;
+
+00:05:15.280 --> 00:05:23.280
+new on-ramps to data centers and moving from 100&nbsp;
+gig to 400 gig to 800 gig to 1.6 terab as a basic&nbsp;&nbsp;
+
+00:05:23.280 --> 00:05:29.920
+connectivity directly to enterprises and of course&nbsp;
+um as new on-ramps and hyperscalers and and data&nbsp;&nbsp;
+
+00:05:29.920 --> 00:05:37.520
+centers. So, that's the physical aspect of it. The&nbsp;
+next aspect is we're transforming the traditional&nbsp;&nbsp;
+
+00:05:37.520 --> 00:05:42.960
+tele uh telecommunications business as we've&nbsp;
+heard from so many companies today from being&nbsp;&nbsp;
+
+00:05:42.960 --> 00:05:49.520
+paperdriven to being a digital experience. I want&nbsp;
+to connect from X to Y. I want to hit a button. I&nbsp;&nbsp;
+
+00:05:49.520 --> 00:05:55.920
+want to go now or I want to use APIs to get that&nbsp;
+done. And so that digital layer is a fundamental&nbsp;&nbsp;
+
+00:05:55.920 --> 00:06:00.640
+transformation of the customer experience that&nbsp;
+we want to bring uh into the market. What you&nbsp;&nbsp;
+
+00:06:00.640 --> 00:06:09.920
+can see in this map is what I deal with every day.&nbsp;
+And what I mean by that is a telephone network.&nbsp;&nbsp;
+
+00:06:09.920 --> 00:06:14.960
+Many folks know they see the big windowless brick&nbsp;
+buildings in their metropolitan area. Telephones&nbsp;&nbsp;
+
+00:06:14.960 --> 00:06:23.200
+uh central office that was built over the last&nbsp;
+120 years or so of every single copper line for&nbsp;&nbsp;
+
+00:06:23.200 --> 00:06:28.960
+every telephone brought to a central location.&nbsp;
+Perhaps there's some wiring centers, often tens&nbsp;&nbsp;
+
+00:06:28.960 --> 00:06:37.680
+if not hundreds in each metropolitan area. How&nbsp;
+does the copper lines or the legacy network that&nbsp;&nbsp;
+
+00:06:37.680 --> 00:06:46.080
+was built over the last 30 years be relevant&nbsp;
+in the AI economy? It's really not. Um, we're&nbsp;&nbsp;
+
+00:06:46.080 --> 00:06:51.120
+highly regulated industry. We have to handle 911&nbsp;
+services. We're a critical infrastructure for the&nbsp;&nbsp;
+
+00:06:51.120 --> 00:06:58.240
+nation and for all of the industries here. So I&nbsp;
+I'm working to transform not only my industry but&nbsp;&nbsp;
+
+00:06:58.240 --> 00:07:05.360
+enable enterprises to be able to transform their c&nbsp;
+their companies by changing the access technology&nbsp;&nbsp;
+
+00:07:05.360 --> 00:07:11.120
+and the speed that has been the foundation of how&nbsp;
+companies have gotten to where they are today. So&nbsp;&nbsp;
+
+00:07:11.120 --> 00:07:20.800
+that leads me to uh my first example. We partner&nbsp;
+deeply with Palunteer because Lumen historically&nbsp;&nbsp;
+
+00:07:20.800 --> 00:07:27.200
+although you may not necessarily recognize the&nbsp;
+name you may recognize that we are an accumulation&nbsp;&nbsp;
+
+00:07:27.200 --> 00:07:35.760
+of acquisitions. You may know Centry Link, Level&nbsp;
+3, Quest, Savis, TWW Telecom, Wiltel etc. These&nbsp;&nbsp;
+
+00:07:35.760 --> 00:07:40.720
+all form the company that is Lumen. I've been&nbsp;
+there about a year and a half and brought in&nbsp;&nbsp;
+
+00:07:40.720 --> 00:07:45.680
+not only to change the network architecture but&nbsp;
+to change the backend architecture because as I&nbsp;&nbsp;
+
+00:07:45.680 --> 00:07:52.400
+arrived like many companies here who are created&nbsp;
+through acquisition nothing gets turned off all&nbsp;&nbsp;
+
+00:07:52.400 --> 00:07:58.400
+the data silos exist all the inventory systems&nbsp;
+exist and it's that unlocking the data and forming&nbsp;&nbsp;
+
+00:07:58.400 --> 00:08:05.280
+a relationship that really is my first example of&nbsp;
+how we take out our legacy equipment and take out&nbsp;&nbsp;
+
+00:08:05.280 --> 00:08:14.480
+our legacy architecture And to do that we needed&nbsp;
+to not only transform that network architecture&nbsp;&nbsp;
+
+00:08:14.480 --> 00:08:20.640
+but in particular transform the workflows in the&nbsp;
+operational environment to get that done. It was&nbsp;&nbsp;
+
+00:08:20.640 --> 00:08:26.400
+driven by paper. You know that you see the the&nbsp;
+people driving around in trucks and doing telecom&nbsp;&nbsp;
+
+00:08:26.400 --> 00:08:33.840
+work and things like that. Telecommunications was&nbsp;
+a completely ticketdriven industry. And so what&nbsp;&nbsp;
+
+00:08:33.840 --> 00:08:39.920
+what you're highlighting what I'm is highlighting&nbsp;
+in here in this in this uh in this demo video was&nbsp;&nbsp;
+
+00:08:39.920 --> 00:08:44.000
+what it looks like in a metropolitan area&nbsp;
+for a central office and then the wiring&nbsp;&nbsp;
+
+00:08:44.000 --> 00:08:48.720
+centers around it and how the connectivity&nbsp;
+of enterprises is connected there. And so&nbsp;&nbsp;
+
+00:08:48.720 --> 00:08:58.240
+we needed to be able to go into those inventory&nbsp;
+systems fully deconstruct customer line devices&nbsp;&nbsp;
+
+00:08:58.240 --> 00:09:04.960
+connected to in which wiring center and deploy&nbsp;
+technicians to be able to take that equipment out&nbsp;&nbsp;
+
+00:09:04.960 --> 00:09:10.400
+like and transform how that network is going&nbsp;
+to be built. Like a lot of enterprises here,&nbsp;&nbsp;
+
+00:09:10.400 --> 00:09:17.360
+that transformation particularly of a physical&nbsp;
+uh of physical assets based company like we are&nbsp;&nbsp;
+
+00:09:17.360 --> 00:09:22.720
+and so many that presented earlier than me, we&nbsp;
+actually have to transform the hardware. I mean,&nbsp;&nbsp;
+
+00:09:22.720 --> 00:09:25.840
+we're talking about the copper lines going down&nbsp;
+the poles. We're talking about the fiber in the&nbsp;&nbsp;
+
+00:09:25.840 --> 00:09:30.000
+ground. We're talking about those buildings and&nbsp;
+what's in them. And of course, like like everyone&nbsp;&nbsp;
+
+00:09:30.000 --> 00:09:36.640
+in a transformation, we're setting targets for how&nbsp;
+much cost can we take out? And for me the the cost&nbsp;&nbsp;
+
+00:09:36.640 --> 00:09:45.040
+we want to take out is of the legacy equipment and&nbsp;
+the legacy systems and architecture that uh is one&nbsp;&nbsp;
+
+00:09:45.040 --> 00:09:51.440
+old but two preventing enterprises and customers&nbsp;
+from getting into the AI economy. So to do that&nbsp;&nbsp;
+
+00:09:51.440 --> 00:09:58.320
+we partnered with Palunteer deeply understand the&nbsp;
+inventory of our legacy network deeply understand&nbsp;&nbsp;
+
+00:09:58.320 --> 00:10:04.640
+the workflows that our technicians have to and&nbsp;
+the activities they have to do to transform that&nbsp;&nbsp;
+
+00:10:04.640 --> 00:10:12.640
+piece but also using the ontology be able to&nbsp;
+understand which order of operations we can go&nbsp;&nbsp;
+
+00:10:12.640 --> 00:10:19.440
+through to transform our network and transform our&nbsp;
+business. And so it was a very very deep exercise&nbsp;&nbsp;
+
+00:10:19.440 --> 00:10:24.000
+um across all the data silos, across all of the&nbsp;
+workflows, across all of the acquisitions we've&nbsp;&nbsp;
+
+00:10:24.000 --> 00:10:31.840
+made to be able to pull this together. And&nbsp;
+so using the AI part of AIP, we were able to&nbsp;&nbsp;
+
+00:10:31.840 --> 00:10:37.440
+then have that operational optimization and be&nbsp;
+able to predict the cost takeout and equipment&nbsp;&nbsp;
+
+00:10:37.440 --> 00:10:43.440
+takeout that we could do over time and set our&nbsp;
+goals as a company for that transformation.&nbsp;&nbsp;
+
+00:10:44.240 --> 00:10:49.840
+Additionally, as you can see from from just how&nbsp;
+some of the data is organized, really what becomes&nbsp;&nbsp;
+
+00:10:49.840 --> 00:10:57.520
+critical for us in this journey is transform&nbsp;
+the architecture, transform the experience,&nbsp;&nbsp;
+
+00:10:57.520 --> 00:11:03.440
+transform how our customers are connecting&nbsp;
+while we're still flying the airplane. And&nbsp;&nbsp;
+
+00:11:03.440 --> 00:11:10.400
+so that is a is a really big issue when you&nbsp;
+have to deliver things like 911 and also all&nbsp;&nbsp;
+
+00:11:10.400 --> 00:11:16.240
+the critical data that enterprises like in this&nbsp;
+room uh need to run their business. And so this&nbsp;&nbsp;
+
+00:11:16.240 --> 00:11:25.280
+has been incredibly successful for us. But to&nbsp;
+transform our product offerings and our enterprise&nbsp;&nbsp;
+
+00:11:25.280 --> 00:11:32.560
+customers to be relevant to the AI economy, we&nbsp;
+had to link inventory to systems to buildings.&nbsp;&nbsp;
+
+00:11:32.560 --> 00:11:38.160
+But then also to what products have they&nbsp;
+been have they consumed from us? What is that&nbsp;&nbsp;
+
+00:11:38.160 --> 00:11:42.720
+era of what is that era of product? What is&nbsp;
+the new product that we would like to bring&nbsp;&nbsp;
+
+00:11:42.720 --> 00:11:47.440
+to market? How much money is that going to&nbsp;
+actually save the company by transforming?&nbsp;&nbsp;
+
+00:11:47.440 --> 00:11:52.800
+What's the revenue risk and revenue retention&nbsp;
+issues that we have around that? But then also&nbsp;&nbsp;
+
+00:11:52.800 --> 00:11:57.040
+are they able to use the digital experience? Are&nbsp;
+they getting the speeds that they need? And how&nbsp;&nbsp;
+
+00:11:57.040 --> 00:12:01.840
+are we going to deliver that? So we were able to&nbsp;
+dissect down into the workflow and into our fiber&nbsp;&nbsp;
+
+00:12:01.840 --> 00:12:10.080
+and into our copper the capabilities of that&nbsp;
+inventory as we went. And so as we as we step&nbsp;&nbsp;
+
+00:12:10.080 --> 00:12:17.360
+forward really what we're taking a look at is how&nbsp;
+we automate these workflows. And that's it's it's&nbsp;&nbsp;
+
+00:12:17.360 --> 00:12:22.880
+fully automated now for us to be able to dispatch&nbsp;
+technicians to be able to do this and to be able&nbsp;&nbsp;
+
+00:12:22.880 --> 00:12:29.360
+to have them move the customer with zero packet&nbsp;
+loss. But additionally, as we step forward, we&nbsp;&nbsp;
+
+00:12:29.360 --> 00:12:35.360
+can have the testing of the automation of the live&nbsp;
+circuit brought back into that automation flow. As&nbsp;&nbsp;
+
+00:12:35.360 --> 00:12:41.440
+we take a look at the next example, this is the&nbsp;
+one at how we've taken our physical inventory,&nbsp;&nbsp;
+
+00:12:41.440 --> 00:12:47.680
+matched the product inventory to customers, and&nbsp;
+created a migration path for our customers and&nbsp;&nbsp;
+
+00:12:47.680 --> 00:12:55.040
+for our portfolio. of how fast we can move from&nbsp;
+traditional things like VPNs over traditional&nbsp;&nbsp;
+
+00:12:55.040 --> 00:13:00.240
+uh dedicated private lines and T1s and these are&nbsp;
+some typical telecommunications products to one in&nbsp;&nbsp;
+
+00:13:00.240 --> 00:13:07.840
+which we can create that fabric that is necessary&nbsp;
+to access 36 different data sources and to move&nbsp;&nbsp;
+
+00:13:07.840 --> 00:13:13.520
+along that product journey. So Palunteer has been&nbsp;
+on both of these steps. one on understanding our&nbsp;&nbsp;
+
+00:13:13.520 --> 00:13:19.520
+network, two understanding our customers and three&nbsp;
+setting up our transformation journey that we can&nbsp;&nbsp;
+
+00:13:19.520 --> 00:13:25.920
+take our customers through and make sure that um&nbsp;
+they can take advantage of the other part of our&nbsp;&nbsp;
+
+00:13:25.920 --> 00:13:31.520
+business that backbone business which is building&nbsp;
+connectivity into the major AI data centers and&nbsp;&nbsp;
+
+00:13:31.520 --> 00:13:40.880
+hyperscalers. And so for for a telecommunications&nbsp;
+company and a service provider, the most complex&nbsp;&nbsp;
+
+00:13:40.880 --> 00:13:47.200
+thing we can do is to change is change the way it&nbsp;
+was always done. Telecom's been around forever.&nbsp;&nbsp;
+
+00:13:47.200 --> 00:13:53.840
+Service providers been around for a very long&nbsp;
+time. and changing the foundation of our revenue&nbsp;&nbsp;
+
+00:13:53.840 --> 00:13:58.320
+source into the new model that we want to work&nbsp;
+towards and the new model that's being demanded&nbsp;&nbsp;
+
+00:13:58.320 --> 00:14:05.040
+from the market required extreme precision,&nbsp;
+extreme depth into our data and the Palunteer AI&nbsp;&nbsp;
+
+00:14:05.040 --> 00:14:14.585
+platform has fundamentally helped us achieve those&nbsp;
+goals. So, thank you very much. [Applause] [Music]
+

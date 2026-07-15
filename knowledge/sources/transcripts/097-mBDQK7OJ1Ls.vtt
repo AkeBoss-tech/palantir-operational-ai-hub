@@ -1,0 +1,1476 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.600 --> 00:00:09.840
+Good morning everyone and welcome to AIPCON 8. My&nbsp;
+name is Jack Dobson, AIP lead here at Palanteer&nbsp;&nbsp;
+
+00:00:09.840 --> 00:00:14.720
+and it's my absolute pleasure to welcome you to&nbsp;
+the show. For those of you that are returning,&nbsp;&nbsp;
+
+00:00:14.720 --> 00:00:17.840
+welcome back. Those of you that are new to&nbsp;
+the show, thank you so much for joining us.&nbsp;&nbsp;
+
+00:00:17.840 --> 00:00:21.680
+We have a great morning's content lined up&nbsp;
+for you. A whole set of customer keynotes,&nbsp;&nbsp;
+
+00:00:21.680 --> 00:00:27.440
+including also our CEO, Dr. Karp, taking to&nbsp;
+the stage. But before any of that, we have a&nbsp;&nbsp;
+
+00:00:27.440 --> 00:00:32.640
+very special pre-show to kick off the show. I am&nbsp;
+delighted to be joined with two of my colleagues&nbsp;&nbsp;
+
+00:00:32.640 --> 00:00:38.080
+from Andretti Global. We've got Zack Porter,&nbsp;
+senior simulation engineer within Indie Car,&nbsp;&nbsp;
+
+00:00:38.080 --> 00:00:42.640
+and then Carl Kirkwood, Indie Car driver with&nbsp;
+the team. Thank you so much, guys, for joining&nbsp;&nbsp;
+
+00:00:42.640 --> 00:00:46.560
+me. Thank you for having us. Awesome. So, we're&nbsp;
+going to be kicking off the show with a little&nbsp;&nbsp;
+
+00:00:46.560 --> 00:00:50.960
+bit of a run through and actually a launch of the&nbsp;
+partnership between Palanteer and Andretti. We're&nbsp;&nbsp;
+
+00:00:50.960 --> 00:00:55.120
+going to be showcasing some of the work we've been&nbsp;
+building over just the last few weeks and setting&nbsp;&nbsp;
+
+00:00:55.120 --> 00:01:00.960
+a vision for what we're going to go and achieve in&nbsp;
+2026. So with that, let's hop into a little demo&nbsp;&nbsp;
+
+00:01:00.960 --> 00:01:04.880
+and we're going to actually drive all of this by&nbsp;
+showcasing some of the work we've been building&nbsp;&nbsp;
+
+00:01:04.880 --> 00:01:08.640
+together. Perhaps Zach, do you want to kick us&nbsp;
+off? Introduce us to the world of Indie Car,&nbsp;&nbsp;
+
+00:01:08.640 --> 00:01:14.000
+the world of Andretti, and kind of the beginnings&nbsp;
+of our partnership. Yeah, so Indie Car is uh it's&nbsp;&nbsp;
+
+00:01:14.000 --> 00:01:19.040
+11 teams. It's 27 full-time entries, 33 at&nbsp;
+the Indy500. We compete on road courses,&nbsp;&nbsp;
+
+00:01:19.040 --> 00:01:23.760
+street courses, short ovals, speedways, this&nbsp;
+massive amount of data, this massive different&nbsp;&nbsp;
+
+00:01:23.760 --> 00:01:28.640
+kinds of racing and all across the globe uh with&nbsp;
+massive number of variables. Uh and and all that&nbsp;&nbsp;
+
+00:01:28.640 --> 00:01:32.400
+we have to work together to make decisions in in&nbsp;
+in real time really really really quickly between&nbsp;&nbsp;
+
+00:01:32.400 --> 00:01:36.800
+sessions. Um it it's quite a challenge. That's&nbsp;
+incredible. And obviously I mean as with a lot&nbsp;&nbsp;
+
+00:01:36.800 --> 00:01:40.880
+of the challenges we face out in the field like&nbsp;
+this is a heavy data challenge, right? So Carl,&nbsp;&nbsp;
+
+00:01:40.880 --> 00:01:43.600
+for you I'm curious like as we think about&nbsp;
+we're going to be talking a lot about data,&nbsp;&nbsp;
+
+00:01:43.600 --> 00:01:48.560
+a lot about workflows and things like that. As the&nbsp;
+race weekend progresses, like how is it for you?&nbsp;&nbsp;
+
+00:01:48.560 --> 00:01:52.240
+Like what's the progression of the weekend? How do&nbsp;
+you think about the technology and the data you're&nbsp;&nbsp;
+
+00:01:52.240 --> 00:01:56.000
+working with? And I guess what's the experience&nbsp;
+from the driver side of all of this? Yeah, I&nbsp;&nbsp;
+
+00:01:56.000 --> 00:02:00.560
+mean there's so much to experience and and I don't&nbsp;
+even know where to start if I'm being honest, but&nbsp;&nbsp;
+
+00:02:00.560 --> 00:02:07.200
+um as a driver you don't get a lot of time to to&nbsp;
+look over things. you are um between media events,&nbsp;&nbsp;
+
+00:02:07.200 --> 00:02:12.640
+you're driving the car, you're or meeting with&nbsp;
+sponsors, um partners, uh whoever it might be,&nbsp;&nbsp;
+
+00:02:12.640 --> 00:02:19.120
+and you get a very short period to actually focus&nbsp;
+on the data that's in front of you. And um you're&nbsp;&nbsp;
+
+00:02:19.120 --> 00:02:23.200
+you're typically always trying to find lap time.&nbsp;
+You're always looking at sectors. You're looking&nbsp;&nbsp;
+
+00:02:23.200 --> 00:02:29.200
+at uh speed traces, throttle traces, brake traces,&nbsp;
+steering traces, and and trying to understand&nbsp;&nbsp;
+
+00:02:29.200 --> 00:02:34.240
+where you can find lap time because ultimately&nbsp;
+everything leading up into the race is is all&nbsp;&nbsp;
+
+00:02:34.240 --> 00:02:39.840
+about just how can you make a car go as fast as&nbsp;
+possible around a single lap or a single sector.&nbsp;&nbsp;
+
+00:02:39.840 --> 00:02:45.760
+So for us, it's it's focusing on that, trying to&nbsp;
+find exactly how we can optimize the corners, the&nbsp;&nbsp;
+
+00:02:45.760 --> 00:02:51.120
+speeds, everything um for a driver standpoint, but&nbsp;
+also for the car. So, um, it's really important&nbsp;&nbsp;
+
+00:02:51.120 --> 00:02:57.920
+and and we like like Zach just said, we have so&nbsp;
+much data to look at and it's crucial to pinpoint&nbsp;&nbsp;
+
+00:02:57.920 --> 00:03:02.080
+and find exactly what you need, but there's also&nbsp;
+so many variables, right? So, a lot of times&nbsp;&nbsp;
+
+00:03:02.080 --> 00:03:07.920
+you'll look at a a portion of data and then you&nbsp;
+also need to um compare it to another portion of&nbsp;&nbsp;
+
+00:03:07.920 --> 00:03:12.240
+data and you kind of just keep falling down rabbit&nbsp;
+holes um trying to understand things and there's&nbsp;&nbsp;
+
+00:03:12.240 --> 00:03:17.200
+always questions and we always run out of time and&nbsp;
+that that's ultimately our our sport, right? It's&nbsp;&nbsp;
+
+00:03:17.200 --> 00:03:22.320
+time. It's it's time on the racetrack. It's time&nbsp;
+looking at data. It's time in in every format. So,&nbsp;&nbsp;
+
+00:03:22.320 --> 00:03:26.160
+um it's important to get through it quickly to to&nbsp;
+optimize everything. That's incredible. I mean, as&nbsp;&nbsp;
+
+00:03:26.160 --> 00:03:30.080
+you say, it's as much a race off track as it is on&nbsp;
+track. Right. Exactly. Like that is the challenge&nbsp;&nbsp;
+
+00:03:30.080 --> 00:03:34.480
+we're fundamentally solving. So, great segue into&nbsp;
+the problems we're solving together, right? So,&nbsp;&nbsp;
+
+00:03:34.480 --> 00:03:38.320
+this is race OS. This is what we've been building&nbsp;
+over just the last few weeks, right? The last&nbsp;&nbsp;
+
+00:03:38.320 --> 00:03:43.760
+handful of races as we closed out the 2025&nbsp;
+season. Congrats again in the championship. That's&nbsp;&nbsp;
+
+00:03:43.760 --> 00:03:48.720
+incredible. Um Zach, do you want to kind of tee up&nbsp;
+this demo a little bit? talk us through race and&nbsp;&nbsp;
+
+00:03:48.720 --> 00:03:52.320
+we'll also talk through a little bit about how we&nbsp;
+actually went about building this as well. Yeah,&nbsp;&nbsp;
+
+00:03:52.320 --> 00:03:57.920
+so race here is like a it's a central point for&nbsp;
+all the work we do between sessions. So we have,&nbsp;&nbsp;
+
+00:03:57.920 --> 00:04:01.360
+you know, everything from a quick snapshot of&nbsp;
+timing and scoring. In the bottom left corner,&nbsp;&nbsp;
+
+00:04:01.360 --> 00:04:05.680
+maybe some actions uh in the bottom right there&nbsp;
+of of sensor anomalies or some things that come&nbsp;&nbsp;
+
+00:04:05.680 --> 00:04:09.040
+up that we need to take action on. You know,&nbsp;
+in the top right, we have weather information,&nbsp;&nbsp;
+
+00:04:09.040 --> 00:04:13.760
+a countdown to the next session, um outings along&nbsp;
+the left hand side, and then a series of of apps&nbsp;&nbsp;
+
+00:04:13.760 --> 00:04:17.360
+along the left that are all the workflows that&nbsp;
+we need to work through to get from where we are&nbsp;&nbsp;
+
+00:04:17.360 --> 00:04:22.320
+right now and make decisions for the next session.&nbsp;
+100%. And as always, like with any race, this is&nbsp;&nbsp;
+
+00:04:22.320 --> 00:04:26.080
+now just a timing game to see how long it takes&nbsp;
+me to say the word ontology. And that is exactly&nbsp;&nbsp;
+
+00:04:26.080 --> 00:04:29.920
+what we're going to start by talking about. So&nbsp;
+obviously everything with regards to race OS,&nbsp;&nbsp;
+
+00:04:29.920 --> 00:04:34.320
+everything we've built is built on Andrett's&nbsp;
+unique ontology, right? That is the coalescing&nbsp;&nbsp;
+
+00:04:34.320 --> 00:04:40.080
+of the data, the logic, the actions that make up&nbsp;
+the team and every single decision you make off&nbsp;&nbsp;
+
+00:04:40.080 --> 00:04:44.400
+and on track. So maybe like Zach, talk me talk&nbsp;
+to me a little bit about the kind of systems&nbsp;&nbsp;
+
+00:04:44.400 --> 00:04:47.840
+that you're working with, how you work with data&nbsp;
+within the team, and I guess what were some of&nbsp;&nbsp;
+
+00:04:47.840 --> 00:04:51.920
+those challenges that we went in to go and solve?&nbsp;
+Yeah, I mean part of the big problem we have is we&nbsp;&nbsp;
+
+00:04:51.920 --> 00:04:55.840
+we have a ton of data and we're really good with&nbsp;
+data. We have a ton of tools and we've been doing&nbsp;&nbsp;
+
+00:04:55.840 --> 00:05:00.160
+this a very long time as as my colleagues say&nbsp;
+we we're big data before big data was a thing&nbsp;&nbsp;
+
+00:05:00.160 --> 00:05:04.640
+sometimes uh and we're really good at that but&nbsp;
+it it sits in silos and it sits in buckets and&nbsp;&nbsp;
+
+00:05:04.640 --> 00:05:09.760
+it sits in in unconnected ways. So timing and&nbsp;
+scoring comes from Indie car but you know data and&nbsp;&nbsp;
+
+00:05:09.760 --> 00:05:14.000
+telemetry comes from the car and those two things&nbsp;
+are not directly connected in any way. And what&nbsp;&nbsp;
+
+00:05:14.000 --> 00:05:19.280
+Foundaries allowed us to do is is create those&nbsp;
+connections to all these like unique individual&nbsp;&nbsp;
+
+00:05:19.280 --> 00:05:24.720
+buckets of of data and serve them all up in one&nbsp;
+way and in in relationships that make sense. Yeah,&nbsp;&nbsp;
+
+00:05:24.720 --> 00:05:29.040
+100%. So that's obviously where it starts, right?&nbsp;
+You start with the data component of that sort&nbsp;&nbsp;
+
+00:05:29.040 --> 00:05:34.480
+of holy trinity. So this is our broader ontology.&nbsp;
+This is the circuitry behind the entirety of race&nbsp;&nbsp;
+
+00:05:34.480 --> 00:05:39.200
+and as we dive in, we'll see that data component&nbsp;
+to begin with. So you can see obviously we're not&nbsp;&nbsp;
+
+00:05:39.200 --> 00:05:43.200
+thinking about spreadsheets. We're not thinking&nbsp;
+about data sets. We're thinking about the the&nbsp;&nbsp;
+
+00:05:43.200 --> 00:05:46.480
+sort of concepts and the entities you work with&nbsp;
+on a day-to-day basis, right? You got the tracks,&nbsp;&nbsp;
+
+00:05:46.480 --> 00:05:51.600
+the drivers, the sessions, lap times, performance.&nbsp;
+Like this basically allows the team to stop&nbsp;&nbsp;
+
+00:05:51.600 --> 00:05:55.040
+thinking about, oh, where do I need to go to get&nbsp;
+to that information and instead everything is&nbsp;&nbsp;
+
+00:05:55.040 --> 00:05:59.440
+connected, contextualized. So, I mean, Zach, kind&nbsp;
+of what's your thoughts around how this is going&nbsp;&nbsp;
+
+00:05:59.440 --> 00:06:03.040
+to speed up operations for the team? For us, we we&nbsp;
+need to serve like kind like kind like kind like&nbsp;&nbsp;
+
+00:06:03.040 --> 00:06:03.920
+kind like kind like kind like kind like kind like&nbsp;
+kind like kind like kind of like Kyle said too,&nbsp;&nbsp;
+
+00:06:03.920 --> 00:06:08.560
+we need to serve all of these disparate pieces of&nbsp;
+data up in one way to allow our race engineers and&nbsp;&nbsp;
+
+00:06:08.560 --> 00:06:12.720
+performance engineers and systems engineers to&nbsp;
+make decisions quicker. So as we connect these&nbsp;&nbsp;
+
+00:06:12.720 --> 00:06:17.760
+things, you know, tracks to sectors to sessions&nbsp;
+to timing to setups to all the important pieces&nbsp;&nbsp;
+
+00:06:17.760 --> 00:06:22.000
+of our puzzle if we can serve them up in one&nbsp;
+way and present them to our race engineers,&nbsp;&nbsp;
+
+00:06:22.000 --> 00:06:26.720
+we can be more informed to make better decisions&nbsp;
+sooner. 100%. And I think that's also where AIP&nbsp;&nbsp;
+
+00:06:26.720 --> 00:06:31.600
+comes in, right? The ability to not only just&nbsp;
+have the data, but also then start adding logic,&nbsp;&nbsp;
+
+00:06:31.600 --> 00:06:35.280
+layering logic on top of that information so&nbsp;
+we can actually start getting closer to driving&nbsp;&nbsp;
+
+00:06:35.280 --> 00:06:39.200
+decisions, right? KL, I'm curious for you like if&nbsp;
+you put yourself in the position of you've just&nbsp;&nbsp;
+
+00:06:39.200 --> 00:06:43.200
+come straight off track, right? you're in that&nbsp;
+time between sessions. I've seen you you sit down&nbsp;&nbsp;
+
+00:06:43.200 --> 00:06:46.480
+in the engineering truck, you sit with the team&nbsp;
+and start digging through what just happened,&nbsp;&nbsp;
+
+00:06:46.480 --> 00:06:50.400
+right? What did we learn? How to improve for the&nbsp;
+next session. Talk me through some of that process&nbsp;&nbsp;
+
+00:06:50.400 --> 00:06:54.640
+in your mind. Like what kind of things do you want&nbsp;
+to see? How do you go about sort of evaluating&nbsp;&nbsp;
+
+00:06:54.640 --> 00:07:00.560
+what just happened? Well, it it solely depends&nbsp;
+on how you do in a session, of course. Um, but I&nbsp;&nbsp;
+
+00:07:00.560 --> 00:07:06.960
+would say in in general, you're always looking at&nbsp;
+teammates data and um, there's many many sensors&nbsp;&nbsp;
+
+00:07:06.960 --> 00:07:11.600
+that we can look at as as drivers comparative&nbsp;
+to to our teammates. We get raw data from there,&nbsp;&nbsp;
+
+00:07:11.600 --> 00:07:16.480
+but you also look at telemetry, GPS data from&nbsp;
+other cars that we can also get from from the&nbsp;&nbsp;
+
+00:07:16.480 --> 00:07:22.160
+series. And um, you kind of use both of those&nbsp;
+along with some some video as well. You kind of&nbsp;&nbsp;
+
+00:07:22.160 --> 00:07:27.840
+go back to the raw formats of of things, right?&nbsp;
+where you're just looking at offtrack video,&nbsp;&nbsp;
+
+00:07:27.840 --> 00:07:34.320
+um, car on boards from the broadcast even. Um,&nbsp;
+just a combination of many things that if you're&nbsp;&nbsp;
+
+00:07:34.320 --> 00:07:40.080
+looking for one piece of you, you typically start&nbsp;
+with the data. You start with the data compared to&nbsp;&nbsp;
+
+00:07:40.080 --> 00:07:44.240
+teammates or data compared to another car and then&nbsp;
+you find that and you're like, okay, what's going&nbsp;&nbsp;
+
+00:07:44.240 --> 00:07:50.160
+on here? Why why do we need to find pace here?&nbsp;
+And then you translate that into video, um, oncar&nbsp;&nbsp;
+
+00:07:50.160 --> 00:07:54.960
+or incar footage, I should say, um, broadcast&nbsp;
+footage, whatever it might be. and then you try&nbsp;&nbsp;
+
+00:07:54.960 --> 00:07:59.920
+and just put the whole picture together. Um, so&nbsp;
+you're always just bouncing around from a lot of&nbsp;&nbsp;
+
+00:07:59.920 --> 00:08:05.600
+different things to to find out exactly what you&nbsp;
+need for pace in the race car. And and our our job&nbsp;&nbsp;
+
+00:08:05.600 --> 00:08:10.560
+with that on the engineering side is to take his&nbsp;
+sensations and his view and the things his talents&nbsp;&nbsp;
+
+00:08:10.560 --> 00:08:15.440
+in the race car and turn that into data and and&nbsp;
+find actions in the data that back up what he said&nbsp;&nbsp;
+
+00:08:15.440 --> 00:08:20.320
+and helps us understand with context the the level&nbsp;
+of of under steer that we need to fix or the level&nbsp;&nbsp;
+
+00:08:20.320 --> 00:08:25.360
+of power down problems or whatever it might be.&nbsp;
+So we can um make a datadriven decision to to help&nbsp;&nbsp;
+
+00:08:25.360 --> 00:08:29.920
+him go faster. Makes total sense. And that action&nbsp;
+component exactly is the next piece of this,&nbsp;&nbsp;
+
+00:08:29.920 --> 00:08:34.880
+right? The ontology is it's data, it's logic,&nbsp;
+but it's also the ability to take action on that&nbsp;&nbsp;
+
+00:08:34.880 --> 00:08:38.560
+information as well. So a lot of what we've been&nbsp;
+building is really kind of empowering your team,&nbsp;&nbsp;
+
+00:08:38.560 --> 00:08:42.960
+right? Like we're not looking to replace people&nbsp;
+like you guys, as you said, are extremely adept&nbsp;&nbsp;
+
+00:08:42.960 --> 00:08:48.000
+at working with this data. This is about getting&nbsp;
+the right data into users hands quicker. And these&nbsp;&nbsp;
+
+00:08:48.000 --> 00:08:51.920
+applications you see on the screen is just a&nbsp;
+subset of all the apps we've built, right? Like&nbsp;&nbsp;
+
+00:08:51.920 --> 00:08:55.280
+tell me more Zach about like some of the pace&nbsp;
+that you've seen and actually building this&nbsp;&nbsp;
+
+00:08:55.280 --> 00:09:00.320
+out. We've been working together for a handful of&nbsp;
+weeks, right? Yeah. I mean truly we spent about I&nbsp;&nbsp;
+
+00:09:00.320 --> 00:09:04.400
+don't know 5 days getting all the different data&nbsp;
+sources connected and and and streaming in and&nbsp;&nbsp;
+
+00:09:04.400 --> 00:09:08.480
+then from there we've we've had some use cases&nbsp;
+with our systems engineers for example just fall&nbsp;&nbsp;
+
+00:09:08.480 --> 00:09:13.600
+out and and build something uh that they can take&nbsp;
+action on in like 24 hours. That's the that's the&nbsp;&nbsp;
+
+00:09:13.600 --> 00:09:16.880
+power of this whole thing is once we get all the&nbsp;
+data in, once we once we understand really what&nbsp;&nbsp;
+
+00:09:16.880 --> 00:09:21.280
+the end goals are, some some applications just&nbsp;
+kind of fall out of the bottom and usefulness&nbsp;&nbsp;
+
+00:09:21.280 --> 00:09:25.440
+just comes right away. That's incredible. So,&nbsp;
+speaking of that, we're sort of in the context&nbsp;&nbsp;
+
+00:09:25.440 --> 00:09:30.160
+now of we are 30 minutes, just over 30 minutes&nbsp;
+out from the race. We're thinking about car setup,&nbsp;&nbsp;
+
+00:09:30.160 --> 00:09:33.520
+right? Like that's step one of this. How do we&nbsp;
+start applying everything we've learned not just&nbsp;&nbsp;
+
+00:09:33.520 --> 00:09:38.000
+this weekend, but also previous weekends at&nbsp;
+the same track. How do we pull that together&nbsp;&nbsp;
+
+00:09:38.000 --> 00:09:42.640
+to start configuring the car to perform as best as&nbsp;
+possible on track? So what we see here is actually&nbsp;&nbsp;
+
+00:09:42.640 --> 00:09:46.320
+we're looking at one particular setup that we've&nbsp;
+run in the past and you can see we've even got&nbsp;&nbsp;
+
+00:09:46.320 --> 00:09:51.280
+our own Kyle represented in the ontology but we've&nbsp;
+also got your performance on track your laps your&nbsp;&nbsp;
+
+00:09:51.280 --> 00:09:55.840
+segment times as you mentioned and of course even&nbsp;
+your commentary there so every driver comment we&nbsp;&nbsp;
+
+00:09:55.840 --> 00:10:00.800
+get every engineering change made as a result of&nbsp;
+those comments it's all captured that ontology and&nbsp;&nbsp;
+
+00:10:00.800 --> 00:10:05.040
+this view I actually kind of like the ability&nbsp;
+to see like if we focus in on Kyle you can see&nbsp;&nbsp;
+
+00:10:05.040 --> 00:10:09.520
+all of that context that with just one click you&nbsp;
+can jump to right so I mean Zach how would this&nbsp;&nbsp;
+
+00:10:09.520 --> 00:10:14.160
+have worked in the past like if you wanted to jump&nbsp;
+from Kyle to like show me every race, every timing&nbsp;&nbsp;
+
+00:10:14.160 --> 00:10:18.000
+performance, every sector. Like what would that&nbsp;
+have looked like previously for a while? That's&nbsp;&nbsp;
+
+00:10:18.000 --> 00:10:22.560
+really difficult. Um yeah, in the past, you know,&nbsp;
+we we have like a setup database that has setups&nbsp;&nbsp;
+
+00:10:22.560 --> 00:10:27.600
+that have been run that is broken down across&nbsp;
+tracks and years and and sessions and drivers and&nbsp;&nbsp;
+
+00:10:27.600 --> 00:10:31.600
+uh you know, then a different database that has&nbsp;
+timing and scoring information. And so you'd have&nbsp;&nbsp;
+
+00:10:31.600 --> 00:10:35.840
+to one by one in all these different programs,&nbsp;
+go to different places and try and drill down to&nbsp;&nbsp;
+
+00:10:35.840 --> 00:10:39.520
+find, you know, there's not even an easy way to&nbsp;
+search like, hey, what's the fastest we've ever&nbsp;&nbsp;
+
+00:10:39.520 --> 00:10:43.120
+been around this track? uh you kind of have to&nbsp;
+just know that and then go to that session and&nbsp;&nbsp;
+
+00:10:43.120 --> 00:10:47.360
+find that setup and find that information and then&nbsp;
+navigate somewhere else to find all the timing and&nbsp;&nbsp;
+
+00:10:47.360 --> 00:10:51.440
+scoring data and navigate to a different program&nbsp;
+to find all the time series data that's associated&nbsp;&nbsp;
+
+00:10:51.440 --> 00:10:55.520
+with that and that's what we're trying to make&nbsp;
+those connections here. Yeah, makes total sense&nbsp;&nbsp;
+
+00:10:55.520 --> 00:10:58.400
+and I think that's also a good segue there of&nbsp;
+like you mentioned you just have to sort of&nbsp;&nbsp;
+
+00:10:58.400 --> 00:11:02.160
+know that that kind of intuition you're running&nbsp;
+on. So the way I've certainly thought about it&nbsp;&nbsp;
+
+00:11:02.160 --> 00:11:06.720
+is like how do we bring more of the data backing&nbsp;
+more of the actual like datadriven insights and&nbsp;&nbsp;
+
+00:11:06.720 --> 00:11:10.640
+actions beyond just ins uh the sort of intuition&nbsp;
+that you guys have built because obviously you've&nbsp;&nbsp;
+
+00:11:10.640 --> 00:11:14.960
+got a ton of experience but this is about backing&nbsp;
+it up with the right data and also identifying&nbsp;&nbsp;
+
+00:11:14.960 --> 00:11:18.480
+the things that you may have missed right like&nbsp;
+what are those things kind of in the gaps in the&nbsp;&nbsp;
+
+00:11:18.480 --> 00:11:22.880
+noise that you may not have otherwise spotted so I&nbsp;
+guess Carl for you as well like as you think about&nbsp;&nbsp;
+
+00:11:22.880 --> 00:11:26.960
+working with this data and say you're literally&nbsp;
+30 minutes out from a race session like where's&nbsp;&nbsp;
+
+00:11:26.960 --> 00:11:30.640
+your mind at and also what are you thinking&nbsp;
+about what do I need to know to perform as&nbsp;&nbsp;
+
+00:11:30.640 --> 00:11:34.480
+good as best as possible in this next session?&nbsp;
+Well, I mean that that's a great question,&nbsp;&nbsp;
+
+00:11:34.480 --> 00:11:39.520
+right? It depends which session you're going into,&nbsp;
+but I'd say into the race, we're we're focused a&nbsp;&nbsp;
+
+00:11:39.520 --> 00:11:47.200
+lot on the actual strategy of the race and how is&nbsp;
+it going to play out? How can we run the fastest,&nbsp;&nbsp;
+
+00:11:47.200 --> 00:11:52.080
+say 80 laps from from the green flag to the&nbsp;
+checkered? And and a lot of that comes down&nbsp;&nbsp;
+
+00:11:52.080 --> 00:11:58.640
+to tire de uh fuel saving uh performance. When&nbsp;
+when is the car fast? When is the car slow? How&nbsp;&nbsp;
+
+00:11:58.640 --> 00:12:04.480
+is traffic going to be involved in your race? How&nbsp;
+how are um at what point are pit stops going to&nbsp;&nbsp;
+
+00:12:04.480 --> 00:12:10.160
+be the the fastest time to to to optimize your&nbsp;
+race? Right? So you're you're there's a lot of&nbsp;&nbsp;
+
+00:12:10.160 --> 00:12:13.760
+variables that that you're trying to pull together&nbsp;
+and you're trying to understand it, but a lot of&nbsp;&nbsp;
+
+00:12:13.760 --> 00:12:20.880
+things change as the race um progresses, right?&nbsp;
+So understanding how um the race progresses and&nbsp;&nbsp;
+
+00:12:20.880 --> 00:12:27.360
+how things may change also dictates a lot of of&nbsp;
+how you're ultimately going to end up in a race,&nbsp;&nbsp;
+
+00:12:27.360 --> 00:12:32.400
+right? And um trying to understand those things&nbsp;
+is extremely important. Yeah, 100%. And and Zach,&nbsp;&nbsp;
+
+00:12:32.400 --> 00:12:35.840
+we were talking about this earlier, but I think&nbsp;
+as we look at this view on the screen now, we've&nbsp;&nbsp;
+
+00:12:35.840 --> 00:12:40.880
+actually like the system AIP has assisted us with&nbsp;
+finding four potential setups that we can compare,&nbsp;&nbsp;
+
+00:12:40.880 --> 00:12:44.880
+right? I think the cool thing about this&nbsp;
+is when we start to layer in AIP as well,&nbsp;&nbsp;
+
+00:12:44.880 --> 00:12:48.400
+you start pulling out some of those proactive&nbsp;
+insights of here are the things that have happened&nbsp;&nbsp;
+
+00:12:48.400 --> 00:12:53.200
+in the past, things that you may have forgotten,&nbsp;
+yellow flag in that session or that person going&nbsp;&nbsp;
+
+00:12:53.200 --> 00:12:57.040
+off track or whatever it is. What the system&nbsp;
+can actually do is pull all of that information&nbsp;&nbsp;
+
+00:12:57.040 --> 00:13:02.000
+together alongside the setup data to actually&nbsp;
+contextualize it with performance information with&nbsp;&nbsp;
+
+00:13:02.000 --> 00:13:06.400
+session information beyond just trying to remember&nbsp;
+why did we run that setup. You now have everything&nbsp;&nbsp;
+
+00:13:06.400 --> 00:13:09.600
+at your fingertips, right? So talk me through how&nbsp;
+you're thinking about this helping the team in the&nbsp;&nbsp;
+
+00:13:09.600 --> 00:13:14.320
+future. Yeah, I mean this particular view here has&nbsp;
+as along the left the fastest lap we've ever run&nbsp;&nbsp;
+
+00:13:14.320 --> 00:13:17.760
+around and the setup associated with it that we've&nbsp;
+ever run around Long Beach in this particular&nbsp;&nbsp;
+
+00:13:17.760 --> 00:13:21.920
+case. Uh and in the in the previous slide, we were&nbsp;
+searching for something, you know, a setup change&nbsp;&nbsp;
+
+00:13:21.920 --> 00:13:25.200
+that maybe Kyle or or Jeremy as race engineer&nbsp;
+have gone through and something that they want&nbsp;&nbsp;
+
+00:13:25.200 --> 00:13:30.800
+to explore for this next session. And this AIP&nbsp;
+has has gone through and found inside our database&nbsp;&nbsp;
+
+00:13:30.800 --> 00:13:35.200
+three setups that are very similar to that change&nbsp;
+that they wanted to make and all the associated&nbsp;&nbsp;
+
+00:13:35.200 --> 00:13:39.680
+data that is that that's with that. So we have the&nbsp;
+setup differences that are listed here and then&nbsp;&nbsp;
+
+00:13:39.680 --> 00:13:45.360
+down below there's also the key metrics that are&nbsp;
+associated with that. Um and it's it's it's quite&nbsp;&nbsp;
+
+00:13:45.360 --> 00:13:49.440
+a powerful tool to really quickly drill down. We&nbsp;
+we had no way to do this before. No way of like&nbsp;&nbsp;
+
+00:13:49.440 --> 00:13:54.080
+making a setup change or proposing a setup change&nbsp;
+and then understanding all the things that go&nbsp;&nbsp;
+
+00:13:54.080 --> 00:13:57.680
+along with that that we've ever done historically.&nbsp;
+That's a brand new tool for us. That's awesome.&nbsp;&nbsp;
+
+00:13:57.680 --> 00:14:00.800
+That's incredible. So, I think what we're going&nbsp;
+to see now is obviously that was all the setup&nbsp;&nbsp;
+
+00:14:00.800 --> 00:14:03.680
+information that we quite rightly have hidden from&nbsp;
+the audience a little bit. We don't want to give&nbsp;&nbsp;
+
+00:14:03.680 --> 00:14:07.280
+away the secret source, but you can see all of&nbsp;
+those parameters, right? The difference here, the&nbsp;&nbsp;
+
+00:14:07.280 --> 00:14:11.680
+deltas from session to session. This is all well&nbsp;
+and good like it's useful seeing that comparison,&nbsp;&nbsp;
+
+00:14:11.680 --> 00:14:15.760
+but I think it's then how do you actually apply&nbsp;
+logic on top of that, right? It's not just show me&nbsp;&nbsp;
+
+00:14:15.760 --> 00:14:19.600
+the delta, but show me maybe some of the context&nbsp;
+behind some of that delta, right? Like why did&nbsp;&nbsp;
+
+00:14:19.600 --> 00:14:23.120
+you make those decisions? Yeah, each each of those&nbsp;
+setups were run in different years and different&nbsp;&nbsp;
+
+00:14:23.120 --> 00:14:28.000
+sessions in different conditions. Uh, and the&nbsp;
+ability for AIP to go through and and provide the&nbsp;&nbsp;
+
+00:14:28.000 --> 00:14:32.480
+context like we see here on the left. So that's&nbsp;
+a specific setup picked, but then it provides&nbsp;&nbsp;
+
+00:14:32.480 --> 00:14:37.600
+the story of how we got there. So each outing in&nbsp;
+that session that led up to this, its performance&nbsp;&nbsp;
+
+00:14:37.600 --> 00:14:41.840
+relative to the field, which is the second part&nbsp;
+we see there. Uh, and then its comparison to the&nbsp;&nbsp;
+
+00:14:41.840 --> 00:14:45.840
+reference, the fastest time we've ever gone around&nbsp;
+that racetrack. and what things are different and&nbsp;&nbsp;
+
+00:14:45.840 --> 00:14:50.000
+what things sort of tell the story of why this&nbsp;
+is maybe a good direction to go or maybe why&nbsp;&nbsp;
+
+00:14:50.000 --> 00:14:53.840
+it's a bad direction to go. Exactly. And talk me&nbsp;
+through I know I've heard you in the truck a few&nbsp;&nbsp;
+
+00:14:53.840 --> 00:14:57.680
+times be like I remember we did this last year&nbsp;
+or I remember we ran this setup or something like&nbsp;&nbsp;
+
+00:14:57.680 --> 00:15:01.440
+that. Like are you often just going off like&nbsp;
+oh what did we do last time what worked? What&nbsp;&nbsp;
+
+00:15:01.440 --> 00:15:04.720
+didn't? Like how do you think this would change&nbsp;
+maybe your flow getting ready for a session?&nbsp;&nbsp;
+
+00:15:04.720 --> 00:15:08.720
+You know it's extremely interesting looking at at&nbsp;
+some of this stuff right and and talking about it&nbsp;&nbsp;
+
+00:15:08.720 --> 00:15:15.600
+beforehand in this in this pre-show. It's there's&nbsp;
+a lot of bins in in silos as you said that that&nbsp;&nbsp;
+
+00:15:15.600 --> 00:15:21.760
+information um topics, setups, everything is kind&nbsp;
+of spread out and we're always finding that we&nbsp;&nbsp;
+
+00:15:21.760 --> 00:15:27.440
+have to go to a different folder, a different a&nbsp;
+different area or a different server to to find&nbsp;&nbsp;
+
+00:15:27.440 --> 00:15:32.640
+things that we want. And simplifying it and&nbsp;
+putting it all in one spot saves us so much&nbsp;&nbsp;
+
+00:15:32.640 --> 00:15:38.960
+time. And I go back to the time that it that our&nbsp;
+our whole motorsports career is about. counts,&nbsp;&nbsp;
+
+00:15:38.960 --> 00:15:44.080
+you know, every minute counts. Off the track, on&nbsp;
+the track, everything is is important and it just&nbsp;&nbsp;
+
+00:15:44.080 --> 00:15:51.360
+it allows us to make more educated decisions um&nbsp;
+with with valid information. That's awesome. So,&nbsp;&nbsp;
+
+00:15:51.360 --> 00:15:54.480
+I think what we're going to do now is we're&nbsp;
+going to segue. So, like this was all pre-race,&nbsp;&nbsp;
+
+00:15:54.480 --> 00:15:58.320
+right? Like we're looking ahead of Long Beach,&nbsp;
+which was a race of the season, which actually&nbsp;&nbsp;
+
+00:15:58.320 --> 00:16:02.960
+Carl won. Not to give away the lead there. Um but&nbsp;
+I think what's important is okay, great. We've got&nbsp;&nbsp;
+
+00:16:02.960 --> 00:16:07.440
+our setup down. We can obviously capture that&nbsp;
+in the ontology. Then we transition to postra,&nbsp;&nbsp;
+
+00:16:07.440 --> 00:16:11.360
+right? Like so obviously we get the car ready,&nbsp;
+we optimize the setup going into the session.&nbsp;&nbsp;
+
+00:16:11.360 --> 00:16:15.760
+That's all well and good. What you can see here is&nbsp;
+we're actually capturing all of that those setup&nbsp;&nbsp;
+
+00:16:15.760 --> 00:16:19.760
+decisions and all the edits that have been made in&nbsp;
+the ontology. So it's you're continually adding to&nbsp;&nbsp;
+
+00:16:19.760 --> 00:16:24.640
+those breadcrumbs, right? Like adding to the asset&nbsp;
+that you have to draw upon next time. I think&nbsp;&nbsp;
+
+00:16:24.640 --> 00:16:28.880
+where this gets particularly exciting is when we&nbsp;
+start to get into the more telemetrydriven stuff,&nbsp;&nbsp;
+
+00:16:28.880 --> 00:16:33.200
+right? As we start to think about sensors,&nbsp;
+how the car is performing. So, as we now&nbsp;&nbsp;
+
+00:16:33.200 --> 00:16:37.120
+kind of transition to that post-race, you can see&nbsp;
+there KL, you're you're at the top of the timing&nbsp;&nbsp;
+
+00:16:37.120 --> 00:16:41.200
+stands. That's pretty good. Um, now the next&nbsp;
+stage is like, well, what worked, what didn't,&nbsp;&nbsp;
+
+00:16:41.200 --> 00:16:45.120
+how did the car perform, and what can we learn&nbsp;
+from for next time. And I think we've built some&nbsp;&nbsp;
+
+00:16:45.120 --> 00:16:49.440
+pretty cool stuff around session review. So,&nbsp;
+Zach, talk me through some of the behind the&nbsp;&nbsp;
+
+00:16:49.440 --> 00:16:53.680
+scenes of how we went around building this and I&nbsp;
+guess also like how's this compare to how you guys&nbsp;&nbsp;
+
+00:16:53.680 --> 00:16:58.800
+work with particularly tire information and tire&nbsp;
+sensor based data today. Yeah, when when we get&nbsp;&nbsp;
+
+00:16:58.800 --> 00:17:03.760
+to post session, we have this dump of data that's&nbsp;
+arrived in all these different forms. Uh and and&nbsp;&nbsp;
+
+00:17:03.760 --> 00:17:09.600
+all of them represent a performance or a piece of&nbsp;
+performance of the car and and and how tells the&nbsp;&nbsp;
+
+00:17:09.600 --> 00:17:14.400
+story of how we can go faster someday. Um so this&nbsp;
+session review piece, specifically this view with&nbsp;&nbsp;
+
+00:17:14.400 --> 00:17:19.200
+with tire information here, helps us understand&nbsp;
+like how we're developing grip over the lap,&nbsp;&nbsp;
+
+00:17:19.200 --> 00:17:24.400
+over a session. Um and and all this stuff is is&nbsp;
+coming in automatically in the background and it's&nbsp;&nbsp;
+
+00:17:24.400 --> 00:17:28.480
+ready within two or two or three minutes from post&nbsp;
+session. Um, that's really the powerful thing is&nbsp;&nbsp;
+
+00:17:28.480 --> 00:17:32.480
+is being able to just serve this information&nbsp;
+up right away instead of our tire engineer,&nbsp;&nbsp;
+
+00:17:32.480 --> 00:17:36.240
+for example, having to go and calculate these&nbsp;
+reports and put this stuff together and then it&nbsp;&nbsp;
+
+00:17:36.240 --> 00:17:40.000
+gets sent out 30 or 40 or 50 minutes later and&nbsp;
+it gives us a significantly less amount of time&nbsp;&nbsp;
+
+00:17:40.000 --> 00:17:43.120
+to take action upon it. How do you actually think&nbsp;
+that's going to compare then? You mentioned they&nbsp;&nbsp;
+
+00:17:43.120 --> 00:17:47.680
+like it could take 10, 20, like an hour tops to&nbsp;
+actually coales this information. When you've got&nbsp;&nbsp;
+
+00:17:47.680 --> 00:17:50.960
+these I mean we've got some great custom widgets&nbsp;
+here that actually kind of show that information&nbsp;&nbsp;
+
+00:17:50.960 --> 00:17:55.600
+in the format that your users your team are&nbsp;
+familiar with. like in terms of the time cut down,&nbsp;&nbsp;
+
+00:17:55.600 --> 00:17:59.040
+what do you expect like the impact of this is&nbsp;
+going to be? I I think what what it really does&nbsp;&nbsp;
+
+00:17:59.040 --> 00:18:03.920
+is it allows our our engineering group, you know,&nbsp;
+his Kyle's race engineer and and Kyle to sit down&nbsp;&nbsp;
+
+00:18:03.920 --> 00:18:07.760
+and and in five or six minutes as they sort&nbsp;
+of debrief in detail with themselves from the&nbsp;&nbsp;
+
+00:18:07.760 --> 00:18:11.840
+session to immediately go and like, hey, like what&nbsp;
+happened with tire pressure? What happened with&nbsp;&nbsp;
+
+00:18:11.840 --> 00:18:15.840
+the tire temperatures? You know, why did I have&nbsp;
+this sensation of over steer after three or four&nbsp;&nbsp;
+
+00:18:15.840 --> 00:18:19.200
+laps? Like what what was the temperature&nbsp;
+distribution front to rear of the tires,&nbsp;&nbsp;
+
+00:18:19.200 --> 00:18:22.400
+for example, or something? And it just serves&nbsp;
+that information right away. So as they debrief&nbsp;&nbsp;
+
+00:18:22.400 --> 00:18:26.240
+from the session, they can answer their own&nbsp;
+questions right away. We we find that a lot&nbsp;&nbsp;
+
+00:18:26.240 --> 00:18:32.560
+of times we we we just don't have time to look at&nbsp;
+things like this, right? We we there's a lot of&nbsp;&nbsp;
+
+00:18:32.560 --> 00:18:36.880
+important things to look at and it's kind of in in&nbsp;
+order what you should be looking at. And a lot of&nbsp;&nbsp;
+
+00:18:36.880 --> 00:18:43.760
+times some of this stuff falls behind. So having a&nbsp;
+clearcut um informative place to just click on it,&nbsp;&nbsp;
+
+00:18:43.760 --> 00:18:49.120
+review it within seconds, and then get out of&nbsp;
+it and understand it is absolutely crucial for&nbsp;&nbsp;
+
+00:18:49.120 --> 00:18:55.680
+between sessions, right? A lot of times we don't&nbsp;
+find things until after a race or after a session&nbsp;&nbsp;
+
+00:18:55.680 --> 00:19:00.400
+at night when engineers are staying up till&nbsp;
+midnight looking at things. So um it's extremely&nbsp;&nbsp;
+
+00:19:00.400 --> 00:19:04.560
+interesting and what we saw there in the previous&nbsp;
+screen was actually some of your comments right&nbsp;&nbsp;
+
+00:19:04.560 --> 00:19:08.880
+you've got the evolution of your comments coming&nbsp;
+out of the car the changes that the engineers&nbsp;&nbsp;
+
+00:19:08.880 --> 00:19:13.680
+have made as a result and then you can actually&nbsp;
+see that outing to outing right so KL how do you&nbsp;&nbsp;
+
+00:19:13.680 --> 00:19:18.320
+think about communicating with your team right I&nbsp;
+know that there's a lot of nuance around like you&nbsp;&nbsp;
+
+00:19:18.320 --> 00:19:22.080
+could say oh this doesn't feel great this doesn't&nbsp;
+feel good but you're always thinking about how can&nbsp;&nbsp;
+
+00:19:22.080 --> 00:19:26.320
+I give my team the right information for them&nbsp;
+to take the right action so how do you think&nbsp;&nbsp;
+
+00:19:26.320 --> 00:19:30.240
+about that when communicating with the team on&nbsp;
+track of Of course. And and you you want to give&nbsp;&nbsp;
+
+00:19:30.240 --> 00:19:36.240
+them simple um terms that they can understand&nbsp;
+where you talked about over steer, under steer,&nbsp;&nbsp;
+
+00:19:36.240 --> 00:19:40.800
+um things that are just going to help the balance&nbsp;
+of the car that you know intuitively that that&nbsp;&nbsp;
+
+00:19:40.800 --> 00:19:44.480
+will make it faster. And that that's kind of&nbsp;
+just kind of the seat of the pants of the driver,&nbsp;&nbsp;
+
+00:19:44.480 --> 00:19:50.080
+but you also want it to correlate directly with&nbsp;
+what the data says. And um it's important that you&nbsp;&nbsp;
+
+00:19:50.080 --> 00:19:55.760
+that you compare each one of those and understand&nbsp;
+that because a lot of times you can find yourself&nbsp;&nbsp;
+
+00:19:55.760 --> 00:20:01.360
+where the data completely contradicts what the&nbsp;
+driver says. And that is a pretty disappointing&nbsp;&nbsp;
+
+00:20:01.360 --> 00:20:06.800
+thing as a driver if I'm being honest. Um&nbsp;
+because usually the data is right. So, so&nbsp;&nbsp;
+
+00:20:06.800 --> 00:20:10.320
+you're always trying to wanting or you're always&nbsp;
+wanting to match those things up. And when you do&nbsp;&nbsp;
+
+00:20:10.320 --> 00:20:15.600
+match them up, which is 90% of the time I would&nbsp;
+say, um you usually get good things out of it.&nbsp;&nbsp;
+
+00:20:15.600 --> 00:20:19.760
+That's awesome. And on that note, talking of data&nbsp;
+and like backing up your commentary, let's talk&nbsp;&nbsp;
+
+00:20:19.760 --> 00:20:24.080
+sensors for a second. We've done a lot of work to&nbsp;
+pull in all of the telemetry coming off the car.&nbsp;&nbsp;
+
+00:20:24.080 --> 00:20:27.600
+I think this is amassed something like a quarter&nbsp;
+of a trillion data points that we're working with&nbsp;&nbsp;
+
+00:20:27.600 --> 00:20:32.000
+within the platform. Just got started. Just got&nbsp;
+started. Yeah, this is like days weeks in. I we&nbsp;&nbsp;
+
+00:20:32.000 --> 00:20:35.600
+actually ran this little experiment in Nashville&nbsp;
+just last weekend when we saw that the time it&nbsp;&nbsp;
+
+00:20:35.600 --> 00:20:40.320
+takes for you to walk from the timing stand on&nbsp;
+the pit wall back to the garage. In that time,&nbsp;&nbsp;
+
+00:20:40.320 --> 00:20:44.400
+all of that data is flowing off the car into the&nbsp;
+platform and actually contextualizing within that&nbsp;&nbsp;
+
+00:20:44.400 --> 00:20:49.920
+within that ontology ready to start working with.&nbsp;
+So, Zach, I mean, that's firstly insane. It's just&nbsp;&nbsp;
+
+00:20:49.920 --> 00:20:53.280
+so impressive we'd be able to do that so quickly.&nbsp;
+How do you think that's going to transform the way&nbsp;&nbsp;
+
+00:20:53.280 --> 00:20:57.280
+that Andretti operates? I mean, the big challenge,&nbsp;
+especially with the time series data that we have,&nbsp;&nbsp;
+
+00:20:57.280 --> 00:21:02.320
+is it comes in these big chunks, these big splats&nbsp;
+between between outings. Uh, and there's over&nbsp;&nbsp;
+
+00:21:02.320 --> 00:21:07.040
+2,000 channels of data in there and and much of&nbsp;
+it is things that we don't necessarily need or&nbsp;&nbsp;
+
+00:21:07.040 --> 00:21:11.200
+they are channels that are calculating something&nbsp;
+that we need further downstream that help that&nbsp;&nbsp;
+
+00:21:11.200 --> 00:21:15.520
+help us inform. You know, Kyle's talking about a&nbsp;
+a high-speed imbalance and we go look at the the&nbsp;&nbsp;
+
+00:21:15.520 --> 00:21:18.880
+center of pressure of the car and understand&nbsp;
+where the aerero balance of the car is. Um,&nbsp;&nbsp;
+
+00:21:18.880 --> 00:21:24.400
+and so making sure that that data is accurate&nbsp;
+and is not having failing sensors or or missing&nbsp;&nbsp;
+
+00:21:24.400 --> 00:21:27.760
+stuff. You know, these these are not gentle road&nbsp;
+cars that drive around all day. These are race&nbsp;&nbsp;
+
+00:21:27.760 --> 00:21:32.480
+cars that are smashed around the racetrack and&nbsp;
+occasionally crash. And it's a never- ending&nbsp;&nbsp;
+
+00:21:32.480 --> 00:21:39.200
+battle, unfortunately. It's a never- ending battle&nbsp;
+to keep every sensor on the car in prime condition&nbsp;&nbsp;
+
+00:21:39.200 --> 00:21:43.520
+and operating correctly. And and that's the the&nbsp;
+biggest challenge of this kind of data. Yeah,&nbsp;&nbsp;
+
+00:21:43.520 --> 00:21:46.880
+that's incredible. And K, I mean, I guess for you&nbsp;
+as well, I think we've we've talked a lot about&nbsp;&nbsp;
+
+00:21:46.880 --> 00:21:50.640
+how do we make sure that that data is in the best&nbsp;
+possible form, right? Like everything's working,&nbsp;&nbsp;
+
+00:21:50.640 --> 00:21:54.560
+you're getting all the telemetry you need. Like&nbsp;
+how does that I guess that makes a massive impact&nbsp;&nbsp;
+
+00:21:54.560 --> 00:21:58.080
+for you, right? When you have those that stuff to&nbsp;
+hand ready to use as quickly as possible. Yeah,&nbsp;&nbsp;
+
+00:21:58.080 --> 00:22:03.200
+certainly. Right. And there's always questions&nbsp;
+whether the data that you're looking at is correct&nbsp;&nbsp;
+
+00:22:03.200 --> 00:22:07.840
+or or incorrect, and you're always basing it off&nbsp;
+of multiple other sensors kind of around the car&nbsp;&nbsp;
+
+00:22:07.840 --> 00:22:13.680
+to just correlate and tie the whole picture&nbsp;
+together. So, um, yeah, you you and that goes&nbsp;&nbsp;
+
+00:22:13.680 --> 00:22:17.440
+back to what I'm talking about like in between&nbsp;
+sessions where you look at one thing, you're like,&nbsp;&nbsp;
+
+00:22:17.440 --> 00:22:20.800
+"Okay, I see this is what's happening, but what&nbsp;
+what is happening here and what's happening here?"&nbsp;&nbsp;
+
+00:22:20.800 --> 00:22:25.840
+And you're always you're always kind of tying&nbsp;
+the whole picture together. So, to to have a&nbsp;&nbsp;
+
+00:22:25.840 --> 00:22:31.680
+data point that is that you know is accurate&nbsp;
+and you know you can trust is something that&nbsp;&nbsp;
+
+00:22:31.680 --> 00:22:37.520
+also saves time for us, right? And and it's very&nbsp;
+important for performance. That's awesome. And I&nbsp;&nbsp;
+
+00:22:37.520 --> 00:22:41.200
+think the big thing for us, and I know I've been&nbsp;
+working with the team a lot on this, is okay, it's&nbsp;&nbsp;
+
+00:22:41.200 --> 00:22:45.440
+one thing seeing the data. It's one thing having&nbsp;
+visibility, but it's really about being proactive&nbsp;&nbsp;
+
+00:22:45.440 --> 00:22:49.600
+around like what can we alert upon, like what can&nbsp;
+we actually push to the team proactively to say,&nbsp;&nbsp;
+
+00:22:49.600 --> 00:22:53.200
+hey, this is something you should take a look at.&nbsp;
+So, I mean, tell me the story, Zach. We built this&nbsp;&nbsp;
+
+00:22:53.200 --> 00:22:57.120
+tire pressure and monitoring system workflow,&nbsp;
+right, where we were building off some of those&nbsp;&nbsp;
+
+00:22:57.120 --> 00:23:01.600
+tire sensors that we're working with to actually&nbsp;
+identify anomalies and even like something around&nbsp;&nbsp;
+
+00:23:01.600 --> 00:23:05.120
+battery levels, right? So, tell me a bit of the&nbsp;
+story about how this workflow came to be. Yeah,&nbsp;&nbsp;
+
+00:23:05.120 --> 00:23:09.840
+we we were at Toronto uh and and struggling.&nbsp;
+Actually, Kyle's car specifically in a session&nbsp;&nbsp;
+
+00:23:09.840 --> 00:23:14.480
+had a TPMS sensor that failed. Um and that that&nbsp;
+that sensor tells us not just the tire pressure,&nbsp;&nbsp;
+
+00:23:14.480 --> 00:23:18.720
+but tire temperatures and all kinds of things that&nbsp;
+represent performance. Um and when that fails,&nbsp;&nbsp;
+
+00:23:18.720 --> 00:23:21.680
+that that's a huge bit of information that he&nbsp;
+doesn't have, that we don't have that we can't&nbsp;&nbsp;
+
+00:23:21.680 --> 00:23:26.400
+make decisions on. So, uh uh Joe and and the group&nbsp;
+kind of overheard this challenge. And because we&nbsp;&nbsp;
+
+00:23:26.400 --> 00:23:29.760
+were already scooping the data up, because we were&nbsp;
+already parsing it and and doing all the things&nbsp;&nbsp;
+
+00:23:29.760 --> 00:23:34.000
+we were, they in about 24 hours, we're able to to&nbsp;
+push this app out to our systems engineers to help&nbsp;&nbsp;
+
+00:23:34.000 --> 00:23:37.840
+them see the status of every sensor that's ever&nbsp;
+been on the car, when the last time it was run,&nbsp;&nbsp;
+
+00:23:37.840 --> 00:23:41.280
+all the times it was run, what its battery&nbsp;
+level was, and a little prediction of of when&nbsp;&nbsp;
+
+00:23:41.280 --> 00:23:44.560
+that battery might get to a place where they got&nbsp;
+to take it out of service. And and truthfully,&nbsp;&nbsp;
+
+00:23:44.560 --> 00:23:49.280
+since then, since Toronto, Kyle's not had a single&nbsp;
+TPMS problem on the car because of this app. We've&nbsp;&nbsp;
+
+00:23:49.280 --> 00:23:53.040
+we've been able to to to peel the sensors out at&nbsp;
+the right time and replace them with new ones.&nbsp;&nbsp;
+
+00:23:53.040 --> 00:23:55.920
+That's awesome. And I think it also speaks to&nbsp;
+a little bit of our approach of building with&nbsp;&nbsp;
+
+00:23:55.920 --> 00:24:00.480
+Andretti, especially in these last few weeks where&nbsp;
+once you get that foundational ontology down, the&nbsp;&nbsp;
+
+00:24:00.480 --> 00:24:05.120
+ability to very quickly stand up new solutions,&nbsp;
+new apps, like we hear a bit of feedback from the&nbsp;&nbsp;
+
+00:24:05.120 --> 00:24:09.280
+team, we implement it 24 hours later or even&nbsp;
+less. Like it's kind of enabling the team to&nbsp;&nbsp;
+
+00:24:09.280 --> 00:24:13.680
+move faster, right? Like obviously challenges&nbsp;
+are always showing up and the nature of your&nbsp;&nbsp;
+
+00:24:13.680 --> 00:24:18.080
+performance on track, the evolution of the season,&nbsp;
+the team is constantly evolving, right? So,&nbsp;&nbsp;
+
+00:24:18.080 --> 00:24:22.720
+it's a little bit like how do we keep pace with&nbsp;
+that and build to exactly what the team needs at&nbsp;&nbsp;
+
+00:24:22.720 --> 00:24:26.240
+any given point, right? Yeah. And I and I think&nbsp;
+like things like this, our systems engineers are&nbsp;&nbsp;
+
+00:24:26.240 --> 00:24:30.000
+really good. They're really bright. They they they&nbsp;
+keep the car in a really good running condition,&nbsp;&nbsp;
+
+00:24:30.000 --> 00:24:34.000
+but there are so many sensors and there's so much&nbsp;
+stuff that humans are bound to miss something. But&nbsp;&nbsp;
+
+00:24:34.000 --> 00:24:38.480
+if we if we can peel them up and and and serve&nbsp;
+them better information sooner, they're happier.&nbsp;&nbsp;
+
+00:24:38.480 --> 00:24:42.160
+Awesome. That's perfect. So to wrap us up, I think&nbsp;
+we're going to be talking a little bit about some&nbsp;&nbsp;
+
+00:24:42.160 --> 00:24:46.560
+of that anomaly detection. Like what are those&nbsp;
+things that we spot where okay, obviously the the&nbsp;&nbsp;
+
+00:24:46.560 --> 00:24:50.800
+tire battery stuff, pretty simple, like go change&nbsp;
+this, go solve this problem. I think as you start&nbsp;&nbsp;
+
+00:24:50.800 --> 00:24:55.440
+to talk about identifying those sensor anomalies&nbsp;
+and those sort of behaviors that are maybe harder&nbsp;&nbsp;
+
+00:24:55.440 --> 00:24:59.920
+to deduce like what exactly is going on, we're&nbsp;
+building more of a sort of investigation workflow&nbsp;&nbsp;
+
+00:24:59.920 --> 00:25:04.240
+around that, right? So I guess like Zach, tell&nbsp;
+me a little bit more about how like when you see&nbsp;&nbsp;
+
+00:25:04.240 --> 00:25:08.480
+that behavior like how did you work with that data&nbsp;
+previously? How would you go through that process?&nbsp;&nbsp;
+
+00:25:08.480 --> 00:25:12.400
+And as we see in the demo, like how is that going&nbsp;
+to change when building a palenteer? Yeah. So, so&nbsp;&nbsp;
+
+00:25:12.400 --> 00:25:17.280
+the the current workflow would be every time a a&nbsp;
+data file comes off the car, the systems engineer&nbsp;&nbsp;
+
+00:25:17.280 --> 00:25:21.120
+is going to page through very quickly by eye and&nbsp;
+just make sure that all the critical sensors, all&nbsp;&nbsp;
+
+00:25:21.120 --> 00:25:24.560
+the things that we were testing, everything was&nbsp;
+working and in working order. And they're humans,&nbsp;&nbsp;
+
+00:25:24.560 --> 00:25:28.560
+so we're going to miss things. Um, so if we&nbsp;
+can add some some machine learning on top of&nbsp;&nbsp;
+
+00:25:28.560 --> 00:25:33.360
+that to help flag things that that h that maybe&nbsp;
+just failed for a split second on a lap that we&nbsp;&nbsp;
+
+00:25:33.360 --> 00:25:37.840
+weren't particularly looking at, we can flag that&nbsp;
+to go investigate eventually. Uh, I I think that's&nbsp;&nbsp;
+
+00:25:37.840 --> 00:25:42.080
+that's really powerful. And then from there, we&nbsp;
+can drill down into like here's all the anomalies&nbsp;&nbsp;
+
+00:25:42.080 --> 00:25:46.000
+we saw. Here's how many of them there were. Here's&nbsp;
+the corner they keep showing up on. You know, can&nbsp;&nbsp;
+
+00:25:46.000 --> 00:25:50.640
+we can we flag that for someone else to follow up&nbsp;
+with later. Is there a a build of the car that we&nbsp;&nbsp;
+
+00:25:50.640 --> 00:25:54.560
+have to move around in a different way uh to to to&nbsp;
+prevent these problems from happening? And I think&nbsp;&nbsp;
+
+00:25:54.560 --> 00:25:58.480
+that's the that's the beauty of of this deeper&nbsp;
+dive. That's awesome. And it's actually a perfect&nbsp;&nbsp;
+
+00:25:58.480 --> 00:26:03.520
+segue as we sort of start to wrap up thinking&nbsp;
+about 2026, right, Carl? As I mentioned, solid&nbsp;&nbsp;
+
+00:26:03.520 --> 00:26:08.080
+performance this championship really exciting to&nbsp;
+see the speed that the team's moving at. How does&nbsp;&nbsp;
+
+00:26:08.080 --> 00:26:11.920
+that set you up for the 26 season, right? Like&nbsp;
+what some of the focuses, what's top of mind for&nbsp;&nbsp;
+
+00:26:11.920 --> 00:26:15.600
+you in terms of improvement. Yeah. What does the&nbsp;
+the next few months look like in the offseason?&nbsp;&nbsp;
+
+00:26:15.600 --> 00:26:21.440
+Well, we're in a constantly evolving sport. You&nbsp;
+always need to progress. You always need to get&nbsp;&nbsp;
+
+00:26:21.440 --> 00:26:25.680
+better. And we have a long time to do that now.&nbsp;
+And and things like this will help us immensely.&nbsp;&nbsp;
+
+00:26:25.680 --> 00:26:30.240
+And for me as a driver, I'm always just trying&nbsp;
+to figure out, okay, what what is our what is our&nbsp;&nbsp;
+
+00:26:30.240 --> 00:26:36.240
+best tracks? Yeah. How do we improve on that? How&nbsp;
+do we continue down this route? And then also what&nbsp;&nbsp;
+
+00:26:36.240 --> 00:26:42.720
+is our worst tracks and how can we adjust to make&nbsp;
+those better? So, um that's really the the topic&nbsp;&nbsp;
+
+00:26:42.720 --> 00:26:47.680
+of of focus um for the offseason for us. Awesome.&nbsp;
+And Zach, final remarks from you. What are you&nbsp;&nbsp;
+
+00:26:47.680 --> 00:26:52.240
+most excited about looking forward to the next 12&nbsp;
+months with Palanteer? I I think the the workflows&nbsp;&nbsp;
+
+00:26:52.240 --> 00:26:56.320
+that we can build that we can uh take some time&nbsp;
+away, get our race engineers specifically to go&nbsp;&nbsp;
+
+00:26:56.320 --> 00:27:01.120
+to bed a little earlier and not be staying up so&nbsp;
+late so they're not so cranky the next morning. Um&nbsp;&nbsp;
+
+00:27:01.120 --> 00:27:05.600
+and and and help them make better decisions cuz&nbsp;
+winning races is why we're here. That's awesome.&nbsp;&nbsp;
+
+00:27:05.600 --> 00:27:09.920
+Well, K's going to be upset I got him up bright&nbsp;
+and early for little pre-show. But honestly,&nbsp;&nbsp;
+
+00:27:09.920 --> 00:27:13.280
+guys, thank you so much for joining us. This&nbsp;
+has been great fun. Great to work through all&nbsp;&nbsp;
+
+00:27:13.280 --> 00:27:16.800
+the work that we've built so far in just a few&nbsp;
+short weeks. I've never been more excited for&nbsp;&nbsp;
+
+00:27:16.800 --> 00:27:20.800
+the next season. Honestly, it's only the start,&nbsp;
+too. It's only the start, literally. Um, well,&nbsp;&nbsp;
+
+00:27:20.800 --> 00:27:25.520
+with that, thank you so much, everyone at home for&nbsp;
+tuning in. This is only the start of the show. Do&nbsp;&nbsp;
+
+00:27:25.520 --> 00:27:30.160
+not go anywhere. Thank you so much for joining&nbsp;
+us. This is AIPCON 8. Thank you for watching.
+

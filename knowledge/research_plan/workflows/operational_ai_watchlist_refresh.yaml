@@ -1,0 +1,25 @@
+id: operational_ai_watchlist_refresh
+description: Review high-priority operational AI sources, capture meaningful changes, corroborate claims, and refresh KRAIL retrieval.
+schedule: 0 9 * * 1-5
+steps:
+- id: doctor
+  kind: command
+  run: krail --local doctor
+- id: source_scout
+  kind: agent
+  role: research
+  runner: codex_cli
+  prompt: Read sources/operational_ai_watchlist.csv, inspect Tier A sources for net-new high-signal material, deduplicate repeated announcements, and capture only items about production agents, operational context, governance, evaluation, durable execution, industrial AI, or defence autonomy.
+- id: evidence_review
+  kind: agent
+  role: critic
+  runner: codex_cli
+  prompt: Review new captures for source bias, evidence maturity, duplicated launch coverage, unsupported outcomes, and whether corroboration is required before topic promotion.
+- id: refresh_retrieval
+  kind: command
+  run: krail --local graph build && krail --local vector build
+- id: audit
+  kind: agent
+  role: doctor
+  runner: codex_cli
+  prompt: Verify provenance, source labels, workflow outputs, and KRAIL health; record unresolved gaps under research_plan/.

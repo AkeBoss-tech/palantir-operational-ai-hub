@@ -1,0 +1,1320 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:06.540 --> 00:00:10.480
+[Music] Hi, I'm Chad. I'm an architect at&nbsp;
+Palanteer. Today we've got Christopher who&nbsp;&nbsp;
+
+00:00:10.480 --> 00:00:15.840
+leads some of our manufacturing work. Thanks&nbsp;
+for joining me. Thank you, Chad. So, I know we&nbsp;&nbsp;
+
+00:00:15.840 --> 00:00:19.440
+were going to talk about a lot of different stuff&nbsp;
+today. One of them being bombs or bill materials.&nbsp;&nbsp;
+
+00:00:19.440 --> 00:00:24.160
+Pretty central to manufacturing and kind of&nbsp;
+the trade compliance and how do I make sure I'm&nbsp;&nbsp;
+
+00:00:24.160 --> 00:00:28.800
+following all the rules and regulations with trade&nbsp;
+across the globe, especially as things are rapidly&nbsp;&nbsp;
+
+00:00:28.800 --> 00:00:32.480
+changing right now. how do we how do we manage&nbsp;
+through that? So maybe you can talk a little bit&nbsp;&nbsp;
+
+00:00:32.480 --> 00:00:36.800
+about what you're doing in that space. So a lot&nbsp;
+of when you think about uh bills of materials or&nbsp;&nbsp;
+
+00:00:36.800 --> 00:00:43.600
+bombs and how you you frame that um we're really&nbsp;
+focused on taking actually what goes into the&nbsp;&nbsp;
+
+00:00:43.600 --> 00:00:48.480
+three sort of like silos of the business. So in&nbsp;
+engineering data you have all of your bills and&nbsp;&nbsp;
+
+00:00:48.480 --> 00:00:54.160
+materials you may have in that PLM system drawings&nbsp;
+or other information that can tell you what you're&nbsp;&nbsp;
+
+00:00:54.160 --> 00:00:59.360
+actually building. But then you often like cross&nbsp;
+reference that with another system such as an ERP.&nbsp;&nbsp;
+
+00:00:59.360 --> 00:01:03.680
+This is where you're actually seeing what's going&nbsp;
+into the products. What's my customer orders that&nbsp;&nbsp;
+
+00:01:03.680 --> 00:01:09.200
+then in the trade compliance world also kind of&nbsp;
+like starts to look at um what are the HTS codes&nbsp;&nbsp;
+
+00:01:09.200 --> 00:01:14.000
+and how how do they apply to those products. So&nbsp;
+typically those teams are super super siloed. So&nbsp;&nbsp;
+
+00:01:14.000 --> 00:01:19.440
+when you try to do different use cases, you're not&nbsp;
+necessarily getting the benefits. But via the AIP&nbsp;&nbsp;
+
+00:01:19.440 --> 00:01:23.200
+platform and using the ontology, we're bridging&nbsp;
+the gaps in those worlds. And that's what's&nbsp;&nbsp;
+
+00:01:23.200 --> 00:01:28.160
+leading us to a lot of different workflows. Very&nbsp;
+cool. So yeah, bringing the data together between&nbsp;&nbsp;
+
+00:01:28.160 --> 00:01:32.880
+the kind of the contextual engineering specs and&nbsp;
+components that are in a lot of different places&nbsp;&nbsp;
+
+00:01:32.880 --> 00:01:38.080
+and the actual context of transactions in real&nbsp;
+world combining that to understand like where&nbsp;&nbsp;
+
+00:01:38.080 --> 00:01:42.720
+is their opportunity. So it's very cool. I I so&nbsp;
+I'd love to just actually see what you're talking&nbsp;&nbsp;
+
+00:01:42.720 --> 00:01:46.400
+about here because I think it makes more real when&nbsp;
+we talk about bomb. It's very kind of opaque idea.&nbsp;&nbsp;
+
+00:01:46.400 --> 00:01:51.200
+But why don't we just take a look? Awesome. So&nbsp;
+if we look at the screen over here, this is Onyx,&nbsp;&nbsp;
+
+00:01:51.200 --> 00:01:55.600
+which is our notional medical manufacturer and&nbsp;
+distributor. So they have some different bills&nbsp;&nbsp;
+
+00:01:55.600 --> 00:01:59.600
+and materials of some assemblies that they're&nbsp;
+building. They build different syringes,&nbsp;&nbsp;
+
+00:01:59.600 --> 00:02:06.640
+which might be available, and they also build more&nbsp;
+complex uh products such as T99 ventilators. When&nbsp;&nbsp;
+
+00:02:06.640 --> 00:02:10.400
+we actually go into this ventilator, we can&nbsp;
+see here via the ontology that we've pulled&nbsp;&nbsp;
+
+00:02:10.400 --> 00:02:16.000
+up all the subcomponents that that are coming&nbsp;
+in. And through that combination of ERP data,&nbsp;&nbsp;
+
+00:02:16.000 --> 00:02:20.880
+uh, country of origin data from trade compliance&nbsp;
+and engineering data, we can actually come here&nbsp;&nbsp;
+
+00:02:20.880 --> 00:02:24.320
+and see, okay, what are the annual volumes&nbsp;
+on these components? Which countries are they&nbsp;&nbsp;
+
+00:02:24.320 --> 00:02:29.680
+coming from? What's our spend? And so all this&nbsp;
+together is because we have the ontology that's&nbsp;&nbsp;
+
+00:02:29.680 --> 00:02:35.440
+bridging the gaps between these systems. So we&nbsp;
+can have one view of all this data. We can also&nbsp;&nbsp;
+
+00:02:35.440 --> 00:02:40.640
+actually look more on like a hierarchal level&nbsp;
+of like what's actually happening. So here we&nbsp;&nbsp;
+
+00:02:40.640 --> 00:02:44.880
+took that ventilator assembly and we can take the&nbsp;
+top level components we can see like what are the&nbsp;&nbsp;
+
+00:02:44.880 --> 00:02:50.160
+mid assemblies and then what's happening at the&nbsp;
+bottom. And so again where that uh ontology really&nbsp;&nbsp;
+
+00:02:50.160 --> 00:02:54.800
+comes into play is if we zoom in on a specific&nbsp;
+component and we kind of like look around we&nbsp;&nbsp;
+
+00:02:54.800 --> 00:02:59.920
+can see all the different objects which might&nbsp;
+be related to that in the ontology. So a bomb&nbsp;&nbsp;
+
+00:02:59.920 --> 00:03:04.160
+component is going to have its parents. It's going&nbsp;
+to have any recommendations on what might be the&nbsp;&nbsp;
+
+00:03:04.160 --> 00:03:08.320
+materials. You're going to have some drawings&nbsp;
+other metadata or maybe even the supplier.&nbsp;&nbsp;
+
+00:03:08.320 --> 00:03:12.640
+So if we look at something such as a drawing,&nbsp;
+we then start to bring that out into our view&nbsp;&nbsp;
+
+00:03:12.640 --> 00:03:18.000
+and you can imagine that we're going across many&nbsp;
+many different systems which are typically siloed.&nbsp;&nbsp;
+
+00:03:18.000 --> 00:03:22.880
+Yeah, that's neat. So, so really the ontology&nbsp;
+is mapping out the not just like here's what in&nbsp;&nbsp;
+
+00:03:22.880 --> 00:03:27.200
+a bomb, but actually the hierarchy, how they fit&nbsp;
+together, the materials, suppliers, everything.&nbsp;&nbsp;
+
+00:03:27.200 --> 00:03:32.480
+It's like it's the data, the logic, the action&nbsp;
+that makes up how I actually produce a product.&nbsp;&nbsp;
+
+00:03:32.480 --> 00:03:37.520
+Exactly. And while this looks super simple, a lot&nbsp;
+of companies have multiple PLM systems, which is&nbsp;&nbsp;
+
+00:03:37.520 --> 00:03:42.160
+where the engineering data comes from. Maybe&nbsp;
+even multiple ERPs cuz perhaps they like grew&nbsp;&nbsp;
+
+00:03:42.160 --> 00:03:49.440
+by acquisition. They might have different types&nbsp;
+of components that way. And just bridging beh
+
+00:03:49.440 --> 00:03:53.600
+and some of it's very unstructured data too cuz we&nbsp;
+get into the engineering side. Sometimes it's the&nbsp;&nbsp;
+
+00:03:53.600 --> 00:04:00.320
+the drawings of it uh of an actual subcomponent&nbsp;
+and the materials and like it's not always nicely&nbsp;&nbsp;
+
+00:04:00.320 --> 00:04:07.040
+in a in rows and columns. So sometimes this&nbsp;
+is very unstructured m or like mixed with very&nbsp;&nbsp;
+
+00:04:07.040 --> 00:04:11.520
+structured data from like ERPs and that that's&nbsp;
+where I think really a lot of the complexity&nbsp;&nbsp;
+
+00:04:11.520 --> 00:04:16.160
+comes in is is bringing all of that unstructured&nbsp;
+and structured data to get the real view of&nbsp;&nbsp;
+
+00:04:16.160 --> 00:04:21.440
+what's going on. Exactly. And then typically where&nbsp;
+customers like get started is they're attempting&nbsp;&nbsp;
+
+00:04:21.440 --> 00:04:27.600
+to go into in into these drawings and like writing&nbsp;
+down different elements and it just it's it it's&nbsp;&nbsp;
+
+00:04:27.600 --> 00:04:32.480
+super super complex for them. Yes. So looking&nbsp;
+into like some of these bills of materials,&nbsp;&nbsp;
+
+00:04:32.480 --> 00:04:37.040
+this like actually then starts to bring a&nbsp;
+lot of workflows to the forefront from a&nbsp;&nbsp;
+
+00:04:37.040 --> 00:04:42.400
+found foundry and AIP perspective. So you might&nbsp;
+be using these to do something for let's say&nbsp;&nbsp;
+
+00:04:42.400 --> 00:04:47.760
+obsolescence management throughout your bills of&nbsp;
+materials. So let's say you have a a company and&nbsp;&nbsp;
+
+00:04:47.760 --> 00:04:52.400
+these guys are switching um in their ventilator&nbsp;
+assembly, they're switching the PCB supplier from&nbsp;&nbsp;
+
+00:04:52.400 --> 00:04:57.280
+one co company to another. So if you actually&nbsp;
+think about that, you need to be able to say,&nbsp;&nbsp;
+
+00:04:57.280 --> 00:05:02.000
+okay, from an engineering perspective, I validated&nbsp;
+this and I'm going to swap my PCBs, but then when&nbsp;&nbsp;
+
+00:05:02.000 --> 00:05:06.720
+I have different plants, um it's like, are those&nbsp;
+plants actually on that revision of the bomb right&nbsp;&nbsp;
+
+00:05:06.720 --> 00:05:11.920
+now in their ERP system? And then when's the right&nbsp;
+point to do a cut over, right? Because if let's&nbsp;&nbsp;
+
+00:05:11.920 --> 00:05:16.240
+say you decide to cut over the product and start&nbsp;
+using the other one, the other the other elements&nbsp;&nbsp;
+
+00:05:16.240 --> 00:05:20.320
+that are left over might need to be scrapped&nbsp;
+because it's no longer in your as per like your&nbsp;&nbsp;
+
+00:05:20.320 --> 00:05:25.440
+customer specifications, right? So that's one&nbsp;
+point where you can actually capture a lot of&nbsp;&nbsp;
+
+00:05:25.440 --> 00:05:30.640
+value from this type of workflow. Yeah, especially&nbsp;
+in the manufacturer space. Like I always love to&nbsp;&nbsp;
+
+00:05:30.640 --> 00:05:35.280
+see customers starting at the bomb because you can&nbsp;
+get to cost of goods sold, engineering standards,&nbsp;&nbsp;
+
+00:05:35.280 --> 00:05:39.520
+engineering change over, you know, inventory&nbsp;
+levels, procurement, like it really is the&nbsp;&nbsp;
+
+00:05:39.520 --> 00:05:44.960
+center of of the business that is so powerful&nbsp;
+and unlocking use cases like this. Exactly.&nbsp;&nbsp;
+
+00:05:44.960 --> 00:05:49.440
+Even even sales when you think about it, right?&nbsp;
+Because if when you're quoting a new project,&nbsp;&nbsp;
+
+00:05:49.440 --> 00:05:54.800
+what did it cost before? What was the impact? How&nbsp;
+do I try to pass that along? Right. Exactly. So,&nbsp;&nbsp;
+
+00:05:54.800 --> 00:05:59.360
+what we're going to look at now is actually how we&nbsp;
+can use this in a different realm which is more so&nbsp;&nbsp;
+
+00:05:59.360 --> 00:06:04.960
+around trade compliance. So, there's been a lot&nbsp;
+of different changing regulations towards trade&nbsp;&nbsp;
+
+00:06:04.960 --> 00:06:10.080
+lately. Um, we have tariffs that are coming in&nbsp;
+for different reasons such as steel and aluminum&nbsp;&nbsp;
+
+00:06:10.080 --> 00:06:15.040
+tariffs, IPA, etc. And so, we really want to&nbsp;
+see how can we use this data in the platform&nbsp;&nbsp;
+
+00:06:15.040 --> 00:06:19.600
+to make sure we're compliant. And then through&nbsp;
+compliance, we can actually reduce our exposure&nbsp;&nbsp;
+
+00:06:19.600 --> 00:06:24.080
+to the terrorists themselves. Yeah. So what you're&nbsp;
+saying really is it's not only just that like,&nbsp;&nbsp;
+
+00:06:24.080 --> 00:06:29.760
+hey, these things are changing, but it the bombs&nbsp;
+can be so complex and subasssemblies and you know,&nbsp;&nbsp;
+
+00:06:29.760 --> 00:06:34.720
+how much aluminum does that PCB board have on&nbsp;
+it or whatever those things are that it's not&nbsp;&nbsp;
+
+00:06:34.720 --> 00:06:38.320
+that like I'm trying to skirt anything. It's&nbsp;
+actually coming back to like how do I make&nbsp;&nbsp;
+
+00:06:38.320 --> 00:06:42.240
+sure I'm compliant and not overpaying, I'm not&nbsp;
+underpaying, that I'm doing the right thing,&nbsp;&nbsp;
+
+00:06:42.240 --> 00:06:46.080
+I think is really what this comes back to.&nbsp;
+Exactly. It's completely about doing the&nbsp;&nbsp;
+
+00:06:46.080 --> 00:06:50.720
+right thing because if you actually see how some&nbsp;
+of these uh HTS codes are structured which flag&nbsp;&nbsp;
+
+00:06:50.720 --> 00:06:56.800
+for these you do have material specific ones that&nbsp;
+yes this comp this component is made out of steel&nbsp;&nbsp;
+
+00:06:56.800 --> 00:07:02.320
+or it's made out of aluminum. You then also have&nbsp;
+functional ones. So this is a propeller blade and&nbsp;&nbsp;
+
+00:07:02.320 --> 00:07:07.680
+a propeller blade is going to flag potentially&nbsp;
+for a steel tariff, right? But if you're an&nbsp;&nbsp;
+
+00:07:07.680 --> 00:07:12.160
+engineering company and you use different types&nbsp;
+of materials etc. Maybe your propeller blades are&nbsp;&nbsp;
+
+00:07:12.160 --> 00:07:15.440
+made out of plastic. And so the only way you're&nbsp;
+going to know that is being able to actually&nbsp;&nbsp;
+
+00:07:15.440 --> 00:07:20.480
+go through here to either make sure that you're&nbsp;
+being assessed on the correct content of steel and&nbsp;&nbsp;
+
+00:07:20.480 --> 00:07:26.240
+aluminum in that item. Yeah. Okay. That's Yeah.&nbsp;
+That adds another layer of complexity to that cube&nbsp;&nbsp;
+
+00:07:26.240 --> 00:07:31.520
+of trying to figure out like what am I supposed&nbsp;
+to, you know, do for this compliance uh is very&nbsp;&nbsp;
+
+00:07:31.520 --> 00:07:37.200
+complex. Exactly. Right. And then what you're&nbsp;
+typically going to see is that customers don't&nbsp;&nbsp;
+
+00:07:37.200 --> 00:07:42.080
+even know where to start. So maybe they have tens&nbsp;
+of thousands of parts in their like subasssemblies&nbsp;&nbsp;
+
+00:07:42.080 --> 00:07:47.120
+and components in their part catalog and maybe&nbsp;
+they want to start on like okay maybe this&nbsp;&nbsp;
+
+00:07:47.120 --> 00:07:52.720
+was the one I imported last month but that's not&nbsp;
+necessarily forward looking either right so that's&nbsp;&nbsp;
+
+00:07:52.720 --> 00:07:57.680
+where that ERP data is really important because&nbsp;
+you can then start to get this intersection of&nbsp;&nbsp;
+
+00:07:57.680 --> 00:08:02.160
+um where what are the parts that I'm going to be&nbsp;
+importing the most of based off of my forecast&nbsp;&nbsp;
+
+00:08:02.160 --> 00:08:07.120
+etc in the next few months and then how do I then&nbsp;
+go through the bills and materials of those and&nbsp;&nbsp;
+
+00:08:07.120 --> 00:08:12.400
+prioritize is which ones do we need to update our&nbsp;
+documentation to make sure that we're compliant&nbsp;&nbsp;
+
+00:08:12.400 --> 00:08:18.240
+and reduce our overall exposure. Awesome. Yeah.&nbsp;
+So, let's see how we do that. All right. Perfect.&nbsp;&nbsp;
+
+00:08:18.240 --> 00:08:24.560
+So, if we look at the screen, imagining I am&nbsp;
+a trade compliance uh manager in the Sterling&nbsp;&nbsp;
+
+00:08:24.560 --> 00:08:29.040
+Heights uh department. I'm looking through here&nbsp;
+at some different proposals that have coming out&nbsp;&nbsp;
+
+00:08:29.040 --> 00:08:35.440
+from the AIP system and they're making different&nbsp;
+recommendations to ensure that I have the optimal&nbsp;&nbsp;
+
+00:08:35.440 --> 00:08:41.040
+uh trade compliance amongst my components. So,&nbsp;
+there could be a recommendation that's coming&nbsp;&nbsp;
+
+00:08:41.040 --> 00:08:47.040
+through because I historically put all of my&nbsp;
+RFQS into the AIP system and it realizes that&nbsp;&nbsp;
+
+00:08:47.040 --> 00:08:51.600
+I'm getting uh hit with a tariff on a component&nbsp;
+that was actually cheaper from a vendor in the&nbsp;&nbsp;
+
+00:08:51.600 --> 00:08:55.920
+United States who originally bid on the project.&nbsp;
+So that's a type of recommendation saying, "Hey,&nbsp;&nbsp;
+
+00:08:55.920 --> 00:09:00.400
+maybe we should go look at that vendor again and&nbsp;
+see if they could take over the volumes." But&nbsp;&nbsp;
+
+00:09:00.400 --> 00:09:06.800
+there's some other aspects of this as well. One&nbsp;
+of them is for USMCA certificates. So here we can&nbsp;&nbsp;
+
+00:09:06.800 --> 00:09:12.400
+see a different part number that's being flagged&nbsp;
+saying that we had a USMCA certificate in 2023,&nbsp;&nbsp;
+
+00:09:12.400 --> 00:09:18.160
+we had one in 2024 and we should reach out to get&nbsp;
+the one for 2025 to ensure compliance. Um, these&nbsp;&nbsp;
+
+00:09:18.160 --> 00:09:22.880
+are yearly renewals, so you really need to be on&nbsp;
+top of that in order to capture all the value.&nbsp;&nbsp;
+
+00:09:24.000 --> 00:09:28.160
+The other more kind of like interesting one is&nbsp;
+that we see some flags for some components that&nbsp;&nbsp;
+
+00:09:28.160 --> 00:09:32.960
+potentially have no steel or aluminum content&nbsp;
+in them or partials. And so because this has&nbsp;&nbsp;
+
+00:09:32.960 --> 00:09:37.360
+now been flagged by the system, we're going to&nbsp;
+look a little bit further into what we can do&nbsp;&nbsp;
+
+00:09:37.360 --> 00:09:44.720
+um to assess this. So moving to the next screen,&nbsp;
+um we have now my action queue where the AI has&nbsp;&nbsp;
+
+00:09:44.720 --> 00:09:49.440
+queued up different actions for me to look at.&nbsp;
+I'm going to focus on specifically the section&nbsp;&nbsp;
+
+00:09:49.440 --> 00:09:55.440
+232 content analysis. And I can see I have two&nbsp;
+potential assembly parts that I'm bringing in um&nbsp;&nbsp;
+
+00:09:55.440 --> 00:09:59.760
+that are being hit with steel and aluminum tariffs&nbsp;
+and the system is actually recommending to me that&nbsp;&nbsp;
+
+00:09:59.760 --> 00:10:06.080
+they may not actually have steel and aluminum or&nbsp;
+maybe partial. So how that kind of like works is&nbsp;&nbsp;
+
+00:10:06.080 --> 00:10:11.120
+we go through these different steps. So there's&nbsp;
+a component flag for section 232 from the live&nbsp;&nbsp;
+
+00:10:11.120 --> 00:10:15.840
+broker data. We then have different components&nbsp;
+that are analyzed in that bill of materials and&nbsp;&nbsp;
+
+00:10:15.840 --> 00:10:21.840
+then the entire assembly is being analyzed by&nbsp;
+AIP. So, we see here this enclosure. Um, it's an&nbsp;&nbsp;
+
+00:10:21.840 --> 00:10:27.440
+enclosure that's coming in from Mexico. The annual&nbsp;
+volume is 100,000 units. We're spending 410,000.&nbsp;&nbsp;
+
+00:10:27.440 --> 00:10:32.640
+All from the ERP data. We know this. And then we&nbsp;
+have a potential tariff impact of $100,000 that's&nbsp;&nbsp;
+
+00:10:32.640 --> 00:10:38.000
+coming through. Um, but when we actually look&nbsp;
+here, AIP has flagged this as having no steel and&nbsp;&nbsp;
+
+00:10:38.000 --> 00:10:43.680
+no aluminum content. So, that gives us the ability&nbsp;
+to start to then go to the subcomponents in this&nbsp;&nbsp;
+
+00:10:43.680 --> 00:10:47.680
+bill of materials. We have some parts drawing&nbsp;
+from our engineering data. And we can start to&nbsp;&nbsp;
+
+00:10:47.680 --> 00:10:52.800
+see here, okay, this is a plastic feet standoff,&nbsp;
+different card slot brackets. Um, if we want to,&nbsp;&nbsp;
+
+00:10:52.800 --> 00:10:57.760
+we can pull up the spec sheet as well to see this&nbsp;
+is actually a text spec sheet for for a polymer.&nbsp;&nbsp;
+
+00:10:57.760 --> 00:11:03.200
+So that makes sense. And then we have the ability&nbsp;
+to accept or reject these recommendations. Uh,&nbsp;&nbsp;
+
+00:11:03.200 --> 00:11:06.320
+typically when we look into something like&nbsp;
+this with trade compliance, you do want to&nbsp;&nbsp;
+
+00:11:06.320 --> 00:11:12.560
+have a human in the loop who's making this final&nbsp;
+decision right before you you file these. Um,&nbsp;&nbsp;
+
+00:11:12.560 --> 00:11:18.400
+so the importance here is that AI is being used&nbsp;
+to prioritize these based off of impact. Kind of&nbsp;&nbsp;
+
+00:11:18.400 --> 00:11:24.240
+like the 8020 rule of saying 20% of the parts are&nbsp;
+going to have most impact. Um, and then you have&nbsp;&nbsp;
+
+00:11:24.240 --> 00:11:28.400
+your trade compliance team actually do the final&nbsp;
+assessment and collect any documentation they need&nbsp;&nbsp;
+
+00:11:28.400 --> 00:11:33.040
+in the platform to actually go take action on&nbsp;
+these. Yeah. Cuz the inverse of this when you&nbsp;&nbsp;
+
+00:11:33.040 --> 00:11:38.640
+don't have this is you're opening up specs, going&nbsp;
+through PLM's, emails, spreadsheets, trying to&nbsp;&nbsp;
+
+00:11:38.640 --> 00:11:45.200
+find all the complex subasssemblies verse here's&nbsp;
+the one that we think has the most impact and&nbsp;&nbsp;
+
+00:11:45.200 --> 00:11:49.760
+all the information about it. We think this is&nbsp;
+the right call. Yes or no? I think that's like&nbsp;&nbsp;
+
+00:11:49.760 --> 00:11:54.400
+a distinct difference of the before and after.&nbsp;
+Right. Oh, exactly. You could be spending like one&nbsp;&nbsp;
+
+00:11:54.400 --> 00:11:58.400
+day just trying to analyze these parts if you're&nbsp;
+just looking at the drawings and trying to move&nbsp;&nbsp;
+
+00:11:58.400 --> 00:12:02.000
+through that on your own. So, I mean this is cool.&nbsp;
+Like this is a notional example. This makes a lot&nbsp;&nbsp;
+
+00:12:02.000 --> 00:12:05.760
+of sense from like this plastic. I have aluminum&nbsp;
+tariffs and I want to go through and as your bombs&nbsp;&nbsp;
+
+00:12:05.760 --> 00:12:10.160
+get very many levels deep and they're super&nbsp;
+complex with thousands of items. It's hard to&nbsp;&nbsp;
+
+00:12:10.160 --> 00:12:16.160
+track. Like how are customers doing this? I guess&nbsp;
+this is inspired from customers. Yeah. So a lot of&nbsp;&nbsp;
+
+00:12:16.160 --> 00:12:23.040
+customers are actually doing very similar work to&nbsp;
+this. And it's funny where they typically start is&nbsp;&nbsp;
+
+00:12:23.040 --> 00:12:28.160
+um I'm just going to pull up all my PLM systems&nbsp;
+and go into spreadsheets and just attempt to do&nbsp;&nbsp;
+
+00:12:28.160 --> 00:12:35.200
+this. And you see it taking like days to even&nbsp;
+just process one part, right? Wow. Um Yeah. And&nbsp;&nbsp;
+
+00:12:35.200 --> 00:12:40.160
+that's got to be hard because if it takes you a&nbsp;
+day as things are constantly changing and moving,&nbsp;&nbsp;
+
+00:12:40.160 --> 00:12:44.560
+knowing that kind of impact can be very hard.&nbsp;
+So every time something changes, you have to&nbsp;&nbsp;
+
+00:12:44.560 --> 00:12:49.840
+kind of reassess those impacts. And I think that's&nbsp;
+that's really the power of AIP here. Exactly. And&nbsp;&nbsp;
+
+00:12:49.840 --> 00:12:54.320
+even just in the ontology of storing these parts&nbsp;
+because you could be assessing the same components&nbsp;&nbsp;
+
+00:12:54.320 --> 00:12:58.640
+and the same assemblies over and over and over and&nbsp;
+you wouldn't know that if you're just working in&nbsp;&nbsp;
+
+00:12:58.640 --> 00:13:03.360
+spreadsheets. Oh wow. Oh yeah. Cuz the the sub&nbsp;
+assembly that goes to multiple different parts,&nbsp;&nbsp;
+
+00:13:03.360 --> 00:13:07.360
+you could be reassessing all of those as you&nbsp;
+go down the tree could be very difficult.&nbsp;&nbsp;
+
+00:13:07.360 --> 00:13:14.400
+Interesting. Exactly. Yeah. So, so from an impact&nbsp;
+standpoint, like you know, doing this at scale,&nbsp;&nbsp;
+
+00:13:14.400 --> 00:13:18.560
+it's not only just the the human component of&nbsp;
+like I'm not spending a day doing each one, but&nbsp;&nbsp;
+
+00:13:18.560 --> 00:13:24.560
+it's the I'm in compliance, not getting fined, and&nbsp;
+two, I'm saving money because I'm in compliance,&nbsp;&nbsp;
+
+00:13:24.560 --> 00:13:28.960
+I'm not overpaying. So, I think there's like&nbsp;
+three big wins there. Not only beyond just the&nbsp;&nbsp;
+
+00:13:28.960 --> 00:13:33.440
+kind of the the human piece of it. Exactly.&nbsp;
+Right. It's being in compliance so that you&nbsp;&nbsp;
+
+00:13:33.440 --> 00:13:37.280
+don't have to pay these anymore. and then also&nbsp;
+actually going back and saying now that you have&nbsp;&nbsp;
+
+00:13:37.280 --> 00:13:43.120
+all your documentation together in one in one&nbsp;
+place can I go back and recover these right so&nbsp;&nbsp;
+
+00:13:43.120 --> 00:13:48.640
+there's actually potential on both sides very cool&nbsp;
+if we take a look further actually just wanted to&nbsp;&nbsp;
+
+00:13:48.640 --> 00:13:54.080
+zoom into a specific example here so more complex&nbsp;
+than a component that may not actually have steel&nbsp;&nbsp;
+
+00:13:54.080 --> 00:13:59.680
+aluminum in it but was flagged is when you have&nbsp;
+partial steel and aluminum content so in this case&nbsp;&nbsp;
+
+00:13:59.680 --> 00:14:06.080
+it's another type of uh enclosure that's coming&nbsp;
+in from Mexico and It has a a lower tariff impact,&nbsp;&nbsp;
+
+00:14:06.080 --> 00:14:10.720
+which is why it's kind of like below the other one&nbsp;
+on the list. It's flagging as no aluminum content,&nbsp;&nbsp;
+
+00:14:10.720 --> 00:14:15.360
+but it's flagging as it does have steel content.&nbsp;
+And the reasoning from the model is that there&nbsp;&nbsp;
+
+00:14:15.360 --> 00:14:20.960
+are these three specific components in it that&nbsp;
+are explicitly described as steel, right? Um,&nbsp;&nbsp;
+
+00:14:20.960 --> 00:14:24.720
+so when we go through here, we actually see, yeah,&nbsp;
+there's a lot of different plastic housings. There&nbsp;&nbsp;
+
+00:14:24.720 --> 00:14:30.320
+might be a washer that is made out of nylon,&nbsp;
+but there is a steel screw. We may have some&nbsp;&nbsp;
+
+00:14:30.320 --> 00:14:35.600
+different information that goes through such as&nbsp;
+like a drawing where hey this actually if we zoom&nbsp;&nbsp;
+
+00:14:35.600 --> 00:14:41.360
+in here in this little block we can see that it's&nbsp;
+stainless steel. And so the key is is that we need&nbsp;&nbsp;
+
+00:14:41.360 --> 00:14:46.880
+to be able to process through all of these very um&nbsp;
+quickly and efficiently to even know this in the&nbsp;&nbsp;
+
+00:14:46.880 --> 00:14:51.920
+first place so we can bring this up to our teams&nbsp;
+to accept what we're looking at. And that's where&nbsp;&nbsp;
+
+00:14:51.920 --> 00:14:56.400
+uh AIP logic is really coming into play. So that&nbsp;
+way we can have an AI agent which is doing a lot&nbsp;&nbsp;
+
+00:14:56.400 --> 00:15:00.480
+of this pre-processing to make sure that our&nbsp;
+trade compliance teams are just focusing on&nbsp;&nbsp;
+
+00:15:00.480 --> 00:15:06.320
+the real impactful work of actually putting the&nbsp;
+package together and closing these out. Very&nbsp;&nbsp;
+
+00:15:06.320 --> 00:15:13.200
+cool. So you said AIP logic. What is that? So AIP&nbsp;
+logic is one of the tools in the AIP platform that&nbsp;&nbsp;
+
+00:15:13.200 --> 00:15:20.000
+allows us to orchestrate LLMs to be able to work&nbsp;
+throughout the ontology. So I'm actually going to&nbsp;&nbsp;
+
+00:15:20.000 --> 00:15:23.760
+pull one of those up right now. So this is&nbsp;
+the tool we're looking at. Um, and this is&nbsp;&nbsp;
+
+00:15:23.760 --> 00:15:28.240
+where we're starting to design how we're going&nbsp;
+to have our AI agent, which is moving through&nbsp;&nbsp;
+
+00:15:28.240 --> 00:15:36.560
+these bills of materials. I'm going to open up&nbsp;
+a uh test case for us so that way we can see&nbsp;&nbsp;
+
+00:15:36.560 --> 00:15:42.720
+um exactly like what we're looking at. And so&nbsp;
+I'm going to run this on one of the components&nbsp;&nbsp;
+
+00:15:42.720 --> 00:15:48.320
+as an example and then walk you through exactly&nbsp;
+what we're seeing. So the first thing that we do&nbsp;&nbsp;
+
+00:15:48.320 --> 00:15:53.840
+is we start at our bill of material component in&nbsp;
+our ontology and we use the linkage between that&nbsp;&nbsp;
+
+00:15:53.840 --> 00:15:58.960
+and the part drawing to go see do I have any part&nbsp;
+drawings? Do I have any other documentation that&nbsp;&nbsp;
+
+00:15:58.960 --> 00:16:04.400
+might be in my system that's linked to this&nbsp;
+component. After I do that as an assessment&nbsp;&nbsp;
+
+00:16:04.400 --> 00:16:09.440
+I say actually I do have a drawing. I'm able to&nbsp;
+pull one model ahead to actually take a look at&nbsp;&nbsp;
+
+00:16:09.440 --> 00:16:15.920
+this and to see u what it thinks. So in this case&nbsp;
+we have a prompt which is going to our model and&nbsp;&nbsp;
+
+00:16:15.920 --> 00:16:21.520
+it's saying you're an expert in interpreting part&nbsp;
+specifications sheets and mechanical drawings. So&nbsp;&nbsp;
+
+00:16:21.520 --> 00:16:26.480
+given this image of it um can you extract and&nbsp;
+list out all the materials for this part and&nbsp;&nbsp;
+
+00:16:26.480 --> 00:16:30.880
+pay special attention to steel and aluminum and&nbsp;
+you could easily modify this to include copper&nbsp;&nbsp;
+
+00:16:30.880 --> 00:16:36.400
+etc in the future. And so what's happening if we&nbsp;
+actually track this through in this panel here,&nbsp;&nbsp;
+
+00:16:36.400 --> 00:16:41.760
+uh, if we open up that step that's equivalent, we&nbsp;
+can see, okay, here's where the model went to that&nbsp;&nbsp;
+
+00:16:41.760 --> 00:16:46.880
+drawing we just looked at earlier and it's pulling&nbsp;
+out stainless steel. Yeah, I think important point&nbsp;&nbsp;
+
+00:16:46.880 --> 00:16:52.400
+you're bringing up here because like we're now&nbsp;
+talking about LM's reasoning, doing retrieval,&nbsp;&nbsp;
+
+00:16:52.400 --> 00:16:58.240
+augmented generation across the ontology, but&nbsp;
+also multimodal like we store multimodal data in&nbsp;&nbsp;
+
+00:16:58.240 --> 00:17:03.200
+the ontology to to represent how this is really&nbsp;
+happening. But that becomes very important on&nbsp;&nbsp;
+
+00:17:03.200 --> 00:17:08.960
+the on the agentic side is now these agents are&nbsp;
+accessing via either vector store in the ontology&nbsp;&nbsp;
+
+00:17:08.960 --> 00:17:13.120
+for semantic search to find things or they're&nbsp;
+going and looking at the images that are stored&nbsp;&nbsp;
+
+00:17:13.120 --> 00:17:18.960
+as part of this so that one semantic object can&nbsp;
+have this rich representation across all of those&nbsp;&nbsp;
+
+00:17:18.960 --> 00:17:22.480
+different media types. And like this is a great&nbsp;
+example why that's important when you're doing&nbsp;&nbsp;
+
+00:17:22.480 --> 00:17:30.560
+the agentic flows is now it can also reason&nbsp;
+across the different medias that we have too.&nbsp;&nbsp;
+
+00:17:30.560 --> 00:17:34.480
+Exactly. Yeah. And what's even more&nbsp;
+interesting about that too is that it&nbsp;&nbsp;
+
+00:17:34.480 --> 00:17:38.640
+leads to even more use cases. So here's something&nbsp;
+we're looking at materials for trade compliance,&nbsp;&nbsp;
+
+00:17:38.640 --> 00:17:42.800
+but a lot of customers actually do workflows&nbsp;
+where they do material harmonization where&nbsp;&nbsp;
+
+00:17:42.800 --> 00:17:47.760
+they're kind of looking between um all of my&nbsp;
+drawings in my engineering database to say,&nbsp;&nbsp;
+
+00:17:47.760 --> 00:17:52.480
+could I be buying the same part under different&nbsp;
+part numbers in different areas? Right. And so&nbsp;&nbsp;
+
+00:17:52.480 --> 00:17:57.120
+that's like using the next use case that you build&nbsp;
+on top of it to get even more value. Yeah. Yeah,&nbsp;&nbsp;
+
+00:17:57.120 --> 00:18:01.120
+and I think that's the power of the ontology is&nbsp;
+really the high level reuse, the malleability to&nbsp;&nbsp;
+
+00:18:01.120 --> 00:18:07.120
+your use cases. Um, but you know, injecting that&nbsp;
+extra layer of things on top of it. It's like,&nbsp;&nbsp;
+
+00:18:07.120 --> 00:18:12.160
+no, I already have the ontology 90% there. I just&nbsp;
+need some more objects. Let me go build that. Um,&nbsp;&nbsp;
+
+00:18:12.160 --> 00:18:16.560
+think about it differently. And I think that's&nbsp;
+where also then um these agentic workflows come&nbsp;&nbsp;
+
+00:18:16.560 --> 00:18:21.040
+in as well is now I can start to string those&nbsp;
+together across business processes to automate&nbsp;&nbsp;
+
+00:18:21.040 --> 00:18:27.600
+more and more of a business. Exactly. And some&nbsp;
+businesses may say, "Actually, I don't exactly&nbsp;&nbsp;
+
+00:18:27.600 --> 00:18:31.520
+have the drawings readily available." But that's&nbsp;
+okay, too, because that's where you can start to&nbsp;&nbsp;
+
+00:18:31.520 --> 00:18:37.120
+use more of the reasoning parts. So, we actually&nbsp;
+take this information and give it to a second&nbsp;&nbsp;
+
+00:18:37.120 --> 00:18:42.160
+uh model a little bit later. And if there's any&nbsp;
+drawing information available, we tell it to take&nbsp;&nbsp;
+
+00:18:42.160 --> 00:18:46.480
+that into account. But it can also use things such&nbsp;
+as part descriptions, some understanding if you&nbsp;&nbsp;
+
+00:18:46.480 --> 00:18:51.440
+give it maybe the HTS description so that it can&nbsp;
+kind of like do its best guess in the absence of&nbsp;&nbsp;
+
+00:18:51.440 --> 00:18:56.640
+some of that other data to at least help you do&nbsp;
+that prioritization workflow. So in this case,&nbsp;&nbsp;
+
+00:18:56.640 --> 00:19:00.800
+um, we have a second model which is now assessing&nbsp;
+based off of the description of the part, the part&nbsp;&nbsp;
+
+00:19:00.800 --> 00:19:05.600
+number, and anything it was able to get out the&nbsp;
+drawing. Does it contain steel or aluminum? Yes.&nbsp;&nbsp;
+
+00:19:05.600 --> 00:19:10.880
+No. Right? And then at that point that's what's&nbsp;
+then given back to this action in the ontology.&nbsp;&nbsp;
+
+00:19:10.880 --> 00:19:15.840
+And then we're able to actually write this back&nbsp;
+against the specific um component in that bill&nbsp;&nbsp;
+
+00:19:15.840 --> 00:19:20.480
+of materials which is what was showing up in our&nbsp;
+application. Yeah. So the other thing I noticed&nbsp;&nbsp;
+
+00:19:20.480 --> 00:19:26.160
+here is you're using multiple different models in&nbsp;
+one agent that flow too. So I saw Gemini 2 flash&nbsp;&nbsp;
+
+00:19:26.160 --> 00:19:31.680
+uh for the kind of image extraction piece and&nbsp;
+then now I've got GPD40 for reasoning pieces.&nbsp;&nbsp;
+
+00:19:31.680 --> 00:19:37.280
+Uh I think that's pretty cool from a standpoint&nbsp;
+is I can mix and match models for the right size,&nbsp;&nbsp;
+
+00:19:37.280 --> 00:19:44.560
+the right use case even in one agent. Exactly.&nbsp;
+Yeah. And I think that's like that's important.&nbsp;&nbsp;
+
+00:19:44.560 --> 00:19:49.040
+You're also showing the test components and&nbsp;
+evaluation like how do I evaluate this at scale?&nbsp;&nbsp;
+
+00:19:49.040 --> 00:19:54.800
+But the last part I would call out here is like&nbsp;
+these are actions defined in the ontologies. The&nbsp;&nbsp;
+
+00:19:54.800 --> 00:20:00.000
+ontology is the guard rails for getting access&nbsp;
+to data, the logic of the different components,&nbsp;&nbsp;
+
+00:20:00.000 --> 00:20:04.080
+but also the actions because I want the agent&nbsp;
+to take an action. And sometimes the agent says,&nbsp;&nbsp;
+
+00:20:04.080 --> 00:20:08.480
+"Hey person, you need to review this." Other&nbsp;
+times it's I write back to your SAP system,&nbsp;&nbsp;
+
+00:20:08.480 --> 00:20:14.320
+your PLM to make this real. And so I think that's&nbsp;
+the other piece here that's important is we can&nbsp;&nbsp;
+
+00:20:14.320 --> 00:20:20.560
+drive those actions on guard rails through the&nbsp;
+right security primitives back to source systems&nbsp;&nbsp;
+
+00:20:20.560 --> 00:20:27.040
+to make it like you know scalable across hundreds&nbsp;
+or thousands of these different use cases um very&nbsp;&nbsp;
+
+00:20:27.040 --> 00:20:32.080
+quickly. Now let's go back to the application and&nbsp;
+see the next step so that we can close this out.&nbsp;&nbsp;
+
+00:20:32.640 --> 00:20:37.600
+So going back into the application, we can look&nbsp;
+at where our component is and we can see we might&nbsp;&nbsp;
+
+00:20:37.600 --> 00:20:42.720
+need to collect some supplier information now&nbsp;
+because if it's partial steel aluminum, we may&nbsp;&nbsp;
+
+00:20:42.720 --> 00:20:46.880
+not have that in our data. And so we want to go&nbsp;
+to that component specific supplier to figure that&nbsp;&nbsp;
+
+00:20:46.880 --> 00:20:52.480
+out. So if we click the take action button, that's&nbsp;
+actually going to open up another window for us.&nbsp;&nbsp;
+
+00:20:52.480 --> 00:20:57.040
+And here we can see that there's a proposed&nbsp;
+supplier who's related to this component via&nbsp;&nbsp;
+
+00:20:57.040 --> 00:21:01.680
+the anttology. And then we're going to ask a model&nbsp;
+to actually start to generate that out for us so&nbsp;&nbsp;
+
+00:21:01.680 --> 00:21:06.320
+that we can reach out to these suppliers. It's&nbsp;
+put together this information. It's now going to&nbsp;&nbsp;
+
+00:21:06.320 --> 00:21:12.320
+request the steel content, the weight, the country&nbsp;
+of pore or smelled in the case of aluminum,&nbsp;&nbsp;
+
+00:21:12.320 --> 00:21:17.440
+etc. So that way we can get all this information&nbsp;
+together and we can send this out as an email to&nbsp;&nbsp;
+
+00:21:17.440 --> 00:21:22.560
+the supplier. In this case, we actually already&nbsp;
+got a response. So the system can actually now use&nbsp;&nbsp;
+
+00:21:22.560 --> 00:21:25.920
+another agent which is actually going to read&nbsp;
+through this and check, did we get the right&nbsp;&nbsp;
+
+00:21:25.920 --> 00:21:30.400
+information back? If we didn't, we can request&nbsp;
+further clarifications. But the other thing that&nbsp;&nbsp;
+
+00:21:30.400 --> 00:21:35.120
+we can do is accept that supplier response. That's&nbsp;
+going to show us that we parsed out the values&nbsp;&nbsp;
+
+00:21:35.120 --> 00:21:42.080
+that they've sent back to us. And then when we&nbsp;
+click submit, we can commit that to the ontology&nbsp;&nbsp;
+
+00:21:42.080 --> 00:21:46.400
+and then now put together the entire package.&nbsp;
+So we have all our supplier communications. We&nbsp;&nbsp;
+
+00:21:46.400 --> 00:21:50.800
+have all our drawings available. We have the&nbsp;
+bill of materials for the parts. Everything's&nbsp;&nbsp;
+
+00:21:50.800 --> 00:21:56.320
+logged in and auditable in terms of a package.&nbsp;
+And then we can see that while originally we&nbsp;&nbsp;
+
+00:21:56.320 --> 00:22:04.000
+were getting tariffed on a $36 60 um unit price&nbsp;
+of of a component, we've actually reduced that&nbsp;&nbsp;
+
+00:22:04.000 --> 00:22:10.240
+because only $2 of the components um constituent&nbsp;
+materials is actually steel and aluminum. So when&nbsp;&nbsp;
+
+00:22:10.240 --> 00:22:16.560
+you're actually now compliant with the tariff um&nbsp;
+it's actually reduced it by 88,000 $88,000 for the&nbsp;&nbsp;
+
+00:22:16.560 --> 00:22:22.960
+year. Oh wow. Okay. So that that's cool that now&nbsp;
+I'm simulating out finding solutions simulating&nbsp;&nbsp;
+
+00:22:22.960 --> 00:22:29.280
+out the impact and then can make it real like and&nbsp;
+understand what that impact is before I make it&nbsp;&nbsp;
+
+00:22:29.280 --> 00:22:34.080
+um all with human and AI working together.&nbsp;
+That's that's pretty cool. Exactly right. And&nbsp;&nbsp;
+
+00:22:34.080 --> 00:22:39.680
+it's um if you just think about the scale of the&nbsp;
+different systems here communicating to brokers&nbsp;&nbsp;
+
+00:22:39.680 --> 00:22:45.520
+communicating to suppliers super super difficult&nbsp;
+unless you have a platform like AIP. Yeah. and&nbsp;&nbsp;
+
+00:22:45.520 --> 00:22:51.920
+and it's like it's easy to understand and one off.&nbsp;
+It's but okay now go do this for 10,000. Um right&nbsp;&nbsp;
+
+00:22:51.920 --> 00:22:56.480
+that's that's when you really need a system like&nbsp;
+this to prioritize facilitate bring all the data&nbsp;&nbsp;
+
+00:22:56.480 --> 00:23:01.520
+together and everything like that. Um that's&nbsp;
+cool also because now I can track the impact&nbsp;&nbsp;
+
+00:23:01.520 --> 00:23:05.840
+and success of these things. So from like an ROI&nbsp;
+perspective for people to take on projects like&nbsp;&nbsp;
+
+00:23:05.840 --> 00:23:12.960
+this you know having a hard ROI of the you know of&nbsp;
+the money saved by being in compliance um that's&nbsp;&nbsp;
+
+00:23:12.960 --> 00:23:19.360
+that's pretty powerful. Exactly. And it may not&nbsp;
+even be with in terms of your filings. Perhaps you&nbsp;&nbsp;
+
+00:23:19.360 --> 00:23:24.320
+have customers who have more control over their&nbsp;
+supply chain and they might actually want to know&nbsp;&nbsp;
+
+00:23:24.320 --> 00:23:29.680
+like when you're passing on potential tariff costs&nbsp;
+on to them, how are you accurately passing those&nbsp;&nbsp;
+
+00:23:29.680 --> 00:23:34.800
+costs on to them, right? Oh wow. Okay. So you're&nbsp;
+that that facilitates the conversation when when&nbsp;&nbsp;
+
+00:23:34.800 --> 00:23:40.000
+a tariff has has forced us to increase the price&nbsp;
+to our customers to be able to say actually it's&nbsp;&nbsp;
+
+00:23:40.000 --> 00:23:44.880
+because of these components. Here's what that cost&nbsp;
+differential is to be fully transparent when you&nbsp;&nbsp;
+
+00:23:44.880 --> 00:23:50.320
+have to make those changes. Exactly. And let's&nbsp;
+say if you're making a sub assembly for a bigger&nbsp;&nbsp;
+
+00:23:50.320 --> 00:23:54.720
+uh equipment manufacturer, you have to make sure&nbsp;
+that you're properly allocating which tariff goes&nbsp;&nbsp;
+
+00:23:54.720 --> 00:23:58.800
+to which manufacturer. Otherwise, like one&nbsp;
+may say, how come I'm paying the tariff that&nbsp;&nbsp;
+
+00:23:58.800 --> 00:24:04.640
+is on components going to the other guy, right?&nbsp;
+Yep. Yep. Okay, that makes a lot of sense. Okay,&nbsp;&nbsp;
+
+00:24:04.640 --> 00:24:09.360
+cool. So, that was awesome to see kind of in&nbsp;
+action the flow of how things are integrated.&nbsp;&nbsp;
+
+00:24:09.360 --> 00:24:14.080
+And I love always that when we talk about AIP,&nbsp;
+it's not AI in your face. It's actually in the&nbsp;&nbsp;
+
+00:24:14.080 --> 00:24:20.160
+background automating really that that autonomous&nbsp;
+enterprise. But speaking of that, like what are&nbsp;&nbsp;
+
+00:24:20.160 --> 00:24:24.160
+you seeing across customers and like what are&nbsp;
+they looking for in the space? Why is this&nbsp;&nbsp;
+
+00:24:24.160 --> 00:24:32.400
+moving so quickly? Good question. So because the&nbsp;
+regulations are changing so quickly, um you have&nbsp;&nbsp;
+
+00:24:32.400 --> 00:24:37.360
+to be very agile in order to adapt your system&nbsp;
+so that you can respond to that. So, for example,&nbsp;&nbsp;
+
+00:24:37.360 --> 00:24:42.400
+some of the other tariffs, um, if you had a USMCA&nbsp;
+certification, you would actually be exempt from&nbsp;&nbsp;
+
+00:24:42.400 --> 00:24:47.280
+them. But the problem is a lot of companies don't&nbsp;
+necessarily manage their USMCA certifications&nbsp;&nbsp;
+
+00:24:47.280 --> 00:24:52.880
+correctly. They expire every year. So, you really&nbsp;
+need to have a helper, in this case, an AI agent,&nbsp;&nbsp;
+
+00:24:52.880 --> 00:24:56.000
+which can actually run through those and say,&nbsp;
+"Hey, like you're going to be importing a lot&nbsp;&nbsp;
+
+00:24:56.000 --> 00:25:00.640
+of this part number, and you had a cert last year,&nbsp;
+but you don't have one now. So, let's go collect&nbsp;&nbsp;
+
+00:25:00.640 --> 00:25:08.480
+it." Another case is also in terms of just um if&nbsp;
+you're creating new components because you're like&nbsp;&nbsp;
+
+00:25:08.480 --> 00:25:13.200
+having revised products, you may not necessarily&nbsp;
+be importing the same products this year that you&nbsp;&nbsp;
+
+00:25:13.200 --> 00:25:18.320
+did last year, right? And so if you then go off&nbsp;
+of historical lists, you're not actually going to&nbsp;&nbsp;
+
+00:25:18.320 --> 00:25:24.960
+be seeing what's ahead of you and prioritizing&nbsp;
+yourself correctly. Yeah. Yeah. So, and all of&nbsp;&nbsp;
+
+00:25:24.960 --> 00:25:30.320
+this is moving so quickly. like how long does it&nbsp;
+take customers to get spun up on something like&nbsp;&nbsp;
+
+00:25:30.320 --> 00:25:36.880
+this? So, a workflow like this um typically takes&nbsp;
+a couple days to get the first version set up and&nbsp;&nbsp;
+
+00:25:36.880 --> 00:25:40.880
+then they can be off and running within about a&nbsp;
+week, a week and a half. And that's also really&nbsp;&nbsp;
+
+00:25:40.880 --> 00:25:46.080
+important because while going forward you want&nbsp;
+to be compliant so you can have correct filings,&nbsp;&nbsp;
+
+00:25:46.080 --> 00:25:49.520
+you do have an opportunity to actually go back&nbsp;
+and correct your filings, but there's sort of&nbsp;&nbsp;
+
+00:25:49.520 --> 00:25:54.480
+like a cliff that it approaches at which point you&nbsp;
+can't actually correct anymore. So, the faster you&nbsp;&nbsp;
+
+00:25:54.480 --> 00:25:59.360
+get going, um, the better that you can, um, make&nbsp;
+sure that you're being correctly charged for your&nbsp;&nbsp;
+
+00:25:59.360 --> 00:26:05.120
+tariffs. Wow. Okay. So, being able to set this up&nbsp;
+in a few days to be able to start to recover these&nbsp;&nbsp;
+
+00:26:05.120 --> 00:26:09.760
+things, get in compliance, it's never too late&nbsp;
+to get started, I guess. And so, that that's a&nbsp;&nbsp;
+
+00:26:09.760 --> 00:26:13.840
+it's a pretty good story across a lot of what we&nbsp;
+do at Palanteer, but specifically in this where,&nbsp;&nbsp;
+
+00:26:13.840 --> 00:26:17.440
+hey, things are just happening. I need to adjust&nbsp;
+to my business. There's nothing else I can do&nbsp;&nbsp;
+
+00:26:17.440 --> 00:26:22.880
+besides move quicker and be compliant and agile&nbsp;
+with what's happening. And so I think that's a&nbsp;&nbsp;
+
+00:26:22.880 --> 00:26:26.720
+pretty powerful story. What's the bigger vision&nbsp;
+now that I have this bomb and I connected all&nbsp;&nbsp;
+
+00:26:26.720 --> 00:26:30.400
+these system? Like what other things can I do&nbsp;
+with that? Mhm. Well, that's a good question,&nbsp;&nbsp;
+
+00:26:30.400 --> 00:26:35.040
+Chad, because it's really interesting that once&nbsp;
+you've gone into your your engineering systems&nbsp;&nbsp;
+
+00:26:35.040 --> 00:26:39.600
+such as your PLMs and your ERPs, put that&nbsp;
+together. This is a really good uh starting&nbsp;&nbsp;
+
+00:26:39.600 --> 00:26:44.720
+point to be able to do other use cases. So, for&nbsp;
+example, back to the obsolescence management,&nbsp;&nbsp;
+
+00:26:44.720 --> 00:26:48.880
+that's very valuable for how do you make sure&nbsp;
+you're not sitting on different inventories,&nbsp;&nbsp;
+
+00:26:48.880 --> 00:26:53.680
+doing the material harmonization where you're&nbsp;
+analyzing across your spend potentially,&nbsp;&nbsp;
+
+00:26:53.680 --> 00:26:57.840
+am I buying the same thing in multiple places?&nbsp;
+And then even when we think about when we're&nbsp;&nbsp;
+
+00:26:57.840 --> 00:27:03.760
+doing RFQS for future procurement needs, um&nbsp;
+maybe now you can properly assess a vendor in&nbsp;&nbsp;
+
+00:27:03.760 --> 00:27:08.400
+the United States to be awarded business in the&nbsp;
+future because it's actually going to be cheaper.&nbsp;&nbsp;
+
+00:27:09.040 --> 00:27:13.360
+Yes, it's that it's that balance and way off.&nbsp;
+I think similar like cost of goods sold and&nbsp;&nbsp;
+
+00:27:13.360 --> 00:27:17.600
+understanding really there all the way to sales&nbsp;
+and supply chain. I think the bomb is really&nbsp;&nbsp;
+
+00:27:17.600 --> 00:27:21.600
+the center of a manufacturing company. So it's&nbsp;
+that that bleed off to other use cases that's so&nbsp;&nbsp;
+
+00:27:21.600 --> 00:27:26.880
+powerful. Mhm. Even think production scheduling,&nbsp;
+right? The only way you're going to know if&nbsp;&nbsp;
+
+00:27:26.880 --> 00:27:31.280
+you don't have components to to actually build&nbsp;
+that product on the line is if you can properly&nbsp;&nbsp;
+
+00:27:31.280 --> 00:27:37.600
+traverse the bill of materials and go check your&nbsp;
+inventories. Yes. Yes. So definitely it's cool.&nbsp;&nbsp;
+
+00:27:37.600 --> 00:27:41.280
+It's a cool motivator to start with the bomb. I&nbsp;
+think that leads to a lot of other use cases, but&nbsp;&nbsp;
+
+00:27:41.280 --> 00:27:45.520
+you know, it's really about how do we help people&nbsp;
+um move with what's important in their business&nbsp;&nbsp;
+
+00:27:45.520 --> 00:27:50.720
+right now and it's everchanging. So, thanks a lot&nbsp;
+Christopher for showing me this today. It's pretty&nbsp;&nbsp;
+
+00:27:50.720 --> 00:27:56.320
+uh insightful to see this work and how do we do&nbsp;
+these things cuz it on for surface it doesn't seem&nbsp;&nbsp;
+
+00:27:56.320 --> 00:28:05.200
+that difficult but man in the details in at scale&nbsp;
+this is very very hard. Exactly. Thank you Chad.
+

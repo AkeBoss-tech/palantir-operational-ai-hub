@@ -1,0 +1,44 @@
+documents:
+  - path: topics/brief.md
+    depends_on:
+      - id: local:research-question
+        type: local_file
+        path: specs/research_question.yaml
+        role: project_spec
+        refresh: manual
+  - path: topics/video-index.md
+    depends_on:
+      - id: youtube:palantir-latest-100
+        type: url
+        url: https://www.youtube.com/@palantirtech/videos
+        role: primary_source
+        refresh: daily
+  - path: topics/palantir-ai-video-landscape.md
+    depends_on:
+      - id: local:video-catalog
+        type: local_file
+        path: sources/video_catalog.csv
+        role: source_inventory
+        refresh: daily
+      - id: local:thread-reports
+        type: local_file
+        path: artifacts/thread_runs
+        role: reviewed_evidence
+        refresh: on_change
+  - path: topics/operational-ai-watchlist.md
+    depends_on:
+      - id: local:operational-ai-watchlist
+        type: local_file
+        path: sources/operational_ai_watchlist.csv
+        role: source_inventory
+        refresh: monthly
+      - id: web:microsoft-foundry-blog
+        type: url
+        url: https://devblogs.microsoft.com/foundry/
+        role: primary_source
+        refresh: daily
+      - id: web:cset
+        type: url
+        url: https://cset.georgetown.edu/
+        role: independent_research
+        refresh: weekly

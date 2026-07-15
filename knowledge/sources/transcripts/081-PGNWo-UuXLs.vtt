@@ -1,0 +1,828 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:09.680 --> 00:00:13.760
+Hi, I'm Chad Walquist. I'm an architect&nbsp;
+at Palanteer. Today I have Nicholas from&nbsp;&nbsp;
+
+00:00:13.760 --> 00:00:18.560
+Merc. He happens to lead all the data platforms.&nbsp;
+Palanteer being one of them there. And so we're&nbsp;&nbsp;
+
+00:00:18.560 --> 00:00:22.640
+going to talk about something called lightweight&nbsp;
+transforms today, which is a pretty cool new&nbsp;&nbsp;
+
+00:00:22.640 --> 00:00:27.120
+thing around processing and transforming data with&nbsp;
+different compute engines. So, thanks for joining&nbsp;&nbsp;
+
+00:00:27.120 --> 00:00:33.680
+me. Hi Chad. Thank you. Thanks for the invitation.&nbsp;
+Yeah. So maybe just a little bit about what are&nbsp;&nbsp;
+
+00:00:33.680 --> 00:00:39.600
+you responsible for at Merc and like what are you&nbsp;
+doing? Yeah. So at Merc I'm uh leading the core&nbsp;&nbsp;
+
+00:00:39.600 --> 00:00:46.480
+data platforms uh one of them being Palenteer&nbsp;
+Foundry. I'm with the company since 2019. Um&nbsp;&nbsp;
+
+00:00:46.480 --> 00:00:54.000
+and I think our partnership goes back even beyond&nbsp;
+that. Um and um yeah, I'm really excited to share&nbsp;&nbsp;
+
+00:00:54.000 --> 00:01:00.160
+a little bit about what we did together uh in&nbsp;
+lightweight transforms. Yeah, and and lightweight&nbsp;&nbsp;
+
+00:01:00.160 --> 00:01:04.160
+transform has been around for a while, but we've&nbsp;
+really reintroduced it and and rearchitected a&nbsp;&nbsp;
+
+00:01:04.160 --> 00:01:09.200
+lot of the back end here in the last few months&nbsp;
+and honestly a lot from your feedback uh as a&nbsp;&nbsp;
+
+00:01:09.200 --> 00:01:13.920
+customer and your willingness to work with us to&nbsp;
+really iterate and make it what what it really&nbsp;&nbsp;
+
+00:01:13.920 --> 00:01:19.680
+should be and what it is now. Um and so maybe just&nbsp;
+as a precursor for everyone you know lightweight&nbsp;&nbsp;
+
+00:01:19.680 --> 00:01:26.720
+transforms is allows you to have different types&nbsp;
+of compute um inside of uh the platform. So&nbsp;&nbsp;
+
+00:01:26.720 --> 00:01:32.800
+traditionally you would have like spark or flink&nbsp;
+as the runtime as default inside of pounder today.&nbsp;&nbsp;
+
+00:01:32.800 --> 00:01:38.240
+Now you can have those but you also can have&nbsp;
+different um engines like duct db pullers data&nbsp;&nbsp;
+
+00:01:38.240 --> 00:01:44.320
+fusion uh or even bring your own. So one of the&nbsp;
+things that I know you're a big fan of duck DB and&nbsp;&nbsp;
+
+00:01:44.320 --> 00:01:48.640
+you've been doing a lot of the transformation. So&nbsp;
+maybe as we think through this like just to frame&nbsp;&nbsp;
+
+00:01:48.640 --> 00:01:54.240
+it it's how do I like take the existing pipelines&nbsp;
+I have or even new pipelines and you know what&nbsp;&nbsp;
+
+00:01:54.240 --> 00:01:59.920
+is the benefit by moving to one of these engines&nbsp;
+for you? Yeah, I think I think the the benefit is&nbsp;&nbsp;
+
+00:01:59.920 --> 00:02:07.840
+definitely like the we we see a clear um reduction&nbsp;
+in runtime of the of the transforms jobs which&nbsp;&nbsp;
+
+00:02:07.840 --> 00:02:14.880
+translates to cost savings and uh so not only the&nbsp;
+jobs are faster but but they also need less less&nbsp;&nbsp;
+
+00:02:14.880 --> 00:02:23.440
+uh resources. Yeah. And so you get increased speed&nbsp;
+and runtime the less resources to go run and like&nbsp;&nbsp;
+
+00:02:23.440 --> 00:02:29.440
+what like for you like what is attributed to that?&nbsp;
+Is it, you know, uh different node sizes? Is it is&nbsp;&nbsp;
+
+00:02:29.440 --> 00:02:33.600
+it just the efficiency of the compute? Like what's&nbsp;
+your perspective on why it's so much faster and&nbsp;&nbsp;
+
+00:02:33.600 --> 00:02:37.840
+like how much faster are you seeing? Yeah, I'm&nbsp;
+I'm see we we're seeing like across the board&nbsp;&nbsp;
+
+00:02:37.840 --> 00:02:46.480
+10x improvements in terms of of the performance.&nbsp;
+Um and I think I attribute it to like DDB or Polar&nbsp;&nbsp;
+
+00:02:46.480 --> 00:02:52.240
+Stata Fusion, the the things you mentioned being&nbsp;
+just another generation of of computer engines.&nbsp;&nbsp;
+
+00:02:52.240 --> 00:03:00.480
+um leveraging the the hardware that is available&nbsp;
+on the hyperscalers uh instances with NVME SSDs&nbsp;&nbsp;
+
+00:03:00.480 --> 00:03:08.000
+uh high memory instances where actually for 90 or&nbsp;
+even for us I get want to say 99% of the workloads&nbsp;&nbsp;
+
+00:03:08.000 --> 00:03:14.000
+you don't need a distributed system uh you don't&nbsp;
+need spark so there's no overhead um distributing&nbsp;&nbsp;
+
+00:03:14.000 --> 00:03:19.840
+the task collecting the tasks and so on this it&nbsp;
+just runs on one machine that has a very fast disk&nbsp;&nbsp;
+
+00:03:19.840 --> 00:03:26.880
+very fast SSD So even if the data goes beyond&nbsp;
+the memory of the instance which can very be&nbsp;&nbsp;
+
+00:03:26.880 --> 00:03:32.880
+uh well the case when you when you think about PA&nbsp;
+files being uh decompressed in memory uh you end&nbsp;&nbsp;
+
+00:03:32.880 --> 00:03:39.280
+up with potentially hundred of of gigabytes&nbsp;
+of of of uh data. Uh but for the new engines&nbsp;&nbsp;
+
+00:03:39.280 --> 00:03:44.000
+since they are streaming based and they they&nbsp;
+juggle between um the CPU, the memory and the&nbsp;&nbsp;
+
+00:03:44.000 --> 00:03:50.800
+disk um this is not an issue at all. Yeah, that's&nbsp;
+awesome. So really like new rust based frameworks,&nbsp;&nbsp;
+
+00:03:50.800 --> 00:03:56.160
+high performance single node, faster disk&nbsp;
+spillover, like all these things come together&nbsp;&nbsp;
+
+00:03:56.160 --> 00:04:03.360
+to really change the paradigm of how we compute.&nbsp;
+And so okay, so you've got probably hundreds and&nbsp;&nbsp;
+
+00:04:03.360 --> 00:04:09.360
+hundreds or maybe thousands of pipelines inside of&nbsp;
+Palunteer probably in legacy, you know, the Spark&nbsp;&nbsp;
+
+00:04:09.360 --> 00:04:16.080
+kind of framework and transforms. And so you kind&nbsp;
+of I think we have like rough around about 100,000&nbsp;&nbsp;
+
+00:04:16.080 --> 00:04:26.560
+builds a day on the platform more or less 100,000.&nbsp;
+Yes. Wow. Okay. So huge scale. That's that's&nbsp;&nbsp;
+
+00:04:26.560 --> 00:04:32.320
+uh awesome. Okay. So hundreds of thousands you can&nbsp;
+you can step in my role and say like how can we&nbsp;&nbsp;
+
+00:04:32.320 --> 00:04:38.960
+make that more efficient, right? And then and then&nbsp;
+uh obviously all of that is written in pispark.&nbsp;&nbsp;
+
+00:04:38.960 --> 00:04:46.080
+Well, not all of it but most of it is written in&nbsp;
+pi spark. Um, and that's where um really like the&nbsp;&nbsp;
+
+00:04:46.080 --> 00:04:53.920
+idea of lightweight came in. Uh, and yeah, I mean&nbsp;
+actually it's triggered like by by by by by the&nbsp;&nbsp;
+
+00:04:53.920 --> 00:05:00.240
+evolution in the field. you see those benchmark&nbsp;
+and you see hey why how can we how can we&nbsp;&nbsp;
+
+00:05:00.240 --> 00:05:08.400
+um uh benefit from this and that's why we I&nbsp;
+keep constantly um chasing the palent team&nbsp;&nbsp;
+
+00:05:08.400 --> 00:05:16.400
+right and saying hey um it's time it's time um&nbsp;
+and yeah essentially I think I think that's when&nbsp;&nbsp;
+
+00:05:16.400 --> 00:05:23.760
+this year or early this year this took off and&nbsp;
+um somebody said yeah let's let's do something&nbsp;&nbsp;
+
+00:05:23.760 --> 00:05:29.760
+um yeah Yeah. No, that's cool. I I love it when&nbsp;
+customers push us into new avenues, new areas&nbsp;&nbsp;
+
+00:05:29.760 --> 00:05:34.080
+based on what you're seeing, what your needs are.&nbsp;
+Like the the intersection of hundreds of thousands&nbsp;&nbsp;
+
+00:05:34.080 --> 00:05:39.520
+of builds a day, uh, and your cost reduction,&nbsp;
+like that's huge potential, uh, for you. So,&nbsp;&nbsp;
+
+00:05:39.520 --> 00:05:45.120
+I could see why you were pushing so hard on that.&nbsp;
+Um, and I'm glad you did because now like together&nbsp;&nbsp;
+
+00:05:45.120 --> 00:05:48.880
+we have created something that's pretty cool&nbsp;
+to be able to have any of these different uh,&nbsp;&nbsp;
+
+00:05:48.880 --> 00:05:53.840
+data and compute engines um, running inside the&nbsp;
+platform through lightweight. So as you're down,&nbsp;&nbsp;
+
+00:05:53.840 --> 00:05:58.560
+okay, so you have hundreds of thousands of builds,&nbsp;
+tons of PISpark code, what does it look like to&nbsp;&nbsp;
+
+00:05:58.560 --> 00:06:07.600
+transform into lightweight transforms for you?&nbsp;
+Yeah. So um I want to take a step back. I want&nbsp;&nbsp;
+
+00:06:07.600 --> 00:06:13.440
+to highlight like what really enabled the new&nbsp;
+lightweight for us, right? The new lightweight&nbsp;&nbsp;
+
+00:06:13.440 --> 00:06:19.200
+experience. And that was basically to to say&nbsp;
+the standard should be the S3 API because as&nbsp;&nbsp;
+
+00:06:19.200 --> 00:06:25.680
+every every framework the best support you get is&nbsp;
+for the S3 object store right and and making that&nbsp;&nbsp;
+
+00:06:25.680 --> 00:06:31.040
+also the interface in lightweight I think that&nbsp;
+was the game changer that unlocked all of this&nbsp;&nbsp;
+
+00:06:31.040 --> 00:06:37.600
+um and not having any proprietary APIs you&nbsp;
+know where where Palunteer or you know you&nbsp;&nbsp;
+
+00:06:37.600 --> 00:06:43.600
+become a bottleneck running behind and say oh we&nbsp;
+oh we support this or and then tomorrow there's&nbsp;&nbsp;
+
+00:06:43.600 --> 00:06:47.360
+a new API. Oh, we need to support there's a&nbsp;
+new engine, right? We need to support engine&nbsp;&nbsp;
+
+00:06:47.360 --> 00:06:54.640
+X engine Y. But like once uh Lightweight moved to&nbsp;
+the S3 API or to the what what you call S3 proxy,&nbsp;&nbsp;
+
+00:06:54.640 --> 00:07:03.120
+right? Um that is the fundamental unlocker here uh&nbsp;
+to to leverage any kind of engine. And in our case&nbsp;&nbsp;
+
+00:07:03.120 --> 00:07:10.560
+um we we are observing uh this space for some&nbsp;
+time. Um and and really the the current leader&nbsp;&nbsp;
+
+00:07:10.560 --> 00:07:18.240
+here when it comes to stability as well and&nbsp;
+performance is is stuck db um and have a perfect&nbsp;&nbsp;
+
+00:07:18.240 --> 00:07:26.320
+and really efficient S3 uh park reader and writer.&nbsp;
+And if you have that uh in a lightweight container&nbsp;&nbsp;
+
+00:07:26.320 --> 00:07:32.080
+um there's not much stopping you from getting&nbsp;
+quick builds. Yeah, that's very cool. Okay,&nbsp;&nbsp;
+
+00:07:32.080 --> 00:07:38.000
+so that fundamental architectural shift unlocked&nbsp;
+not only DuckPB but a lot of these other ones to&nbsp;&nbsp;
+
+00:07:38.000 --> 00:07:42.560
+have better performance, better interoperability.&nbsp;
+Exactly. People can bring their own engines now&nbsp;&nbsp;
+
+00:07:42.560 --> 00:07:49.280
+as well. Um, so but DuckDB specifically has&nbsp;
+been pretty fantastic for you from a stability&nbsp;&nbsp;
+
+00:07:49.280 --> 00:07:54.240
+standpoint as far as you know, no out of memory&nbsp;
+issues and things being handled really well from&nbsp;&nbsp;
+
+00:07:54.240 --> 00:07:58.640
+the stability that opensource. Let me let me&nbsp;
+go there a little bit more into detail because&nbsp;&nbsp;
+
+00:07:58.640 --> 00:08:09.280
+yeah you you asked for it as well. Um for um for&nbsp;
+our scale there they there are kind of like two&nbsp;&nbsp;
+
+00:08:09.280 --> 00:08:15.840
+um uh like it's kind of a distribution of of&nbsp;
+jobs, right? At the one end you have the ones&nbsp;&nbsp;
+
+00:08:15.840 --> 00:08:22.560
+that run multiple hours and uh actually take a&nbsp;
+lot of uh compute seconds and a lot of cost in&nbsp;&nbsp;
+
+00:08:22.560 --> 00:08:27.760
+the end. And then there's the long tail. you have&nbsp;
+hundreds that maybe run for a few minutes and but&nbsp;&nbsp;
+
+00:08:27.760 --> 00:08:34.560
+then maybe also run very often and for both&nbsp;
+of them we kind of needed a solution. Um so&nbsp;&nbsp;
+
+00:08:34.560 --> 00:08:43.680
+um yeah actually um what we created internally in&nbsp;
+in my team was a reusable library uh that uses a&nbsp;&nbsp;
+
+00:08:43.680 --> 00:08:51.120
+open source framework called SQL frame that is&nbsp;
+implementing a spy pispar compatible API. So you&nbsp;&nbsp;
+
+00:08:51.120 --> 00:08:57.600
+can actually take your Pispar code, your existing&nbsp;
+Pispar code and translate it or com compile it,&nbsp;&nbsp;
+
+00:08:57.600 --> 00:09:04.000
+transpile it, how however you want to call it,&nbsp;
+right, to SQL to to Suduct DBS SQL. And then we&nbsp;&nbsp;
+
+00:09:04.000 --> 00:09:11.680
+we hooked in the the inputs from Foundry and the&nbsp;
+outputs and um were able to uh first of all give&nbsp;&nbsp;
+
+00:09:11.680 --> 00:09:18.800
+that to power users that worked on the um high uh&nbsp;
+impact data sets that take multiple hours and so&nbsp;&nbsp;
+
+00:09:18.800 --> 00:09:25.440
+on to build um and are very cost uh highly cost&nbsp;
+uh costly on the platform. But at the same time&nbsp;&nbsp;
+
+00:09:25.440 --> 00:09:30.800
+we were able to give it uh and bring it into&nbsp;
+the processes that are highly standardized. Uh,&nbsp;&nbsp;
+
+00:09:30.800 --> 00:09:34.720
+think about your SAP data sets where you always&nbsp;
+need to do the same cleaning steps for string&nbsp;&nbsp;
+
+00:09:34.720 --> 00:09:40.800
+columns. It's in every data set and there are&nbsp;
+literally thousands on the platform because as&nbsp;&nbsp;
+
+00:09:40.800 --> 00:09:47.440
+a company with a with a legacy, right, you have&nbsp;
+we have a lot of SAP systems. Um, yep. And um,&nbsp;&nbsp;
+
+00:09:47.440 --> 00:09:52.240
+but anyway, all of them need the same cleaning&nbsp;
+steps and then you do it once, but then it's a&nbsp;&nbsp;
+
+00:09:52.240 --> 00:09:57.920
+basically a huge generator of transformations and&nbsp;
+and then you roll it out across the board. So,&nbsp;&nbsp;
+
+00:09:57.920 --> 00:10:04.400
+so those two things is where we where we initially&nbsp;
+uh and are now running uh lightweight with stuck&nbsp;&nbsp;
+
+00:10:04.400 --> 00:10:09.520
+DB in production. Wow. Okay. So, this is in&nbsp;
+production. It's across lots of different&nbsp;&nbsp;
+
+00:10:09.520 --> 00:10:15.520
+modalities that you're kind of testing out. Um&nbsp;
+so, like maybe maybe some examples. Do you have&nbsp;&nbsp;
+
+00:10:15.520 --> 00:10:20.640
+anything we could take a look at as far as some&nbsp;
+examples of what this actually looks like? Yeah,&nbsp;&nbsp;
+
+00:10:20.640 --> 00:10:28.320
+sure. Um we can we can take a look. Um maybe we&nbsp;
+we start with um like one of our transforms in&nbsp;&nbsp;
+
+00:10:28.320 --> 00:10:37.840
+the company uh and the controlling area um where&nbsp;
+basically yeah the complete um data supply chain&nbsp;&nbsp;
+
+00:10:37.840 --> 00:10:45.200
+of of the controlling area is brought together&nbsp;
+um and and those jobs they with and and this is&nbsp;&nbsp;
+
+00:10:45.200 --> 00:10:50.800
+I think with at least eight executors or 16&nbsp;
+executors I know it's a little bit small but&nbsp;&nbsp;
+
+00:10:50.800 --> 00:10:58.160
+they took like you you see um like six, seven&nbsp;
+hours here, right? Uh in run. Wow. Um and then&nbsp;&nbsp;
+
+00:10:58.160 --> 00:11:09.680
+after we migrated here um in in July or in June,&nbsp;
+um we are at um uh 26 22 uh u 10 minutes even.&nbsp;&nbsp;
+
+00:11:09.680 --> 00:11:20.320
+Um if we're lucky. Um so and and this is B this&nbsp;
+job is really not like not not a hard one, right?&nbsp;&nbsp;
+
+00:11:20.320 --> 00:11:26.720
+It's it's a it's union. It's a little bit union of&nbsp;
+different data sets, a few filters here and there,&nbsp;&nbsp;
+
+00:11:26.720 --> 00:11:34.960
+but I think the key difference is that DuckDv is&nbsp;
+able to vectorize a lot of instructions um and has&nbsp;&nbsp;
+
+00:11:34.960 --> 00:11:42.400
+highly efficient like union all capabilities um&nbsp;
+that we don't see in in Spark open source. Yeah.&nbsp;&nbsp;
+
+00:11:42.400 --> 00:11:50.640
+Um and then yeah, you can imagine that for me as a&nbsp;
+platform owner this is really nice. Okay. But also&nbsp;&nbsp;
+
+00:11:50.640 --> 00:11:57.520
+for our controllers or for the head of controlling&nbsp;
+or whoever in the end looks at the reports,&nbsp;&nbsp;
+
+00:11:57.520 --> 00:12:05.040
+the dashboards, the or at the data products, the&nbsp;
+AI, whatever is done with this, right? Uh it's a&nbsp;&nbsp;
+
+00:12:05.040 --> 00:12:12.160
+much uh shorter cycle from from the ingestion to&nbsp;
+uh to the actual finished uh end data product.&nbsp;&nbsp;
+
+00:12:12.160 --> 00:12:18.960
+Yeah. Wow. That's so you're talking 7 8 hours&nbsp;
+down to 20 minutes. um if I'm doing my math,&nbsp;&nbsp;
+
+00:12:18.960 --> 00:12:23.040
+that's more than 10 times on that one alone. But&nbsp;
+obviously that's not every use case. It's running&nbsp;&nbsp;
+
+00:12:23.040 --> 00:12:29.280
+with one node with four or eight CPUs instead of&nbsp;
+eight nodes. So it's like maybe it's an extreme&nbsp;&nbsp;
+
+00:12:29.280 --> 00:12:34.880
+example. Um but um definitely something that that&nbsp;
+you see here. But I think that goes goes to your&nbsp;&nbsp;
+
+00:12:34.880 --> 00:12:39.440
+point though around like just even the engine&nbsp;
+optimizations around unions. Like if I don't&nbsp;&nbsp;
+
+00:12:39.440 --> 00:12:46.160
+have a distributed system, be able to do unions on&nbsp;
+a single node is just much more efficient period.&nbsp;&nbsp;
+
+00:12:46.160 --> 00:12:51.920
+um rather than just you know like all of the&nbsp;
+gathering of stuff back together to do a union&nbsp;&nbsp;
+
+00:12:51.920 --> 00:12:58.080
+is a very expensive operation in a distributed&nbsp;
+system. So like those optimizations on top of&nbsp;&nbsp;
+
+00:12:58.080 --> 00:13:03.760
+the node size it's rust based it's you know all of&nbsp;
+these kind of things uh add up to pretty cool use&nbsp;&nbsp;
+
+00:13:03.760 --> 00:13:09.040
+case like that. So now that you're doing this at&nbsp;
+scale like what are you seeing are there things in&nbsp;&nbsp;
+
+00:13:09.040 --> 00:13:15.520
+palanteer you're still working with us on? Yeah,&nbsp;
+I mean first of all we are working together to get&nbsp;&nbsp;
+
+00:13:15.520 --> 00:13:22.160
+the duct DB integration to be first class, right?&nbsp;
+Um I think that's important for me. Uh but also I&nbsp;&nbsp;
+
+00:13:22.160 --> 00:13:27.760
+think I'm also talking to many other customers&nbsp;
+that want it. So um um that's the first thing.&nbsp;&nbsp;
+
+00:13:27.760 --> 00:13:34.960
+But then at the second uh the second thing is that&nbsp;
+I think there are still some um infrastructure um&nbsp;&nbsp;
+
+00:13:34.960 --> 00:13:40.160
+limits that could be improved uh in the platform.&nbsp;
+So this could even be faster. This could be even&nbsp;&nbsp;
+
+00:13:40.160 --> 00:13:47.440
+faster. That's my my hint. U comparing to like&nbsp;
+bare metal performance of these jobs. Um so&nbsp;&nbsp;
+
+00:13:47.440 --> 00:13:53.840
+that's quite exciting. Um probably like maybe&nbsp;
+that's like my personal theory. Nobody has hit&nbsp;&nbsp;
+
+00:13:53.840 --> 00:14:00.080
+those limits like with the Spark jobs and now um&nbsp;
+it's time to to push that barriers as well. No,&nbsp;&nbsp;
+
+00:14:00.080 --> 00:14:05.600
+that's awesome. This is what I love customers&nbsp;
+pushing us to continue to evolve and improve and&nbsp;&nbsp;
+
+00:14:05.600 --> 00:14:09.840
+so this this is awesome. I think like you said&nbsp;
+just like how do we benchmark against you know&nbsp;&nbsp;
+
+00:14:09.840 --> 00:14:14.560
+what's out there and finding these new new areas&nbsp;
+whether you're hitting a new benchmark because of&nbsp;&nbsp;
+
+00:14:14.560 --> 00:14:20.240
+like crazy high utilization because you're just&nbsp;
+hammering these nodes now with duct DB. Um I&nbsp;&nbsp;
+
+00:14:20.240 --> 00:14:25.520
+I'm very curious what we find there as well. So&nbsp;
+you've got some more examples here and it looks&nbsp;&nbsp;
+
+00:14:25.520 --> 00:14:29.600
+like this one is a build that's happening quite a&nbsp;
+bit more often versus other one was kind of once&nbsp;&nbsp;
+
+00:14:29.600 --> 00:14:34.640
+in a while once a week or so like this build all&nbsp;
+the time like this is interesting. It's like what&nbsp;&nbsp;
+
+00:14:34.640 --> 00:14:41.200
+type of transform is this? Yeah, I think and and&nbsp;
+and this one is um also interesting because it's&nbsp;&nbsp;
+
+00:14:41.200 --> 00:14:47.520
+not like a simple union or so. So it's like a&nbsp;
+really complex thousand lines of pispar code&nbsp;&nbsp;
+
+00:14:47.520 --> 00:14:55.280
+that is being translated to duct DB with SQL&nbsp;
+frame and um yeah you you can see clearly see&nbsp;&nbsp;
+
+00:14:55.280 --> 00:15:03.680
+the impact here going from I would say three one&nbsp;
+between one and 3 hours to uh to under under 30&nbsp;&nbsp;
+
+00:15:03.680 --> 00:15:10.720
+minutes 30 40 minutes but this is run uh at least&nbsp;
+every day. Um, so the impact is also multiplied&nbsp;&nbsp;
+
+00:15:10.720 --> 00:15:17.520
+by the the amount of times this is run. Yeah.&nbsp;
+Yeah. Well, that's really cool. So these you're&nbsp;&nbsp;
+
+00:15:17.520 --> 00:15:22.400
+basically able to just take this library, convert&nbsp;
+the pi spark code into lightweight trans into the&nbsp;&nbsp;
+
+00:15:22.400 --> 00:15:26.960
+lightweight transforms and have duck DB be the&nbsp;
+backend engine here and then like you just get&nbsp;&nbsp;
+
+00:15:26.960 --> 00:15:32.960
+the improvement. Yeah, exactly. I mean this is&nbsp;
+an open source library, right? So um you you you&nbsp;&nbsp;
+
+00:15:32.960 --> 00:15:39.280
+need to know what you sign up for, right? Um but&nbsp;
+this is what I love from open sour source right&nbsp;&nbsp;
+
+00:15:39.280 --> 00:15:46.000
+um we're able to contribute we're able to open&nbsp;
+um and same for ductb right same for polas right&nbsp;&nbsp;
+
+00:15:46.000 --> 00:15:53.360
+um we're able to contribute we're able to provide&nbsp;
+um issue descriptions reproducible issues and then&nbsp;&nbsp;
+
+00:15:53.360 --> 00:15:58.800
+uh and then it's it's getting fixed or we fix it&nbsp;
+ourselves right um and and and that's essentially&nbsp;&nbsp;
+
+00:15:58.800 --> 00:16:06.240
+the beauty about open source yeah very cool and&nbsp;
+I see that you've got an M seg Egg tap. Well, I I&nbsp;&nbsp;
+
+00:16:06.240 --> 00:16:13.280
+know too much about SAP to know MSEG is is one of&nbsp;
+the bigger tables and fun ones that Okay. Wow. Uh&nbsp;&nbsp;
+
+00:16:13.280 --> 00:16:19.200
+that's a pretty big drop. Yeah, exactly. Yeah. So,&nbsp;
+I told you about like the long tail, right? The&nbsp;&nbsp;
+
+00:16:19.200 --> 00:16:25.280
+long tail of of of jobs that are all kind of the&nbsp;
+same cleaning jobs and and and you see like this&nbsp;&nbsp;
+
+00:16:25.280 --> 00:16:34.000
+seems to be um um running very often um according&nbsp;
+I I hope there's a valid business need for it.&nbsp;&nbsp;
+
+00:16:34.000 --> 00:16:39.520
+Um but that's not for me to decide because that's&nbsp;
+closer to the use cases to the data products,&nbsp;&nbsp;
+
+00:16:39.520 --> 00:16:44.400
+right? Not in the platform engineering team.&nbsp;
+But you see it's running quite often and after&nbsp;&nbsp;
+
+00:16:44.400 --> 00:16:49.680
+me we it's even not a it's not like has kept all&nbsp;
+the history in this chart. It's only showing the&nbsp;&nbsp;
+
+00:16:49.680 --> 00:16:57.440
+last 1,000 uh runs. Um but luckily for us in this&nbsp;
+in this session that we still see the spark runs&nbsp;&nbsp;
+
+00:16:57.440 --> 00:17:04.400
+um and you still see that they take like you know&nbsp;
+15 16 minutes maybe if we're lucky like 6 minutes&nbsp;&nbsp;
+
+00:17:04.400 --> 00:17:10.800
+and I I guess you clearly see the migration&nbsp;
+point right um and yes and this is now running&nbsp;&nbsp;
+
+00:17:10.800 --> 00:17:21.040
+with um with uh I mean I have to lie probably&nbsp;
+two CPUs and 15 gigs of memory. Wow. Okay. So&nbsp;&nbsp;
+
+00:17:21.040 --> 00:17:26.400
+that I mean just the the footprint and the speed&nbsp;
+here. I think that I mean that's the thing that's&nbsp;&nbsp;
+
+00:17:26.400 --> 00:17:30.480
+surprising me. It's cuz normally it's like okay&nbsp;
+I can speed a job up. I throw more resources. I&nbsp;&nbsp;
+
+00:17:30.480 --> 00:17:36.000
+take resource away. It slows it down. Seems like&nbsp;
+you've got less resources and a faster runtime.&nbsp;&nbsp;
+
+00:17:36.000 --> 00:17:41.360
+Yeah. I don't know. It sounds too good to be&nbsp;
+true. Um yeah but but it actually you can see&nbsp;&nbsp;
+
+00:17:41.360 --> 00:17:48.240
+it here. It it it actually uh does work. Yeah.&nbsp;
+Yeah. Very cool. Awesome. Well, this is this is&nbsp;&nbsp;
+
+00:17:48.240 --> 00:17:52.320
+really cool stuff. I appreciate you sharing this&nbsp;
+with me. Is there other things um you know in the&nbsp;&nbsp;
+
+00:17:52.320 --> 00:17:55.840
+future that you're excited about this transition&nbsp;
+or like are you going to continue kind of pushing&nbsp;&nbsp;
+
+00:17:55.840 --> 00:18:00.800
+us for performance other things and then you know&nbsp;
+migrating more and more jobs or what's your what's&nbsp;&nbsp;
+
+00:18:00.800 --> 00:18:06.800
+your bigger vision with this? Yeah. So yeah,&nbsp;
+so I'm I'm really excited about the like the&nbsp;&nbsp;
+
+00:18:06.800 --> 00:18:13.920
+future in in this space as also in the kind of&nbsp;
+lakeost space right because uh with iceberg um&nbsp;&nbsp;
+
+00:18:13.920 --> 00:18:21.040
+so I'm not only managing like foundry right also&nbsp;
+other data platforms and and with iceberg for the&nbsp;&nbsp;
+
+00:18:21.040 --> 00:18:27.760
+first time there is a protocol there's a standard&nbsp;
+uh even though it's definitely not perfect but um&nbsp;&nbsp;
+
+00:18:27.760 --> 00:18:35.360
+all of us can somehow uh agree on and with foundry&nbsp;
+having embraced iceberg and yeah I'm working with&nbsp;&nbsp;
+
+00:18:35.360 --> 00:18:43.120
+with with with your colleagues on testing it and&nbsp;
+and and uh and adopting it um but then also with&nbsp;&nbsp;
+
+00:18:43.120 --> 00:18:49.280
+the other vendors um and and that's really great&nbsp;
+because that allows us to pick the right engine&nbsp;&nbsp;
+
+00:18:49.280 --> 00:18:57.600
+for the right job um ultimately um maybe it's&nbsp;
+duct DV maybe it's some other cloud data warehouse&nbsp;&nbsp;
+
+00:18:57.600 --> 00:19:07.200
+um but in the end we can decide uh based on our&nbsp;
+prerequisites, based on our skill set, what is the&nbsp;&nbsp;
+
+00:19:07.200 --> 00:19:12.960
+right tool to pick uh to provide the most value&nbsp;
+for for for the business. Definitely. Yeah. Yeah.&nbsp;&nbsp;
+
+00:19:12.960 --> 00:19:16.480
+I'm excited about iceberg as well. Like I think&nbsp;
+there's a lot of cool stuff that's going to be&nbsp;&nbsp;
+
+00:19:16.480 --> 00:19:21.360
+coming there. Um but I think I mean your your&nbsp;
+description right there is the thesis behind&nbsp;&nbsp;
+
+00:19:21.360 --> 00:19:25.440
+the multimodal data plane is like any storage,&nbsp;
+any compute, anywhere. Yeah. Sometimes I think&nbsp;&nbsp;
+
+00:19:25.440 --> 00:19:30.640
+it's because of us. I don't know. Um because you&nbsp;
+know it's definitely not. I'm just joking Chad.&nbsp;&nbsp;
+
+00:19:31.440 --> 00:19:37.760
+It's definitely um like we have I we have we write&nbsp;
+like since since virtual tables are there right&nbsp;&nbsp;
+
+00:19:37.760 --> 00:19:43.600
+we write to big query we read from bigquery with&nbsp;
+virtual we have snowflake read right to snowflake&nbsp;&nbsp;
+
+00:19:43.600 --> 00:19:49.040
+AWS iceberg glue catalog all of that we have in&nbsp;
+production and it it wasn't possible two years&nbsp;&nbsp;
+
+00:19:49.040 --> 00:19:56.000
+ago not at all I mean just with maybe with a lot&nbsp;
+of hacks but uh but today it's supported and it&nbsp;&nbsp;
+
+00:19:56.000 --> 00:20:02.720
+really allows us to to build this ecosystem&nbsp;
+here at Merc this platform ecosystem that&nbsp;&nbsp;
+
+00:20:02.720 --> 00:20:09.360
+truly integrates them. Um and and that's what I'm&nbsp;
+excited about. Yeah. Um real enterprises have very&nbsp;&nbsp;
+
+00:20:09.360 --> 00:20:14.960
+comp especially enterprises of your size have very&nbsp;
+complex heterogeneous architectures that have been&nbsp;&nbsp;
+
+00:20:14.960 --> 00:20:19.680
+through acquisitions and time and all sorts of&nbsp;
+stuff. And it's like yeah in a perfect world you&nbsp;&nbsp;
+
+00:20:19.680 --> 00:20:23.360
+replatform everything and have some clean slate&nbsp;
+but that's never going to happen. And so like how&nbsp;&nbsp;
+
+00:20:23.360 --> 00:20:28.560
+do you embrace the chaos? And it's like okay let's&nbsp;
+actually give you the tools to to manage that. And&nbsp;&nbsp;
+
+00:20:28.560 --> 00:20:32.720
+so that's that's cool that you're really starting&nbsp;
+to see that and embrace that across uh everything&nbsp;&nbsp;
+
+00:20:32.720 --> 00:20:37.760
+you're doing. So I really appreciate you taking&nbsp;
+the time to to show me and and everybody the the&nbsp;&nbsp;
+
+00:20:37.760 --> 00:20:43.680
+cool stuff that you're doing. Like I I just also&nbsp;
+value your partnership here of like pushing us and&nbsp;&nbsp;
+
+00:20:43.680 --> 00:20:47.760
+seeing what is going on in the field, what's&nbsp;
+working. Like this is exciting to me. I can I&nbsp;&nbsp;
+
+00:20:47.760 --> 00:20:51.920
+think you can tell I'm excited because like I've&nbsp;
+been doing this data pipelining stuff for 15 20&nbsp;&nbsp;
+
+00:20:51.920 --> 00:20:58.960
+years as well. And like this is truly cool to be&nbsp;
+able to see both cost reduction and speed up out&nbsp;&nbsp;
+
+00:20:58.960 --> 00:21:05.760
+of a simple like addictive like when you do those&nbsp;
+migrations. Um and it's also everyone benefits&nbsp;&nbsp;
+
+00:21:05.760 --> 00:21:12.640
+because it's not like um we don't have enough&nbsp;
+use cases, right? Uh we need the room. We need&nbsp;&nbsp;
+
+00:21:12.640 --> 00:21:20.000
+the room to build new stuff, right? And to build&nbsp;
+AI use cases and to leverage AIP and all of that.&nbsp;&nbsp;
+
+00:21:20.000 --> 00:21:24.960
+uh which which would be very hard if we&nbsp;
+we keep like going with with Spark engines&nbsp;&nbsp;
+
+00:21:24.960 --> 00:21:30.720
+uh all of the time. Yeah. Yeah. Awesome. Well,&nbsp;
+thanks again. I appreciate it. I really enjoyed&nbsp;&nbsp;
+
+00:21:30.720 --> 00:21:46.400
+the conversation, Nicholas. Thanks, Chad. Uh&nbsp;
+thanks for the invite again. Appreciate it.
+

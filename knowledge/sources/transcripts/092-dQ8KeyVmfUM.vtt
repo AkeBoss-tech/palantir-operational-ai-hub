@@ -1,0 +1,364 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.800 --> 00:00:15.520
+Please welcome head of data 42 at&nbsp;
+Noartis, Burgett Sherbold. [Music]
+
+00:00:15.520 --> 00:00:23.200
+Good morning. Now we're switching gears. My name&nbsp;
+is Burg Shouba, head of data 42 at Novartis.&nbsp;&nbsp;
+
+00:00:23.200 --> 00:00:31.520
+Novartis is a leading global medicines company&nbsp;
+and we focus on science and innovation. I'm really&nbsp;&nbsp;
+
+00:00:31.520 --> 00:00:39.840
+excited to be here today to share with you how&nbsp;
+we re-imag the way we discover novel lifesaving&nbsp;&nbsp;
+
+00:00:39.840 --> 00:00:47.600
+medicines with the power of data and AIP. So as&nbsp;
+many probably know the pharmaceutical company&nbsp;&nbsp;
+
+00:00:47.600 --> 00:00:56.240
+uh pharmaceutical industry faces a big challenge.&nbsp;
+Currently it takes us about 12 years on average&nbsp;&nbsp;
+
+00:00:56.240 --> 00:01:03.920
+and three billion dollars to develop a novel&nbsp;
+medicine. This is largely driven by a low&nbsp;&nbsp;
+
+00:01:03.920 --> 00:01:13.680
+probability of success with an odds ratio of 1 in&nbsp;
+10,000 um for one of our discovery stage molecules&nbsp;&nbsp;
+
+00:01:13.680 --> 00:01:21.600
+synthesized by chemists early on to ever reach&nbsp;
+regulatory approval. So this is not a problem we&nbsp;&nbsp;
+
+00:01:21.600 --> 00:01:29.680
+can solve with vibe coding alone. So at Novartis&nbsp;
+we believe that the probability that improving&nbsp;&nbsp;
+
+00:01:29.680 --> 00:01:37.680
+the probability of success requires three uh&nbsp;
+critical elements. So one is a democratized&nbsp;&nbsp;
+
+00:01:37.680 --> 00:01:47.520
+access to contextenriched integrated data across&nbsp;
+discovery preclinical clinical and real world&nbsp;&nbsp;
+
+00:01:47.520 --> 00:01:57.120
+data. worldclass scientific talent and on top of&nbsp;
+that in intelligent tools including predictive and&nbsp;&nbsp;
+
+00:01:57.120 --> 00:02:04.320
+generative models that support our scientists&nbsp;
+in making breakthrough discoveries going way&nbsp;&nbsp;
+
+00:02:04.320 --> 00:02:11.440
+beyond the classical productivity tools. So&nbsp;
+for our scientists and for me honestly it's&nbsp;&nbsp;
+
+00:02:11.440 --> 00:02:18.320
+not the goal to go home 30 minutes earlier&nbsp;
+to walk my dog. It's really I want to improve&nbsp;&nbsp;
+
+00:02:18.320 --> 00:02:26.560
+this odds ratio and help our patients who are&nbsp;
+waiting um for a new med life-saving treatment.&nbsp;&nbsp;
+
+00:02:26.560 --> 00:02:33.920
+With Palunteer as our partner, we're building a&nbsp;
+framework that allows us to use AI agents with&nbsp;&nbsp;
+
+00:02:33.920 --> 00:02:43.840
+scientific depth anchored in our data. So let me&nbsp;
+share today two examples. So we started working&nbsp;&nbsp;
+
+00:02:43.840 --> 00:02:53.440
+with Palunteer um relatively early on in 2019&nbsp;
+to develop the technology behind data 42. Some&nbsp;&nbsp;
+
+00:02:53.440 --> 00:03:00.000
+of you might wonder why 42 and I guess I have the&nbsp;
+coolest job title probably here in the room. Uh&nbsp;&nbsp;
+
+00:03:00.000 --> 00:03:08.560
+we are inspired by the hitchhiker's guide to the&nbsp;
+galaxy. So in order to find the answer to life,&nbsp;&nbsp;
+
+00:03:08.560 --> 00:03:19.120
+the universe and everything, data 42's mission is&nbsp;
+to leverage and unlock the value of Novartis' data&nbsp;&nbsp;
+
+00:03:19.120 --> 00:03:27.520
+in a secure and well-governed way. This includes&nbsp;
+proprietary compound data, pre-clinical efficacy&nbsp;&nbsp;
+
+00:03:27.520 --> 00:03:36.640
+and safety data, clinical data including lab data&nbsp;
+and biomarket data as well as real world data. For&nbsp;&nbsp;
+
+00:03:36.640 --> 00:03:42.720
+example, health uh electronic health records. You&nbsp;
+can see that some of the data especially biomarket&nbsp;&nbsp;
+
+00:03:42.720 --> 00:03:50.400
+data can be quite sensitive but also highly&nbsp;
+complex. And in order to really fully understand&nbsp;&nbsp;
+
+00:03:50.400 --> 00:03:56.560
+our clinical data, it is essential that we're able&nbsp;
+to link the structured data to unstructured data&nbsp;&nbsp;
+
+00:03:56.560 --> 00:04:06.080
+in our clinical trial protocols or scientific&nbsp;
+reports. So by leveraging the ontology and AIP,&nbsp;&nbsp;
+
+00:04:06.080 --> 00:04:16.080
+data 42 has been able to combine tens of billions&nbsp;
+of rows of data from over 700 um million patient&nbsp;&nbsp;
+
+00:04:16.080 --> 00:04:24.160
+lives from real world data as well as from our&nbsp;
+3,000 clinical trials encompassing about a million&nbsp;&nbsp;
+
+00:04:24.160 --> 00:04:30.880
+patients. So this data is now instantly available&nbsp;
+and all within the secure and well-governed&nbsp;&nbsp;
+
+00:04:30.880 --> 00:04:40.000
+environment. So we have encoded um our rich domain&nbsp;
+knowledge into the ontology by building agents&nbsp;&nbsp;
+
+00:04:40.000 --> 00:04:47.280
+that can extract and connect data across multiple&nbsp;
+um data domains and metadata captured in our&nbsp;&nbsp;
+
+00:04:47.280 --> 00:04:54.000
+documents. In this way, you can easily explore AIP&nbsp;
+generated links that connect a single compound as&nbsp;&nbsp;
+
+00:04:54.000 --> 00:05:01.280
+you can see here in yellow with our clinical trial&nbsp;
+data shown in red, biomarker data in green and&nbsp;&nbsp;
+
+00:05:01.280 --> 00:05:12.000
+preclinical data. So now let's take a first uh uh&nbsp;
+look at the one example of how data explorers can&nbsp;&nbsp;
+
+00:05:12.000 --> 00:05:20.800
+easily query and visualize real world data from&nbsp;
+this massive enriched ontology using one of our&nbsp;&nbsp;
+
+00:05:20.800 --> 00:05:29.600
+AIP and augmented tools that is now in production&nbsp;
+and used across Novartis. It's called Chat RWE.&nbsp;&nbsp;
+
+00:05:29.600 --> 00:05:36.400
+Let's say you're a clinical scientist supporting a&nbsp;
+project team that is planning a new clinical trial&nbsp;&nbsp;
+
+00:05:36.400 --> 00:05:42.480
+in breast cancer maybe. So the first question&nbsp;
+is can I enroll patients? Do I find the patients&nbsp;&nbsp;
+
+00:05:42.480 --> 00:05:52.400
+given certain inclusion and exclusion criteria? Uh&nbsp;
+the answer is quite complex using real world data.&nbsp;&nbsp;
+
+00:05:52.400 --> 00:05:58.640
+you typically need to ask a data scientist&nbsp;
+because you probably don't know how to write&nbsp;&nbsp;
+
+00:05:58.640 --> 00:06:08.240
+SQL queries and so it takes time and maybe you&nbsp;
+just uh move on but now with uh chat RWE that&nbsp;&nbsp;
+
+00:06:08.240 --> 00:06:15.920
+uh democratizes the access to data with rapid&nbsp;
+decision making and allows us to run um these&nbsp;&nbsp;
+
+00:06:15.920 --> 00:06:23.760
+cohort feasibility assessments really quickly. So&nbsp;
+in the chat RW tool, the immense complexity of the&nbsp;&nbsp;
+
+00:06:23.760 --> 00:06:32.720
+data traversal, the synonym retrieval and output&nbsp;
+uh generation is hidden behind a very intuitive&nbsp;&nbsp;
+
+00:06:32.720 --> 00:06:39.840
+uh user interface. You can see there's a chat and&nbsp;
+a set of curated visualizations that empower our&nbsp;&nbsp;
+
+00:06:39.840 --> 00:06:46.000
+scientists to understand whether a generated&nbsp;
+cohort is a good foundation for their research&nbsp;&nbsp;
+
+00:06:46.000 --> 00:06:53.520
+questions. So these visualizations are designed&nbsp;
+to provide the data explorer with the necessary&nbsp;&nbsp;
+
+00:06:53.520 --> 00:07:00.880
+context on the underlying data such as for&nbsp;
+example the distribution of age, the coorbidities,&nbsp;&nbsp;
+
+00:07:00.880 --> 00:07:10.800
+clinical labs, lines of prior treatments etc for&nbsp;
+the uh patient population of interest. Yet for our&nbsp;&nbsp;
+
+00:07:10.800 --> 00:07:17.040
+data scientists that's really where their work&nbsp;
+starts and uh having access to the multimodal&nbsp;&nbsp;
+
+00:07:17.040 --> 00:07:25.280
+data available on data 42 they can now go uh&nbsp;
+do their work in a familiar procode environment&nbsp;&nbsp;
+
+00:07:25.280 --> 00:07:33.600
+such as Jupyter notebook uh to build for example&nbsp;
+new ML or AI models. So now let's take a look at&nbsp;&nbsp;
+
+00:07:33.600 --> 00:07:39.840
+the second example that is uh in production. We&nbsp;
+call it closing the loop. um you will see why.&nbsp;&nbsp;
+
+00:07:39.840 --> 00:07:47.840
+It's an application that we use in all of our uh&nbsp;
+early discovery project teams where we are making&nbsp;&nbsp;
+
+00:07:47.840 --> 00:07:55.040
+hundreds or thousands of uh compounds to predict&nbsp;
+the anticipated human dose. So if you think about&nbsp;&nbsp;
+
+00:07:55.040 --> 00:08:02.880
+uh taking out risk, it's critical to understand&nbsp;
+and predict what might happen in human. And here&nbsp;&nbsp;
+
+00:08:02.880 --> 00:08:10.320
+we can now uh predict the anticipated human dose&nbsp;
+for all of our discovery molecules, learn and&nbsp;&nbsp;
+
+00:08:10.320 --> 00:08:18.800
+uh compare with our clinical data at scale and&nbsp;
+using this automated workflow uh and AI agents as&nbsp;&nbsp;
+
+00:08:18.800 --> 00:08:25.840
+I will show you in a little bit. Our goal here&nbsp;
+was to enable one translational modeler to do&nbsp;&nbsp;
+
+00:08:25.840 --> 00:08:35.360
+something that actually they were not really able&nbsp;
+to do before. And if done for all projects um at&nbsp;&nbsp;
+
+00:08:35.360 --> 00:08:43.440
+scale basically it would take a much bigger team.&nbsp;
+So you can see that closing the loop is yes it's&nbsp;&nbsp;
+
+00:08:43.440 --> 00:08:50.800
+about gaining efficiencies but it also is will&nbsp;
+improve and improves our prediction quality and&nbsp;&nbsp;
+
+00:08:50.800 --> 00:08:58.640
+leads to novel insights. So predicting the right&nbsp;
+dose from animal experiments is a very complex&nbsp;&nbsp;
+
+00:08:58.640 --> 00:09:05.440
+kinetic modeling process with multiple options. So&nbsp;
+what we've done with Palunteer's AIP agents is to&nbsp;&nbsp;
+
+00:09:05.440 --> 00:09:12.320
+automate the creation of all possible scenarios.&nbsp;
+This is what wasn't possible before allowing the&nbsp;&nbsp;
+
+00:09:12.320 --> 00:09:19.120
+modeler to test um the impact of different input&nbsp;
+data and scaling methods. If you do this manually,&nbsp;&nbsp;
+
+00:09:19.120 --> 00:09:26.000
+it just explodes and takes a lot of time. valuable&nbsp;
+pieces of decision rationale and scientific&nbsp;&nbsp;
+
+00:09:26.000 --> 00:09:32.640
+context are captured back into the ontology&nbsp;
+to create a true knowledge base that supports&nbsp;&nbsp;
+
+00:09:32.640 --> 00:09:40.000
+improved predictions downstream. So capitalizing&nbsp;
+on that, we've constructed AIP agents that combine&nbsp;&nbsp;
+
+00:09:40.000 --> 00:09:47.280
+the insights from historical clinical studies that&nbsp;
+have been integrated into the data 42 ontology as&nbsp;&nbsp;
+
+00:09:47.280 --> 00:09:55.040
+well as organizational and industry best practices&nbsp;
+um to provide recommendations uh on modeling&nbsp;&nbsp;
+
+00:09:55.040 --> 00:10:02.880
+decisions. So with every prediction and every&nbsp;
+scientific piece of context that we capture um&nbsp;&nbsp;
+
+00:10:02.880 --> 00:10:10.400
+as lab nodes, this ontology is enriched and will&nbsp;
+inform our future predictions. The AI agent it not&nbsp;&nbsp;
+
+00:10:10.400 --> 00:10:17.040
+only works through the layers of the workflow&nbsp;
+but is also able to transparently justify its&nbsp;&nbsp;
+
+00:10:17.040 --> 00:10:26.720
+recommendations to the modeler while the ontology&nbsp;
+allowing for a true human AI partnership. So at&nbsp;&nbsp;
+
+00:10:26.720 --> 00:10:34.400
+the end of this workflow, all modeling decisions,&nbsp;
+all generated charts charts and all data utilized&nbsp;&nbsp;
+
+00:10:34.400 --> 00:10:41.120
+um from the ontology are transformed into an&nbsp;
+electronic lab notebook entry with traceable&nbsp;&nbsp;
+
+00:10:41.120 --> 00:10:49.840
+sources and transparent artifacts to guarantee&nbsp;
+rep reproducibility. So in summary, I hope you&nbsp;&nbsp;
+
+00:10:49.840 --> 00:10:57.360
+can see that through this combination of agentic&nbsp;
+automated and ad hoc decision making support with&nbsp;&nbsp;
+
+00:10:57.360 --> 00:11:04.000
+full decision traceability, we've been able to&nbsp;
+reduce the time one of our translational modelers&nbsp;&nbsp;
+
+00:11:04.000 --> 00:11:13.120
+usually spends on the human dose prediction per&nbsp;
+compound by approximately 90 98% from one week&nbsp;&nbsp;
+
+00:11:13.120 --> 00:11:21.040
+down to two hours. Today, almost 100% of our small&nbsp;
+molecule projects use closing the loop to help us&nbsp;&nbsp;
+
+00:11:21.040 --> 00:11:28.160
+increase our consistency, reproducibility, and to&nbsp;
+derisk projects much earlier and thus increases&nbsp;&nbsp;
+
+00:11:28.160 --> 00:11:37.520
+our probability of success. So to summarize, if&nbsp;
+you comprehensive data, brilliant scientists,&nbsp;&nbsp;
+
+00:11:37.520 --> 00:11:44.480
+and truly intelligent tools, you can fundamentally&nbsp;
+change the process of drug discovery. So imagine&nbsp;&nbsp;
+
+00:11:44.480 --> 00:11:51.280
+being able to sub supercharge also your data&nbsp;
+scientist with best-in-class access to data,&nbsp;&nbsp;
+
+00:11:51.280 --> 00:11:59.457
+efficient tools, and increasingly autonomous&nbsp;
+and contextrich agents. Thank you. [Applause]
+

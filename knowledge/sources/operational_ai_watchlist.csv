@@ -1,0 +1,33 @@
+source_id,name,category,format,priority,url,feed_url,focus,bias_note,last_verified
+ms-foundry,Microsoft Foundry Blog,agent-platform,blog,A,https://devblogs.microsoft.com/foundry/,https://devblogs.microsoft.com/foundry/feed/,enterprise agents grounding governance observability,first-party vendor,2026-07-14
+google-cloud-ai,Google Cloud AI and ML Blog,agent-platform,blog,A,https://cloud.google.com/blog/topics/ai-machine-learning,https://cloudblog.withgoogle.com/products/ai-machine-learning/rss/,agent runtimes identity governance enterprise deployments,first-party vendor,2026-07-14
+aws-ml,AWS Machine Learning Blog,agent-platform,blog,A,https://aws.amazon.com/blogs/machine-learning/,https://aws.amazon.com/blogs/machine-learning/feed/,AgentOps security evaluation observability architectures,first-party vendor,2026-07-14
+langchain-blog,LangChain Blog,agent-framework,blog,A,https://www.langchain.com/blog,https://www.langchain.com/blog/rss.xml,orchestration LangGraph deployment evaluations,first-party framework vendor,2026-07-14
+langchain-youtube,LangChain YouTube,agent-framework,youtube,A,https://www.youtube.com/@LangChain/videos,,agent demos architecture and community talks,first-party framework vendor,2026-07-14
+temporal-blog,Temporal Blog,durable-execution,blog,A,https://temporal.io/blog,https://temporal.io/blog/feed.xml,durable execution long-running workflows human approval,first-party vendor,2026-07-14
+temporal-youtube,Temporal YouTube,durable-execution,youtube,A,https://www.youtube.com/@Temporalio/videos,,durable workflow talks and implementation demos,first-party vendor,2026-07-14
+arize-blog,Arize AI Blog,observability,blog,A,https://arize.com/blog/,https://arize.com/blog/feed/,agent traces evaluations observability failure analysis,first-party vendor,2026-07-14
+arize-youtube,Arize AI YouTube,observability,youtube,A,https://www.youtube.com/@ArizeAI/videos,,agent debugging evaluation and production case studies,first-party vendor,2026-07-14
+nvidia-blog,NVIDIA Technical Blog,industrial-ai,blog,A,https://developer.nvidia.com/blog/,https://developer.nvidia.com/blog/feed/,industrial AI robotics simulation edge and infrastructure,first-party vendor,2026-07-14
+nvidia-youtube,NVIDIA Developer YouTube,industrial-ai,youtube,A,https://www.youtube.com/@NVIDIADeveloper/videos,,technical sessions industrial AI robotics and agents,first-party vendor,2026-07-14
+databricks-blog,Databricks Blog,data-ai-platform,blog,A,https://www.databricks.com/blog,https://www.databricks.com/feed,enterprise data governance agents and deployments,first-party vendor,2026-07-14
+databricks-youtube,Databricks YouTube,data-ai-platform,youtube,A,https://www.youtube.com/@Databricks/videos,,product architecture and customer talks,first-party vendor,2026-07-14
+anthropic-engineering,Anthropic Engineering,model-lab,blog,A,https://www.anthropic.com/engineering,,agent design context tool use safety and deployment,first-party model lab,2026-07-14
+latent-space,Latent Space,independent-engineering,newsletter,A,https://www.latent.space/,https://www.latent.space/feed,AI engineering interviews and production architecture,community and interview selection,2026-07-14
+cset,CSET,policy-research,research,A,https://cset.georgetown.edu/,,AI compute security industrial base and policy,think tank,2026-07-14
+csis-wadhwani,CSIS Wadhwani AI Center,policy-research,research,A,https://www.csis.org/programs/wadhwani-ai-center,,AI autonomy national security geopolitics governance,think tank,2026-07-14
+openai-news,OpenAI News,model-lab,blog,B,https://openai.com/news/,https://openai.com/news/rss.xml,agent APIs models tools evaluations,first-party model lab,2026-07-14
+llamaindex,LlamaIndex Blog,agent-framework,blog,B,https://www.llamaindex.ai/blog,,enterprise context retrieval workflows,first-party framework vendor,2026-07-14
+ms-developer-youtube,Microsoft Developer YouTube,agent-platform,youtube,B,https://www.youtube.com/@MicrosoftDeveloper/videos,,developer demos and architecture sessions,broad first-party channel,2026-07-14
+google-cloud-youtube,Google Cloud Tech YouTube,agent-platform,youtube,B,https://www.youtube.com/@googlecloudtech/videos,,agent runtime and enterprise demos,broad first-party channel,2026-07-14
+aws-developers-youtube,AWS Developers YouTube,agent-platform,youtube,B,https://www.youtube.com/@awsdevelopers/videos,,Bedrock AgentCore and deployment tutorials,broad first-party channel,2026-07-14
+import-ai,Import AI,independent-analysis,newsletter,B,https://jack-clark.net/,https://jack-clark.net/feed/,research capability policy and industrial implications,author synthesis,2026-07-14
+interconnects,Interconnects,independent-analysis,newsletter,B,https://www.interconnects.ai/,https://www.interconnects.ai/feed,model development RL and open ecosystems,author synthesis,2026-07-14
+semianalysis,SemiAnalysis,infrastructure-analysis,analysis,B,https://semianalysis.com/,https://semianalysis.com/feed/,compute chips data centers and infrastructure economics,analysis and paywall,2026-07-14
+defense-one-ai,Defense One AI and Autonomy,defence-news,news,B,https://www.defenseone.com/topic/ai-autonomy/,,government AI autonomy programs and procurement,journalism,2026-07-14
+industrial-base-alpha,Industrial Base Alpha,defence-analysis,newsletter,B,https://industrialbasealpha.com/substack,,defence technology autonomy manufacturing and investment,market lens,2026-07-14
+shield-ai,Shield AI Newsroom and YouTube,defence-vendor,mixed,C,https://shield.ai/news/,,Hivemind autonomous aircraft and contested autonomy,first-party vendor,2026-07-14
+anduril,Anduril News,defence-vendor,news,C,https://www.anduril.com/news/,,Lattice autonomous systems and defence manufacturing,first-party vendor,2026-07-14
+applied-intuition-defense,Applied Intuition Defense Newsroom,defence-vendor,news,C,https://www.appliedintuitiondefense.com/newsroom,,vehicle autonomy simulation and physical AI,first-party vendor,2026-07-14
+diu,Defense Innovation Unit,government,news,C,https://www.diu.mil/latest,,commercial technology solicitations awards and deployments,government selection bias,2026-07-14
+darpa,DARPA News,government,research,C,https://www.darpa.mil/news,,early AI autonomy cyber and human-machine research,program announcements,2026-07-14

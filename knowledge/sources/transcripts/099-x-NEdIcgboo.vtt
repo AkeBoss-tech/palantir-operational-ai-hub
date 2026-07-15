@@ -1,0 +1,2832 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:07.712 --> 00:00:13.040
+[Music] All right. Well, I think we're&nbsp;
+going to kick off here. Um, Courtney Bowman,&nbsp;&nbsp;
+
+00:00:13.040 --> 00:00:19.120
+thanks for taking the time to talk with me today.&nbsp;
+Anytime. Um, excited. Yeah. I I think that what we&nbsp;&nbsp;
+
+00:00:19.120 --> 00:00:25.520
+thought we would do today is, you know, a bit of a&nbsp;
+telling of the saga of privacy and civil liberties&nbsp;&nbsp;
+
+00:00:25.520 --> 00:00:30.560
+uh since the inception of Palunteer, how it's&nbsp;
+evolved as we've expanded throughout the different&nbsp;&nbsp;
+
+00:00:30.560 --> 00:00:36.000
+mission sets across both government and commercial&nbsp;
+um and kind of go into some of the details and&nbsp;&nbsp;
+
+00:00:36.000 --> 00:00:40.400
+specifically like the technology that we've had&nbsp;
+to build to support these missions. Not just uh&nbsp;&nbsp;
+
+00:00:40.400 --> 00:00:45.120
+the approach or the theory though that's important&nbsp;
+as well as we'll talk about. Um, but maybe to kick&nbsp;&nbsp;
+
+00:00:45.120 --> 00:00:51.520
+off, we can start with just a brief introduction&nbsp;
+as to who you are. Yeah, so I'm Courtney. I I am&nbsp;&nbsp;
+
+00:00:51.520 --> 00:00:56.160
+uh technically the global director of the privacy&nbsp;
+and civil liberties engineering team. Um, I've&nbsp;&nbsp;
+
+00:00:56.160 --> 00:01:01.200
+been in Palunteer since uh late 2010. I was one&nbsp;
+one of the founding members of the PCL team. We&nbsp;&nbsp;
+
+00:01:01.200 --> 00:01:08.080
+call it the PCL team. Um, and I came to Palunteer&nbsp;
+from uh from Google where I've been working on&nbsp;&nbsp;
+
+00:01:08.080 --> 00:01:15.760
+um ad uh auction design and theory. Um uh so kind&nbsp;
+of a entirely different removed world from from&nbsp;&nbsp;
+
+00:01:15.760 --> 00:01:21.280
+what I focus on at at Palunteer. Um but I came to&nbsp;
+Palunteer because I was particularly interested in&nbsp;&nbsp;
+
+00:01:21.280 --> 00:01:27.840
+the mission set. Um and I found it very intriguing&nbsp;
+that the company was uh was focused at the time on&nbsp;&nbsp;
+
+00:01:27.840 --> 00:01:32.480
+kind of building a formal practice around privacy&nbsp;
+engineering. So that was enough of enticement to&nbsp;&nbsp;
+
+00:01:32.480 --> 00:01:39.200
+draw me in. Um uh and so over the years I spent&nbsp;
+a lot of time um uh in different parts of the&nbsp;&nbsp;
+
+00:01:39.200 --> 00:01:46.480
+business. Um I I I started off early on in my role&nbsp;
+in the PCL team focusing a lot on our um state and&nbsp;&nbsp;
+
+00:01:46.480 --> 00:01:51.120
+local government work and law enforcement um&nbsp;
+agencies and learned a lot there and I think&nbsp;&nbsp;
+
+00:01:51.120 --> 00:01:56.000
+we'll have a chance to talk about some of those&nbsp;
+insights. Um but over the years I've I've seen&nbsp;&nbsp;
+
+00:01:56.000 --> 00:02:02.880
+the the the mission set of the PCL team expand&nbsp;
+um uh and uh and branch out into different parts&nbsp;&nbsp;
+
+00:02:02.880 --> 00:02:08.480
+of the evolving business. Um and that's been&nbsp;
+a super cool journey to be a part of. I think&nbsp;&nbsp;
+
+00:02:08.480 --> 00:02:12.960
+that's that's awesome. And I think the eclectic&nbsp;
+background in some ways matches a lot of what&nbsp;&nbsp;
+
+00:02:12.960 --> 00:02:18.320
+attracted me to Palunteer at this point almost&nbsp;
+13 years ago. So I was doing biomedical work and&nbsp;&nbsp;
+
+00:02:18.320 --> 00:02:22.400
+I was like contemplating whether or not to go to&nbsp;
+grad school and you had friends who were coming&nbsp;&nbsp;
+
+00:02:22.400 --> 00:02:26.400
+out to Silicon Valley and working at some of the&nbsp;
+big places. But at the time, as you'll remember,&nbsp;&nbsp;
+
+00:02:26.400 --> 00:02:30.960
+a lot of the like the other side if you weren't&nbsp;
+working at a big tech firm was do we go and join&nbsp;&nbsp;
+
+00:02:30.960 --> 00:02:37.440
+a consumer app startup or do maybe the precursors&nbsp;
+to B2B SAS and it was just the sheer concentration&nbsp;&nbsp;
+
+00:02:37.440 --> 00:02:42.000
+of smart interesting people at Palunteer who at&nbsp;
+the time were working on a fairly narrow set of&nbsp;&nbsp;
+
+00:02:42.000 --> 00:02:46.480
+missions but still very meaningful missions. So,&nbsp;
+it was work in defense and intelligence. It was&nbsp;&nbsp;
+
+00:02:46.480 --> 00:02:51.360
+anti-human trafficking work. It was anti-fraud&nbsp;
+work. Um, it was work in global health and in&nbsp;&nbsp;
+
+00:02:51.360 --> 00:02:56.320
+resilience. And, you know, in some ways, it's&nbsp;
+still kind of a very simple formula where it's&nbsp;&nbsp;
+
+00:02:56.320 --> 00:03:01.600
+like very smart people, very interesting technical&nbsp;
+problems and very ambitious missions. And that's&nbsp;&nbsp;
+
+00:03:01.600 --> 00:03:05.920
+what drew me here and what I think still motivates&nbsp;
+me to this day as I work across the architecture&nbsp;&nbsp;
+
+00:03:05.920 --> 00:03:11.920
+and product teams. Um, so yeah, I think like maybe&nbsp;
+you alluded to it, but is it worth going into a&nbsp;&nbsp;
+
+00:03:11.920 --> 00:03:17.120
+bit of kind of the the founding of Palunteer and&nbsp;
+some of that early theory that informed some of&nbsp;&nbsp;
+
+00:03:17.120 --> 00:03:22.400
+the first things we've built in the PCL space?&nbsp;
+Yeah, I I think folks generally have some sense&nbsp;&nbsp;
+
+00:03:22.400 --> 00:03:29.760
+of the lore of of um the the the origin story&nbsp;
+of Palunteer that um the concept uh came out of&nbsp;&nbsp;
+
+00:03:29.760 --> 00:03:37.280
+the founders who worked at PayPal, but um they&nbsp;
+had some set of insights around the utility of&nbsp;&nbsp;
+
+00:03:37.280 --> 00:03:42.880
+purely machine-driven approaches to dealing with&nbsp;
+complex problems, especially um dealing with um&nbsp;&nbsp;
+
+00:03:42.880 --> 00:03:49.360
+anti-fraud detection in a payment system. Um but&nbsp;
+taking those insights and applying them to a post&nbsp;&nbsp;
+
+00:03:49.360 --> 00:03:55.280
+911 environment where clear observations that&nbsp;
+there were intelligence failings um and that&nbsp;&nbsp;
+
+00:03:55.280 --> 00:04:00.160
+the intelligence community needed to reform but&nbsp;
+it needed to reform in a way that addressed core&nbsp;&nbsp;
+
+00:04:00.160 --> 00:04:08.000
+concerns of constituencies of the American public.&nbsp;
+Um and so that sort of foundational insight&nbsp;&nbsp;
+
+00:04:08.000 --> 00:04:14.240
+um kind of uh congealed into some key&nbsp;
+commitments that drive the company forward.&nbsp;&nbsp;
+
+00:04:14.240 --> 00:04:20.800
+Um foremost the reason why why I have a job and&nbsp;
+I'm gainfully employed um 15 years hence is this&nbsp;&nbsp;
+
+00:04:20.800 --> 00:04:25.280
+sort of this sort of realization that the extent&nbsp;
+to which Palinger is going to be building powerful&nbsp;&nbsp;
+
+00:04:25.280 --> 00:04:31.520
+technologies um that are provided to powerful&nbsp;
+institutions we don't want that work to come at&nbsp;&nbsp;
+
+00:04:31.520 --> 00:04:36.640
+the expense of of the protection of fundamental&nbsp;
+rights um especially privacy and civil liberties&nbsp;&nbsp;
+
+00:04:36.640 --> 00:04:44.080
+interests and um part of the the the difficulty of&nbsp;
+that is that the the traditional kind of mindset&nbsp;&nbsp;
+
+00:04:44.080 --> 00:04:50.480
+of approaching this issue set is that um there's&nbsp;
+a there's a kind of zero sum universe in which&nbsp;&nbsp;
+
+00:04:50.480 --> 00:04:57.840
+either you're you're uh aiming to protect security&nbsp;
+interests of the nation or you're going to protect&nbsp;&nbsp;
+
+00:04:57.840 --> 00:05:03.280
+privacy interests of the citizens. Um and our&nbsp;
+observation and sort of our challenge to that&nbsp;&nbsp;
+
+00:05:03.280 --> 00:05:09.680
+that governing ethos is that that's a false&nbsp;
+dichotomy. Um and there are ways of um through&nbsp;&nbsp;
+
+00:05:09.680 --> 00:05:15.440
+intelligent uh approaches to uh to product design&nbsp;
+through thoughtful approaches to understanding the&nbsp;&nbsp;
+
+00:05:15.440 --> 00:05:20.640
+technosocial dimensions of technology development.&nbsp;
+There are ways of kind of breaking down that zero&nbsp;&nbsp;
+
+00:05:20.640 --> 00:05:26.960
+sum uh set of assumptions and build towards&nbsp;
+multiple optimization parameters. Uh and that's&nbsp;&nbsp;
+
+00:05:26.960 --> 00:05:31.600
+kind of been one of the the driving impulses&nbsp;
+of of our work broadly within Palunteer. And&nbsp;&nbsp;
+
+00:05:31.600 --> 00:05:35.760
+then the central commitment of the PCL team&nbsp;
+is to help make that real in practice. Yeah,&nbsp;&nbsp;
+
+00:05:35.760 --> 00:05:41.120
+I think a lot of what you said about trying to&nbsp;
+resolve those contradictions between more security&nbsp;&nbsp;
+
+00:05:41.120 --> 00:05:45.600
+while having more privacy was the most compelling&nbsp;
+part for a lot of people on the engineering side&nbsp;&nbsp;
+
+00:05:45.600 --> 00:05:50.480
+as to why they joined Palunteer. You know, how&nbsp;
+do you build a system architecture which can&nbsp;&nbsp;
+
+00:05:50.480 --> 00:05:57.040
+maximize security and therefore like the power of&nbsp;
+analysis. So it's not just you know uh low uh data&nbsp;&nbsp;
+
+00:05:57.040 --> 00:06:02.800
+volume limited analysis tooling but it's I need&nbsp;
+to do a combination of graph oriented document&nbsp;&nbsp;
+
+00:06:02.800 --> 00:06:08.480
+processing geospatial analysis top down needle in&nbsp;
+the haststack analysis and these all have to work&nbsp;&nbsp;
+
+00:06:08.480 --> 00:06:13.040
+across essentially different compute frameworks&nbsp;
+um and allow for different users with different&nbsp;&nbsp;
+
+00:06:13.040 --> 00:06:17.520
+scopes to be able to access different information&nbsp;
+and of course that all has to work together and&nbsp;&nbsp;
+
+00:06:17.520 --> 00:06:23.120
+mesh with very robust security architectures that&nbsp;
+allow you to do that analysis when you should and&nbsp;&nbsp;
+
+00:06:23.120 --> 00:06:27.120
+under the circumstances that are allowed. So,&nbsp;
+it's not just simple role-based access controls,&nbsp;&nbsp;
+
+00:06:27.120 --> 00:06:30.960
+but it's having investigation authorizations&nbsp;
+and scopes. Um, it's being able to understand&nbsp;&nbsp;
+
+00:06:30.960 --> 00:06:36.080
+if you and I both give pieces of information that&nbsp;
+enrich a certain object or entity, we know where&nbsp;&nbsp;
+
+00:06:36.080 --> 00:06:40.400
+that came from. So, it's this immutable logging&nbsp;
+framework and dealing in those tensions, I think,&nbsp;&nbsp;
+
+00:06:40.400 --> 00:06:46.480
+was I mean, even from the earliest Gotham days, I&nbsp;
+think the the kind of motivating force and I think&nbsp;&nbsp;
+
+00:06:46.480 --> 00:06:50.640
+about all the resolving of contradictions that&nbsp;
+came after in other phases of the product. And so&nbsp;&nbsp;
+
+00:06:50.640 --> 00:06:55.840
+that's been a theme throughout I think the entire&nbsp;
+product history of Palunteer. Yeah. And it's,&nbsp;&nbsp;
+
+00:06:55.840 --> 00:07:01.600
+you know, I I think one of the the insights that&nbsp;
+that I've developed over the years is that you&nbsp;&nbsp;
+
+00:07:01.600 --> 00:07:08.240
+can be concerned about um protecting privacy in&nbsp;
+the development of a of a powerful information&nbsp;&nbsp;
+
+00:07:08.240 --> 00:07:13.440
+technology platform. But the extent to which you&nbsp;
+try to do it as a bolt-on or as an afterthought,&nbsp;&nbsp;
+
+00:07:13.440 --> 00:07:18.560
+it's going to fail. Yes. because it has to be&nbsp;
+deeply integrated into the the core infrastructure&nbsp;&nbsp;
+
+00:07:18.560 --> 00:07:23.040
+and the primitives of how everything else works.&nbsp;
+Otherwise, things are going to fall through the&nbsp;&nbsp;
+
+00:07:23.040 --> 00:07:27.360
+seams and the cracks. Absolutely. Um I'm wondering&nbsp;
+if you have a few examples or things that stand&nbsp;&nbsp;
+
+00:07:27.360 --> 00:07:31.760
+out from kind of this early era of use cases that&nbsp;
+work pretty well and ones that maybe didn't work&nbsp;&nbsp;
+
+00:07:31.760 --> 00:07:40.480
+as well but we maybe revisited later on. Um yeah&nbsp;
+the um so we spent a lot of as I mentioned I spent&nbsp;&nbsp;
+
+00:07:40.480 --> 00:07:47.920
+a a few of my a big chunk of my um initial period&nbsp;
+at Palunteer focusing on um one of the the core&nbsp;&nbsp;
+
+00:07:47.920 --> 00:07:52.080
+core areas of the business at the time which is&nbsp;
+which was our state and local government work. Um&nbsp;&nbsp;
+
+00:07:52.080 --> 00:07:58.320
+so primarily law enforcement agencies uh at the&nbsp;
+state and local level uh in some fusion centers&nbsp;&nbsp;
+
+00:07:58.320 --> 00:08:03.600
+um throughout the the western states. Um, and&nbsp;
+this is already a complex sensitive environment&nbsp;&nbsp;
+
+00:08:03.600 --> 00:08:08.800
+where there's there's pretty core privacy&nbsp;
+concerns uh and and privacy interests that&nbsp;&nbsp;
+
+00:08:08.800 --> 00:08:14.080
+motivate the work. Um, dealing with a complex&nbsp;
+environment where there's different classes of&nbsp;&nbsp;
+
+00:08:14.080 --> 00:08:19.280
+information that's brought together in different&nbsp;
+environments. Uh, and this is a space where we we&nbsp;&nbsp;
+
+00:08:19.280 --> 00:08:23.440
+kind of had to figure out how to make it work with&nbsp;
+the the security infrastructure and the access&nbsp;&nbsp;
+
+00:08:23.440 --> 00:08:30.240
+control model to ensure that data was limited&nbsp;
+for specific purposes. Um, one thing that we we&nbsp;&nbsp;
+
+00:08:30.240 --> 00:08:35.520
+really focused on in in those early years is um&nbsp;
+some particular provisions for managing specific&nbsp;&nbsp;
+
+00:08:35.520 --> 00:08:40.960
+classes of law enforcement information. Um, so&nbsp;
+criminal intelligence has particular requirements&nbsp;&nbsp;
+
+00:08:40.960 --> 00:08:46.160
+for how how it has to be acquired, how it has to&nbsp;
+be managed over time. And then more critically,&nbsp;&nbsp;
+
+00:08:46.160 --> 00:08:51.120
+um, how it has to be deleted after a certain&nbsp;
+period. So for some sub sets of this data,&nbsp;&nbsp;
+
+00:08:51.120 --> 00:08:56.080
+it has it's subject to a five-year retention&nbsp;
+rule. Um, and if there's not a continuing nexus to&nbsp;&nbsp;
+
+00:08:56.080 --> 00:09:01.840
+criminal suspicion or activity, at five years, the&nbsp;
+data has to go out the door. Um, so we we spent a&nbsp;&nbsp;
+
+00:09:01.840 --> 00:09:07.760
+lot of time kind of modeling different frameworks&nbsp;
+for tracking that that information um uh tying it&nbsp;&nbsp;
+
+00:09:07.760 --> 00:09:13.360
+to ongoing casework and then at the end of the&nbsp;
+cycle making a clear determination whether it&nbsp;&nbsp;
+
+00:09:13.360 --> 00:09:17.680
+was consistent with holding requirements&nbsp;
+or whether it had to be deleted. So that&nbsp;&nbsp;
+
+00:09:17.680 --> 00:09:22.240
+that figured into several different components&nbsp;
+of how we think about the security and privacy&nbsp;&nbsp;
+
+00:09:22.240 --> 00:09:27.840
+architecture. It's the access control model. It's&nbsp;
+the selective revelation of data. Um it's the&nbsp;&nbsp;
+
+00:09:27.840 --> 00:09:32.720
+uh the retention rules and then on the back end&nbsp;
+it's sort of the tracking all those pieces from&nbsp;&nbsp;
+
+00:09:32.720 --> 00:09:37.440
+an audit perspective to make sure that you can&nbsp;
+have a accountable framework and say that yes we&nbsp;&nbsp;
+
+00:09:37.440 --> 00:09:42.560
+we handled this data appropriately. Um so we we&nbsp;
+dealt with this with a number of different data&nbsp;&nbsp;
+
+00:09:42.560 --> 00:09:48.000
+sources but specifically we we built a kind&nbsp;
+of module around gang intelligence which is a&nbsp;&nbsp;
+
+00:09:48.000 --> 00:09:52.640
+particularly sensitive subclass of data. Um, and&nbsp;
+I'm pretty proud of the work that we did in the&nbsp;&nbsp;
+
+00:09:52.640 --> 00:10:00.480
+space. I I my you know, my uh retrospective um&nbsp;
+sense of failure there was that we couldn't get&nbsp;&nbsp;
+
+00:10:00.480 --> 00:10:06.960
+more traction on this. We built a really powerful&nbsp;
+um gang intelligence module that um adhered very&nbsp;&nbsp;
+
+00:10:06.960 --> 00:10:11.840
+rigorously and did some advanced stuff in terms&nbsp;
+of dealing with some of the the um the security&nbsp;&nbsp;
+
+00:10:11.840 --> 00:10:17.040
+and privacy uh and regulatory concerns, but we&nbsp;
+could never kind of get it off the ground with&nbsp;&nbsp;
+
+00:10:17.040 --> 00:10:22.480
+from a broad adoption perspective. So that was&nbsp;
+that was both cool and a little bit disappointing.&nbsp;&nbsp;
+
+00:10:22.480 --> 00:10:27.360
+Um another instance of work that we did is&nbsp;
+around another class of sensitive information&nbsp;&nbsp;
+
+00:10:27.360 --> 00:10:34.080
+um automatic license plate reader data. So um this&nbsp;
+is this is an area that's been subject to a lot of&nbsp;&nbsp;
+
+00:10:34.080 --> 00:10:40.960
+um privacy advocacy and civil society concern. um&nbsp;
+its concern around um sort of broad collection of&nbsp;&nbsp;
+
+00:10:40.960 --> 00:10:44.400
+publicly available information where&nbsp;
+cars are moving and the ability to&nbsp;&nbsp;
+
+00:10:44.400 --> 00:10:50.560
+identify that and potentially create patterns&nbsp;
+of life analysis without criminal suspicion um&nbsp;&nbsp;
+
+00:10:50.560 --> 00:10:56.480
+or or limiting that that that information use for&nbsp;
+specific contexts. Um so we spent a lot of time&nbsp;&nbsp;
+
+00:10:56.480 --> 00:11:04.400
+and effort kind of building an approach to alper&nbsp;
+data um uh management um that uh really focused&nbsp;&nbsp;
+
+00:11:04.400 --> 00:11:11.680
+on limiting the access and the use for specific&nbsp;
+applications um uh enforced retention timelines&nbsp;&nbsp;
+
+00:11:11.680 --> 00:11:16.720
+for holding the data for fixed periods. um and&nbsp;
+then did a bunch of oversight uh capabilities to&nbsp;&nbsp;
+
+00:11:16.720 --> 00:11:22.720
+ensure that the the system was used appropriately&nbsp;
+and only accessed for specific purposes that a an&nbsp;&nbsp;
+
+00:11:22.720 --> 00:11:28.160
+end user would have to certify and that became&nbsp;
+part of the audit trail in the back end. Um and&nbsp;&nbsp;
+
+00:11:28.160 --> 00:11:34.160
+the kind of cool successful uh outcome of this is&nbsp;
+um the the provisions capabilities that we laid&nbsp;&nbsp;
+
+00:11:34.160 --> 00:11:41.680
+out in the development of of of this application&nbsp;
+of Alper uh uh capabilities um uh basically became&nbsp;&nbsp;
+
+00:11:41.680 --> 00:11:49.040
+uh sort of the baseline for um a California state&nbsp;
+bill. I think it was California bill 34. Like all&nbsp;&nbsp;
+
+00:11:49.040 --> 00:11:53.680
+the provisions that we built into the system and&nbsp;
+and publicly talked about were ultimately things&nbsp;&nbsp;
+
+00:11:53.680 --> 00:11:58.240
+that became embedded in in state laws. the kind of&nbsp;
+the gold standard for dealing with the sensitive&nbsp;&nbsp;
+
+00:11:58.240 --> 00:12:03.760
+class of of law enforcement data. So, that was a&nbsp;
+pretty cool um indication of where we were able&nbsp;&nbsp;
+
+00:12:03.760 --> 00:12:08.480
+and I I don't want to take credit that we um you&nbsp;
+know directly informed all of the legislation,&nbsp;&nbsp;
+
+00:12:08.480 --> 00:12:13.680
+but I think we proved a model of how this can&nbsp;
+be done responsibly um that other institutions&nbsp;&nbsp;
+
+00:12:13.680 --> 00:12:18.000
+could take on board. No, for sure. And I think as&nbsp;
+we'll talk about I think as we go through the the&nbsp;&nbsp;
+
+00:12:18.000 --> 00:12:23.840
+other points in time that kind of uh ability to to&nbsp;
+work with lawmakers or at least inform the process&nbsp;&nbsp;
+
+00:12:23.840 --> 00:12:28.960
+uh is a recurring theme as well. Um when I&nbsp;
+think about this period you know some of the the&nbsp;&nbsp;
+
+00:12:28.960 --> 00:12:33.360
+interesting things that lasted those things that&nbsp;
+we tried that didn't necessarily last you know&nbsp;&nbsp;
+
+00:12:33.360 --> 00:12:38.080
+of course this was the genesis of the palunteer&nbsp;
+ontology system right in its first incarnations.&nbsp;&nbsp;
+
+00:12:38.080 --> 00:12:42.560
+And so when we think about the applications&nbsp;
+in defense and intelligence, uh, you know,&nbsp;&nbsp;
+
+00:12:42.560 --> 00:12:46.160
+it was being able to say you're not going to just&nbsp;
+deal in rows and columns of data, but you can&nbsp;&nbsp;
+
+00:12:46.160 --> 00:12:50.640
+actually have a semantic understanding of these&nbsp;
+people, these events, these locations, the routes&nbsp;&nbsp;
+
+00:12:50.640 --> 00:12:54.960
+you're taking, the information being gathered&nbsp;
+from the field versus what came maybe uh from&nbsp;&nbsp;
+
+00:12:54.960 --> 00:13:00.320
+from source systems. Um, and like it was it's it's&nbsp;
+again a very ergonomic way of accessing data that&nbsp;&nbsp;
+
+00:13:00.320 --> 00:13:05.440
+can allow analytical, operational, and technical&nbsp;
+users to all work together. And of course there's&nbsp;&nbsp;
+
+00:13:05.440 --> 00:13:10.080
+cross applicability to that outside of these&nbsp;
+domains. Um and so we had some interesting&nbsp;&nbsp;
+
+00:13:10.080 --> 00:13:16.000
+expeditions I would say in anti-moneylaundering&nbsp;
+in work that was anti- fraud um with with the&nbsp;&nbsp;
+
+00:13:16.000 --> 00:13:20.000
+kind of the Gotham ontology product you know I&nbsp;
+think colloquially kind of catch the bad guy type&nbsp;&nbsp;
+
+00:13:20.000 --> 00:13:25.120
+workflows right but fundamentally the system was&nbsp;
+very designed for those defense and intelligence&nbsp;&nbsp;
+
+00:13:25.120 --> 00:13:29.760
+workflows. Um though there was a precursor to&nbsp;
+what would eventually get built later on that&nbsp;&nbsp;
+
+00:13:29.760 --> 00:13:34.960
+was more general. Um, and I think that's that's&nbsp;
+also true for uh some of the workflows that&nbsp;&nbsp;
+
+00:13:34.960 --> 00:13:38.640
+actually ended up going into another product.&nbsp;
+So, Gotham's early sibling was Metropolis,&nbsp;&nbsp;
+
+00:13:38.640 --> 00:13:42.800
+which was a financeoriented ontology. I think&nbsp;
+every palitarian smiles and thinks fondly in some&nbsp;&nbsp;
+
+00:13:42.800 --> 00:13:47.120
+ways about Metropolis. Again, very interesting&nbsp;
+in how it thought about time series data, the&nbsp;&nbsp;
+
+00:13:47.120 --> 00:13:53.040
+domain specific ontology modeling in in in finance&nbsp;
+workflows, but uh was once again a precursor what&nbsp;&nbsp;
+
+00:13:53.040 --> 00:13:58.400
+would come later. And so I think you know the kind&nbsp;
+of ethos of forward deployed engineering of trying&nbsp;&nbsp;
+
+00:13:58.400 --> 00:14:03.440
+to see how it can work, what generalizes, what&nbsp;
+doesn't was in full swing at this point in the&nbsp;&nbsp;
+
+00:14:03.440 --> 00:14:09.840
+early history. Yeah. I I go off script a little&nbsp;
+bit but like I I remember one of the my earliest&nbsp;&nbsp;
+
+00:14:09.840 --> 00:14:17.360
+hackweek projects um with Andrew Gervin. Yes. Um,&nbsp;
+so I I was coming out of uh uh my my former job&nbsp;&nbsp;
+
+00:14:17.360 --> 00:14:23.120
+had been working as a quantitative analyst on on&nbsp;
+kind of auction stuff was doing a lot with with&nbsp;&nbsp;
+
+00:14:23.120 --> 00:14:30.480
+numbers and modeling and we the project that we&nbsp;
+built out um was an anh helper for Gotham as a way&nbsp;&nbsp;
+
+00:14:30.480 --> 00:14:37.520
+of kind of wedging the pieces of of um standard&nbsp;
+um uh mathematical statistical modeling into&nbsp;&nbsp;
+
+00:14:37.520 --> 00:14:44.320
+this ontologically based environment. Um and it it&nbsp;
+kind of worked. we we got a little bit to we got&nbsp;&nbsp;
+
+00:14:44.320 --> 00:14:51.120
+a useful application that was useful for for for&nbsp;
+some um versions of of workflows, but uh I think&nbsp;&nbsp;
+
+00:14:51.120 --> 00:14:56.720
+it was a precursor of where we needed to develop&nbsp;
+the product down the road. Um I have my maybe I'll&nbsp;&nbsp;
+
+00:14:56.720 --> 00:15:01.200
+end with my own Andrew Gerbin shout out as well.&nbsp;
+My first day at Palanteer, I sat down next to&nbsp;&nbsp;
+
+00:15:01.200 --> 00:15:07.200
+Andrew Gerbin and he had in Gotham a custom helper&nbsp;
+he had built that showed uh the actual molecular&nbsp;&nbsp;
+
+00:15:07.200 --> 00:15:13.040
+3D structure of some I think you know biological&nbsp;
+precursors in this case and he was really pushing&nbsp;&nbsp;
+
+00:15:13.040 --> 00:15:17.520
+the limits of what you could do I think with the&nbsp;
+on the ontology and the whole kind of architecture&nbsp;&nbsp;
+
+00:15:17.520 --> 00:15:21.360
+at the time but I was amazed and again don't&nbsp;
+want to get ahead of ourselves but seeing what&nbsp;&nbsp;
+
+00:15:21.360 --> 00:15:26.640
+that work was eventually able to become through&nbsp;
+successor architectures uh was one of the most&nbsp;&nbsp;
+
+00:15:26.640 --> 00:15:31.360
+awesome things I think that I was able kind of see&nbsp;
+firsthand. Yeah. So maybe fast forwarding a bit&nbsp;&nbsp;
+
+00:15:31.360 --> 00:15:38.160
+now to let's say the mid2010s. Yeah. Uh and our&nbsp;
+expansion into the commercial sectors in earnest&nbsp;&nbsp;
+
+00:15:38.160 --> 00:15:43.680
+and our work across Europe. Um you know this is&nbsp;
+when GDPR was really coming into being and this&nbsp;&nbsp;
+
+00:15:43.680 --> 00:15:47.840
+is when a lot of as we'll talk about some of the&nbsp;
+other industry trends were kind of coalescing in&nbsp;&nbsp;
+
+00:15:47.840 --> 00:15:51.600
+kind of the cloud and data space. I'm curious if&nbsp;
+you can speak to kind of this period especially&nbsp;&nbsp;
+
+00:15:51.600 --> 00:15:57.280
+from the privacy and civil liberties perspective.&nbsp;
+Yeah, this is a really interesting period in&nbsp;&nbsp;
+
+00:15:57.280 --> 00:16:02.400
+modern information privacy. Um, because if if you&nbsp;
+really want to unpack what what was happening,&nbsp;&nbsp;
+
+00:16:02.400 --> 00:16:09.520
+you you kind of have to go back to the the Snowden&nbsp;
+revelations in 2013. Um, and this was a bit of an&nbsp;&nbsp;
+
+00:16:09.520 --> 00:16:14.080
+earthshattering moment because it called attention&nbsp;
+to concerns around the intelligence community&nbsp;&nbsp;
+
+00:16:14.080 --> 00:16:21.920
+uh and access to data. Um those concerns both&nbsp;
+identified specific issues with the intelligence&nbsp;&nbsp;
+
+00:16:21.920 --> 00:16:28.080
+community but also started to create fractures&nbsp;
+in the transatlantic agreements that allowed&nbsp;&nbsp;
+
+00:16:28.080 --> 00:16:34.880
+information to be shared across uh across the&nbsp;
+Atlantic by multinational agencies. Um and um&nbsp;&nbsp;
+
+00:16:34.880 --> 00:16:39.280
+so that led to a kind of a breakdown with existing&nbsp;
+infrastructure that that was in place. It allowed&nbsp;&nbsp;
+
+00:16:39.280 --> 00:16:44.720
+the free flow of information. It led to a lot of&nbsp;
+negotiations between the European Commission and&nbsp;&nbsp;
+
+00:16:44.720 --> 00:16:50.000
+um the Department of of Commerce and other&nbsp;
+regulatory agencies in in the US. um and it really&nbsp;&nbsp;
+
+00:16:50.000 --> 00:16:57.200
+hypercharged um Europe's attempt to come up with a&nbsp;
+kind of comprehensive consumer data protection uh&nbsp;&nbsp;
+
+00:16:57.200 --> 00:17:02.400
+regulation that spanned all the markets and that&nbsp;
+had this extr territorial application which meant&nbsp;&nbsp;
+
+00:17:02.400 --> 00:17:09.920
+which means that um it applies outside of the the&nbsp;
+continental Europe um to any commercial entity and&nbsp;&nbsp;
+
+00:17:09.920 --> 00:17:16.960
+other types of entities that operate with respect&nbsp;
+to European residents and citizens data. Um so&nbsp;&nbsp;
+
+00:17:16.960 --> 00:17:22.480
+GDPR general data protection regulation um started&nbsp;
+to go through multiple rounds of drafting in kind&nbsp;&nbsp;
+
+00:17:22.480 --> 00:17:28.880
+of 2016 time frame. Um uh and then was sort of&nbsp;
+solidified and and came into into force in in&nbsp;&nbsp;
+
+00:17:28.880 --> 00:17:35.360
+2018. Um and this was a kind of pivotal moment for&nbsp;
+us because we were following all these trends but&nbsp;&nbsp;
+
+00:17:35.360 --> 00:17:40.000
+also on the back of the work and the development&nbsp;
+and insights that we had built up over years and&nbsp;&nbsp;
+
+00:17:40.000 --> 00:17:45.360
+years of working in highly sensitive environments&nbsp;
+um in intelligence community in defense and and&nbsp;&nbsp;
+
+00:17:45.360 --> 00:17:51.360
+law enforcement. We really had strong intuitions&nbsp;
+about how uh how you need to structure information&nbsp;&nbsp;
+
+00:17:51.360 --> 00:17:57.200
+technology to manage a lot of these these concerns&nbsp;
+and risks. Um so in in the US um we have a kind&nbsp;&nbsp;
+
+00:17:57.200 --> 00:18:01.520
+of traditional framework the fair information&nbsp;
+practice principles which include things like&nbsp;&nbsp;
+
+00:18:01.520 --> 00:18:08.720
+data minimization um selective revelation um&nbsp;
+use limitation uh oversight and accountability&nbsp;&nbsp;
+
+00:18:08.720 --> 00:18:13.040
+uh uh principles but all these things were things&nbsp;
+that we had embedded into the core infrastructure&nbsp;&nbsp;
+
+00:18:13.040 --> 00:18:18.240
+of Gotham and we we we kind of knew what it takes&nbsp;
+to make this work in a reliable trustworthy sense&nbsp;&nbsp;
+
+00:18:18.240 --> 00:18:22.880
+and we saw these developments on the other&nbsp;
+side of the Atlantic. Um and this created a&nbsp;&nbsp;
+
+00:18:22.880 --> 00:18:27.520
+a large opening for us to start to reach out&nbsp;
+to and develop relationships with commercial&nbsp;&nbsp;
+
+00:18:27.520 --> 00:18:34.400
+entities in Europe. Um and because of that um we&nbsp;
+were able to out of the gate kind of already offer&nbsp;&nbsp;
+
+00:18:34.400 --> 00:18:40.640
+core approaches and insights into how European&nbsp;
+companies and transnationals that were in other&nbsp;&nbsp;
+
+00:18:40.640 --> 00:18:46.880
+markets including the US um could could start to&nbsp;
+address these emerging set of concerns and uh and&nbsp;&nbsp;
+
+00:18:46.880 --> 00:18:52.800
+provisions under GDPR. Um so there was a lot of&nbsp;
+kind of ba basic uh infrastructure that we had&nbsp;&nbsp;
+
+00:18:52.800 --> 00:18:58.480
+built early on that was kind of critical to how&nbsp;
+these systems um could be made to work in in in&nbsp;&nbsp;
+
+00:18:58.480 --> 00:19:02.160
+this complex regulatory environments and it was&nbsp;
+one of the reasons why we got so much traction in&nbsp;&nbsp;
+
+00:19:02.160 --> 00:19:07.360
+the European marketplace uh in the mid uh 2010s.&nbsp;
+No, I think that's that's really interesting and&nbsp;&nbsp;
+
+00:19:07.360 --> 00:19:12.000
+it also dovtales a lot with kind of the more&nbsp;
+industry-wide trends we're seeing across the&nbsp;&nbsp;
+
+00:19:12.000 --> 00:19:17.360
+world. So at this point I think about you know the&nbsp;
+2016 to 2018 eras a lot of commercial enterprises&nbsp;&nbsp;
+
+00:19:17.360 --> 00:19:21.600
+especially were saying we're going to start moving&nbsp;
+workloads to the cloud at least the analytics or&nbsp;&nbsp;
+
+00:19:21.600 --> 00:19:26.320
+data ones. We now have a data strategy around&nbsp;
+trying to centralize data, building a data lake,&nbsp;&nbsp;
+
+00:19:26.320 --> 00:19:30.560
+building a data platform. And I think like the&nbsp;
+the kind of motivation behind the motivation for&nbsp;&nbsp;
+
+00:19:30.560 --> 00:19:35.440
+many were how do we basically unlock the value&nbsp;
+of all this information or data that's trapped&nbsp;&nbsp;
+
+00:19:35.440 --> 00:19:40.000
+in different parts of the enterprise and make&nbsp;
+that useful for operations, make that useful for&nbsp;&nbsp;
+
+00:19:40.000 --> 00:19:45.840
+strategy. And so this was the genesis of Foundry,&nbsp;
+um, which is our broad-based platform, which now&nbsp;&nbsp;
+
+00:19:45.840 --> 00:19:50.880
+underpins essentially all the workloads that we do&nbsp;
+worldwide. And of course, Apollo underpins that.&nbsp;&nbsp;
+
+00:19:50.880 --> 00:19:56.400
+Um but uh you know if I think about the principles&nbsp;
+from that first period with the original Gotham&nbsp;&nbsp;
+
+00:19:56.400 --> 00:20:01.040
+and Metropolis work that informed the design of&nbsp;
+Foundry a lot of these same principles were once&nbsp;&nbsp;
+
+00:20:01.040 --> 00:20:06.880
+again imperative right so if you think about the&nbsp;
+need for uh granular security over data elements&nbsp;&nbsp;
+
+00:20:06.880 --> 00:20:11.840
+so not just row level or column level access but&nbsp;
+the intersection of these things um being able&nbsp;&nbsp;
+
+00:20:11.840 --> 00:20:16.800
+to understand the derivation and flow of data&nbsp;
+so if you're deriving new information how does&nbsp;&nbsp;
+
+00:20:16.800 --> 00:20:21.360
+security flow with that information especially&nbsp;
+if you're now working across big multin ational&nbsp;&nbsp;
+
+00:20:21.360 --> 00:20:26.560
+cross functional organizations. Um the importance&nbsp;
+of lineage. So always being able to dynamically&nbsp;&nbsp;
+
+00:20:26.560 --> 00:20:31.520
+understand where data inputs came from, who&nbsp;
+authored it, who ingested the data, which&nbsp;&nbsp;
+
+00:20:31.520 --> 00:20:36.160
+version of it was touched by which people. Uh kind&nbsp;
+of the entire who done it, but at a very specific&nbsp;&nbsp;
+
+00:20:36.160 --> 00:20:40.400
+level of detail. Um and then all the things that&nbsp;
+you mentioned as well on audit capabilities and&nbsp;&nbsp;
+
+00:20:40.400 --> 00:20:44.800
+being able to understand especially as you think&nbsp;
+about these regulatory frameworks how to post&nbsp;&nbsp;
+
+00:20:44.800 --> 00:20:51.760
+hawk or in a dynamic way understand the usage of&nbsp;
+information not just as the data resides in the&nbsp;&nbsp;
+
+00:20:51.760 --> 00:20:56.480
+platform but as it's being used in applications&nbsp;
+or different analytical tools that are built.&nbsp;&nbsp;
+
+00:20:56.480 --> 00:21:00.720
+Yeah. Let me let me double tap um a couple of&nbsp;
+the things that that you're calling out because&nbsp;&nbsp;
+
+00:21:00.720 --> 00:21:05.360
+it's worth underscoring going back to this theme&nbsp;
+of how the primitives set up the infrastructure&nbsp;&nbsp;
+
+00:21:05.360 --> 00:21:12.240
+to be able to deal with complex regulatory&nbsp;
+obligations. Um lineage and provenence are&nbsp;&nbsp;
+
+00:21:12.240 --> 00:21:17.440
+especially critical from a workflow perspective&nbsp;
+but also from from a data protection perspective.&nbsp;&nbsp;
+
+00:21:17.440 --> 00:21:23.680
+Um and go back to the discussion around GDPR. One&nbsp;
+of the things that GDPR introduced or reaffirmed&nbsp;&nbsp;
+
+00:21:23.680 --> 00:21:28.800
+is a set of of rights that individuals have and&nbsp;
+are able to assert with respect to how their&nbsp;&nbsp;
+
+00:21:28.800 --> 00:21:35.280
+data is held and managed by um entities that uh&nbsp;
+corporate entities and and other public public&nbsp;&nbsp;
+
+00:21:35.280 --> 00:21:41.920
+service entities. Um but this is fundamentally a&nbsp;
+really hard thing to do because it some examples&nbsp;&nbsp;
+
+00:21:41.920 --> 00:21:47.920
+of data subject rights are things like um just&nbsp;
+access to the data that that is transacted, used,&nbsp;&nbsp;
+
+00:21:47.920 --> 00:21:52.560
+processed by by a company. but more advanced&nbsp;
+um rights like the right to be forgotten,&nbsp;&nbsp;
+
+00:21:52.560 --> 00:21:57.760
+the right to have my data deleted um if there's&nbsp;
+no longer legitimate purpose for handling it. This&nbsp;&nbsp;
+
+00:21:57.760 --> 00:22:02.560
+is the these things are actually really hard to&nbsp;
+do in practice if you're dealing with a complex&nbsp;&nbsp;
+
+00:22:02.560 --> 00:22:09.280
+institution that has sprawling data uh data assets&nbsp;
+and infrastructure, lots of different workflows,&nbsp;&nbsp;
+
+00:22:09.280 --> 00:22:14.880
+um branches in those workflows over time, um and&nbsp;
+all sorts of endpoints that are really hard to&nbsp;&nbsp;
+
+00:22:14.880 --> 00:22:20.880
+track. And so having the kind of infrastructure to&nbsp;
+be able to do the lineage and provenence control&nbsp;&nbsp;
+
+00:22:20.880 --> 00:22:26.080
+um uh is actually critical to being able to&nbsp;
+identify where an individual's data resides&nbsp;&nbsp;
+
+00:22:26.080 --> 00:22:31.600
+where it's been transformed um and processed over&nbsp;
+time and to go into each of those components and&nbsp;&nbsp;
+
+00:22:31.600 --> 00:22:38.080
+select them and either return that as a as a um as&nbsp;
+a access request or um delete it if if there's a&nbsp;&nbsp;
+
+00:22:38.080 --> 00:22:43.760
+deletion requirement. Absolutely. And if I think&nbsp;
+about some of the you know customers uh that were&nbsp;&nbsp;
+
+00:22:43.760 --> 00:22:49.440
+kind of uh instrumental at this time to us like&nbsp;
+entering the commercial market and growing these&nbsp;&nbsp;
+
+00:22:49.440 --> 00:22:54.880
+were companies like BP, companies like Airbus&nbsp;
+which had you know essentially footprints across&nbsp;&nbsp;
+
+00:22:54.880 --> 00:23:00.320
+every geography you can think oftent times with&nbsp;
+very uh specific policies in place that were&nbsp;&nbsp;
+
+00:23:00.320 --> 00:23:06.240
+somewhat different across regions especially even&nbsp;
+even within Europe right and so uh these were not&nbsp;&nbsp;
+
+00:23:06.240 --> 00:23:10.640
+just workflows around saying we're going to put&nbsp;
+data in a place and hope that you know it's useful&nbsp;&nbsp;
+
+00:23:10.640 --> 00:23:14.640
+someday. These were highly operational workflows.&nbsp;
+You know it was how do we manage our oil wells or&nbsp;&nbsp;
+
+00:23:14.640 --> 00:23:20.800
+our reservoirs? How do we ramp production on you&nbsp;
+know the A350? Um and what's interesting and I&nbsp;&nbsp;
+
+00:23:20.800 --> 00:23:26.240
+think what's been core to our work is you want to&nbsp;
+enable organic crossf functional work where design&nbsp;&nbsp;
+
+00:23:26.240 --> 00:23:31.280
+might start with a use case but then assembly&nbsp;
+wants to chip in or you might have integrity&nbsp;&nbsp;
+
+00:23:31.280 --> 00:23:35.120
+do a use case and then you want production to be&nbsp;
+able to help and how do you actually facilitate&nbsp;&nbsp;
+
+00:23:35.120 --> 00:23:40.720
+those kind of crossunctional workflows or these&nbsp;
+collaborative realms um while adhering to all of&nbsp;&nbsp;
+
+00:23:40.720 --> 00:23:44.800
+the policies and dictates that are there for&nbsp;
+a reason. And so it was a really interesting&nbsp;&nbsp;
+
+00:23:44.800 --> 00:23:50.720
+tension or trying to resolve the contradictions&nbsp;
+again. Uh trying to build these operational tools&nbsp;&nbsp;
+
+00:23:50.720 --> 00:23:56.080
+in the early days of Foundry with these initial&nbsp;
+customers. Um and also making sure that like we&nbsp;&nbsp;
+
+00:23:56.080 --> 00:23:59.760
+were meeting all the challenges, crossing all&nbsp;
+the tees, dotting all the eyes uh when it came&nbsp;&nbsp;
+
+00:23:59.760 --> 00:24:04.480
+to the core infrastructure and privacy asurances.&nbsp;
+Yeah. And we we saw lots of synergies in kind of&nbsp;&nbsp;
+
+00:24:04.480 --> 00:24:10.400
+building on the architecture across the full range&nbsp;
+of of clients that we were expanding into both in&nbsp;&nbsp;
+
+00:24:10.400 --> 00:24:16.080
+the commercial realm but also in the international&nbsp;
+government realm. Right. So maybe one example um&nbsp;&nbsp;
+
+00:24:16.080 --> 00:24:22.800
+we work with a couple of of European agencies that&nbsp;
+focus on um customs and transportation. And so&nbsp;&nbsp;
+
+00:24:22.800 --> 00:24:27.440
+part of their mandate is to handle passengers that&nbsp;
+are moving in and out of uh you know the country&nbsp;&nbsp;
+
+00:24:27.440 --> 00:24:32.960
+and understand the flow of people uh and deal&nbsp;
+with highly sensitive records like um uh passenger&nbsp;&nbsp;
+
+00:24:32.960 --> 00:24:38.880
+manifests uh and their their formal restrictions&nbsp;
+on how that data can be used and managed over&nbsp;&nbsp;
+
+00:24:38.880 --> 00:24:43.920
+time and how it can be applied for potential&nbsp;
+investigations. is if there's cause to um to&nbsp;&nbsp;
+
+00:24:43.920 --> 00:24:50.000
+to maybe look into a specific passenger moving&nbsp;
+through. Um but because of the this infrastructure&nbsp;&nbsp;
+
+00:24:50.000 --> 00:24:55.440
+that we that we had built and um one of the the&nbsp;
+the kind of um things that I was I was poking at&nbsp;&nbsp;
+
+00:24:55.440 --> 00:25:00.720
+earlier um the ability to be able to manage&nbsp;
+that information, identify where it was, how&nbsp;&nbsp;
+
+00:25:00.720 --> 00:25:06.240
+it's used and and to have an uh an architecture&nbsp;
+in place to be able to do reliable deletion.&nbsp;&nbsp;
+
+00:25:06.240 --> 00:25:12.160
+um we were able to enable these institutions to&nbsp;
+carry out their responsibilities in limited use&nbsp;&nbsp;
+
+00:25:12.160 --> 00:25:18.480
+um purpose- specific uh driven applications that&nbsp;
+ultimately once the data is done and no longer&nbsp;&nbsp;
+
+00:25:18.480 --> 00:25:24.880
+can be held can be um reliably deleted um to be&nbsp;
+consistent with with a regulatory framework. Um&nbsp;&nbsp;
+
+00:25:24.880 --> 00:25:29.440
+on the commercial side of the business at the same&nbsp;
+time we were uh exploring a lot of work and doing&nbsp;&nbsp;
+
+00:25:29.440 --> 00:25:36.000
+a lot of work with highly regulated industries um&nbsp;
+like financial services uh insurance agencies and&nbsp;&nbsp;
+
+00:25:36.000 --> 00:25:43.600
+um you know we started to see precursors of of the&nbsp;
+um the the AI revolution that that was to come. Um&nbsp;&nbsp;
+
+00:25:43.600 --> 00:25:50.800
+so increasingly insurance agencies um wanted to&nbsp;
+look at ways of understanding risk information.&nbsp;&nbsp;
+
+00:25:50.800 --> 00:25:55.360
+uh in insurance agencies are kind of the longest&nbsp;
+stand one of the longest standing institutions&nbsp;&nbsp;
+
+00:25:55.360 --> 00:26:01.600
+that do advanced statistical analysis to define&nbsp;
+risk pools. Um but increasingly they're they were&nbsp;&nbsp;
+
+00:26:01.600 --> 00:26:08.080
+looking at ways of um uh workflow improvements&nbsp;
+and understanding the risk profile of customers&nbsp;&nbsp;
+
+00:26:08.080 --> 00:26:14.160
+um uh and doing claims processing. Um&nbsp;
+but already embedded in in uh in the GDPR&nbsp;&nbsp;
+
+00:26:14.160 --> 00:26:20.320
+uh I think it's article 22 is a restriction&nbsp;
+on automated profiling on purely automated&nbsp;&nbsp;
+
+00:26:20.320 --> 00:26:26.400
+automated driven uh workflows. Um and so we had&nbsp;
+to start to think about how do we enable kind of&nbsp;&nbsp;
+
+00:26:26.400 --> 00:26:32.960
+the the or continue to enable the human in the&nbsp;
+loop elements that allow these institutions to&nbsp;&nbsp;
+
+00:26:32.960 --> 00:26:38.960
+um gain efficiency through the the appropriate&nbsp;
+use of their data. Um but but also uh do it in&nbsp;&nbsp;
+
+00:26:38.960 --> 00:26:42.800
+a way that's consistent with their regulatory&nbsp;
+obligations and their ethical obligations to&nbsp;&nbsp;
+
+00:26:42.800 --> 00:26:48.400
+protect the interests of the of the customers that&nbsp;
+they serve. Yeah. Um I think when I think back to&nbsp;&nbsp;
+
+00:26:48.400 --> 00:26:53.200
+this period I just think of an explosive amount of&nbsp;
+product work to support all of these missions and&nbsp;&nbsp;
+
+00:26:53.200 --> 00:26:57.680
+set objectives you talked about. So you know the&nbsp;
+birth of the sensitive data scanner uh you know&nbsp;&nbsp;
+
+00:26:57.680 --> 00:27:02.240
+the ability to build a build system that could&nbsp;
+actually reconcile all these providence details.&nbsp;&nbsp;
+
+00:27:02.240 --> 00:27:06.800
+um the checkpoints framework or the first versions&nbsp;
+of it to be able to understand when and how access&nbsp;&nbsp;
+
+00:27:06.800 --> 00:27:12.800
+was requested, who approved it, the entire chain&nbsp;
+of kind of events there, right? Um and I I don't&nbsp;&nbsp;
+
+00:27:12.800 --> 00:27:16.560
+think about I think one thing that's unique about&nbsp;
+Palunteer always has felt unique is like these are&nbsp;&nbsp;
+
+00:27:16.560 --> 00:27:22.240
+all intertwined engineering endeavors alongside&nbsp;
+the core capability sets around data management,&nbsp;&nbsp;
+
+00:27:22.240 --> 00:27:25.600
+application building, etc. These are not&nbsp;
+separate things off to the side. And back&nbsp;&nbsp;
+
+00:27:25.600 --> 00:27:30.640
+to a point you made early on, um, you can't do&nbsp;
+these things as a bolt-on. Like they just won't&nbsp;&nbsp;
+
+00:27:30.640 --> 00:27:35.120
+work at scale or across the heterogeneity&nbsp;
+of data types if it's an afterthought. And&nbsp;&nbsp;
+
+00:27:35.120 --> 00:27:39.840
+so I think just the creativity you can unleash&nbsp;
+when you're faced with these problems, I think&nbsp;&nbsp;
+
+00:27:39.840 --> 00:27:44.880
+um, is a testament to how you can end up solving&nbsp;
+them. I think Yeah. And it's I I think it's it's&nbsp;&nbsp;
+
+00:27:44.880 --> 00:27:49.760
+a it's a testament to the approach that we've&nbsp;
+taken, which was very deliberate to focus on&nbsp;&nbsp;
+
+00:27:49.760 --> 00:27:55.120
+these issues. Um so all all of the the examples&nbsp;
+that you mentioned sensor data scanner checkpoints&nbsp;&nbsp;
+
+00:27:55.120 --> 00:28:00.720
+um cipher uh all capabilities that were were built&nbsp;
+out of the privacy and civil liberties engineering&nbsp;&nbsp;
+
+00:28:00.720 --> 00:28:06.320
+team through close collaboration with um the&nbsp;
+architecture and product uh teams um who are&nbsp;&nbsp;
+
+00:28:06.320 --> 00:28:12.320
+managing the the broader constellation of of of&nbsp;
+foundry capabilities. Um but because of that sort&nbsp;&nbsp;
+
+00:28:12.320 --> 00:28:17.760
+of central awareness of these as core issues that&nbsp;
+we have to tackle as a company, they're willing to&nbsp;&nbsp;
+
+00:28:17.760 --> 00:28:23.040
+invest in the primitives but have a specialized&nbsp;
+focus on why these are core concerns for us as&nbsp;&nbsp;
+
+00:28:23.040 --> 00:28:29.440
+a company. Um we were able to kind of build&nbsp;
+them in to to um the basic infrastructure and&nbsp;&nbsp;
+
+00:28:29.440 --> 00:28:34.800
+make them things that could be accessible across&nbsp;
+the broad uh broad uh suite of deployments. For&nbsp;&nbsp;
+
+00:28:34.800 --> 00:28:40.000
+sure. So now jumping ahead to co um and thinking&nbsp;
+about all the developments on the product side&nbsp;&nbsp;
+
+00:28:40.000 --> 00:28:45.360
+that happened during this period of time and all&nbsp;
+the new privacy and civil liberties engagements&nbsp;&nbsp;
+
+00:28:45.360 --> 00:28:49.440
+and ideas and things that came to the forefront&nbsp;
+during this period too. I'm curious if you can&nbsp;&nbsp;
+
+00:28:49.440 --> 00:28:54.720
+talk through a bit of your recollection from this&nbsp;
+period and maybe touch on the key points. Yeah,&nbsp;&nbsp;
+
+00:28:54.720 --> 00:29:00.480
+it's it's a bit uh it's a bit of a dreamy period&nbsp;
+or maybe nightmarish period to to reflect back on.&nbsp;&nbsp;
+
+00:29:00.480 --> 00:29:06.800
+Um it seems it seems a bit like a blur, but it was&nbsp;
+I think it was a pivotal time for us as a company&nbsp;&nbsp;
+
+00:29:06.800 --> 00:29:13.520
+um to to gain access to, you know, we we've&nbsp;
+always kind of prided ourselves on a willingness&nbsp;&nbsp;
+
+00:29:13.520 --> 00:29:18.720
+to charge into the really difficult issues the&nbsp;
+and oftentimes gray area issues where there's&nbsp;&nbsp;
+
+00:29:18.720 --> 00:29:24.240
+lots of competing equities at stake and lots&nbsp;
+of concerns. And this is a great example of&nbsp;&nbsp;
+
+00:29:24.240 --> 00:29:30.160
+public health interests pitted against um concerns&nbsp;
+from the citizenry around the management of data.&nbsp;&nbsp;
+
+00:29:30.160 --> 00:29:36.800
+um and and highly sensitive health records&nbsp;
+um movement information. Um thi this was&nbsp;&nbsp;
+
+00:29:36.800 --> 00:29:43.920
+particularly fascinating um from the perspective&nbsp;
+of somebody who's focused on on privacy concerns&nbsp;&nbsp;
+
+00:29:43.920 --> 00:29:48.640
+um because one of the things that we&nbsp;
+observed outside of Palunteer was this&nbsp;&nbsp;
+
+00:29:48.640 --> 00:29:58.000
+race towards kind of whisbang uh shiny solutions&nbsp;
+to dealing with this complex pandemic. Yes. Um,&nbsp;&nbsp;
+
+00:29:58.000 --> 00:30:03.360
+and a specific example of this that folks&nbsp;
+may have either kind of tried to tune out of&nbsp;&nbsp;
+
+00:30:03.360 --> 00:30:10.880
+their memory or or may still recall is there&nbsp;
+was a massive push in late 2020, early 2021&nbsp;&nbsp;
+
+00:30:10.880 --> 00:30:19.040
+um to build um uh contact tracing tools um and&nbsp;
+mobile applications that basically would help to&nbsp;&nbsp;
+
+00:30:19.040 --> 00:30:27.120
+identify potential interactions with people who&nbsp;
+are COVID positive. Um and the motivations make&nbsp;&nbsp;
+
+00:30:27.120 --> 00:30:32.560
+sense. Um this is a communicable disease. You want&nbsp;
+to understand the the the patterns of interactions&nbsp;&nbsp;
+
+00:30:32.560 --> 00:30:39.200
+and be able to to carry out public policy based&nbsp;
+on on that understanding. Um so in some sense&nbsp;&nbsp;
+
+00:30:39.200 --> 00:30:44.240
+um the movement towards using devices that people&nbsp;
+already carry with them might be a useful way of&nbsp;&nbsp;
+
+00:30:44.240 --> 00:30:52.240
+of tracking of tracking the flow of the of the&nbsp;
+communicable disease. Um but we and there was&nbsp;&nbsp;
+
+00:30:52.240 --> 00:30:57.440
+a whole kind of set of of questions around how do&nbsp;
+you build this? Is it there were competing schools&nbsp;&nbsp;
+
+00:30:57.440 --> 00:31:02.000
+and philosophies and all of the tech industry&nbsp;
+had sort of built up um massive task force to&nbsp;&nbsp;
+
+00:31:02.000 --> 00:31:08.640
+to track this. Was it centralized, decentralized?&nbsp;
+Was it Bluetooth? Was it um web- based? Um every&nbsp;&nbsp;
+
+00:31:08.640 --> 00:31:13.360
+phone provider, every social media app was pinging&nbsp;
+you with some version of this. Yeah. Is is there&nbsp;&nbsp;
+
+00:31:13.360 --> 00:31:18.320
+commercial services that are already available&nbsp;
+that could be repurposed for these applications?&nbsp;&nbsp;
+
+00:31:18.320 --> 00:31:24.720
+Um, our intuition was to pump the brakes and&nbsp;
+take a step back and say, "Wait a second." Um,&nbsp;&nbsp;
+
+00:31:24.720 --> 00:31:30.160
+is this actually overengineering uh a solution&nbsp;
+uh to a problem that can be addressed through&nbsp;&nbsp;
+
+00:31:30.160 --> 00:31:37.040
+more fundamental means? Um and specifically as we&nbsp;
+started to have earnest conversations with with&nbsp;&nbsp;
+
+00:31:37.040 --> 00:31:42.560
+public health providers um and understand the data&nbsp;
+landscape, the thing that we observe is that the&nbsp;&nbsp;
+
+00:31:42.560 --> 00:31:47.200
+the real issues weren't around or at least the&nbsp;
+first order issues weren't around being able to&nbsp;&nbsp;
+
+00:31:47.200 --> 00:31:53.600
+trace movement of of the potential carriers of the&nbsp;
+pathogen. it was really around there's a ton of&nbsp;&nbsp;
+
+00:31:53.600 --> 00:31:59.280
+data that's already available in the public health&nbsp;
+domain and public uh the public service provider&nbsp;&nbsp;
+
+00:31:59.280 --> 00:32:04.560
+public health service providers have no idea how&nbsp;
+to reconcile with that information. Um so our&nbsp;&nbsp;
+
+00:32:04.560 --> 00:32:10.080
+approach was more to focus on information sources&nbsp;
+that were already out there that um the the kind&nbsp;&nbsp;
+
+00:32:10.080 --> 00:32:16.240
+of patchwork of agencies in the US state agencies&nbsp;
+um in in Europe uh individual nation states and&nbsp;&nbsp;
+
+00:32:16.240 --> 00:32:22.320
+and their their sub agencies and medical service&nbsp;
+providers um to be able to put that information&nbsp;&nbsp;
+
+00:32:22.320 --> 00:32:28.160
+in a kind of common operating picture environment&nbsp;
+that allowed public health information uh public&nbsp;&nbsp;
+
+00:32:28.160 --> 00:32:33.360
+health officials to make informed decisions.&nbsp;
+Um so this COP concept, this common operating&nbsp;&nbsp;
+
+00:32:33.360 --> 00:32:39.600
+um picture concept um was actually built on pretty&nbsp;
+mundane data sources. It was more getting at&nbsp;&nbsp;
+
+00:32:39.600 --> 00:32:45.360
+um what are the reported cases in a given&nbsp;
+jurisdiction? Um do we know what the what the uh&nbsp;&nbsp;
+
+00:32:45.360 --> 00:32:52.400
+the backlog of um PPE is in in a given hospital?&nbsp;
+Are there enough ventilators to deal with acute&nbsp;&nbsp;
+
+00:32:52.400 --> 00:32:58.320
+cases that are coming into the hospitals? Um these&nbsp;
+are these are kind of basic logistics questions&nbsp;&nbsp;
+
+00:32:58.320 --> 00:33:03.840
+that don't actually implicate too much or in some&nbsp;
+cases any privacy interests. Yeah. But they are&nbsp;&nbsp;
+
+00:33:03.840 --> 00:33:08.640
+core to be able to doing this uh the the kind of&nbsp;
+public health service that needed to take place in&nbsp;&nbsp;
+
+00:33:08.640 --> 00:33:14.400
+this time. And that was one of our key insights&nbsp;
+that um you can actually do more with less in&nbsp;&nbsp;
+
+00:33:14.400 --> 00:33:19.680
+some instances. It's it's more about creating the&nbsp;
+framework to be able to do a responsible version&nbsp;&nbsp;
+
+00:33:19.680 --> 00:33:26.240
+of integrating data and then building insights&nbsp;
+on out of that data as opposed to let's go out&nbsp;&nbsp;
+
+00:33:26.240 --> 00:33:32.480
+and scoop up lots of really invasive data that&nbsp;
+potentially tracks people's movement and could be&nbsp;&nbsp;
+
+00:33:32.480 --> 00:33:38.560
+um funneled to law enforcement agency to enforce&nbsp;
+lockdown um or to do other nefarious things if if&nbsp;&nbsp;
+
+00:33:38.560 --> 00:33:42.880
+that information is hacked. there's a lot more you&nbsp;
+can do with the basic information used responsibly&nbsp;&nbsp;
+
+00:33:42.880 --> 00:33:47.520
+in a comprehensive environment and that I think&nbsp;
+drove a lot of our um uh public health work&nbsp;&nbsp;
+
+00:33:47.520 --> 00:33:53.920
+during the co era for sure and when I think about&nbsp;
+that period of time through a product lens um you&nbsp;&nbsp;
+
+00:33:53.920 --> 00:33:58.480
+know I think about the cop and of course the work&nbsp;
+around these common operating pictures and that&nbsp;&nbsp;
+
+00:33:58.480 --> 00:34:03.520
+forming the basis for some deeper work we did so&nbsp;
+both with operation warp speed with the supply&nbsp;&nbsp;
+
+00:34:03.520 --> 00:34:09.760
+chain for vaccine production distribution and&nbsp;
+then also with AHS protect and this was the PPE&nbsp;&nbsp;
+
+00:34:09.760 --> 00:34:14.800
+distribution value chain, right? So, you had&nbsp;
+all of these medical centers, hospital systems,&nbsp;&nbsp;
+
+00:34:14.800 --> 00:34:20.480
+and there was a shortage of PPE and you had uh&nbsp;
+the federal government trying to help adjudicate&nbsp;&nbsp;
+
+00:34:20.480 --> 00:34:25.440
+and help route supplies to the most critical&nbsp;
+facilities and locations across the country.&nbsp;&nbsp;
+
+00:34:25.440 --> 00:34:29.920
+And of course, in all of those domains are lots&nbsp;
+of privacy implications and they need to be very&nbsp;&nbsp;
+
+00:34:29.920 --> 00:34:34.320
+careful about what information is being shared&nbsp;
+with private entities under what circumstances and&nbsp;&nbsp;
+
+00:34:34.320 --> 00:34:38.800
+then being able to actually do the operational&nbsp;
+work uh to actually conduct these workflows,&nbsp;&nbsp;
+
+00:34:38.800 --> 00:34:42.960
+right? a lot of logistics workflows, a lot of&nbsp;
+traditional supply chain workflows, but in the&nbsp;&nbsp;
+
+00:34:42.960 --> 00:34:49.280
+midst of simultaneous demand and supply shocks.&nbsp;
+So what's interesting I think that developed when&nbsp;&nbsp;
+
+00:34:49.280 --> 00:34:56.640
+I think about specific product uh evolutions&nbsp;
+or new features was a a much more highfidelity&nbsp;&nbsp;
+
+00:34:56.640 --> 00:35:02.240
+ability to represent scenarios and simulations in&nbsp;
+the ontology system. So of course we could always&nbsp;&nbsp;
+
+00:35:02.240 --> 00:35:06.880
+capture edits and you could take actions in kind&nbsp;
+of a more atomic or you know even like kind of&nbsp;&nbsp;
+
+00:35:06.880 --> 00:35:12.800
+like one two three kind of way but what do I do if&nbsp;
+I need to understand the implications of routing&nbsp;&nbsp;
+
+00:35:12.800 --> 00:35:18.560
+PPE to the northeast versus our existing plan of&nbsp;
+doing a more uniform distribution. Um let me play&nbsp;&nbsp;
+
+00:35:18.560 --> 00:35:23.520
+out the consequences if I then layer on two or&nbsp;
+three additional assumptions. Um and again this is&nbsp;&nbsp;
+
+00:35:23.520 --> 00:35:28.960
+a thing where if you want to do simulations on top&nbsp;
+of objects and actions that are shared by these&nbsp;&nbsp;
+
+00:35:28.960 --> 00:35:34.640
+crossf functional teams uh without compromising&nbsp;
+on privacy or civil liberties, those things have&nbsp;&nbsp;
+
+00:35:34.640 --> 00:35:38.960
+to be baked right into the core system primitives&nbsp;
+themselves. Yeah. They can't be bolted on later.&nbsp;&nbsp;
+
+00:35:38.960 --> 00:35:44.000
+Yeah. Um so so that was one set of functionality&nbsp;
+that truly I think kind of came into being in this&nbsp;&nbsp;
+
+00:35:44.000 --> 00:35:48.560
+period of time. A lot of the ways you can build&nbsp;
+expressive applications in the platform. So our&nbsp;&nbsp;
+
+00:35:48.560 --> 00:35:54.080
+workshop application builder uh some of the ways&nbsp;
+you can author more complex functions and business&nbsp;&nbsp;
+
+00:35:54.080 --> 00:35:59.680
+logic all kind of had to tie together again in&nbsp;
+this nexus of do all this work as a situation&nbsp;&nbsp;
+
+00:35:59.680 --> 00:36:05.040
+is rapidly changing without compromising on our&nbsp;
+core principles. Yeah. Um so it was a very odd&nbsp;&nbsp;
+
+00:36:05.040 --> 00:36:10.320
+way of working in some ways because Palunteer is&nbsp;
+so inductive is so hivemindy with product teams&nbsp;&nbsp;
+
+00:36:10.320 --> 00:36:15.280
+working together in every office. So not being&nbsp;
+able to colllocate and be together in the same&nbsp;&nbsp;
+
+00:36:15.280 --> 00:36:20.240
+way was challenging but I feel like it unlocked a&nbsp;
+certain type of creativity in folks and like you&nbsp;&nbsp;
+
+00:36:20.240 --> 00:36:24.720
+said even in those situations we still had forward&nbsp;
+deployed engineers going on site and being with&nbsp;&nbsp;
+
+00:36:24.720 --> 00:36:29.280
+customers in these agencies in these hospital&nbsp;
+systems with these private companies as well.&nbsp;&nbsp;
+
+00:36:29.280 --> 00:36:33.680
+So it it it limited our ability to be together&nbsp;
+but it didn't stop us from getting to the edge&nbsp;&nbsp;
+
+00:36:33.680 --> 00:36:40.080
+of the problem. Yeah. I I think one of the other&nbsp;
+um kind of this maybe you know hindsight is 2020&nbsp;&nbsp;
+
+00:36:40.080 --> 00:36:46.000
+and and having the benefit of where we are&nbsp;
+technologically today um in the in the sort of&nbsp;&nbsp;
+
+00:36:46.000 --> 00:36:53.200
+um AI boom um we started to see on the back&nbsp;
+of a lot of the the applications that you were&nbsp;&nbsp;
+
+00:36:53.200 --> 00:36:59.840
+describing um epidemiological research um uh&nbsp;
+advanced statistical modeling to understand um&nbsp;&nbsp;
+
+00:36:59.840 --> 00:37:06.640
+pathogen movements um uh uh development of of of&nbsp;
+new pharmaceutical articles a kind of growing need&nbsp;&nbsp;
+
+00:37:06.640 --> 00:37:12.960
+to build robust infrastructure to manage modeling&nbsp;
+workflows. Yes. Um and this is this is a place&nbsp;&nbsp;
+
+00:37:12.960 --> 00:37:20.080
+where um we started to to work uh more in earnest&nbsp;
+uh on um the kind of full suite of capabilities&nbsp;&nbsp;
+
+00:37:20.080 --> 00:37:26.560
+that be that should be in place to carry out&nbsp;
+responsible AI machine learning techniques.&nbsp;&nbsp;
+
+00:37:26.560 --> 00:37:32.240
+So mind you, this is before the large language&nbsp;
+model um uh boom that that uh that started to&nbsp;&nbsp;
+
+00:37:32.240 --> 00:37:39.280
+happen late 2022, early 2023. We're talking about&nbsp;
+kind of classical machine learning techniques. Um&nbsp;&nbsp;
+
+00:37:39.280 --> 00:37:45.360
+and a lot of what we started to to to build at&nbsp;
+that time was the the the kind of full suite of&nbsp;&nbsp;
+
+00:37:45.360 --> 00:37:52.080
+tools that help manage um the ML what's called&nbsp;
+MLOps um kind of life cycle. So that includes&nbsp;&nbsp;
+
+00:37:52.080 --> 00:37:56.560
+things like model objectives, defining what your&nbsp;
+objectives are and then using that as a way of&nbsp;&nbsp;
+
+00:37:56.560 --> 00:38:02.480
+doing version control and tracking so that you&nbsp;
+can go from um validation of training data to&nbsp;&nbsp;
+
+00:38:02.480 --> 00:38:08.080
+testing of a model in in situ to rolling out in&nbsp;
+production, generating feedback and then feeding&nbsp;&nbsp;
+
+00:38:08.080 --> 00:38:14.480
+that back into the next iterations of of of the&nbsp;
+model and then all of the while creating a kind of&nbsp;&nbsp;
+
+00:38:14.480 --> 00:38:21.520
+backend um uh uh signature or set of information&nbsp;
+that helps track that that information um so it's&nbsp;&nbsp;
+
+00:38:21.520 --> 00:38:27.840
+accountable to uh um to oversight authorities or&nbsp;
+to regulators um but but more critically deals&nbsp;&nbsp;
+
+00:38:27.840 --> 00:38:33.600
+with this really challenging issue in um the&nbsp;
+machine learning space um of reproducibility&nbsp;&nbsp;
+
+00:38:33.600 --> 00:38:38.320
+and in in the health space of reproducibility.&nbsp;
+How do you actually go back and affirm that&nbsp;&nbsp;
+
+00:38:38.320 --> 00:38:43.120
+um the model and the the modeling techniques&nbsp;
+that you've uh you've pursued are consistent&nbsp;&nbsp;
+
+00:38:43.120 --> 00:38:47.680
+and produce consistent results? Um and so because&nbsp;
+of this work that we were we were able to build&nbsp;&nbsp;
+
+00:38:47.680 --> 00:38:54.240
+out in the space we we were able in the foundry um&nbsp;
+uh ecosystem um to build out a suite of tools that&nbsp;&nbsp;
+
+00:38:54.240 --> 00:38:59.600
+helped advance the these types of applications.&nbsp;
+Absolutely. And around this time there were also&nbsp;&nbsp;
+
+00:38:59.600 --> 00:39:03.600
+a lot of policy milestones occurring as well. I'm&nbsp;
+curious if you could talk a little bit about that.&nbsp;&nbsp;
+
+00:39:03.600 --> 00:39:09.920
+Yeah. And actually even before the kind of COVID&nbsp;
+period um we you know we we've had the benefit&nbsp;&nbsp;
+
+00:39:09.920 --> 00:39:16.960
+of having a lot of um practical experiences and&nbsp;
+understanding how advanced technologies like AI&nbsp;&nbsp;
+
+00:39:16.960 --> 00:39:23.520
+and ML actually work in practice. Um, and this&nbsp;
+is important because I think there's there's&nbsp;&nbsp;
+
+00:39:23.520 --> 00:39:28.400
+more than a crack of daylight between what you&nbsp;
+might read about as research and development&nbsp;&nbsp;
+
+00:39:28.400 --> 00:39:35.840
+um, AI capabilities and and what it takes&nbsp;
+for um, this type of technology to work in&nbsp;&nbsp;
+
+00:39:35.840 --> 00:39:41.120
+complex environments where the variables are&nbsp;
+changing. Uh, there there's constant evolution&nbsp;&nbsp;
+
+00:39:41.120 --> 00:39:46.160
+of the data environment. Um, the use cases are&nbsp;
+evolving and you have to deal with people um,&nbsp;&nbsp;
+
+00:39:46.160 --> 00:39:51.200
+in real settings. Uh and that's where the kind&nbsp;
+of intersection between the technology and public&nbsp;&nbsp;
+
+00:39:51.200 --> 00:39:57.200
+policy really matters because if you have uh&nbsp;
+public policy laws that are developed based on&nbsp;&nbsp;
+
+00:39:57.200 --> 00:40:02.720
+a misinformed or underinformed perspective on&nbsp;
+what the technology can do um you either have&nbsp;&nbsp;
+
+00:40:02.720 --> 00:40:08.800
+you either end up with policy that just doesn't&nbsp;
+attach to reality or is so ephemeral that it only&nbsp;&nbsp;
+
+00:40:08.800 --> 00:40:13.120
+is useful for a certain period and then you're&nbsp;
+you're sort of stuck with this this policy until&nbsp;&nbsp;
+
+00:40:13.120 --> 00:40:19.120
+you can manage to get um uh the political class&nbsp;
+to work through the next evolution. of of of the&nbsp;&nbsp;
+
+00:40:19.120 --> 00:40:24.240
+the legislative frameworks. Um so this has been&nbsp;
+a kind of continuous motivation for us. How do we&nbsp;&nbsp;
+
+00:40:24.240 --> 00:40:28.640
+take the insights that we developed um as a as a&nbsp;
+business that's embedded in the field that has a&nbsp;&nbsp;
+
+00:40:28.640 --> 00:40:34.960
+broad swath of customers um and use that to inform&nbsp;
+um policy makers and give them the best tools to&nbsp;&nbsp;
+
+00:40:34.960 --> 00:40:41.920
+be able to build the best policy. So even as early&nbsp;
+as 2018 2019 we were engaging with for example the&nbsp;&nbsp;
+
+00:40:41.920 --> 00:40:48.080
+European Commission which at the time had put&nbsp;
+out an early white paper on AI regulation. This&nbsp;&nbsp;
+
+00:40:48.080 --> 00:40:55.440
+is well preceding um the current EU AI act. This&nbsp;
+is sort of the precursor to that movement. Um we&nbsp;&nbsp;
+
+00:40:55.440 --> 00:41:00.240
+responded to that with some practical insights&nbsp;
+that we had developed in our own experiences.&nbsp;&nbsp;
+
+00:41:00.240 --> 00:41:06.960
+Um we had issued a uh a publication to a Canadian&nbsp;
+government invitation to qualify which basically&nbsp;&nbsp;
+
+00:41:06.960 --> 00:41:11.760
+was a request to outline how Palanteer as a&nbsp;
+company thinks about the broad landscape of&nbsp;&nbsp;
+
+00:41:11.760 --> 00:41:17.280
+evolving AI including the ethical commitments that&nbsp;
+companies should take and the types of model life&nbsp;&nbsp;
+
+00:41:17.280 --> 00:41:21.520
+cycle considerations that should be built into&nbsp;
+responsible applications of this technology. We&nbsp;&nbsp;
+
+00:41:21.520 --> 00:41:27.120
+published a piece on this. Um we were responding&nbsp;
+to requests for information from standards&nbsp;&nbsp;
+
+00:41:27.120 --> 00:41:34.480
+uh bodies like NIST. Um uh providing perspectives&nbsp;
+on on bias and development of of AI systems. Um&nbsp;&nbsp;
+
+00:41:34.480 --> 00:41:38.400
+and all this is sort of an opportunity for us&nbsp;
+to take the learnings that we build out in the&nbsp;&nbsp;
+
+00:41:38.400 --> 00:41:44.080
+field and give these back to the the agencies and&nbsp;
+institutions that have to think very seriously&nbsp;&nbsp;
+
+00:41:44.080 --> 00:41:48.720
+about the next generation of of oversight.&nbsp;
+Absolutely. And and one thing that I think&nbsp;&nbsp;
+
+00:41:48.720 --> 00:41:53.040
+about kind of is dovetailing with this period&nbsp;
+of time at least temporally is the expansion of&nbsp;&nbsp;
+
+00:41:53.040 --> 00:41:57.440
+our defense work. So you know we talked about&nbsp;
+how things started in Gotham kind of in core&nbsp;&nbsp;
+
+00:41:57.440 --> 00:42:01.680
+intelligence workflows but now that you know and&nbsp;
+especially around this period things started to&nbsp;&nbsp;
+
+00:42:01.680 --> 00:42:06.240
+evolve significantly. So you're thinking about&nbsp;
+kind of the entire set of interconnected workflows&nbsp;&nbsp;
+
+00:42:06.240 --> 00:42:12.640
+from intelligence to targeting development to&nbsp;
+strike and and other considerations around kinetic&nbsp;&nbsp;
+
+00:42:12.640 --> 00:42:17.440
+or non-kinetic operations uh to battle damage&nbsp;
+assessments and kind of everything in between and&nbsp;&nbsp;
+
+00:42:17.440 --> 00:42:22.560
+around those workflows. Um and you know to make&nbsp;
+things more complex uh you're often talking about&nbsp;&nbsp;
+
+00:42:22.560 --> 00:42:28.480
+multistakeholder engagements uh with potentially&nbsp;
+multi-nation collaborations happening. And so as&nbsp;&nbsp;
+
+00:42:28.480 --> 00:42:32.480
+this defense work really becomes much more full&nbsp;
+spectrum, I'm curious what you're thinking about&nbsp;&nbsp;
+
+00:42:32.480 --> 00:42:36.160
+from a privacy and civil liberties perspective.&nbsp;
+What were kind of the key things that we had to&nbsp;&nbsp;
+
+00:42:36.160 --> 00:42:41.440
+start to take into account there? Yeah. And&nbsp;
+and this is in the vein of pal at Palunteer,&nbsp;&nbsp;
+
+00:42:41.440 --> 00:42:47.760
+we run towards the hard problems. Um and and&nbsp;
+specifically for for a division of Palunteer&nbsp;&nbsp;
+
+00:42:47.760 --> 00:42:53.520
+that is responsible for grappling with the really&nbsp;
+complex issues. um we have to kind of roll up our&nbsp;&nbsp;
+
+00:42:53.520 --> 00:42:58.560
+sleeves and get into the nitty-gritty of things&nbsp;
+that may be uncomfortable topics for some people&nbsp;&nbsp;
+
+00:42:58.560 --> 00:43:04.640
+to talk about like kinetic warfare um which has&nbsp;
+consequential impact on on people's lives. Um,&nbsp;&nbsp;
+
+00:43:04.640 --> 00:43:10.160
+so this was a motivation for for us the PCL&nbsp;
+team to really start to build a practice and&nbsp;&nbsp;
+
+00:43:10.160 --> 00:43:16.720
+discipline around how do we engage with a customer&nbsp;
+set and with a with a product development on core&nbsp;&nbsp;
+
+00:43:16.720 --> 00:43:22.320
+considerations around integrating um law of&nbsp;
+armed conflict um or in Europe we refer to the&nbsp;&nbsp;
+
+00:43:22.320 --> 00:43:29.520
+international humanitarian legal framework. Um uh&nbsp;
+all these are sort of um uh historical uh treaties&nbsp;&nbsp;
+
+00:43:29.520 --> 00:43:36.560
+or conventions that dictate um how uh war fighters&nbsp;
+have to deal with the the legal and humanitarian&nbsp;&nbsp;
+
+00:43:36.560 --> 00:43:43.120
+implications of of what they do in the field. And&nbsp;
+it has implications to how um everyone from the&nbsp;&nbsp;
+
+00:43:43.120 --> 00:43:48.960
+operator to the co the command line and to the to&nbsp;
+the generals have to think about their um personal&nbsp;&nbsp;
+
+00:43:48.960 --> 00:43:56.000
+obligations and responsibilities. Um so we started&nbsp;
+to to look at um uh specific capabilities within&nbsp;&nbsp;
+
+00:43:56.000 --> 00:44:03.200
+the product and and in the context of our decision&nbsp;
+support system work um uh which is essentially&nbsp;&nbsp;
+
+00:44:03.200 --> 00:44:10.480
+what Maven is um the Maven suite of tools is it's&nbsp;
+providing support for war fighters to to carry out&nbsp;&nbsp;
+
+00:44:10.480 --> 00:44:16.560
+um complex decisions um sometimes with&nbsp;
+with lethal effect. um how do we integrate&nbsp;&nbsp;
+
+00:44:16.560 --> 00:44:21.920
+into the different components of that of those&nbsp;
+workflows the types of capabilities that address&nbsp;&nbsp;
+
+00:44:21.920 --> 00:44:28.320
+international humanitarian law considerations. So&nbsp;
+this includes things like um identifying no strike&nbsp;&nbsp;
+
+00:44:28.320 --> 00:44:34.720
+uh list entities um that need to be factored into&nbsp;
+targeting decisions and making that very apparent&nbsp;&nbsp;
+
+00:44:34.720 --> 00:44:42.400
+to um to the targeteer or the war fighter um so&nbsp;
+that they avoid any undue or unnecessary risks to&nbsp;&nbsp;
+
+00:44:42.400 --> 00:44:48.880
+civilians or civilian infrastructure. Um that was&nbsp;
+just a a kind of uh stepping stone into a broader&nbsp;&nbsp;
+
+00:44:48.880 --> 00:44:54.880
+range of of areas where we saw a huge opportunity&nbsp;
+to expand the scope of of the privacy you know&nbsp;&nbsp;
+
+00:44:54.880 --> 00:45:00.320
+nominally privacy and civil liberties work into&nbsp;
+a broader space of ethical engineering including&nbsp;&nbsp;
+
+00:45:00.320 --> 00:45:06.400
+um the ethics of war fighting. Absolutely. And I&nbsp;
+think about um a couple things you just mentioned.&nbsp;&nbsp;
+
+00:45:06.400 --> 00:45:11.600
+One is the Maven smart system and what that&nbsp;
+required on the technology and architecture side.&nbsp;&nbsp;
+
+00:45:11.600 --> 00:45:18.400
+So, we're talking about uh the real integration of&nbsp;
+kind of the full suite of imagery and full motion&nbsp;&nbsp;
+
+00:45:18.400 --> 00:45:23.840
+video. And there's a lot of technical challenges&nbsp;
+when it comes to being able to do sensor fusion&nbsp;&nbsp;
+
+00:45:23.840 --> 00:45:27.840
+and integration across all those domains while&nbsp;
+also making sure you're adhering again like&nbsp;&nbsp;
+
+00:45:27.840 --> 00:45:32.880
+we talked about to all the dynamic lineage and&nbsp;
+privacy systems that are inside of the platform.&nbsp;&nbsp;
+
+00:45:32.880 --> 00:45:38.080
+Um, and then there are questions about how do you&nbsp;
+integrate these new data modalities with what you&nbsp;&nbsp;
+
+00:45:38.080 --> 00:45:42.720
+talked about previously with modeling objectives.&nbsp;
+So you now have this you're trying to do entity&nbsp;&nbsp;
+
+00:45:42.720 --> 00:45:47.360
+extraction or other types of modeling workflows&nbsp;
+on top of all these new data sources to inform&nbsp;&nbsp;
+
+00:45:47.360 --> 00:45:52.400
+operations. And these could be models coming from&nbsp;
+many different vendors. These could be models&nbsp;&nbsp;
+
+00:45:52.400 --> 00:45:56.240
+coming from many different in-house teams. But&nbsp;
+you want to have a common backbone of how you're&nbsp;&nbsp;
+
+00:45:56.240 --> 00:46:01.920
+doing governance and how you're tracing data to&nbsp;
+model release to feedback. And so it's this kind&nbsp;&nbsp;
+
+00:46:01.920 --> 00:46:07.040
+of composite system that has to work together&nbsp;
+while allowing a lot of diverse partnerships in&nbsp;&nbsp;
+
+00:46:07.040 --> 00:46:12.640
+in pursuit of the mission. And it's it's even&nbsp;
+more complicated than that because you have&nbsp;&nbsp;
+
+00:46:12.640 --> 00:46:17.520
+all these interoperability challenges with with&nbsp;
+different agencies, different institutions across&nbsp;&nbsp;
+
+00:46:17.520 --> 00:46:22.000
+different jurisdictions. Um, and they're&nbsp;
+all responsible for their own protocols&nbsp;&nbsp;
+
+00:46:22.000 --> 00:46:27.840
+uh in managing sensitive information. So, uh,&nbsp;
+another capability that was sort of an extension&nbsp;&nbsp;
+
+00:46:27.840 --> 00:46:33.760
+of the existing access control model was CBACK,&nbsp;
+classificationbased access control. uh that allows&nbsp;&nbsp;
+
+00:46:33.760 --> 00:46:40.000
+allows our platform to be able to manage the&nbsp;
+classifications and the corresponding restrictions&nbsp;&nbsp;
+
+00:46:40.000 --> 00:46:46.000
+on on data and intel and and work products that&nbsp;
+come out of the system um not just within a given&nbsp;&nbsp;
+
+00:46:46.000 --> 00:46:52.400
+uh defense agency but across um partner agencies&nbsp;
+as they as they work on a common environment. Uh&nbsp;&nbsp;
+
+00:46:52.400 --> 00:46:58.000
+and this is a particularly challenging uh uh&nbsp;
+problem to to address in environments where&nbsp;&nbsp;
+
+00:46:58.000 --> 00:47:04.000
+you know you don't have the the time to be able&nbsp;
+to to do the the mapping in real time. You need&nbsp;&nbsp;
+
+00:47:04.000 --> 00:47:09.440
+to rely on the system to be able to understand&nbsp;
+what the restrictions are on a given information.&nbsp;&nbsp;
+
+00:47:09.440 --> 00:47:14.240
+Um because they're they're real consequences&nbsp;
+if you overexpose data uh across jurisdictions&nbsp;&nbsp;
+
+00:47:14.240 --> 00:47:20.000
+or across different workflows. Definitely. And I&nbsp;
+think about the fluidity that often is part and&nbsp;&nbsp;
+
+00:47:20.000 --> 00:47:23.920
+parcel with doing these workflows in the field.&nbsp;
+So you mentioned kind of the diversity of new&nbsp;&nbsp;
+
+00:47:23.920 --> 00:47:28.800
+workflows have to be built on top of the core&nbsp;
+platform as you're operating. So how do we make&nbsp;&nbsp;
+
+00:47:28.800 --> 00:47:33.200
+sure that we're not just dealing with existing no&nbsp;
+strike list but we can actually modify them or add&nbsp;&nbsp;
+
+00:47:33.200 --> 00:47:38.080
+to them um if there's new intelligence about&nbsp;
+potential civilian harm. Okay. So how do you&nbsp;&nbsp;
+
+00:47:38.080 --> 00:47:43.120
+enable actual users who might be semi-technical&nbsp;
+to be able to add or maybe non-technical to add in&nbsp;&nbsp;
+
+00:47:43.120 --> 00:47:48.800
+that information in a secure way and as they do so&nbsp;
+it is compliant with you know seback or markings&nbsp;&nbsp;
+
+00:47:48.800 --> 00:47:53.680
+that flow with information. If I then want to use&nbsp;
+that in a completely different tool set, how do I&nbsp;&nbsp;
+
+00:47:53.680 --> 00:47:58.480
+make sure those controls are applied to that user&nbsp;
+authored data the same way it would have been from&nbsp;&nbsp;
+
+00:47:58.480 --> 00:48:03.440
+any of those sensor feeds coming in? Um, and then&nbsp;
+if there are different or mixed permissions and&nbsp;&nbsp;
+
+00:48:03.440 --> 00:48:07.520
+we're sharing this with a partner nation, how&nbsp;
+does that all get reconciled? Um, these are&nbsp;&nbsp;
+
+00:48:07.520 --> 00:48:12.000
+all the interesting, you know, plumbing problems&nbsp;
+that are so critical to being able to do anything&nbsp;&nbsp;
+
+00:48:12.000 --> 00:48:17.760
+effectively in the field. Yeah. All right. So, now&nbsp;
+let's fast forward to generative AI. Yes. And, you&nbsp;&nbsp;
+
+00:48:17.760 --> 00:48:22.720
+know, the advent of this current revolution. Yeah.&nbsp;
+Um, you know, I think about this again through&nbsp;&nbsp;
+
+00:48:22.720 --> 00:48:27.040
+the product lens of being the culmination of so&nbsp;
+many investments that we've made and that we've&nbsp;&nbsp;
+
+00:48:27.040 --> 00:48:31.840
+talked about here in this conversation. So, our&nbsp;
+investment in the ontology system, our investment&nbsp;&nbsp;
+
+00:48:31.840 --> 00:48:36.880
+in these granular controls across privacy and&nbsp;
+civil liberties and data protection, uh, the way&nbsp;&nbsp;
+
+00:48:36.880 --> 00:48:41.280
+that we thought about multimodal compute, the way&nbsp;
+that we thought about being able to simulate and&nbsp;&nbsp;
+
+00:48:41.280 --> 00:48:45.680
+handoff decisions between different stakeholders.&nbsp;
+uh there was so much more to build of course but&nbsp;&nbsp;
+
+00:48:45.680 --> 00:48:50.640
+in many ways this was the moment where a lot&nbsp;
+of our technical investments in our platforms&nbsp;&nbsp;
+
+00:48:50.640 --> 00:48:55.280
+had to meet their moment and I'm curious kind of&nbsp;
+what comes to mind for you from the operational&nbsp;&nbsp;
+
+00:48:55.280 --> 00:49:01.440
+AI perspective at large you know given we're&nbsp;
+still in it to a degree in this moment yeah the&nbsp;&nbsp;
+
+00:49:01.440 --> 00:49:11.440
+so our kind of general philosophical disposition&nbsp;
+towards towards AI has been um characterized in&nbsp;&nbsp;
+
+00:49:11.440 --> 00:49:14.880
+some circles as AI skepticism But I don't I don't&nbsp;
+think that's quite right. I think it's something&nbsp;&nbsp;
+
+00:49:14.880 --> 00:49:21.760
+closer to an AI realism. Um, and it it's built&nbsp;
+on a set of ideas that we've been ruminating&nbsp;&nbsp;
+
+00:49:21.760 --> 00:49:26.160
+over for years and years and in fact goes back&nbsp;
+to the earliest days of of Palunteer where we&nbsp;&nbsp;
+
+00:49:26.160 --> 00:49:31.600
+were challenging the presumptions of being able to&nbsp;
+do these Neil and a haststack problems um through&nbsp;&nbsp;
+
+00:49:31.600 --> 00:49:37.200
+through machines alone and having to integrate and&nbsp;
+build on kind of human computer symbiosis to take&nbsp;&nbsp;
+
+00:49:37.200 --> 00:49:43.520
+the best of human intuitions and the best of what&nbsp;
+um machines can do and processing data at scale&nbsp;&nbsp;
+
+00:49:43.520 --> 00:49:49.600
+and marry those things together in a way that's&nbsp;
+defensible. and responsible. Um and for for years&nbsp;&nbsp;
+
+00:49:49.600 --> 00:49:55.520
+um before AI was the the the topic dour before&nbsp;
+large language models and generative AI came&nbsp;&nbsp;
+
+00:49:55.520 --> 00:50:02.560
+into the four um uh Anthony Bach and I used to do&nbsp;
+this um this this university lecture I I think had&nbsp;&nbsp;
+
+00:50:02.560 --> 00:50:07.760
+various titles but it was we typically referred&nbsp;
+to as like the limits of AI basically trying to&nbsp;&nbsp;
+
+00:50:07.760 --> 00:50:15.040
+describe what AI actually is what it's not and how&nbsp;
+it's how it can be useful and powerful and one of&nbsp;&nbsp;
+
+00:50:15.040 --> 00:50:23.360
+the driving insights behind all of this was um AI&nbsp;
+is a really impressive technology um divorced from&nbsp;&nbsp;
+
+00:50:23.360 --> 00:50:28.240
+reality. If you're just talking about laboratory&nbsp;
+settings or just in research institutions, you can&nbsp;&nbsp;
+
+00:50:28.240 --> 00:50:34.960
+do some pretty cool parlor tricks um in closed&nbsp;
+environments. Um but but the real kind of test,&nbsp;&nbsp;
+
+00:50:34.960 --> 00:50:39.760
+the real uh metal where you demonstrate&nbsp;
+where the AI works is in the operational&nbsp;&nbsp;
+
+00:50:39.760 --> 00:50:45.520
+context and that's all the gritty challenges&nbsp;
+of confronting technology with reality. Yes,&nbsp;&nbsp;
+
+00:50:45.520 --> 00:50:52.560
+that's actually the the hard engineering problem.&nbsp;
+Um, and the there's a confusion that comes out of&nbsp;&nbsp;
+
+00:50:52.560 --> 00:50:58.480
+this and it's it's a it's a confusion that I think&nbsp;
+is reflected in both the understanding of what&nbsp;&nbsp;
+
+00:50:58.480 --> 00:51:06.720
+AI can do and also in the discourse around what&nbsp;
+responsible a or ethical AI is. Um and so around&nbsp;&nbsp;
+
+00:51:06.720 --> 00:51:11.520
+the time that that Palunteer really kind of taken&nbsp;
+a shift and moved in the direction of of building&nbsp;&nbsp;
+
+00:51:11.520 --> 00:51:18.720
+out AIP and and building advanced practice on&nbsp;
+integrating generative AI capabilities. Um I had&nbsp;&nbsp;
+
+00:51:18.720 --> 00:51:28.560
+published a blog post um about this sort of need&nbsp;
+to reframe the problems of of e of efficacious&nbsp;&nbsp;
+
+00:51:28.560 --> 00:51:34.880
+um AI and ethical AI. Um because really when you&nbsp;
+get down to it and you get into the operational&nbsp;&nbsp;
+
+00:51:34.880 --> 00:51:40.560
+realities of what makes AI works, there's actually&nbsp;
+a pretty strong con confluence of of concerns and&nbsp;&nbsp;
+
+00:51:40.560 --> 00:51:46.080
+considerations and practices that apply to both&nbsp;
+ethical implementation of AI and AI that that&nbsp;&nbsp;
+
+00:51:46.080 --> 00:51:51.760
+works. Um, and th this is sort of a grounding&nbsp;
+set of insights that I think has driven a lot&nbsp;&nbsp;
+
+00:51:51.760 --> 00:51:59.440
+of our more continued development work on on AI&nbsp;
+life cycle management um, beyond classical AI&nbsp;&nbsp;
+
+00:51:59.440 --> 00:52:04.720
+into large language model applications. Um, so&nbsp;
+that's been kind of a a thing that I I continue&nbsp;&nbsp;
+
+00:52:04.720 --> 00:52:09.920
+to to believe very strongly and I think has been a&nbsp;
+driving impulse on how we within the PCL team and&nbsp;&nbsp;
+
+00:52:09.920 --> 00:52:14.800
+I think of the broader culture of Palunteer thinks&nbsp;
+about AI development in our products. It's once&nbsp;&nbsp;
+
+00:52:14.800 --> 00:52:19.920
+again about resolving contradictions and you know&nbsp;
+I think we couldn't have totally predicted though&nbsp;&nbsp;
+
+00:52:19.920 --> 00:52:23.840
+I think some of the antecedent moments that&nbsp;
+we saw through the Maven work and some of the&nbsp;&nbsp;
+
+00:52:23.840 --> 00:52:29.760
+DoD work informed not in the literal architectural&nbsp;
+sense but kind of what to expect from a how do you&nbsp;&nbsp;
+
+00:52:29.760 --> 00:52:36.720
+operationalize you know highly capable models and&nbsp;
+AI systems and you know the word that we say a lot&nbsp;&nbsp;
+
+00:52:36.720 --> 00:52:41.520
+and people give us a lot of flack for sometimes&nbsp;
+is ontology right and what's interesting is the&nbsp;&nbsp;
+
+00:52:41.520 --> 00:52:45.920
+expressiveness in the ontology system that had&nbsp;
+to meet its moment here with the advent of large&nbsp;&nbsp;
+
+00:52:45.920 --> 00:52:50.240
+language models because you have these models&nbsp;
+that are highly capable but highly divorced from&nbsp;&nbsp;
+
+00:52:50.240 --> 00:52:55.760
+your individual context. And so if they're trained&nbsp;
+on human language, how do you actually give them&nbsp;&nbsp;
+
+00:52:55.760 --> 00:53:01.120
+understanding and not just essentially lexical&nbsp;
+proficiency? And so that means in the ontology&nbsp;&nbsp;
+
+00:53:01.120 --> 00:53:07.680
+system which started originally as maybe just&nbsp;
+data and some amount of action modeled in a more&nbsp;&nbsp;
+
+00:53:07.680 --> 00:53:12.240
+compartmentalized way for the initial Gotham&nbsp;
+workflows and metropolis workflows which then&nbsp;&nbsp;
+
+00:53:12.240 --> 00:53:17.120
+evolved an expression as we talked about through&nbsp;
+commercial and COVID to have more elaborate ways&nbsp;&nbsp;
+
+00:53:17.120 --> 00:53:22.160
+of defining action and simulation to now encomp&nbsp;
+encompassing logic and ways of you can actually&nbsp;&nbsp;
+
+00:53:22.160 --> 00:53:27.200
+embody or represent reasoning in the ontology&nbsp;
+system like that becomes this sort of nexus of&nbsp;&nbsp;
+
+00:53:27.200 --> 00:53:32.000
+understanding for both the human beings and the&nbsp;
+models. And I think that was sort of the click&nbsp;&nbsp;
+
+00:53:32.000 --> 00:53:36.640
+moment where we're like, oh, this could be that&nbsp;
+actual shared substrate between humans and AI,&nbsp;&nbsp;
+
+00:53:36.640 --> 00:53:42.240
+which actually does the four-fold integration of&nbsp;
+different data, different logic, different action&nbsp;&nbsp;
+
+00:53:42.240 --> 00:53:47.440
+and security and and data protection as well.&nbsp;
+Um, and unless you basically have that core or&nbsp;&nbsp;
+
+00:53:47.440 --> 00:53:52.880
+you have that way that you're transducing human&nbsp;
+and AI action together, you're not going to find&nbsp;&nbsp;
+
+00:53:52.880 --> 00:53:57.920
+a way our conviction to actually operationalize&nbsp;
+these models in a way that is compliant with your&nbsp;&nbsp;
+
+00:53:57.920 --> 00:54:03.600
+norms and actually can be measured in a normative&nbsp;
+way against the value that you care about. Um, and&nbsp;&nbsp;
+
+00:54:03.600 --> 00:54:09.040
+so that has been the journey with AIP and we're&nbsp;
+still very early in it. Um, but I think about&nbsp;&nbsp;
+
+00:54:09.040 --> 00:54:13.600
+uh all of the things that we've had to evolve in&nbsp;
+the existing architecture in addition to all the&nbsp;&nbsp;
+
+00:54:13.600 --> 00:54:18.160
+new stuff we've built. So all of the optimizers&nbsp;
+or traditional models you might have brought in&nbsp;&nbsp;
+
+00:54:18.160 --> 00:54:23.520
+in prior eras to the model op suite now can become&nbsp;
+tools for AI, right? So in that way we're almost&nbsp;&nbsp;
+
+00:54:23.520 --> 00:54:28.000
+like a maximalist AI company, right? Because&nbsp;
+you're using both generative AI and traditional ML&nbsp;&nbsp;
+
+00:54:28.000 --> 00:54:33.760
+tools and techniques. um all the data protection&nbsp;
+frameworks that were just for users or handoff&nbsp;&nbsp;
+
+00:54:33.760 --> 00:54:38.880
+points, checkpoints, approvals that existed among&nbsp;
+different teams that were interdisciplinary or&nbsp;&nbsp;
+
+00:54:38.880 --> 00:54:44.240
+required approval processes now apply to AI agents&nbsp;
+potentially handing off actions for review prior&nbsp;&nbsp;
+
+00:54:44.240 --> 00:54:49.200
+to being submitted. Um there's just all these&nbsp;
+interesting symmetries and ways that things have&nbsp;&nbsp;
+
+00:54:49.200 --> 00:54:54.880
+kind of come full circle with how we're building&nbsp;
+these systems now for both um humans and for our&nbsp;&nbsp;
+
+00:54:54.880 --> 00:55:00.320
+agentic friends and kind of the journey that we go&nbsp;
+on now I think with a lot of customers is well how&nbsp;&nbsp;
+
+00:55:00.320 --> 00:55:05.680
+do you incrementally deliver more autonomy every&nbsp;
+day into workflows while not losing control and&nbsp;&nbsp;
+
+00:55:05.680 --> 00:55:10.720
+while not losing a sense of what matters and what&nbsp;
+differentiates your company. Yeah. and and to to&nbsp;&nbsp;
+
+00:55:10.720 --> 00:55:16.960
+you know go back to the resolving contradictions&nbsp;
+point that this concept of AIP observability is&nbsp;&nbsp;
+
+00:55:16.960 --> 00:55:26.160
+really is really both encapsulating what it takes&nbsp;
+for AI to work in situ um and also addressing&nbsp;&nbsp;
+
+00:55:26.160 --> 00:55:31.120
+these normative concerns about what's the AI&nbsp;
+doing? Can I trust it? Is it explainable? Is there&nbsp;&nbsp;
+
+00:55:31.120 --> 00:55:35.040
+enough transparency into the system? Can I do I&nbsp;
+have the level of accountability that I can go&nbsp;&nbsp;
+
+00:55:35.040 --> 00:55:40.800
+back and make assertions to um to regulators or or&nbsp;
+oversight authorities? Those are kinds of critical&nbsp;&nbsp;
+
+00:55:40.800 --> 00:55:46.080
+capabilities that have to be built into the&nbsp;
+workflows to be able to build the institutional&nbsp;&nbsp;
+
+00:55:46.080 --> 00:55:51.680
+trust that make these these systems reliable. Um,&nbsp;
+one of the other things that you know we we spent&nbsp;&nbsp;
+
+00:55:51.680 --> 00:55:58.480
+a lot of a lot of effort kind of building out um&nbsp;
+and is on the back of our prior work on classical&nbsp;&nbsp;
+
+00:55:58.480 --> 00:56:04.960
+um ML testing evaluation frameworks is is the&nbsp;
+sort of the testing evaluation validation and&nbsp;&nbsp;
+
+00:56:04.960 --> 00:56:11.440
+maintenance components. Um because beyond the&nbsp;
+problem of where do you make the handoff between&nbsp;&nbsp;
+
+00:56:11.440 --> 00:56:18.480
+uh AI agents or other capabilities and other tools&nbsp;
+in the toolkit um you have to have a a pretty&nbsp;&nbsp;
+
+00:56:18.480 --> 00:56:24.640
+nimble framework to evaluate in the specific&nbsp;
+context of application whether the AI tool is&nbsp;&nbsp;
+
+00:56:24.640 --> 00:56:29.440
+doing the thing that you want it to do. Um so we&nbsp;
+we've we've kind of built the infrastructure and&nbsp;&nbsp;
+
+00:56:29.440 --> 00:56:35.840
+the different types of of patterns um and and&nbsp;
+models that can be used to uh to do this sort&nbsp;&nbsp;
+
+00:56:35.840 --> 00:56:42.720
+of discrete testing to understand the specific&nbsp;
+risk profile of a given AI application. Um define&nbsp;&nbsp;
+
+00:56:42.720 --> 00:56:48.080
+metrics to to assert whether you're you're doing&nbsp;
+the thing that you need to do. uh and then kind of&nbsp;&nbsp;
+
+00:56:48.080 --> 00:56:52.960
+have a reproducible framework so that as the model&nbsp;
+develops over time or as the applications change&nbsp;&nbsp;
+
+00:56:52.960 --> 00:56:58.400
+over time or the data environment changes over&nbsp;
+time, you can go back and continually evaluate.&nbsp;&nbsp;
+
+00:56:58.400 --> 00:57:03.520
+have to recognize um consistently that there's&nbsp;
+a brittleleness that's built into these systems.&nbsp;&nbsp;
+
+00:57:03.520 --> 00:57:09.040
+And this maintenance component um addresses&nbsp;
+the long tail of application which again gets&nbsp;&nbsp;
+
+00:57:09.040 --> 00:57:14.000
+into this point of uh you may have flashy&nbsp;
+applications that work up front but the&nbsp;&nbsp;
+
+00:57:14.000 --> 00:57:18.720
+the institutional trust around their their use and&nbsp;
+application. These these normative considerations,&nbsp;&nbsp;
+
+00:57:18.720 --> 00:57:23.920
+these societal considerations are an enduring&nbsp;
+thing. And if there's erosion in the application&nbsp;&nbsp;
+
+00:57:23.920 --> 00:57:30.160
+of the system um and it's not working as well as&nbsp;
+it did at the at the time of product um product&nbsp;&nbsp;
+
+00:57:30.160 --> 00:57:35.920
+rollout 6 months later you have a real problem&nbsp;
+um you have a erosion of trust problem. So all&nbsp;&nbsp;
+
+00:57:35.920 --> 00:57:41.760
+these these features are kind of core components&nbsp;
+of what AIP needs to have in place in order to&nbsp;&nbsp;
+
+00:57:41.760 --> 00:57:47.440
+uh to work and I think this is again um if I think&nbsp;
+back to our early days and what mirrors to now&nbsp;&nbsp;
+
+00:57:47.440 --> 00:57:51.280
+it's the ambition of that problem that I think&nbsp;
+attracts a lot of people and is very motivating&nbsp;&nbsp;
+
+00:57:51.280 --> 00:57:55.440
+to our product teams um and and to people who&nbsp;
+are looking at Palunteer and wanting to work&nbsp;&nbsp;
+
+00:57:55.440 --> 00:57:59.920
+with us and if I think about some of the use&nbsp;
+case examples that kind of dovetail off of what&nbsp;&nbsp;
+
+00:57:59.920 --> 00:58:04.400
+you're saying I think about you know a couple&nbsp;
+hospital systems that are trying to integrate&nbsp;&nbsp;
+
+00:58:05.040 --> 00:58:10.560
+agents into critical workflows like nurse&nbsp;
+scheduling or capacity management or patient&nbsp;&nbsp;
+
+00:58:10.560 --> 00:58:15.440
+care. And of course, you're not going to flip&nbsp;
+a bit and just have uh an agent do stuff there.&nbsp;&nbsp;
+
+00:58:15.440 --> 00:58:20.240
+Nobody would think that's acceptable. Nobody would&nbsp;
+find that useful. Um, but can you have a system,&nbsp;&nbsp;
+
+00:58:20.240 --> 00:58:26.240
+a shared harness where the master nurse schedulers&nbsp;
+who are experts at this can have AI start to be&nbsp;&nbsp;
+
+00:58:26.240 --> 00:58:31.920
+incrementally useful for maybe one part of their&nbsp;
+triage workflow and then maybe start to propose&nbsp;&nbsp;
+
+00:58:31.920 --> 00:58:35.600
+possible schedules or changes that could make&nbsp;
+their lives easier so they're not doing as much&nbsp;&nbsp;
+
+00:58:35.600 --> 00:58:40.480
+manual work and they can focus on amplifying their&nbsp;
+human expertise. Right? We talk about giving human&nbsp;&nbsp;
+
+00:58:40.480 --> 00:58:46.080
+beings superpowers through the software. Um, and I&nbsp;
+think about, you know, recruiting workflows where&nbsp;&nbsp;
+
+00:58:46.080 --> 00:58:50.320
+it's important to try to automate what you can,&nbsp;
+but it's really important to make sure that bias&nbsp;&nbsp;
+
+00:58:50.320 --> 00:58:54.480
+and unintended factors are also controlled as&nbsp;
+you're doing. It's that observability point is&nbsp;&nbsp;
+
+00:58:54.480 --> 00:58:58.800
+critical to even getting to the starting line&nbsp;
+with those workflows. Um, and I think in each&nbsp;&nbsp;
+
+00:58:58.800 --> 00:59:03.200
+of these cases, it looks much more like turning&nbsp;
+the wrench incrementally towards an epic outcome&nbsp;&nbsp;
+
+00:59:03.200 --> 00:59:07.680
+and I think much faster than people think than it&nbsp;
+is some sort of magic genie that, like you said,&nbsp;&nbsp;
+
+00:59:07.680 --> 00:59:11.920
+could give a whole new meaning to the words model&nbsp;
+drift if it starts to do things you don't expect.&nbsp;&nbsp;
+
+00:59:11.920 --> 00:59:17.360
+and and all along the way it's it's about kind of&nbsp;
+rein building and reinforcing the trust cycles.&nbsp;&nbsp;
+
+00:59:17.360 --> 00:59:22.560
+So this is again why the the testing frameworks&nbsp;
+are so important because if you can incrementally&nbsp;&nbsp;
+
+00:59:22.560 --> 00:59:27.440
+demonstrate that the additional capabilities&nbsp;
+that you're offering are reliable capabilities&nbsp;&nbsp;
+
+00:59:27.440 --> 00:59:32.640
+not just from the perspective of meeting core&nbsp;
+metrics or benchmarks but more critically from&nbsp;&nbsp;
+
+00:59:32.640 --> 00:59:37.920
+producing operational outcomes that people can&nbsp;
+see are useful and are consistent with their&nbsp;&nbsp;
+
+00:59:37.920 --> 00:59:43.200
+kind of analog expectations of of how a workflow&nbsp;
+should be carried out. That's how you get people&nbsp;&nbsp;
+
+00:59:43.200 --> 00:59:49.440
+more comfortable with a system with its with its&nbsp;
+reliability and um thinking in a mode of of how&nbsp;&nbsp;
+
+00:59:49.440 --> 00:59:55.200
+does how do they kind of advance their their own&nbsp;
+uh their own responsibilities and build out more&nbsp;&nbsp;
+
+00:59:55.200 --> 00:59:59.200
+capacity. And I think maybe just one final note&nbsp;
+on that is that that what you just described is&nbsp;&nbsp;
+
+00:59:59.200 --> 01:00:03.200
+a very compelling technical challenge because&nbsp;
+we've talked about data lineage but now really&nbsp;&nbsp;
+
+01:00:03.200 --> 01:00:08.720
+it's decision lineage. It's how do I trace every&nbsp;
+piece of information that informed every piece of&nbsp;&nbsp;
+
+01:00:08.720 --> 01:00:14.080
+the ontology that was used by these models, handed&nbsp;
+off to a user, potentially used to inform a task&nbsp;&nbsp;
+
+01:00:14.080 --> 01:00:19.040
+and then maybe resulted in a piece of feedback and&nbsp;
+you know that's a very interconnected system which&nbsp;&nbsp;
+
+01:00:19.040 --> 01:00:24.720
+at runtime could be doing things very differently&nbsp;
+between executions. Um and so in some ways it&nbsp;&nbsp;
+
+01:00:24.720 --> 01:00:30.000
+it feels like a continuous journey and in other&nbsp;
+ways it's just much more ambitious than anything&nbsp;&nbsp;
+
+01:00:30.000 --> 01:00:34.240
+we could have probably imagined in the early&nbsp;
+days. Yeah. And as that ambition expands and&nbsp;&nbsp;
+
+01:00:34.240 --> 01:00:39.360
+we see larger adoption and we see institutions&nbsp;
+take on more and more advanced applications of&nbsp;&nbsp;
+
+01:00:39.360 --> 01:00:45.440
+of AI technologies while at the same time&nbsp;
+there's increasingly complex and rigorous&nbsp;&nbsp;
+
+01:00:45.440 --> 01:00:51.120
+um governance and and regulatory environments.&nbsp;
+Um there's a need to provide the the the kind&nbsp;&nbsp;
+
+01:00:51.120 --> 01:00:55.520
+of framework for governance of all those&nbsp;
+applications. This is why we we built and&nbsp;&nbsp;
+
+01:00:55.520 --> 01:01:02.000
+have continue continued to build out capabilities&nbsp;
+around what we call the AI use case manager. Um&nbsp;&nbsp;
+
+01:01:02.000 --> 01:01:07.520
+so it's basically kind of a governance tool that&nbsp;
+helps um track all these complex applications,&nbsp;&nbsp;
+
+01:01:07.520 --> 01:01:14.080
+the multistakeholder environment against the&nbsp;
+specific regulatory or oversight um requirements&nbsp;&nbsp;
+
+01:01:14.080 --> 01:01:20.000
+uh and and be able over time to to identify&nbsp;
+the consistency of the AI applications and the&nbsp;&nbsp;
+
+01:01:20.000 --> 01:01:25.600
+the changing models and uh different contexts&nbsp;
+in which they're applied against all of these&nbsp;&nbsp;
+
+01:01:25.600 --> 01:01:30.400
+uh these these requirements. Um, so that's been&nbsp;
+a cool thing to uh to demonstrate and has gotten&nbsp;&nbsp;
+
+01:01:30.400 --> 01:01:35.760
+a lot of traction across both our government and&nbsp;
+commercial uh businesses. All right. So maybe just&nbsp;&nbsp;
+
+01:01:35.760 --> 01:01:40.240
+to wrap up, Courtney, I thought we would maybe&nbsp;
+close out with some things we're excited about,&nbsp;&nbsp;
+
+01:01:40.240 --> 01:01:44.880
+some forthcoming things that people should look&nbsp;
+out for. Y um I think maybe one thing I can share&nbsp;&nbsp;
+
+01:01:44.880 --> 01:01:50.880
+is on the developer tool chain side, it's really&nbsp;
+exciting times. So, you know, we went from not&nbsp;&nbsp;
+
+01:01:50.880 --> 01:01:55.440
+really having any developer conferences or much&nbsp;
+of a developer presence to doing three developer&nbsp;&nbsp;
+
+01:01:55.440 --> 01:02:00.800
+conferences in under a year. And I think it's&nbsp;
+been really explosive inbound demand, you know,&nbsp;&nbsp;
+
+01:02:00.800 --> 01:02:05.920
+with our startup cohorts and with builders inside&nbsp;
+of companies building their AI enabled products&nbsp;&nbsp;
+
+01:02:05.920 --> 01:02:11.040
+and services on top of Foundry and AIP. And so&nbsp;
+I think about the ontology SDK and everything&nbsp;&nbsp;
+
+01:02:11.040 --> 01:02:17.360
+that's forthcoming there. Pound your MCP so you&nbsp;
+can build a systems in a secure way. um and all&nbsp;&nbsp;
+
+01:02:17.360 --> 01:02:22.480
+the capabilities that we're building into the&nbsp;
+core platforms from autopilot uh to all the&nbsp;&nbsp;
+
+01:02:22.480 --> 01:02:27.280
+new observability tooling that's really going to&nbsp;
+make it I think the equivalent of what hyperscaler&nbsp;&nbsp;
+
+01:02:27.280 --> 01:02:32.400
+building was maybe in the mid2010s for kind of&nbsp;
+normative builders for AI builders I think in this&nbsp;&nbsp;
+
+01:02:32.400 --> 01:02:37.440
+next generation so stay tuned for a bunch on that&nbsp;
+front but I'm curious what's on your mind yeah&nbsp;&nbsp;
+
+01:02:37.440 --> 01:02:44.480
+so lots of things that that we're focused on on&nbsp;
+within the PCL team but kind of picking up on some&nbsp;&nbsp;
+
+01:02:44.480 --> 01:02:51.360
+of the things we've been talking about the space&nbsp;
+that everyone's interested in in uh AIP land. Um&nbsp;&nbsp;
+
+01:02:51.360 --> 01:02:58.000
+uh I I talked about the AI use case manager and&nbsp;
+there's just a huge open space of of green field&nbsp;&nbsp;
+
+01:02:58.000 --> 01:03:03.440
+um uh development work that we're we're focused&nbsp;
+on uh in the months and potentially years ahead.&nbsp;&nbsp;
+
+01:03:03.440 --> 01:03:08.960
+Um so near-term we're super excited about again&nbsp;
+going back to the primitives, how do we take the&nbsp;&nbsp;
+
+01:03:08.960 --> 01:03:15.200
+concept of ontology and build that into the&nbsp;
+governance framework of of AI applications?&nbsp;&nbsp;
+
+01:03:15.200 --> 01:03:18.400
+um because they're consistent concepts that&nbsp;
+people have to think about. They're concepts&nbsp;&nbsp;
+
+01:03:18.400 --> 01:03:24.480
+that relate to the regulatory policy landscape&nbsp;
+and all that can be translated into applications&nbsp;&nbsp;
+
+01:03:24.480 --> 01:03:30.800
+um of of AI technology in uh in the platform uh&nbsp;
+and the governance of of those uh AI components.&nbsp;&nbsp;
+
+01:03:30.800 --> 01:03:36.720
+Um so that's super cool and then sort of building&nbsp;
+on that um we can with the ontology create more&nbsp;&nbsp;
+
+01:03:36.720 --> 01:03:41.600
+governance tools for builders within the&nbsp;
+platform. So ho how do you take consistent&nbsp;&nbsp;
+
+01:03:41.600 --> 01:03:48.400
+concepts or templatized um uh model oversight&nbsp;
+paradigms and then translate that into tools&nbsp;&nbsp;
+
+01:03:48.400 --> 01:03:53.360
+that builders in the platform can use to make&nbsp;
+sure that they're consistent with or their&nbsp;&nbsp;
+
+01:03:53.360 --> 01:03:58.960
+institutions are consistent with their regulatory&nbsp;
+obligations and then even building more on top&nbsp;&nbsp;
+
+01:03:58.960 --> 01:04:05.040
+of that is what are the potential applications of&nbsp;
+generative AI for AI governance within the AI use&nbsp;&nbsp;
+
+01:04:05.040 --> 01:04:11.120
+case manager. Are there ways that we can draw upon&nbsp;
+agentic components to be able to help facilitate&nbsp;&nbsp;
+
+01:04:11.120 --> 01:04:15.280
+some of the governance requirements?&nbsp;
+Um, and and the the key insight here,&nbsp;&nbsp;
+
+01:04:15.280 --> 01:04:20.960
+the thing that we're constantly being mindful&nbsp;
+of is we don't want to overstep in terms of uh&nbsp;&nbsp;
+
+01:04:20.960 --> 01:04:26.000
+in terms of assuming too much capability.&nbsp;
+Um but there are instances where there's&nbsp;&nbsp;
+
+01:04:26.000 --> 01:04:31.200
+repeated patterns and learnings that can be&nbsp;
+translated into agentic applications that can&nbsp;&nbsp;
+
+01:04:31.200 --> 01:04:36.960
+help facilitate uh institutions and over oversight&nbsp;
+authorities abilities to manage their AI use cases&nbsp;&nbsp;
+
+01:04:36.960 --> 01:04:42.320
+responsibly. Um so those areas of development&nbsp;
+are super cool and and uh we're excited to to&nbsp;&nbsp;
+
+01:04:42.320 --> 01:04:46.960
+build them out. So maybe it's fair to say our&nbsp;
+latest contradiction we're tackling is more AI&nbsp;&nbsp;
+
+01:04:46.960 --> 01:04:51.680
+enabled building or more building in general&nbsp;
+ways to build with better governance. Yeah,&nbsp;&nbsp;
+
+01:04:51.680 --> 01:04:55.360
+I think that's right. Awesome. Well, I can't&nbsp;
+think of a better way to end it than that. So,&nbsp;&nbsp;
+
+01:04:55.360 --> 01:05:00.880
+thank you, Courtney, for taking the time to&nbsp;
+chat today. No, it's been super fun. Thanks,
+

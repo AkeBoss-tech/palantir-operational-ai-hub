@@ -1,0 +1,581 @@
+{
+  "mode": "markdown_frontmatter",
+  "generatedAt": null,
+  "config": {
+    "include": [
+      "topics/**/*.md",
+      "research_plan/**/*.md"
+    ],
+    "exclude": [
+      ".git/**",
+      ".krail/**",
+      ".rail/**",
+      ".ontology/**",
+      ".venv/**",
+      "node_modules/**",
+      "research_plan/graph/*.md",
+      "docs/data/*.md"
+    ],
+    "jsonPath": "research_plan/graph/graph.json",
+    "mermaidPath": "research_plan/graph/graph.mmd",
+    "summaryPath": "research_plan/graph/summary.md"
+  },
+  "counts": {
+    "documents": 5,
+    "nodes": 29,
+    "edges": 34
+  },
+  "nodeTypeCounts": {
+    "document": 5,
+    "entity": 9,
+    "source": 7,
+    "topic": 8
+  },
+  "entityTypeCounts": {
+    "Concept": 8,
+    "ProjectIdea": 1
+  },
+  "documents": [
+    {
+      "id": "doc:research_plan/current_plan.md",
+      "path": "research_plan/current_plan.md",
+      "title": "Current Plan",
+      "kind": "plan",
+      "topics": [
+        "planning"
+      ],
+      "entities": [
+        "Palantir AI Video Knowledge Base"
+      ],
+      "sources": [],
+      "relations": 0,
+      "updated": null
+    },
+    {
+      "id": "doc:topics/brief.md",
+      "path": "topics/brief.md",
+      "title": "Palantir AI Video Knowledge Base Brief",
+      "kind": "brief",
+      "topics": [
+        "project-brief"
+      ],
+      "entities": [
+        "Palantir AI Video Knowledge Base"
+      ],
+      "sources": [],
+      "relations": 0,
+      "updated": null
+    },
+    {
+      "id": "doc:topics/operational-ai-watchlist.md",
+      "path": "topics/operational-ai-watchlist.md",
+      "title": "Operational AI Source Watchlist",
+      "kind": "source-index",
+      "topics": [
+        "operational-ai",
+        "enterprise-agents",
+        "industrial-ai",
+        "defence-ai"
+      ],
+      "entities": [
+        "AWS",
+        "Google Cloud",
+        "Microsoft",
+        "NVIDIA",
+        "Palantir"
+      ],
+      "sources": [],
+      "relations": 0,
+      "updated": null
+    },
+    {
+      "id": "doc:topics/palantir-ai-video-landscape.md",
+      "path": "topics/palantir-ai-video-landscape.md",
+      "title": "Palantir AI Video Landscape \u2014 100-Video Synthesis",
+      "kind": "synthesis",
+      "topics": [
+        "palantir-ai",
+        "enterprise-agents",
+        "operational-ai",
+        "ontology"
+      ],
+      "entities": [
+        "AIP",
+        "Apollo",
+        "Ontology",
+        "Palantir"
+      ],
+      "sources": [],
+      "relations": 0,
+      "updated": null
+    },
+    {
+      "id": "doc:topics/video-index.md",
+      "path": "topics/video-index.md",
+      "title": "Palantir YouTube \u2014 100-Video Index",
+      "kind": "source-index",
+      "topics": [
+        "palantir-ai",
+        "enterprise-agents",
+        "operational-ai"
+      ],
+      "entities": [
+        "AIP",
+        "Ontology",
+        "Palantir"
+      ],
+      "sources": [],
+      "relations": 0,
+      "updated": null
+    }
+  ],
+  "nodes": [
+    {
+      "label": "Current Plan",
+      "nodeType": "document",
+      "kind": "plan",
+      "path": "research_plan/current_plan.md",
+      "id": "doc:research_plan/current_plan.md"
+    },
+    {
+      "label": "brief",
+      "nodeType": "document",
+      "kind": "brief",
+      "path": "topics/brief.md",
+      "id": "doc:topics/brief.md"
+    },
+    {
+      "label": "operational ai watchlist",
+      "nodeType": "document",
+      "kind": "source-index",
+      "path": "topics/operational-ai-watchlist.md",
+      "id": "doc:topics/operational-ai-watchlist.md"
+    },
+    {
+      "label": "palantir ai video landscape",
+      "nodeType": "document",
+      "kind": "synthesis",
+      "path": "topics/palantir-ai-video-landscape.md",
+      "id": "doc:topics/palantir-ai-video-landscape.md"
+    },
+    {
+      "label": "video index",
+      "nodeType": "document",
+      "kind": "source-index",
+      "path": "topics/video-index.md",
+      "id": "doc:topics/video-index.md"
+    },
+    {
+      "label": "AIP",
+      "nodeType": "entity",
+      "entityType": "Concept",
+      "id": "entity:aip"
+    },
+    {
+      "label": "Apollo",
+      "nodeType": "entity",
+      "entityType": "Concept",
+      "id": "entity:apollo"
+    },
+    {
+      "label": "AWS",
+      "nodeType": "entity",
+      "entityType": "Concept",
+      "id": "entity:aws"
+    },
+    {
+      "label": "Google Cloud",
+      "nodeType": "entity",
+      "entityType": "Concept",
+      "id": "entity:google-cloud"
+    },
+    {
+      "label": "Microsoft",
+      "nodeType": "entity",
+      "entityType": "Concept",
+      "id": "entity:microsoft"
+    },
+    {
+      "label": "NVIDIA",
+      "nodeType": "entity",
+      "entityType": "Concept",
+      "id": "entity:nvidia"
+    },
+    {
+      "label": "Ontology",
+      "nodeType": "entity",
+      "entityType": "Concept",
+      "id": "entity:ontology"
+    },
+    {
+      "label": "Palantir",
+      "nodeType": "entity",
+      "entityType": "Concept",
+      "id": "entity:palantir"
+    },
+    {
+      "label": "Palantir AI Video Knowledge Base",
+      "nodeType": "entity",
+      "entityType": "ProjectIdea",
+      "id": "entity:palantir-ai-video-knowledge-base"
+    },
+    {
+      "label": "local:operational-ai-watchlist",
+      "nodeType": "source",
+      "sourceType": "local_file",
+      "path": "sources/operational_ai_watchlist.csv",
+      "refresh": "monthly",
+      "id": "source:local-operational-ai-watchlist"
+    },
+    {
+      "label": "local:research-question",
+      "nodeType": "source",
+      "sourceType": "local_file",
+      "path": "specs/research_question.yaml",
+      "refresh": "manual",
+      "id": "source:local-research-question"
+    },
+    {
+      "label": "local:thread-reports",
+      "nodeType": "source",
+      "sourceType": "local_file",
+      "path": "artifacts/thread_runs",
+      "refresh": "on_change",
+      "id": "source:local-thread-reports"
+    },
+    {
+      "label": "local:video-catalog",
+      "nodeType": "source",
+      "sourceType": "local_file",
+      "path": "sources/video_catalog.csv",
+      "refresh": "daily",
+      "id": "source:local-video-catalog"
+    },
+    {
+      "label": "web:cset",
+      "nodeType": "source",
+      "sourceType": "url",
+      "url": "https://cset.georgetown.edu/",
+      "refresh": "weekly",
+      "id": "source:web-cset"
+    },
+    {
+      "label": "web:microsoft-foundry-blog",
+      "nodeType": "source",
+      "sourceType": "url",
+      "url": "https://devblogs.microsoft.com/foundry/",
+      "refresh": "daily",
+      "id": "source:web-microsoft-foundry-blog"
+    },
+    {
+      "label": "youtube:palantir-latest-100",
+      "nodeType": "source",
+      "sourceType": "url",
+      "url": "https://www.youtube.com/@palantirtech/videos",
+      "refresh": "daily",
+      "id": "source:youtube-palantir-latest-100"
+    },
+    {
+      "label": "defence-ai",
+      "nodeType": "topic",
+      "id": "topic:defence-ai"
+    },
+    {
+      "label": "enterprise-agents",
+      "nodeType": "topic",
+      "id": "topic:enterprise-agents"
+    },
+    {
+      "label": "industrial-ai",
+      "nodeType": "topic",
+      "id": "topic:industrial-ai"
+    },
+    {
+      "label": "ontology",
+      "nodeType": "topic",
+      "id": "topic:ontology"
+    },
+    {
+      "label": "operational-ai",
+      "nodeType": "topic",
+      "id": "topic:operational-ai"
+    },
+    {
+      "label": "palantir-ai",
+      "nodeType": "topic",
+      "id": "topic:palantir-ai"
+    },
+    {
+      "label": "planning",
+      "nodeType": "topic",
+      "id": "topic:planning"
+    },
+    {
+      "label": "project-brief",
+      "nodeType": "topic",
+      "id": "topic:project-brief"
+    }
+  ],
+  "edges": [
+    {
+      "id": "doc:research_plan/current_plan.md::has_topic::topic:planning::research_plan/current_plan.md",
+      "from": "doc:research_plan/current_plan.md",
+      "type": "has_topic",
+      "to": "topic:planning",
+      "source": "research_plan/current_plan.md"
+    },
+    {
+      "id": "doc:research_plan/current_plan.md::mentions::entity:palantir-ai-video-knowledge-base::research_plan/current_plan.md",
+      "from": "doc:research_plan/current_plan.md",
+      "type": "mentions",
+      "to": "entity:palantir-ai-video-knowledge-base",
+      "source": "research_plan/current_plan.md"
+    },
+    {
+      "id": "doc:topics/brief.md::depends_on::source:local-research-question::sources/dependencies.yaml",
+      "from": "doc:topics/brief.md",
+      "type": "depends_on",
+      "to": "source:local-research-question",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/brief.md",
+      "role": "project_spec",
+      "refresh": "manual"
+    },
+    {
+      "id": "doc:topics/brief.md::has_topic::topic:project-brief::topics/brief.md",
+      "from": "doc:topics/brief.md",
+      "type": "has_topic",
+      "to": "topic:project-brief",
+      "source": "topics/brief.md"
+    },
+    {
+      "id": "doc:topics/brief.md::mentions::entity:palantir-ai-video-knowledge-base::topics/brief.md",
+      "from": "doc:topics/brief.md",
+      "type": "mentions",
+      "to": "entity:palantir-ai-video-knowledge-base",
+      "source": "topics/brief.md"
+    },
+    {
+      "id": "doc:topics/operational-ai-watchlist.md::depends_on::source:local-operational-ai-watchlist::sources/dependencies.yaml",
+      "from": "doc:topics/operational-ai-watchlist.md",
+      "type": "depends_on",
+      "to": "source:local-operational-ai-watchlist",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/operational-ai-watchlist.md",
+      "role": "source_inventory",
+      "refresh": "monthly"
+    },
+    {
+      "id": "doc:topics/operational-ai-watchlist.md::depends_on::source:web-cset::sources/dependencies.yaml",
+      "from": "doc:topics/operational-ai-watchlist.md",
+      "type": "depends_on",
+      "to": "source:web-cset",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/operational-ai-watchlist.md",
+      "role": "independent_research",
+      "refresh": "weekly"
+    },
+    {
+      "id": "doc:topics/operational-ai-watchlist.md::depends_on::source:web-microsoft-foundry-blog::sources/dependencies.yaml",
+      "from": "doc:topics/operational-ai-watchlist.md",
+      "type": "depends_on",
+      "to": "source:web-microsoft-foundry-blog",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/operational-ai-watchlist.md",
+      "role": "primary_source",
+      "refresh": "daily"
+    },
+    {
+      "id": "doc:topics/operational-ai-watchlist.md::has_topic::topic:defence-ai::topics/operational-ai-watchlist.md",
+      "from": "doc:topics/operational-ai-watchlist.md",
+      "type": "has_topic",
+      "to": "topic:defence-ai",
+      "source": "topics/operational-ai-watchlist.md"
+    },
+    {
+      "id": "doc:topics/operational-ai-watchlist.md::has_topic::topic:enterprise-agents::topics/operational-ai-watchlist.md",
+      "from": "doc:topics/operational-ai-watchlist.md",
+      "type": "has_topic",
+      "to": "topic:enterprise-agents",
+      "source": "topics/operational-ai-watchlist.md"
+    },
+    {
+      "id": "doc:topics/operational-ai-watchlist.md::has_topic::topic:industrial-ai::topics/operational-ai-watchlist.md",
+      "from": "doc:topics/operational-ai-watchlist.md",
+      "type": "has_topic",
+      "to": "topic:industrial-ai",
+      "source": "topics/operational-ai-watchlist.md"
+    },
+    {
+      "id": "doc:topics/operational-ai-watchlist.md::has_topic::topic:operational-ai::topics/operational-ai-watchlist.md",
+      "from": "doc:topics/operational-ai-watchlist.md",
+      "type": "has_topic",
+      "to": "topic:operational-ai",
+      "source": "topics/operational-ai-watchlist.md"
+    },
+    {
+      "id": "doc:topics/operational-ai-watchlist.md::mentions::entity:aws::topics/operational-ai-watchlist.md",
+      "from": "doc:topics/operational-ai-watchlist.md",
+      "type": "mentions",
+      "to": "entity:aws",
+      "source": "topics/operational-ai-watchlist.md"
+    },
+    {
+      "id": "doc:topics/operational-ai-watchlist.md::mentions::entity:google-cloud::topics/operational-ai-watchlist.md",
+      "from": "doc:topics/operational-ai-watchlist.md",
+      "type": "mentions",
+      "to": "entity:google-cloud",
+      "source": "topics/operational-ai-watchlist.md"
+    },
+    {
+      "id": "doc:topics/operational-ai-watchlist.md::mentions::entity:microsoft::topics/operational-ai-watchlist.md",
+      "from": "doc:topics/operational-ai-watchlist.md",
+      "type": "mentions",
+      "to": "entity:microsoft",
+      "source": "topics/operational-ai-watchlist.md"
+    },
+    {
+      "id": "doc:topics/operational-ai-watchlist.md::mentions::entity:nvidia::topics/operational-ai-watchlist.md",
+      "from": "doc:topics/operational-ai-watchlist.md",
+      "type": "mentions",
+      "to": "entity:nvidia",
+      "source": "topics/operational-ai-watchlist.md"
+    },
+    {
+      "id": "doc:topics/operational-ai-watchlist.md::mentions::entity:palantir::topics/operational-ai-watchlist.md",
+      "from": "doc:topics/operational-ai-watchlist.md",
+      "type": "mentions",
+      "to": "entity:palantir",
+      "source": "topics/operational-ai-watchlist.md"
+    },
+    {
+      "id": "doc:topics/palantir-ai-video-landscape.md::depends_on::source:local-thread-reports::sources/dependencies.yaml",
+      "from": "doc:topics/palantir-ai-video-landscape.md",
+      "type": "depends_on",
+      "to": "source:local-thread-reports",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/palantir-ai-video-landscape.md",
+      "role": "reviewed_evidence",
+      "refresh": "on_change"
+    },
+    {
+      "id": "doc:topics/palantir-ai-video-landscape.md::depends_on::source:local-video-catalog::sources/dependencies.yaml",
+      "from": "doc:topics/palantir-ai-video-landscape.md",
+      "type": "depends_on",
+      "to": "source:local-video-catalog",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/palantir-ai-video-landscape.md",
+      "role": "source_inventory",
+      "refresh": "daily"
+    },
+    {
+      "id": "doc:topics/palantir-ai-video-landscape.md::has_topic::topic:enterprise-agents::topics/palantir-ai-video-landscape.md",
+      "from": "doc:topics/palantir-ai-video-landscape.md",
+      "type": "has_topic",
+      "to": "topic:enterprise-agents",
+      "source": "topics/palantir-ai-video-landscape.md"
+    },
+    {
+      "id": "doc:topics/palantir-ai-video-landscape.md::has_topic::topic:ontology::topics/palantir-ai-video-landscape.md",
+      "from": "doc:topics/palantir-ai-video-landscape.md",
+      "type": "has_topic",
+      "to": "topic:ontology",
+      "source": "topics/palantir-ai-video-landscape.md"
+    },
+    {
+      "id": "doc:topics/palantir-ai-video-landscape.md::has_topic::topic:operational-ai::topics/palantir-ai-video-landscape.md",
+      "from": "doc:topics/palantir-ai-video-landscape.md",
+      "type": "has_topic",
+      "to": "topic:operational-ai",
+      "source": "topics/palantir-ai-video-landscape.md"
+    },
+    {
+      "id": "doc:topics/palantir-ai-video-landscape.md::has_topic::topic:palantir-ai::topics/palantir-ai-video-landscape.md",
+      "from": "doc:topics/palantir-ai-video-landscape.md",
+      "type": "has_topic",
+      "to": "topic:palantir-ai",
+      "source": "topics/palantir-ai-video-landscape.md"
+    },
+    {
+      "id": "doc:topics/palantir-ai-video-landscape.md::mentions::entity:aip::topics/palantir-ai-video-landscape.md",
+      "from": "doc:topics/palantir-ai-video-landscape.md",
+      "type": "mentions",
+      "to": "entity:aip",
+      "source": "topics/palantir-ai-video-landscape.md"
+    },
+    {
+      "id": "doc:topics/palantir-ai-video-landscape.md::mentions::entity:apollo::topics/palantir-ai-video-landscape.md",
+      "from": "doc:topics/palantir-ai-video-landscape.md",
+      "type": "mentions",
+      "to": "entity:apollo",
+      "source": "topics/palantir-ai-video-landscape.md"
+    },
+    {
+      "id": "doc:topics/palantir-ai-video-landscape.md::mentions::entity:ontology::topics/palantir-ai-video-landscape.md",
+      "from": "doc:topics/palantir-ai-video-landscape.md",
+      "type": "mentions",
+      "to": "entity:ontology",
+      "source": "topics/palantir-ai-video-landscape.md"
+    },
+    {
+      "id": "doc:topics/palantir-ai-video-landscape.md::mentions::entity:palantir::topics/palantir-ai-video-landscape.md",
+      "from": "doc:topics/palantir-ai-video-landscape.md",
+      "type": "mentions",
+      "to": "entity:palantir",
+      "source": "topics/palantir-ai-video-landscape.md"
+    },
+    {
+      "id": "doc:topics/video-index.md::depends_on::source:youtube-palantir-latest-100::sources/dependencies.yaml",
+      "from": "doc:topics/video-index.md",
+      "type": "depends_on",
+      "to": "source:youtube-palantir-latest-100",
+      "source": "sources/dependencies.yaml",
+      "document": "doc:topics/video-index.md",
+      "role": "primary_source",
+      "refresh": "daily"
+    },
+    {
+      "id": "doc:topics/video-index.md::has_topic::topic:enterprise-agents::topics/video-index.md",
+      "from": "doc:topics/video-index.md",
+      "type": "has_topic",
+      "to": "topic:enterprise-agents",
+      "source": "topics/video-index.md"
+    },
+    {
+      "id": "doc:topics/video-index.md::has_topic::topic:operational-ai::topics/video-index.md",
+      "from": "doc:topics/video-index.md",
+      "type": "has_topic",
+      "to": "topic:operational-ai",
+      "source": "topics/video-index.md"
+    },
+    {
+      "id": "doc:topics/video-index.md::has_topic::topic:palantir-ai::topics/video-index.md",
+      "from": "doc:topics/video-index.md",
+      "type": "has_topic",
+      "to": "topic:palantir-ai",
+      "source": "topics/video-index.md"
+    },
+    {
+      "id": "doc:topics/video-index.md::mentions::entity:aip::topics/video-index.md",
+      "from": "doc:topics/video-index.md",
+      "type": "mentions",
+      "to": "entity:aip",
+      "source": "topics/video-index.md"
+    },
+    {
+      "id": "doc:topics/video-index.md::mentions::entity:ontology::topics/video-index.md",
+      "from": "doc:topics/video-index.md",
+      "type": "mentions",
+      "to": "entity:ontology",
+      "source": "topics/video-index.md"
+    },
+    {
+      "id": "doc:topics/video-index.md::mentions::entity:palantir::topics/video-index.md",
+      "from": "doc:topics/video-index.md",
+      "type": "mentions",
+      "to": "entity:palantir",
+      "source": "topics/video-index.md"
+    }
+  ],
+  "warnings": []
+}

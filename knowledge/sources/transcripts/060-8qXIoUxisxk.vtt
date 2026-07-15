@@ -1,0 +1,556 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.460 --> 00:00:06.920
+Akshay, excited to be here with you today.
+
+00:00:07.260 --> 00:00:19.219
+We are gonna talk about the future of AI in the workforce and the connection between humans and artificial intelligence, which is obviously a topic of a lot of conversation over the last week and the last several months.
+
+00:00:19.440 --> 00:00:30.760
+Akshaya is chief architect at Palantir and has been on the front line of these issues for many years now, and really excited to talk to you a lot about how Palantire sees the world in this way.
+
+00:00:30.880 --> 00:00:32.280
+We hear a lot from different.
+
+00:00:32.670 --> 00:00:37.310
+Artificial intelligence companies on this question of what is AI going to do to the workforce?
+
+00:00:37.750 --> 00:00:41.509
+And really what is it gonna do to the human search for purpose and meaning in the world?
+
+00:00:41.930 --> 00:00:43.630
+And how do we make AI systems better?
+
+00:00:43.750 --> 00:00:44.390
+How do we team them?
+
+00:00:44.390 --> 00:00:46.149
+There's all sorts of nomenclature around this.
+
+00:00:46.150 --> 00:00:50.630
+Humans in the loop, humans in the, and behind and lead and front and back.
+
+00:00:51.370 --> 00:01:04.589
+And I think we started riffing on this just in private a little while ago and I thought it would be really important for for you to get some of these views out into the world, because I don't think that we're hearing them very often, and I think you have a unique perspective.
+
+00:01:04.709 --> 00:01:06.409
+So thank you for joining us today.
+
+00:01:07.210 --> 00:01:16.229
+We've been talking a lot at Pound here about how we see the deployment of artificial intelligence enhancing humans, rather than eliminating them or eroding them.
+
+00:01:16.690 --> 00:01:22.029
+And we've talked a lot about that in terms of our website called Working Intelligence, where we featured some of our customers.
+
+00:01:22.809 --> 00:01:33.370
+Showing how they've implemented AI in a way that has actually enhanced their workers and opened them up to new opportunities and really drawn the most out of their creativity in ways that they might not have done before.
+
+00:01:33.730 --> 00:01:40.409
+But what I'm really interested in getting into today is talking about from a technical perspective, what does that look like on the ground?
+
+00:01:40.750 --> 00:01:49.890
+And how do you design a software system and an implementation of artificial intelligence in an enterprise context that can actually bring the best out of humans?
+
+00:01:50.170 --> 00:01:52.989
+And how do you think about the relationship between AI and humans in that context?
+
+00:01:53.750 --> 00:01:54.890
+I think that's a great prompt.
+
+00:01:55.110 --> 00:01:56.690
+And first and foremost, thank you for having me, Jordan.
+
+00:01:57.150 --> 00:02:00.790
+I'm excited to kind of dive into these issues with you, these topics.
+
+00:02:00.830 --> 00:02:01.330
+And I agree with you.
+
+00:02:01.330 --> 00:02:03.810
+There's a lot of interesting substance to go into.
+
+00:02:04.390 --> 00:02:14.849
+And I think, authentically, we're learning so much every day in the field that I think like I have to catch myself on saying whether or not something is still current or whether or not my understanding has evolved almost day by day.
+
+00:02:15.130 --> 00:02:16.530
+So it's a very exciting time.
+
+00:02:16.530 --> 00:02:26.219
+I've been a Palantir for about 13 years, and I think the rate of change, the rate of being able to make an impact in these core domains has never felt higher than it is right now.
+
+00:02:26.980 --> 00:02:37.759
+I think maybe one thing I would start by saying is like, since day one at Palantir, in much more humble circumstances, it was always about trying to augment and enable decision makers.
+
+00:02:38.240 --> 00:02:45.040
+In that case, it was a handful of decision makers, counterterrorism analysts and soldiers down range, a very specific set of missions.
+
+00:02:45.400 --> 00:02:48.319
+But I think that spirit has carried with us to the modern day.
+
+00:02:48.750 --> 00:02:58.770
+So now we work across 50 plus verticals from everything from making airplanes to flight operations to electric grid controls to a lot of work across allied defense.
+
+00:02:59.510 --> 00:03:05.090
+But we still think a lot about what does it mean to actually empower the people making decisions and affect those missions.
+
+00:03:05.570 --> 00:03:11.509
+And I think what's really interesting now in the context of generative AI is, what is AI maximally?
+
+00:03:11.670 --> 00:03:13.329
+Can it be a source of labor?
+
+00:03:13.810 --> 00:03:17.830
+Can it something that spans the spectrum from augmentation to full automation?
+
+00:03:18.470 --> 00:03:27.110
+And I think, as you know, and as you hinted at in your opening, it's like we do see it pushing out the frontier of what's possible for humans to do in most of these specialized contexts.
+
+00:03:27.530 --> 00:03:43.210
+I think it's true we can get into this about the idea that AI is going to displace some labor or is going make some things not have to be human driven, but I think we see a very, very much an expanding pie of work and impact that humans can make with these tools and with these models in different forms and functions.
+
+00:03:44.240 --> 00:04:04.159
+That's, I think that's an important point because it sounds like what you're saying is that actually to get the most out of the AI, you actually have to have the humans involved and AI without humans involved and the kind of harnessing of AI and human expertise, you're actually getting the worst of both worlds because you're not empowering the humans and you're also not empowering AI.
+
+00:04:04.280 --> 00:04:09.040
+Can you talk a little bit about that and how we actually put that into practice from a technical perspective.
+
+00:04:09.390 --> 00:04:17.110
+For sure, and I think a lot of it comes down to, it's interesting, when you talk with people who would consider themselves to be non-technical, who are often people who are technical in their own way, right?
+
+00:04:17.110 --> 00:04:22.790
+They are technicians, they are nurse schedulers, they are someone who's doing a job that involves some expertise.
+
+00:04:23.270 --> 00:04:37.170
+They, I think, intuitively understand, I think what I'm about to say, which is AI is the result of training over a lot in the case of the modern generative AI models, public corpuses of data out there on the internet and in other kind of large repositories.
+
+00:04:37.560 --> 00:04:45.759
+And so therefore the knowledge it has is interesting and the reasoning capabilities are quite impressive, but it's quite generic in most circumstances as a result.
+
+00:04:46.140 --> 00:05:03.640
+And so if you want it to be useful in the context of your specific clinical care operations, it has to understand like any employee or like any member of your team, how you do your decision making processes, why you choose to use one set of information over another, and essentially how you flow through the actions of the day.
+
+00:05:04.270 --> 00:05:10.189
+And so I think it intuitively makes sense, again, that you need to have some system or some harness if you're gonna level up AI.
+
+00:05:10.510 --> 00:05:13.810
+We actually had a Japanese customer that used this term, deshi, which means intern.
+
+00:05:14.370 --> 00:05:17.989
+It's like an intern can be very capable, but they know nothing about your context when they first join.
+
+00:05:18.070 --> 00:05:27.730
+So the question is, how do you embed them into your context and give them more and more permission or allowable scope of work incrementally and do so securely?
+
+00:05:28.190 --> 00:05:28.710
+Yeah.
+
+00:05:28.710 --> 00:05:30.450
+And so, I think there's a lot of technical dimensions to that.
+
+00:05:30.480 --> 00:05:33.279
+And when you have a really good intern, they up your game also, right?
+
+00:05:33.540 --> 00:05:34.860
+Because it's a brainstorming partner.
+
+00:05:35.040 --> 00:05:37.660
+It's somebody who's giving you creative and fresh ideas.
+
+00:05:37.760 --> 00:05:42.560
+And I assume that's where AI could go if it's kind of the maximum partner that you're sketching out right here.
+
+00:05:43.020 --> 00:05:51.960
+Exactly, and I think like just to build a little bit on what I was saying before it's like if we think about that Generic but impressive reasoning core that AI has the question is how do you how do?
+
+00:05:52.180 --> 00:06:00.040
+You have that connect with the world of decision-making you exist in and there's kind of classical dimensions of like How do you make decisions at all?
+
+00:06:00.040 --> 00:06:14.480
+So well we think kind of like the stoichiometry of a decision- making process There's like the information you use when thinking about how to act There's the actual set of possibilities that you examine on what you might do then there's the actual action that you pull, right?
+
+00:06:14.480 --> 00:06:17.759
+Whether it's a fine-grained orchestration or just flipping a bit of some sort.
+
+00:06:18.040 --> 00:06:21.960
+So there's data, there's some logic or reasoning, and there's action as well.
+
+00:06:22.300 --> 00:06:25.940
+And humans are doing this almost automatically in a lot of contexts, sometimes more deliberately.
+
+00:06:26.360 --> 00:06:38.040
+And so you need to literally connect the AI systems or the AI models or the agents, however you're encapsulating them, with a common model of decision-making, the same data, the same logic, the action that humans are using today.
+
+00:06:38.360 --> 00:06:47.160
+And then as the humans are making implicit choices, as they're using tribal knowledge not encoded anywhere, you have to be able to learn from that and translate that to the AI.
+
+00:06:47.480 --> 00:06:51.519
+But it's very much a process of running alongside the human operators to get to that point.
+
+00:06:51.950 --> 00:06:59.010
+And I assume that's not what happens in most AI deployments because you can't really do that through a typical chatbot or sort of.
+
+00:06:59.040 --> 00:07:00.839
+Of chat interface, is that correct?
+
+00:07:01.220 --> 00:07:13.339
+I think so, I think like, you know, I'm always a fan of trying to steal man things wherever I can, but I think the limitations of a traditional chat bot paradigm or something where it's essentially acting like a genie, right?
+
+00:07:13.380 --> 00:07:16.740
+It's like an I'm feeling lucky button when you ask one of these agents a question.
+
+00:07:17.040 --> 00:07:28.980
+Is that it's not really, it's embedded in the process with you and able to learn inductively over time, along with, as decisions are made, as consequences are re- and so on and so forth, right?
+
+00:07:29.260 --> 00:07:32.480
+Like, it's kind of everything is sort of like this ephemeral interaction, right.
+
+00:07:32.520 --> 00:07:38.839
+I ask it, it gives me an answer that's maybe good or bad, kind of bounce off of it, maybe I use it less, but I have a lot of work to do.
+
+00:07:38.920 --> 00:07:44.679
+As opposed to, hey, can I be surgical about us both operating on a common plane of decision-making?
+
+00:07:44.720 --> 00:07:52.559
+Again, we call this the ontology system, right, where it's like, I've actually modeled the suppliers, the interactions, the inbound emails, the orchestrations of our ERP systems.
+
+00:07:53.020 --> 00:07:56.160
+And there's one specific step maybe to start where the AI can help me.
+
+00:07:56.530 --> 00:08:01.269
+And that's what the triage step of understanding how to sort through all of these in bounds and figure out what to work on first.
+
+00:08:01.570 --> 00:08:13.009
+And then I can slowly like a smooth turning of the knob say, well, maybe it can then help me with the next step, which is being able to choose from the amount of options that we've done in the past, you know, prior resolutions, prior strategies for dealing with these issues.
+
+00:08:13.210 --> 00:08:17.089
+And so it's augmenting me to begin with before I try to automate anything fully.
+
+00:08:17.290 --> 00:08:24.609
+And what we tend to see is when you do it kind of in this path dependent way, It frees up the human to do more interesting and more ambitious work.
+
+00:08:25.130 --> 00:08:32.070
+And it allows the AI to function like a higher order tool set that's helping them do things that were often very manually cumbersome to do.
+
+00:08:32.909 --> 00:08:38.130
+Yeah, it sounds like what you're describing here is almost like a move from the back end to the front end, that you're liberating people.
+
+00:08:38.250 --> 00:08:42.969
+When we think about the computer revolution, we think of Steve Jobs' bicycle for the mind.
+
+00:08:43.390 --> 00:09:01.010
+But what actually ended up happening over the course of the next 30 years was people just got inundated with data and reams and reames of spreadsheets and emails and it became almost too much for the human mind to handle on its own because you're spending hours and hours and the back office dealing with all of the administrative burden.
+
+00:09:01.520 --> 00:09:05.280
+That has cropped up around the worker in almost any industry, right?
+
+00:09:05.460 --> 00:09:11.179
+At hospitals we know quite well how much doctors and nurses have to cope with paperwork in manufacturing plants.
+
+00:09:11.360 --> 00:09:16.559
+And so what this is doing in a sense is liberating them so that they can focus on higher order human creativity.
+
+00:09:17.020 --> 00:09:18.020
+I think that's exactly right.
+
+00:09:18.120 --> 00:09:31.480
+And I think, you know, whether it's in network planning or it's a wildfire response, or it in military operations, or it is in nurse scheduling, there's kind of two common bottlenecks we see as starting points for how do you introduce AI into these contexts.
+
+00:09:31.980 --> 00:09:33.859
+The first is what I call is a context bottleneck.
+
+00:09:33.880 --> 00:09:43.659
+So as a human operator who's maybe dealing with inbound support issues in a supply chain, like you said, there's so much data now that could pertain to what's going wrong that I can't really read through all of it myself, right?
+
+00:09:43.660 --> 00:09:45.739
+There's manuals that pertain to the machines.
+
+00:09:46.040 --> 00:09:48.340
+There's prior issues and support resolution strategies.
+
+00:09:49.280 --> 00:09:52.659
+There's information about that supplier or that customer in particular.
+
+00:09:52.980 --> 00:09:55.239
+There's interconnected information across our logistics network.
+
+00:09:55.640 --> 00:10:01.859
+So you have some understanding as a human operator, typically how to navigate some subset of information, but it's typically lossy.
+
+00:10:01.920 --> 00:10:03.679
+You just accept that you can't make use of all of it.
+
+00:10:04.160 --> 00:10:10.279
+So the context bottleneck, I think what's exciting is AI can help you, oftentimes again, when embedded and anchored properly.
+
+00:10:10.740 --> 00:10:14.460
+Bring more context, bring the right context to you at the right points in the process.
+
+00:10:15.020 --> 00:10:17.500
+The second bottleneck then is a capacity bottleneck.
+
+00:10:17.560 --> 00:10:22.240
+So sometimes I just can't work through all the issues I have to work through on a daily basis, right?
+
+00:10:22.240 --> 00:10:29.279
+So it's like, I need to make this amount of schedules by the end of day and deal with this amount of outstanding issues before we close shop at the end the day.
+
+00:10:29.440 --> 00:10:37.500
+And I just cant work through this many because to go through the workflow manually for every single one, just, you know, I run out of time or I have competing priorities.
+
+00:10:37.500 --> 00:10:40.619
+So can AI actually help me deal with more things?
+
+00:10:41.130 --> 00:10:46.710
+And bring more, I think the bicycle for the mind thing, what comes to mind is you wanna give people more leverage to deal with their problems, right?
+
+00:10:47.030 --> 00:10:50.649
+I think it's always like the Iron Man or Iron Woman suit analogy, right, but I just think it so exciting.
+
+00:10:52.330 --> 00:10:57.769
+So I think, relatedly, there's a fear that AI lowers the skill floor and commoditizes expertise.
+
+00:10:57.850 --> 00:11:03.509
+Because if I'm putting what's in my brain into the system, does that make me expendable?
+
+00:11:04.170 --> 00:11:09.049
+But I think you can easily make the case that augmentation does the opposite, that it raises the skill ceiling.
+
+00:11:09.250 --> 00:11:20.950
+And if the past 30 years were a race to the lowest common denominator in terms of the global labor market, you could see the opposite happening with AI, where the workers with the most expertise actually get prized the most.
+
+00:11:21.290 --> 00:11:31.450
+And we're not talking necessarily about expertise as white collar workers, but as you were saying, it's really the people who know exactly how many times to turn the wrench on a system.
+
+00:11:31.490 --> 00:11:33.909
+And they might be one of three people in the world who know how to do that.
+
+00:11:34.250 --> 00:11:36.929
+So I'm wondering if you could share your thoughts a little bit about that.
+
+00:11:37.150 --> 00:11:40.049
+And like, are we about to flip the paradigm on the lowest common denominator?
+
+00:11:40.230 --> 00:11:42.130
+Is AI capable of doing that if it's deployed.
+
+00:11:43.650 --> 00:11:50.710
+No, I think it's a really good point, and it's interesting because the kind of fears, and I don't want to say this pejoratively, right?
+
+00:11:50.710 --> 00:11:57.090
+It's like the concerns about how technology displaces labor go back, as you know, to the Industrial Revolution even before that.
+
+00:11:57.510 --> 00:12:11.589
+But even in the information processing paradigms, in the original cybernetics distillations post-World War II, there's kind of the axiom of, from whether it was Norbert Weiner or Vannevar Bush, anything that can be encoded can eventually probably be automated.
+
+00:12:11.590 --> 00:12:13.470
+Like if the job is just in.
+
+00:12:13.770 --> 00:12:16.029
+Bit space is just an information space.
+
+00:12:16.070 --> 00:12:22.990
+Well, they're like, yeah, logically it's going to be able to probably be automated in some form by a sophisticated enough machine or whatever term they use at the time, right?
+
+00:12:23.030 --> 00:12:25.049
+Some sort of Turing or von Neumann compliant algorithm.
+
+00:12:25.590 --> 00:12:28.970
+Um, I think that is what we're seeing kind of at the low end, right.
+
+00:12:29.010 --> 00:12:32.470
+Where you're saying, okay, like in it's funny, ironically, everyone's had learned to code.
+
+00:12:32.650 --> 00:12:39.950
+And now it's like, it turns out those sort of symbolic representations are the first things on the chopping block for lower end, uh, sophistication of that work.
+
+00:12:40.170 --> 00:12:40.650
+Um.
+
+00:12:40.650 --> 00:12:49.070
+But like you said, like There's so much work that exists in the context of the world, and there's so many work that is not encoded so explicitly in that way.
+
+00:12:49.490 --> 00:12:58.690
+And I think any enterprise that exists, okay, it's like, and so I think when people talk about that kind of heat death of labor, right, like it's sort of like, everything's gonna just eventually go to a fine mist.
+
+00:12:59.190 --> 00:13:05.090
+It's like I think it assumes a vacuum where there's no competitive pressures, and there is no frontier that humans are working against.
+
+00:13:05.450 --> 00:13:06.450
+It's, like, if you.
+
+00:13:06.520 --> 00:13:12.639
+Ask somebody in the enterprise, is this person's job, is her job actually just to sift through these mundane issues every day?
+
+00:13:12.800 --> 00:13:15.820
+They'd be like, obviously not, capable of way more than that, but she has to.
+
+00:13:16.180 --> 00:13:30.499
+And so I feel like what you're really seeing is the amplification of human potential to be able to deal with higher order things as you start to eat away at that bottom set of things that are often not always drudgery, but sometimes things that don't require that person's expertise.
+
+00:13:30.860 --> 00:13:35.820
+I think the somewhat daunting thing that invites, and this is where I think we of bifurcation in organizations.
+
+00:13:36.210 --> 00:13:46.529
+Are those see that as an exciting opportunity to go back, go to their workforce and work with their people and say, this actually opens up the door to like reinvent how you do shipbuilding or reinvent how do construction transformers?
+
+00:13:46.750 --> 00:13:51.829
+Or is it like, oh geez, now I have to think about these things and I don't want to have to reimagine people's roles.
+
+00:13:52.130 --> 00:13:56.569
+To me, that's a sure, that's like kind of a sure fire sign that you're gonna be at a competitive disadvantage.
+
+00:13:57.500 --> 00:14:12.499
+What's an example from one of our customers you can talk about where you've seen this in action, where we've taken working with our customers, somebody has gone from having to deal with some of these things on a day-to-day basis to being liberated and really unleashed in terms of their creativity and thinking about higher order issues.
+
+00:14:12.810 --> 00:14:17.010
+Yeah, I think that, you know, all the clinical examples are really compelling.
+
+00:14:17.730 --> 00:14:18.929
+I think I referenced them earlier.
+
+00:14:19.030 --> 00:14:36.929
+So one that comes to mind is the work with PG&amp;E that they shared a couple AIP cons ago, where they have a really interesting mandate, right, which is they have to provide power at the best rates to Northern California, but then they also have to deal with wildfire issues and a lot of safety concerns.
+
+00:14:36.930 --> 00:14:41.710
+And so, when you're trying to deal with when to de-energize parts of the grid.
+
+00:14:42.210 --> 00:15:02.650
+Which is to say they call these PSPS events, so public safety power shutoffs, because there's sparks or risk factors or even precursors to potential risk factors where you wanna proactively maybe shut off part of the grid or deal with basically a load spike and be able to reduce the risk profile over time.
+
+00:15:03.550 --> 00:15:09.769
+Now, you don't want to do that incessantly because people need access to the grid and you don t want to cause unnecessary power shut offs.
+
+00:15:10.890 --> 00:15:16.109
+And if you watch the people who do this sort of work, like the people that work in electric ops, it is a sight to behold.
+
+00:15:16.570 --> 00:15:21.630
+Like they're just really in, it's almost like they're an extension of the network, right?
+
+00:15:21.650 --> 00:15:29.089
+It's like their ability to understand the grid, the circumstances, the factors that affect load, the factors affect customers.
+
+00:15:30.030 --> 00:15:35.350
+It's almost you're like dealing with some sort of like a mystical whisper of hardware and software systems.
+
+00:15:36.050 --> 00:15:40.229
+And seeing them able to get much more sophisticated through use of AIP and Foundry.
+
+00:15:40.540 --> 00:15:54.000
+Where they can now bring a lot more information to bear against those de-energized proposals, de-energetic proposals, and how they might choose to pursue them or not, or how they may choose to more intelligently cluster those activities has been amazing to see.
+
+00:15:54.640 --> 00:16:05.039
+And we're, of course, just one part in their overall process, but they've been able to significantly reduce wildfire and precursor occurrences in the past several years off the back of this work.
+
+00:16:05.380 --> 00:16:08.199
+And a lot of that was just liberating the genius of these workers.
+
+00:16:08.980 --> 00:16:13.920
+What do you see when you talk about, I think that's a great example of liberating the genius of the workers.
+
+00:16:14.260 --> 00:16:30.700
+I think we at Palantir really believe in that human frontier that we shouldn't have a failure of imagination and that can go both ways, but in this case, the positive direction that when you, there may be some job elimination or some role elimination, but that doesn't mean that we're going to eliminate our workers.
+
+00:16:30.820 --> 00:16:34.059
+At least the companies that are smart won't then therefore just eliminate workers.
+
+00:16:34.060 --> 00:16:35.500
+They'll figure out how to use them.
+
+00:16:35.910 --> 00:16:47.510
+In smarter ways and actually probably in the ways that they should have been used in the first place had they not had to deal With many of the things that they had to do with What does that look like to you as far as the frontiers of human creativity in a world where AI can help shoulder the load?
+
+00:16:48.010 --> 00:16:52.149
+Is it more of the PG&amp;E examples are there other things that you've you've thought about in your dreams?
+
+00:16:52.650 --> 00:16:57.860
+Hey, this would be really cool if I had time or people who we work with had time to think about these things What would they be doing?
+
+00:16:58.160 --> 00:17:00.099
+Yeah, I think organizationally, it's a good point.
+
+00:17:00.100 --> 00:17:08.680
+And I think it could be the case that in some industries, you have quote unquote, like within the industry itself, net displacement of work and of labor.
+
+00:17:09.040 --> 00:17:23.699
+But I think what that opens up and what I would assume will be a positive sum counterweight that will actually outgrow it over time is like the ability for entrepreneurs and people who are building net new companies to be able to do so way more productively with smaller groups of people.
+
+00:17:23.700 --> 00:17:25.380
+But you get more of these companies.
+
+00:17:25.880 --> 00:17:29.859
+Because you don't need masses of people doing undifferentiated work.
+
+00:17:30.660 --> 00:17:43.059
+And so it's like the barrier to entry for being able to build a next generation power provider or a next-generation logistics company was always so high for a lot of legitimate reasons when it comes to there's a complexity to the work.
+
+00:17:43.300 --> 00:17:48.299
+But a lot it was just like there's a lot a drudgery you have to do across all the core functions to even get to the starting line.
+
+00:17:48.600 --> 00:17:55.500
+And so I think there's lot of opportunity for like a rejuvenation of industry and almost like a creative destruction.
+
+00:17:56.000 --> 00:18:02.619
+To occur where there are these incumbents that might be shying away from this through smaller, more Spartan forces of people.
+
+00:18:03.420 --> 00:18:14.440
+And I think it might actually end up, the term democratize is so overused, democratizing some of these industries that have been very resistant to change at an organizational kind of competitive level for a long time.
+
+00:18:14.860 --> 00:18:27.160
+What's, maybe to wrap up, what's one thing that the public should know about where artificial intelligence is headed that they don't know from the prevailing conversation about AI, especially on the relationship between humans and AI.
+
+00:18:27.240 --> 00:18:35.760
+If you could pinpoint one thing in looking at the national conversation or the news headlines about where AI and the workforce is headed, what's missing from that conversation?
+
+00:18:36.450 --> 00:18:41.009
+I think the thing that is missing is where the intelligence lies.
+
+00:18:41.610 --> 00:18:49.989
+So I think there's a lot of intelligence in the models themselves, but most of the intelligence is in the working functions and the human beings conducting work today.
+
+00:18:50.730 --> 00:18:53.549
+The thing is that information is not typically captured, right?
+
+00:18:53.590 --> 00:18:56.970
+Like I kind of joke, like everyone's, it's very sci-fi to think about AI.
+
+00:18:57.090 --> 00:19:01.290
+It's very cybernetic, but it's almost like current human work is almost telepathic.
+
+00:19:01.310 --> 00:19:05.630
+It's like when you see people working on a production line who are really in the for working in a shipyard.
+
+00:19:05.890 --> 00:19:11.670
+It's like, it's kind of amazing to think about how much specific structural contextual knowledge they're using all the time.
+
+00:19:11.890 --> 00:19:21.829
+And so I think the opportunity to like, get the knowledge from these folks encoded, not to replace them, but to give them more leverage, is really the untapped iceberg.
+
+00:19:22.170 --> 00:19:24.509
+Like there is the generic knowledge of the model itself.
+
+00:19:24.550 --> 00:19:33.010
+But I think when we think about fine tuning, building domain specific models, like being able to have a, as Sham says, a menagerie of models that are all specific to specific use cases.
+
+00:19:33.540 --> 00:19:37.859
+That I think flows from the lived reality of these people actually doing the work.
+
+00:19:38.240 --> 00:19:41.119
+And I think that's an untapped asset in large part.
+
+00:19:41.320 --> 00:19:42.780
+So like, everyone's like, well, and I'm waiting.
+
+00:19:42.920 --> 00:19:48.660
+I think there's kind of this feeling of like, I'm for on high to give me more knowledge leverage to do my work.
+
+00:19:48.760 --> 00:19:51.760
+And it's like actually, if you look around you, that's where most of it is probably trapped.
+
+00:19:53.510 --> 00:19:57.130
+Here's to finding out where those places are and and unlocking them.
+
+00:19:57.510 --> 00:20:01.689
+So actually, thank you so much for joining us and I really appreciate your perspective Thank you, Jordan.
+
